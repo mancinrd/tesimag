@@ -1,0 +1,44 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {chapter}{\numberline {1}Introduzione}{3}
+\contentsline {section}{\numberline {1.1}Plasma medicine: trattamenti al plasma su tessuti biologici}{3}
+\contentsline {subsection}{\numberline {1.1.1}Coagulazione del sangue}{3}
+\contentsline {section}{\numberline {1.2}Cold Atmospheric Plasma}{3}
+\contentsline {subsection}{\numberline {1.2.1}Dielettrical Barrier Discharge}{3}
+\contentsline {chapter}{\numberline {2}Descrizione delle sorgenti sviluppate}{5}
+\contentsline {section}{\numberline {2.1}Dal primo al terzo prototipo}{5}
+\contentsline {section}{\numberline {2.2}Attuale schema operativo}{5}
+\contentsline {subsection}{\numberline {2.2.1}Alimentatore e trigger ottico}{5}
+\contentsline {subsection}{\numberline {2.2.2}Testa}{5}
+\contentsline {section}{\numberline {2.3}Funzionamento e applicazione}{5}
+\contentsline {subsection}{\numberline {2.3.1}Segnale elettrico}{5}
+\contentsline {paragraph}{Tensione}{5}
+\contentsline {paragraph}{Corrente}{5}
+\contentsline {subsection}{\numberline {2.3.2}Forma e temperatura della \emph {plume} di plasma}{7}
+\contentsline {subsection}{\numberline {2.3.3}Produzione specie gassose reattive}{7}
+\contentsline {paragraph}{Righe spettrali}{7}
+\contentsline {paragraph}{Composizione del gas}{7}
+\contentsline {paragraph}{Temperatura molecole}{7}
+\contentsline {subsection}{\numberline {2.3.4}Applicazione a campioni biologici}{7}
+\contentsline {chapter}{\numberline {3}Profilo elettrico}{9}
+\contentsline {section}{\numberline {3.1}Setup misure tensione e corrente}{9}
+\contentsline {section}{\numberline {3.2}Misure ed analisi}{9}
+\contentsline {paragraph}{Tensione}{9}
+\contentsline {paragraph}{Corrente}{11}
+\contentsline {chapter}{\numberline {4}Forma del plasma}{15}
+\contentsline {section}{\numberline {4.1}Riprese telecamera}{15}
+\contentsline {subsection}{\numberline {4.1.1}Setup}{15}
+\contentsline {subsection}{\numberline {4.1.2}Misure telecamera}{15}
+\contentsline {section}{\numberline {4.2}Profilo di temperatura}{15}
+\contentsline {subsection}{\numberline {4.2.1}Setup}{15}
+\contentsline {subsection}{\numberline {4.2.2}Misure di temperatura}{15}
+\contentsline {chapter}{\numberline {5}Analisi spettrometrica}{17}
+\contentsline {section}{\numberline {5.1}Setup di acquisizione}{17}
+\contentsline {section}{\numberline {5.2}Presentazione ed analisi misure}{18}
+\contentsline {subsection}{\numberline {5.2.1}Riconoscimento righe}{18}
+\contentsline {subsection}{\numberline {5.2.2}\ce {He} + \ce {H_2O} e \ce {He} + \ce {NH_3}}{18}
+\contentsline {subsection}{\numberline {5.2.3}Stima temperatura}{18}
+\contentsline {chapter}{\numberline {6}Test su tessuti biologici}{19}
+\contentsline {section}{\numberline {6.1}Setup misure}{19}
+\contentsline {section}{\numberline {6.2}Analisi risultati}{19}
+\contentsline {chapter}{\numberline {7}Conclusioni e sviluppi}{21}
