@@ -1,8 +1,38 @@
 \chapter{Profilo elettrico}
+\label{ch:elettrico}
 
-\section{Setup misure tensione e corrente}
+\section{Setup delle misure di tensione e corrente}
 
-\section{Misure ed analisi}
+
+\paragraph{Tensione}Vengono effettuate misure della tensione in uscita dal secondario utilizzando una sonda per l'alta tensione, al variare dei parametri del segnale in ingresso: frequenza ($f$) e duty cycle ($\Delta t$). Scelta la frequenza di lavoro, viene variata la duty cycle in un range utile, considerando il tempo necessario al terminare delle oscillazioni del segnale prima dell'arrivo di una nuova onda quadra (per frequenze maggiori si potrà arrivare a duty cycle minori).
+Le misure vengono rilevate con un oscilloscopio in grado di salvare tutta la forma dell'onda misurata. Si ottengono curve come in figura \ref{fig:tensione_es}. La risoluzione della misura (V/div) viene variata in modo da avere l'errore di misura minore possibile.
+Le prime misure effettuate sono una verifica della tensione in uscita dal circuito secondario in aria, senza aggiunta di gas.
+Per le misure successive viene immesso nella sezione finale della sorgente del gas He, con un flusso di $\SI{2}{\litre/\minute}$.
+
+\begin{figure}
+\centering
+\includegraphics[width=.7\textwidth]{Immagini/tensione_es_2.png}
+\caption{Esempio di misura di tensione, $f = \SI{5}{\kilo\hertz}$ e $\Delta t = \SI{16}{\micro\second}$}
+\label{fig:tensione_es}
+\end{figure}
+
+\paragraph{Corrente}Vengono effettuate misure della corrente passante tra la sorgente di plasma e un bersaglio metallico. Viene posta una piastra di rame (dimensioni $\SI{2}{\centi\metre} \times \SI{2}{\centi\metre} \times \SI{0.5}{\centi\metre}$) ad una distanza di $\SI{1}{\centi\metre}$ dall'elettrodo della sorgente. La piastra bersaglio viene collegata ad una sonda per la misura di corrente, per la quale un segnale letto dall'oscilloscopio come $\SI{10}{\milli\volt}$ corrisponde a $\SI{10}{\milli\ampere}$.
+Viene inoltre collegata all'uscita del circuito secondario la sonda per l'alta tensione usata precedentemente, in modo da visualizzare contemporaneamete la tensione e la corrente in uscita dalla sorgente. Nuovamente vengono effettuate misure al variare dei parametri del segnale in ingresso: frequenza ($f$) e duty cycle ($\Delta t$), con le stesse modalità delle misure di tensione.
+Tutte le misure sono effettuate con flusso di gas He pari a $\SI{2}{\litre/\minute}$.
+Si ottengono curve come in figura \ref{fig:corrente_es}. Il picco di tensione è identico a quello misurato precedentemente, con valori tipici tra i $\num{3}$ e i $\SI{6}{\kilo\volt}$, coerenti con le scorse misure per il range di parametri utilizzato. La corrente presenta sempre un primo picco negativo ed un picco secondario positivo, con valori tra i $\num{2}$ e i $\SI{12}{\milli\ampere}$.
+
+\begin{figure}
+\centering
+\subfloat[][Tensione]
+  {\includegraphics[width=.48\textwidth]{Immagini/tensione_es.png}}
+\subfloat[][Corrente]
+  {\includegraphics[width=.48\textwidth]{Immagini/corrente_es.png}}
+\caption{Esempio di misure di corrente e tensione per $f = \SI{5}{\kilo\hertz}$ e $\Delta t = \SI{24}{\micro\second}$.}
+\label{fig:corrente_es}
+\end{figure}
+
+
+\section{Presentazione misure ed analisi}
 \paragraph{Tensione} Ogni set di misure viene processato eseguendo la trasformata di Fourier del segnale (usando le routine fftw3 delle librerie ROOT), tagliando le oscillazioni ad alta frequenza e ricostruendone una media. L'obiettivo è di migliorare la stima della posizione del minimo del picco andando ad escludere le oscillazioni a frequenza molto alta del ciruito.
 A queste misure viene aggiunto l'errore dovuto al taglio delle alte frequenze, preso come una media del valore assoluto dell'oscillazione del segnale tagliato. Viene inoltre aggiunto l'errore caratteristico dello strumento di misura, ma è trascurabile rispetto le oscillazioni veloci.
 Il valore del minimo viene trovato interpolando il set di misure attorno il minimo con una funzione di Landau, in modo da riprodurre l'asimmetria del picco. Da questo fit viene calcolato il massimo.
@@ -108,5 +138,3 @@ In entrambi i casi non è possibile estrapolare un andamento particolare, indica
 \label{fig:tempi}
 \end{figure}
 
-
-\label{ch:discussione}

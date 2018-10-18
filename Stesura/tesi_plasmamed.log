@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.7.14)  16 OCT 2018 16:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.7.14)  17 OCT 2018 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1314,174 +1314,191 @@ Capitolo 1.
 
 ]
 Capitolo 2.
-<Immagini/tensione_es_2.png, id=24, 700.6175pt x 472.76625pt>
-File: Immagini/tensione_es_2.png Graphic file (type png)
-<use Immagini/tensione_es_2.png>
-Package pdftex.def Info: Immagini/tensione_es_2.png  used on input line 19.
-(pdftex.def)             Requested size: 292.77629pt x 197.56496pt.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 20.
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [5]
-<Immagini/tensione_es.png, id=31, 779.91376pt x 510.90875pt>
-File: Immagini/tensione_es.png Graphic file (type png)
-<use Immagini/tensione_es.png>
-Package pdftex.def Info: Immagini/tensione_es.png  used on input line 32.
-(pdftex.def)             Requested size: 200.75996pt x 131.50784pt.
-<Immagini/corrente_es.png, id=32, 810.02625pt x 521.95pt>
-File: Immagini/corrente_es.png Graphic file (type png)
-<use Immagini/corrente_es.png>
-Package pdftex.def Info: Immagini/corrente_es.png  used on input line 34.
-(pdftex.def)             Requested size: 200.75996pt x 129.35625pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <./Immagini/tensione_es_2.png> <./Immagini/tensione_es.png> <./Immagini/cor
-rente_es.png>]) [7] (./Capitoli/elettrico.tex [8
+) [5] (./Capitoli/elettrico.tex [6
 
 
 ]
 Capitolo 3.
-<Immagini/esfiterr.png, id=52, 870.25125pt x 611.28375pt>
+<Immagini/tensione_es_2.png, id=30, 700.6175pt x 472.76625pt>
+File: Immagini/tensione_es_2.png Graphic file (type png)
+<use Immagini/tensione_es_2.png>
+Package pdftex.def Info: Immagini/tensione_es_2.png  used on input line 14.
+(pdftex.def)             Requested size: 292.77629pt x 197.56496pt.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 15.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 15.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+<Immagini/tensione_es.png, id=31, 779.91376pt x 510.90875pt>
+File: Immagini/tensione_es.png Graphic file (type png)
+<use Immagini/tensione_es.png>
+Package pdftex.def Info: Immagini/tensione_es.png  used on input line 27.
+(pdftex.def)             Requested size: 200.75996pt x 131.50784pt.
+<Immagini/corrente_es.png, id=32, 810.02625pt x 521.95pt>
+File: Immagini/corrente_es.png Graphic file (type png)
+<use Immagini/corrente_es.png>
+Package pdftex.def Info: Immagini/corrente_es.png  used on input line 29.
+(pdftex.def)             Requested size: 200.75996pt x 129.35625pt.
+
+Underfull \vbox (badness 7504) has occurred while \output is active []
+
+ [7]
+[8 <./Immagini/tensione_es_2.png> <./Immagini/tensione_es.png> <./Immagini/corr
+ente_es.png>]
+<Immagini/esfiterr.png, id=48, 870.25125pt x 611.28375pt>
 File: Immagini/esfiterr.png Graphic file (type png)
 <use Immagini/esfiterr.png>
-Package pdftex.def Info: Immagini/esfiterr.png  used on input line 13.
+Package pdftex.def Info: Immagini/esfiterr.png  used on input line 43.
 (pdftex.def)             Requested size: 250.95476pt x 176.27904pt.
-<Immagini/nogas.png, id=53, 965.6075pt x 674.52pt>
+<Immagini/nogas.png, id=49, 965.6075pt x 674.52pt>
 File: Immagini/nogas.png Graphic file (type png)
 <use Immagini/nogas.png>
-Package pdftex.def Info: Immagini/nogas.png  used on input line 26.
+Package pdftex.def Info: Immagini/nogas.png  used on input line 56.
 (pdftex.def)             Requested size: 200.75996pt x 140.23303pt.
-<Immagini/gas.png, id=54, 913.4125pt x 643.40375pt>
+<Immagini/gas.png, id=50, 913.4125pt x 643.40375pt>
 File: Immagini/gas.png Graphic file (type png)
 <use Immagini/gas.png>
-Package pdftex.def Info: Immagini/gas.png  used on input line 28.
+Package pdftex.def Info: Immagini/gas.png  used on input line 58.
 (pdftex.def)             Requested size: 200.75996pt x 141.4118pt.
-<Immagini/m_freq_tot.png, id=55, 700.6175pt x 476.78125pt>
+<Immagini/m_freq_tot.png, id=51, 700.6175pt x 476.78125pt>
 File: Immagini/m_freq_tot.png Graphic file (type png)
 <use Immagini/m_freq_tot.png>
-Package pdftex.def Info: Immagini/m_freq_tot.png  used on input line 42.
+Package pdftex.def Info: Immagini/m_freq_tot.png  used on input line 72.
 (pdftex.def)             Requested size: 200.75996pt x 136.61885pt.
-<Immagini/q_freq_tot.png, id=56, 700.6175pt x 476.78125pt>
+<Immagini/q_freq_tot.png, id=52, 700.6175pt x 476.78125pt>
 File: Immagini/q_freq_tot.png Graphic file (type png)
 <use Immagini/q_freq_tot.png>
-Package pdftex.def Info: Immagini/q_freq_tot.png  used on input line 44.
+Package pdftex.def Info: Immagini/q_freq_tot.png  used on input line 74.
 (pdftex.def)             Requested size: 200.75996pt x 136.61885pt.
 
-Underfull \vbox (badness 3209) has occurred while \output is active []
+Underfull \vbox (badness 4660) has occurred while \output is active []
 
- [9]
-[10 <./Immagini/esfiterr.png> <./Immagini/nogas.png> <./Immagini/gas.png>]
-<Immagini/es_fit_landau.png, id=66, 866.23625pt x 576.1525pt>
+ [9 <./Immagini/esfiterr.png>] [10 <./Immagini/nogas.png> <./Immagini/gas.png> 
+<./Immagini/m_freq_tot.png> <./Immagini/q_freq_tot.png>]
+<Immagini/es_fit_landau.png, id=62, 866.23625pt x 576.1525pt>
 File: Immagini/es_fit_landau.png Graphic file (type png)
 <use Immagini/es_fit_landau.png>
-Package pdftex.def Info: Immagini/es_fit_landau.png  used on input line 54.
+Package pdftex.def Info: Immagini/es_fit_landau.png  used on input line 84.
 (pdftex.def)             Requested size: 250.95476pt x 166.9129pt.
-<Immagini/vpp_corrente.png, id=67, 700.6175pt x 472.76625pt>
+<Immagini/vpp_corrente.png, id=63, 700.6175pt x 472.76625pt>
 File: Immagini/vpp_corrente.png Graphic file (type png)
 <use Immagini/vpp_corrente.png>
-Package pdftex.def Info: Immagini/vpp_corrente.png  used on input line 65.
+Package pdftex.def Info: Immagini/vpp_corrente.png  used on input line 95.
 (pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Immagini/I1_corrente.png, id=68, 700.6175pt x 472.76625pt>
+<Immagini/I1_corrente.png, id=64, 700.6175pt x 472.76625pt>
 File: Immagini/I1_corrente.png Graphic file (type png)
 <use Immagini/I1_corrente.png>
-Package pdftex.def Info: Immagini/I1_corrente.png  used on input line 67.
+Package pdftex.def Info: Immagini/I1_corrente.png  used on input line 97.
 (pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Immagini/I2_corrente.png, id=69, 700.6175pt x 472.76625pt>
+<Immagini/I2_corrente.png, id=65, 700.6175pt x 472.76625pt>
 File: Immagini/I2_corrente.png Graphic file (type png)
 <use Immagini/I2_corrente.png>
-Package pdftex.def Info: Immagini/I2_corrente.png  used on input line 70.
+Package pdftex.def Info: Immagini/I2_corrente.png  used on input line 100.
 (pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-
-[11 <./Immagini/m_freq_tot.png> <./Immagini/q_freq_tot.png> <./Immagini/es_fit_
-landau.png>] [12 <./Immagini/vpp_corrente.png> <./Immagini/I1_corrente.png> <./
-Immagini/I2_corrente.png>]
-<Immagini/mVpp_cor.png, id=76, 700.6175pt x 472.76625pt>
+<Immagini/mVpp_cor.png, id=66, 700.6175pt x 472.76625pt>
 File: Immagini/mVpp_cor.png Graphic file (type png)
 <use Immagini/mVpp_cor.png>
-Package pdftex.def Info: Immagini/mVpp_cor.png  used on input line 86.
+Package pdftex.def Info: Immagini/mVpp_cor.png  used on input line 116.
 (pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Immagini/qVpp_cor.png, id=77, 700.6175pt x 472.76625pt>
+<Immagini/qVpp_cor.png, id=67, 700.6175pt x 472.76625pt>
 File: Immagini/qVpp_cor.png Graphic file (type png)
 <use Immagini/qVpp_cor.png>
-Package pdftex.def Info: Immagini/qVpp_cor.png  used on input line 88.
+Package pdftex.def Info: Immagini/qVpp_cor.png  used on input line 118.
 (pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Immagini/mI1_cor.png, id=78, 700.6175pt x 472.76625pt>
+<Immagini/mI1_cor.png, id=68, 700.6175pt x 472.76625pt>
 File: Immagini/mI1_cor.png Graphic file (type png)
 <use Immagini/mI1_cor.png>
-Package pdftex.def Info: Immagini/mI1_cor.png  used on input line 91.
+Package pdftex.def Info: Immagini/mI1_cor.png  used on input line 121.
 (pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Immagini/qI1_cor.png, id=79, 700.6175pt x 472.76625pt>
+<Immagini/qI1_cor.png, id=69, 700.6175pt x 472.76625pt>
 File: Immagini/qI1_cor.png Graphic file (type png)
 <use Immagini/qI1_cor.png>
-Package pdftex.def Info: Immagini/qI1_cor.png  used on input line 93.
+Package pdftex.def Info: Immagini/qI1_cor.png  used on input line 123.
 (pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Immagini/ti2ti1.png, id=80, 700.6175pt x 472.76625pt>
+<Immagini/ti2ti1.png, id=70, 700.6175pt x 472.76625pt>
 File: Immagini/ti2ti1.png Graphic file (type png)
 <use Immagini/ti2ti1.png>
-Package pdftex.def Info: Immagini/ti2ti1.png  used on input line 104.
+Package pdftex.def Info: Immagini/ti2ti1.png  used on input line 134.
 (pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Immagini/ti1tv.png, id=81, 700.6175pt x 472.76625pt>
+<Immagini/ti1tv.png, id=71, 700.6175pt x 472.76625pt>
 File: Immagini/ti1tv.png Graphic file (type png)
 <use Immagini/ti1tv.png>
-Package pdftex.def Info: Immagini/ti1tv.png  used on input line 106.
+Package pdftex.def Info: Immagini/ti1tv.png  used on input line 136.
 (pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-) [13 <./Immagini/mVpp_cor.png> <./Immagini/qVpp_cor.png> <./Immagini/mI1_cor.p
-ng> <./Immagini/qI1_cor.png>] [14 <./Immagini/ti2ti1.png> <./Immagini/ti1tv.png
->] (./Capitoli/forma.tex
+) [11 <./Immagini/es_fit_landau.png>] [12 <./Immagini/vpp_corrente.png> <./Imma
+gini/I1_corrente.png> <./Immagini/I2_corrente.png>] [13 <./Immagini/mVpp_cor.pn
+g> <./Immagini/qVpp_cor.png> <./Immagini/mI1_cor.png> <./Immagini/qI1_cor.png> 
+<./Immagini/ti2ti1.png> <./Immagini/ti1tv.png>] (./Capitoli/forma.tex [14
+
+
+]
 Capitolo 4.
-) [15
-
-
-] (./Capitoli/spettrometria.tex [16
+) [15] (./Capitoli/spettrometria.tex [16
 
 
 ]
 Capitolo 5.
-<Immagini/apparato.jpg, id=95, 1270.7475pt x 538.01pt>
+[17]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
+<Immagini/apparato.jpg, id=94, 1270.7475pt x 538.01pt>
 File: Immagini/apparato.jpg Graphic file (type jpg)
 <use Immagini/apparato.jpg>
-Package pdftex.def Info: Immagini/apparato.jpg  used on input line 12.
+Package pdftex.def Info: Immagini/apparato.jpg  used on input line 29.
 (pdftex.def)             Requested size: 250.95476pt x 106.24554pt.
+ [18 <./Immagini/apparato.jpg>]
 
-LaTeX Warning: Reference `fig:spettrotot' on page 17 undefined on input line 24
+LaTeX Warning: Reference `fig:spettrotot' on page 19 undefined on input line 63
 .
 
-
-Underfull \vbox (badness 1168) has occurred while \output is active []
-
- [17 <./Immagini/apparato.jpg>]
-<Immagini/spettrotot_unico_label.png, id=99, 690.1785pt x 469.755pt>
-File: Immagini/spettrotot_unico_label.png Graphic file (type png)
-<use Immagini/spettrotot_unico_label.png>
-Package pdftex.def Info: Immagini/spettrotot_unico_label.png  used on input lin
-e 29.
+<Immagini/spettrotot_unico_label_def.png, id=98, 690.1785pt x 469.755pt>
+File: Immagini/spettrotot_unico_label_def.png Graphic file (type png)
+<use Immagini/spettrotot_unico_label_def.png>
+Package pdftex.def Info: Immagini/spettrotot_unico_label_def.png  used on input
+ line 67.
 (pdftex.def)             Requested size: 414.07343pt x 281.83368pt.
 
+LaTeX Warning: Reference `fig:spettrotot' on page 19 undefined on input line 10
+7.
 
-LaTeX Warning: Reference `fig:spettrotot' on page 18 undefined on input line 34
-.
+
+Underfull \vbox (badness 2005) has occurred while \output is active []
+
+ [19 <./Immagini/spettrotot_unico_label_def.png>] [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+<Immagini/OHFit_f5t16elio.png, id=113, 776.78204pt x 457.2282pt>
+File: Immagini/OHFit_f5t16elio.png Graphic file (type png)
+<use Immagini/OHFit_f5t16elio.png>
+Package pdftex.def Info: Immagini/OHFit_f5t16elio.png  used on input line 161.
+(pdftex.def)             Requested size: 334.60422pt x 196.9601pt.
+<Immagini/N2rotFit_elio.png, id=114, 481.19775pt x 384.9582pt>
+File: Immagini/N2rotFit_elio.png Graphic file (type png)
+<use Immagini/N2rotFit_elio.png>
+Package pdftex.def Info: Immagini/N2rotFit_elio.png  used on input line 164.
+(pdftex.def)             Requested size: 313.69025pt x 250.95412pt.
+)
+[22] [23 <./Immagini/OHFit_f5t16elio.png> <./Immagini/N2rotFit_elio.png>]
+(./Capitoli/analisibio.tex [24
 
 
-LaTeX Warning: Reference `eq:fitN2' on page 18 undefined on input line 41.
-
-) [18 <./Immagini/spettrotot_unico_label.png (PNG copy)>]
-(./Capitoli/analisibio.tex
+]
 Capitolo 6.
-) [19
-
-
-] (./Capitoli/conclusioni.tex [20
+) [25] (./Capitoli/conclusioni.tex [26
 
 
 ]
 Capitolo 7.
-) [21] (./tesi_plasmamed.aux)
+) [27] (./tesi_plasmamed.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1490,13 +1507,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18995 strings out of 492982
- 363522 string characters out of 6134896
- 435150 words of memory out of 5000000
- 22247 multiletter control sequences out of 15000+600000
- 572024 words of font info for 131 fonts, out of 8000000 for 9000
+ 19025 strings out of 492982
+ 364174 string characters out of 6134896
+ 437199 words of memory out of 5000000
+ 22273 multiletter control sequences out of 15000+600000
+ 571337 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,16n,60p,10385b,1092s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,20n,79p,10385b,1092s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
@@ -1506,22 +1523,22 @@ ts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
-exmf/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texmf/fonts/type1/pub
+exmf/fonts/type1/public/cm-super/sfbi1095.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfbx0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx109
 5.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/te
 xmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/publ
 ic/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sfsx0900.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.p
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfsx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.p
 fb>
-Output written on tesi_plasmamed.pdf (21 pages, 626480 bytes).
+Output written on tesi_plasmamed.pdf (27 pages, 1053325 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+ 214 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
