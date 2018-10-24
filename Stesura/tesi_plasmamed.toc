@@ -17,11 +17,12 @@
 \contentsline {paragraph}{Applicazione a campioni biologici}{5}
 \contentsline {chapter}{\numberline {3}Profilo elettrico}{7}
 \contentsline {section}{\numberline {3.1}Setup delle misure di tensione e corrente}{7}
-\contentsline {paragraph}{Tensione}{7}
-\contentsline {paragraph}{Corrente}{7}
-\contentsline {section}{\numberline {3.2}Presentazione misure ed analisi}{9}
-\contentsline {paragraph}{Tensione}{9}
-\contentsline {paragraph}{Corrente}{11}
+\contentsline {subsection}{\numberline {3.1.1}Misure senza elio}{7}
+\contentsline {subsection}{\numberline {3.1.2}Misure con elio}{8}
+\contentsline {section}{\numberline {3.2}Presentazione misure ed analisi}{8}
+\contentsline {subsection}{\numberline {3.2.1}Tensione di picco senza elio}{8}
+\contentsline {subsection}{\numberline {3.2.2}Tensione e corrente con elio}{9}
+\contentsline {subsection}{\numberline {3.2.3}Corrente efficace}{14}
 \contentsline {chapter}{\numberline {4}Forma del plasma}{15}
 \contentsline {section}{\numberline {4.1}Riprese con telecamera}{15}
 \contentsline {subsection}{\numberline {4.1.1}Catena di acquisizione}{15}
