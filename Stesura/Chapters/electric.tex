@@ -23,12 +23,15 @@ The line divides in:
 
 To understand signal propagation through the scheme, in figure \ref{fig:signals} you can see a simulation of the different signals, obteined with a simplified scheme with Spice. As in the figure ...
 
+During this thesis study were built two sources, with two controllers and heads. From an electrical perspective the two models are almost identical, the second one comes with a low-pass filter on the driver circuit (to diminish high frequency rumor) and slightly higher amplitude capabilities.
 The characterization of electric capabilities is made measuring output tension and current with different settings for the pulse.
 
 \section{Output characterization}
-Plasma ignition and discharge features are regolated by the electric field generated in the circuit head and it's power deposition to flowing gas, so the parameters involved are pulse amplitude and frequency arriving on the electrode, settable in the circuit. Medical application of plasma requires 
+Plasma ignition and discharge features are regolated by electric field generated in the circuit head and power deposition to flowing gas, so the parameters involved are pulse amplitude and frequency arriving on the electrode, settable in the circuit. Medical application of plasma requires low current intensity, in this study it's measured the current flowing on a copper plate targeted by the plasma plume at a certain distance. Ultimately the different parameters for the measures are: $\Deltat$, opening time of the trigger that defines amplitude of the pulses, and $f$, frequency of the pulses. 
 
+Voltage signal are taken with an high-voltage probe, attenuation $\times 1000$, current signal with a \emph{Tektronix CT2} probe that gives a $\SI{1}{\milli\volt}$ for a current of $SI{1}{\milli\ampere}$. All signals are measured with a \emph{Yokogawa DL9040} oscilloscope, from which is saved the waveform of voltage and current.
 
+Measures are taken without gas flowing, to see the output voltage of the circuit, and with an helium flow of $\SI{2}{\liter/\minute}$, to measure the actual output with different amplitude and frequencies. It's also measured an effective current intensity, i.e. a mean value in a time period, to evaluate plasma application's effects.
 
 \begin{comment}
 La sorgente di plasma funziona tramite l'applicazione di un'alta differenza di potenziale tra gli elettrodi separati da materiale dielettrico, come descritti nel capitolo \ref{ch:sorgente}. La tensione in ingresso nel circuito  della testa della sorgente vengono amplificati fino a tensioni di alcuni \si{\kilo\volt}. Dall'arduino di controllo è possibile regolare il tempo di apertura del circuito in un range di [$2$-$20$] \si{\micro\second} e la frequenza di lavoro in un range di [$2$-$60$] \si{\kilo\hertz}. I parametri importanti per caratterizzare il funzionamento della sorgente saranno quindi tensione e corrente all'uscita del circuito secondario del trasformatore, al variare dei parametri di funzionamento. Utilizzando una lastra metallica posta a potenziale, è possibile misurare la corrente in un dato range temporale. È inoltre possibile stimare la corrente efficace che attraversa il bersaglio, importante nel valutare gli effetti dell'applicazione del plasma.
