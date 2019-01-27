@@ -1,5 +1,6 @@
 \chapter{Electric characterization}
-\label{ch:electric} 
+\label{ch:electric}
+\section{Electric scheme and description}
 The development of electric components used to produce the Plasma Coagulation Controller is highly influenced by the need of flexibility in settings and mobility for wound treatment. To produce plasma as DBD, in air with Helium or Argon as ignition gasses, it is necessary to produce high voltage, to permit easy medical application the design of the head must be compact with particular attention to electric safety measuraments.
 The scheme outputs a voltage pulse with an amplitude up to $\SI{10}{\kilo\volt}$ and frequencies up to $\SI{50}{\kilo\hertz}$.
 
@@ -14,15 +15,19 @@ A rappresentation of power and signal line is in figure \ref{fig:electricline}. 
 
 The line divides in:
 \begin{itemize}
- \item \bf{Alimentation} : the $\SI{220}{\volt}$ DC power line goes in a transformer that gives a $\SI{22}{\volt}$ tension to the head, passing through a diode bridge. This tension aliments the driver circuit on the head.
+ \item \bf{Alimentation} : the $\SI{220}{\volt}$ DC power line goes in a transformer that gives a $\SI{22}{\volt}$ tension to the head, passing through a diode bridge. This tension aliments the Driver Circuit on the head.
  \item \bf{Arduino and trigger} : the power line is reduced to $\SI{12}{\volt}$ necessaries to aliment an Arduino controller and a laser. From an analogical output of the Arduino a PWM wave goes to the laser trigger, it transmit information on the wave frequency and duration with an optical fiber that ends with a photodiode installed on the driver circuit. Wave frequency is setted by the Arduino, wave duration is setted giving the opengin time of the MOSFET installed on the driver circuit. With this setup the High-Voltage line is entirely decopuled from the controller, in this way there are not serious problems of signal reflection on the power line or the Arduino.
  \item \bf{Head} : the Driver Circuit receives a power line of $\SI{22}{\volt}$ and an optical trigger that defines frequency and duration of the voltage pulse. When the trigger gives the start signal the transformer on the head receives on primary circuit a voltage of hundreds $\si{\volt}$ and outputs from secondary circuit a voltage of thousends $\si{\volt}$. Connected to the ouput there is an electrode inside a capillary tube.
 \end{itemize}
 
 
-A simulation of the different signals, obteined with a simplified scheme with Spice, is in figure \ref{fig:signals}. As in the figure...
+To understand signal propagation through the scheme, in figure \ref{fig:signals} you can see a simulation of the different signals, obteined with a simplified scheme with Spice. As in the figure ...
 
-The characterization of the electric scheme is made measuring output tension and current with different settings for the pulse.
+The characterization of electric capabilities is made measuring output tension and current with different settings for the pulse.
+
+\section{Output characterization}
+Plasma ignition and discharge features are regolated by the electric field generated in the circuit head and it's power deposition to flowing gas, so the parameters involved are pulse amplitude and frequency arriving on the electrode, settable in the circuit. Medical application of plasma requires 
+
 
 
 \begin{comment}
