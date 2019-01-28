@@ -1,37 +1,43 @@
 \chapter{Electric characterization}
 \label{ch:electric}
 \section{Electric scheme and description}
-The development of electric components used to produce the Plasma Coagulation Controller is highly influenced by the need of flexibility in settings and mobility for wound treatment. To produce plasma as DBD, in air with Helium or Argon as ignition gasses, it is necessary to produce high voltage, to permit easy medical application the design of the head must be compact with particular attention to electric safety measuraments.
-The scheme outputs a voltage pulse with an amplitude up to $\SI{10}{\kilo\volt}$ and frequencies up to $\SI{50}{\kilo\hertz}$.
+The development of electric components used to produce the Plasma Coagulation Controller is highly influenced by the need of flexibility in settings and mobility for wound treatment. To produce plasma as DBD, in air with Helium or Argon as ignition gasses, it is necessary to apply high electric fields in little space, to permit easy medical application the design of the head must be compact with particular attention to electric safety measuraments.
+It is common to produce electric fields with fast voltage pulses for various usage, including jet or DBD plasma production (\cite{Upadhyay:hvpulse}, \cite{Jarrige:plumecharacteristics}, \cite{Darny:jetplume}), the scheme used here outputs a voltage pulse with an amplitude up to $\SI{10}{\kilo\volt}$ and frequencies up to $\SI{60}{\kilo\hertz}$.
 
-A rappresentation of power and signal line is in figure \ref{fig:electricline}. The circuit is divided mainly in two parts %as described in chapter \ref{ch:source}
+A rappresentation of power and signal lines is in figure \ref{fig:electricline}. The circuit is divided mainly in two parts %as described in chapter \ref{ch:source}
 : the controller, with alimentation and settings controls, and the head, where the discharge happens and plasma is emitted.
 \begin{figure}
  \centering
  \includegraphics[width=0.8\textwidth]{Images/Linea_elettrica.png}
- \caption{Scheme of the general electric line to produce high voltage, the controller on the left and the head on the left.}
+ \caption{Scheme of the general electric line to produce high voltage, the controller on the left and the head on the right.}
  \label{fig:electricline}
 \end{figure}
 
 The line divides in:
 \begin{itemize}
- \item \bf{Alimentation} : the $\SI{220}{\volt}$ DC power line goes in a transformer that gives a $\SI{22}{\volt}$ tension to the head, passing through a diode bridge. This tension aliments the Driver Circuit on the head.
- \item \bf{Arduino and trigger} : the power line is reduced to $\SI{12}{\volt}$ necessaries to aliment an Arduino controller and a laser. From an analogical output of the Arduino a PWM wave goes to the laser trigger, it transmit information on the wave frequency and duration with an optical fiber that ends with a photodiode installed on the driver circuit. Wave frequency is setted by the Arduino, wave duration is setted giving the opengin time of the MOSFET installed on the driver circuit. With this setup the High-Voltage line is entirely decopuled from the controller, in this way there are not serious problems of signal reflection on the power line or the Arduino.
- \item \bf{Head} : the Driver Circuit receives a power line of $\SI{22}{\volt}$ and an optical trigger that defines frequency and duration of the voltage pulse. When the trigger gives the start signal the transformer on the head receives on primary circuit a voltage of hundreds $\si{\volt}$ and outputs from secondary circuit a voltage of thousends $\si{\volt}$. Connected to the ouput there is an electrode inside a capillary tube.
+ \item \textbf{Alimentation} : the $\SI{220}{\volt}$ DC power line goes in a transformer that gives a $\SI{22}{\volt}$ tension to the head, passing through a diode bridge. This tension aliments the Driver Circuit on the head.
+ \item \textbf{Arduino and trigger} : the power line is reduced to $\SI{12}{\volt}$ necessaries to aliment an Arduino controller and a laser. From an analogical output of the Arduino a PWM wave goes to the laser trigger, it transmits information on the wave, frequency and duration, with an optical fiber that ends with a photodiode installed on the driver circuit. Wave frequency is setted by the Arduino, wave duration is setted giving the opening time of the MOSFET that passes the signal to be amplified and sent to the head's transformer. With this setup the high-voltage line is entirely decopuled from the controller, so there are not problems of signal reflection on the power line or the Arduino.
+ \item \textbf{Head} : the Driver Circuit receives a power line of $\SI{22}{\volt}$ and an optical trigger that defines frequency and duration of the voltage pulse. When the trigger gives the start signal, the transformer on the head receives on primary circuit a voltage of hundreds $\si{\volt}$ and outputs from secondary circuit a voltage of thousends $\si{\volt}$. Connected to the ouput there is the electrode inside a capillary tube of dielectric material.
 \end{itemize}
 
+To understand signal propagation is presented a simulation in figure \ref{fig:signals}, obtained with a simplified scheme with Spice. As shown, once the PWM trigger starts, tension on the primary goes from alimentation value to $0$, when the PWM signal ends (after $\SI{6}{\micro\second}$, it has a pulse with amplitude of $\SI{150}{\volt}$ (width of $\SI{1.2}{\micro\second}$) and a pulse of $\SI{-5000}{\volt}$ at the output of secondary circuit. A longer PWM implies a longer charging time, so an higher pulse. Ultimately, amplitude of the pulse is proportional to the width of the PWM signal and to know working conditions of the source it is necessary to study the relation between opening time and amplitude output on the actual circuit.
 
-To understand signal propagation through the scheme, in figure \ref{fig:signals} you can see a simulation of the different signals, obteined with a simplified scheme with Spice. As in the figure ...
+\begin{figure}
+ \centering
+ \includegraphics[width=0.8\textwidth]{Images/segnali.png}
+ \caption{Scheme of signal propagation. Up, in green, there is the optical trigger, down, in red, the voltage of primary circuit in the head with axis on the left, in blue, the voltage of secondary circuit with axis on right.}
+ \label{fig:signals}
+\end{figure}
 
-During this thesis study were built two sources, with two controllers and heads. From an electrical perspective the two models are almost identical, the second one comes with a low-pass filter on the driver circuit (to diminish high frequency rumor) and slightly higher amplitude capabilities.
-The characterization of electric capabilities is made measuring output tension and current with different settings for the pulse.
+During this thesis study were built two sources, with two controllers and heads, the first one will be called source A, the second one source B. From an electrical perspective the two models are almost identical, the second one comes with a low-pass filter on the driver circuit (to diminish high frequencies noise) and slightly higher amplitude capabilities.
+The characterization of electric features is made measuring output tension and current with different settings for the pulse.
 
 \section{Output characterization}
-Plasma ignition and discharge features are regolated by electric field generated in the circuit head and power deposition to flowing gas, so the parameters involved are pulse amplitude and frequency arriving on the electrode, settable in the circuit. Medical application of plasma requires low current intensity, in this study it's measured the current flowing on a copper plate targeted by the plasma plume at a certain distance. Ultimately the different parameters for the measures are: $\Deltat$, opening time of the trigger that defines amplitude of the pulses, and $f$, frequency of the pulses. 
+Plasma ignition and discharge features are regolated by electric field generated in the circuit head and power deposition to flowing gas, so the parameters involved are pulse amplitude and frequency arriving on the electrode, settable in the circuit. Medical application of plasma requires low current intensity, in this study it's measured the current flowing on a copper plate targeted by the plasma plume at a certain distance. Ultimately the different parameters for the measures are: $\Delta t$, opening time of the trigger that defines amplitude of the pulses, and $f$, frequency of the pulses. 
 
-Voltage signal are taken with an high-voltage probe, attenuation $\times 1000$, current signal with a \emph{Tektronix CT2} probe that gives a $\SI{1}{\milli\volt}$ for a current of $SI{1}{\milli\ampere}$. All signals are measured with a \emph{Yokogawa DL9040} oscilloscope, from which is saved the waveform of voltage and current.
+Voltage signal are taken with an high-voltage probe, attenuation $\times 1000$, current signal with a \emph{Tektronix CT2} probe that gives a $\SI{1}{\milli\volt}$ for a current of $\SI{1}{\milli\ampere}$. All signals are measured with a \emph{Yokogawa DL9040} oscilloscope, from which is saved the waveform of voltage and current.
 
-Measures are taken without gas flowing, to see the output voltage of the circuit, and with an helium flow of $\SI{2}{\liter/\minute}$, to measure the actual output with different amplitude and frequencies. It's also measured an effective current intensity, i.e. a mean value in a time period, to evaluate plasma application's effects.
+Measures are taken without gas flowing, to see the output voltage of the circuit, and with an helium flow of $\SI{2}{\liter/\minute}$, to measure the actual output with different amplitude and frequencies. It's also measured an effective current intensity, i.e. a mean value in a time period, to evaluate plasma application's effects on biological tissues.
 
 \begin{comment}
 La sorgente di plasma funziona tramite l'applicazione di un'alta differenza di potenziale tra gli elettrodi separati da materiale dielettrico, come descritti nel capitolo \ref{ch:sorgente}. La tensione in ingresso nel circuito  della testa della sorgente vengono amplificati fino a tensioni di alcuni \si{\kilo\volt}. Dall'arduino di controllo è possibile regolare il tempo di apertura del circuito in un range di [$2$-$20$] \si{\micro\second} e la frequenza di lavoro in un range di [$2$-$60$] \si{\kilo\hertz}. I parametri importanti per caratterizzare il funzionamento della sorgente saranno quindi tensione e corrente all'uscita del circuito secondario del trasformatore, al variare dei parametri di funzionamento. Utilizzando una lastra metallica posta a potenziale, è possibile misurare la corrente in un dato range temporale. È inoltre possibile stimare la corrente efficace che attraversa il bersaglio, importante nel valutare gli effetti dell'applicazione del plasma.
@@ -40,7 +46,65 @@ La sorgente di plasma funziona tramite l'applicazione di un'alta differenza di p
 Si vogliono effettuare misure di tensione della sorgente sia senza immissione di elio, senza formazione della plume di plasma, sia nelle condizioni di funzionamento tipiche, con flusso di elio di $\SI{2}{\liter/\minute}$.
 Le tensioni vengono misurate tramite una sonda \emph{...} con attenuazione $\times1000$, le correnti tramite una sonda \emph{Tektronix CT2} che per una corrente di \SI{1}{\milli\ampere} restituisce un segnale di \SI{1}{\milli\volt}. I dati vengono letti su un oscilloscopio \emph{Yokogawa DL9040}, che permette il salvataggio dell'intera forma d'onda misurata nei diversi canali. 
 Viene effettuata la caratterizzazione elettrica di entrambi i prototipi di sorgente, per i quali il circuito utilizzato è lo stesso, quindi non si aspettano variazioni significative.
+\end{comment}
 
+\subsection{Measures without gas}
+It's used the hv probe to pick tension difference between secondary circuit ouput and ground.
+Once a work frequency, $f$, is set, we take voltage wave shape for different values of opening time of the circuit, $\Delta t$, in the selectable range.
+To assure that a voltage pulse ends before another starts, this range is different for different frequencies: higher work frequencies means more pulses in a given time, taking into consideration pulse oscillations time width, proportional to opening time, the range of possible $\Delta t$ is smaller at higher frequencies.
+A typical obtained measure is shown in figure \ref{fig:tensionpeak}.
+\begin{figure}
+ \centering
+ \subfloat[Three pulses]{
+    \includegraphics[width=0.40\textwidth]{Images/estrepicchi.png}
+ }
+ \hfill
+ \subfloat[Zoom on one pulse]{
+    \includegraphics[width=0.40\textwidth]{Images/zoom1pk.png}
+ }
+ \caption{Example pulses with source B for $f = \SI{10}{\kilo\hertz}$ and $\Delta t = \SI{2}{\micro\second}$}
+ \label{fig:tensionpeak}
+\end{figure}
+
+The main pourpous of the measures is to study proportionality between amplitude of the peak and opening time, for different frequencies. Those signals are analyzed evaluating their Fourier Transform (using ROOT C++ libraries \cite{ROOT:fft}) and reconstructing the signal without higher frequencies, to exclude noise fluctuations. The reconstructed peak is an asymmetric function as in figure \ref{fig:landau}, it's possible to interpolate it with a Landau function \cite{ROOT:landau} and obtain peak value and position.
+The error from the fit function is added quadratically to the error given by the cut of high Fourier frequencies, evaluated as the square root of the mean square error between reconstructed and original signal for every point included in the fit range.
+\begin{figure}
+\centering
+ \includegraphics[width=0.6\textwidth]{Images/esfit_f10_t2.png}
+ \caption{Example fit with source B for $f = \SI{10}{\kilo\hertz}$ and $\Delta t = \SI{2}{\micro\second}$}
+ \label{fig:landau}
+\end{figure}
+
+
+Results are shown in figure \ref{fig:nogas} for the two sources. As expected, pulse's maximum absolute value grows almost linearly with $\Delta t$, with higher values for source B and a constant behavior for different frequencies. To confirm the hypotesis of constant behavior, the range $0-\SI{16}{\micro\second}$ is fitted with a linear function and the parameters are compared, as shown in figure \ref{fig:linnogas}. The values are displaced with random distances from the mean value, so it can be concluded that the behavior is not defined by the frequency.
+\begin{figure}
+ \centering
+ \subfloat[Source A]{
+    \includegraphics[width=0.46\textwidth]{Images/estrepicchi.png}
+ }
+ \hfill
+ \subfloat[Source B]{
+    \includegraphics[width=0.46\textwidth]{Images/zoom1pk.png}
+ }
+ \caption{Absolute value of peak in function of $\Delta t$ at different $f$, for both sources.}
+ \label{fig:nogas}
+\end{figure}
+
+\begin{figure}
+ \centering
+ \subfloat[Source A]{
+    \includegraphics[width=0.5\textwidth]{Images/estrepicchi.png}
+ }
+ \subfloat[Source B]{
+    \includegraphics[width=0.5\textwidth]{Images/zoom1pk.png}
+ }
+ \caption{Linear fit parameters of $V_{peak}(\Delta t)$ for $\Delta t = 0-\SI{16}{\micro\second}$, for both sources.}
+ \label{fig:linnogas}
+\end{figure}
+
+
+
+\begin{comment}
 \subsection{Misure senza elio}
 La sonda ad alta tensione viene collegata all'uscita del circuito secondario, mentre una sonda con attenuazione $\times10$ viene utilizzata per controllare il segnale in ingresso.
 La sorgente viene azionata variando la frequenza ($f$) e duty cycle ($\Delta t$). Scelta la frequenza di lavoro, viene variata la duty cycle in un range utile, considerando il tempo necessario al terminare delle oscillazioni del segnale prima dell'arrivo di una nuova onda quadra (per frequenze maggiori si potrà arrivare a duty cycle minori).
@@ -53,18 +117,6 @@ Si ottengono curve come in figura \ref{fig:tensione_es}. La risoluzione della mi
 \label{fig:tensione_es}
 \end{figure}
 
-\subsection{Misure con elio}
-Per caratterizzare il funzionamento della sorgente nelle possibili condizioni di trattamento, vengono misurate contemporaneamente, su due diversi canali dell'oscilloscopio, tensione alla quale si trova l'elettrodo e corrente che fluisce nel plasma. Per la misura di corrente viene fatto impattare il plasma su una piastra di rame  di dimensioni \SI{2}{\centi\metre} $\times$ \SI{2}{\centi\metre} $\times$ \SI{0.5}{\centi\metre}, ad una distanza di \SI{1}{\centi\metre} dall'elettrodo della sorgente, collegata alla sonda di corrente.
-Nuovamente vengono effettuate misure al variare di frequenza ($f$) e duty cycle ($\Delta t$), con le stesse modalità delle misure di tensione.
-Tutte le misure sono effettuate con flusso di gas He pari a $\SI{2}{\litre/\minute}$.
-Si ottengono curve come in figura \ref{fig:corrente_es}.
-
-\begin{figure}
-\centering
- \includegraphics[width=.7\textwidth]{Immagini/corrente_es.png}
-\caption{Esempio di misure di corrente per $f = \SI{5}{\kilo\hertz}$ e $\Delta t = \SI{24}{\micro\second}$, prototipo 1.}
-\label{fig:corrente_es}
-\end{figure}
 
 
 \section{Presentazione misure ed analisi}
@@ -108,6 +160,25 @@ Viene confermata l'assenza di un andamento specifico al variare della frequenza.
 \caption{Parametri dell'interpolazione lineare dei set di misure senza immissione di gas(nel range $\Delta t$ stabilito), al variare della frequenza.}
 \label{fig:fitlin}
 \end{figure}
+
+\end{comment}
+
+\subsection{Measures with gas}
+
+\begin{comment}
+\subsection{Misure con elio}
+Per caratterizzare il funzionamento della sorgente nelle possibili condizioni di trattamento, vengono misurate contemporaneamente, su due diversi canali dell'oscilloscopio, tensione alla quale si trova l'elettrodo e corrente che fluisce nel plasma. Per la misura di corrente viene fatto impattare il plasma su una piastra di rame  di dimensioni \SI{2}{\centi\metre} $\times$ \SI{2}{\centi\metre} $\times$ \SI{0.5}{\centi\metre}, ad una distanza di \SI{1}{\centi\metre} dall'elettrodo della sorgente, collegata alla sonda di corrente.
+Nuovamente vengono effettuate misure al variare di frequenza ($f$) e duty cycle ($\Delta t$), con le stesse modalità delle misure di tensione.
+Tutte le misure sono effettuate con flusso di gas He pari a $\SI{2}{\litre/\minute}$.
+Si ottengono curve come in figura \ref{fig:corrente_es}.
+
+\begin{figure}
+\centering
+ \includegraphics[width=.7\textwidth]{Immagini/corrente_es.png}
+\caption{Esempio di misure di corrente per $f = \SI{5}{\kilo\hertz}$ e $\Delta t = \SI{24}{\micro\second}$, prototipo 1.}
+\label{fig:corrente_es}
+\end{figure}
+
 
 
 \subsection{Tensione e corrente con elio}
@@ -158,7 +229,12 @@ Per il valore massimo di corrente viene trovato un aumento in funzione della fre
 \label{fig:fitlin_cor}
 \end{figure}
 
+\end{comment}
+
+\subsection{Time intervals}
+
 \begin{comment}
+
 
 Data la possibilità di visualizzare contemporaneamente sia la tensione sia la corrente in uscita dal circuito, viene proposta un'analisi delle variazioni temporali tra i diversi picchi. In particolare viene calcolato il tempo tra i due picchi di corrente e tra il picco di tensione e il picco di corrente primario, mostrati in figura \ref{fig:tempi}.
 In entrambi i casi non è possibile estrapolare un andamento particolare, indicando che non vi sono differenze significative nei tempi di salita dei picchi al variare del tempo di apertura del circuito e della frequenza.
@@ -172,6 +248,12 @@ In entrambi i casi non è possibile estrapolare un andamento particolare, indica
 \caption{Misura delle differenze temporali tra i picchi.}
 \label{fig:tempi}
 \end{figure}
+
+\end{comment}
+
+\subsection{Effective current}
+
+\begin{comment}
 
 \subsection{Corrente efficace}
 Durante l'applicazione del plasma su tessuti vivi bisogna considerare il tempo di reazione effettivo del bersaglio, l'impulso di corrente alle frequenze di lavoro della sorgente presenta un periodo inferiore rispetto questi tempi. Per valutare gli effetti del trattamento viene calcolato il valore della corrente efficace che fluisce sulla piastra bersaglio in un tempo di \SI{1}{\milli\second}, dell'ordine di grandezza dei tempi di risposta da considerare (vedi articolo?), utilizzando la formula in \ref{eq:ieff}.
