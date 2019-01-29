@@ -4,6 +4,6 @@
 \contentsline {section}{\numberline {1.1}Electric scheme and description}{3}
 \contentsline {section}{\numberline {1.2}Output characterization}{5}
 \contentsline {subsection}{\numberline {1.2.1}Measures without gas}{5}
-\contentsline {subsection}{\numberline {1.2.2}Measures with gas}{6}
-\contentsline {subsection}{\numberline {1.2.3}Time intervals}{6}
-\contentsline {subsection}{\numberline {1.2.4}Effective current}{6}
+\contentsline {subsection}{\numberline {1.2.2}Measures with gas}{7}
+\contentsline {subsection}{\numberline {1.2.3}Time intervals}{8}
+\contentsline {subsection}{\numberline {1.2.4}Effective current}{8}

@@ -1,14 +1,14 @@
 \chapter{Electric characterization}
 \label{ch:electric}
 \section{Electric scheme and description}
-The development of electric components used to produce the Plasma Coagulation Controller is highly influenced by the need of flexibility in settings and mobility for wound treatment. To produce plasma as DBD, in air with Helium or Argon as ignition gasses, it is necessary to apply high electric fields in little space, to permit easy medical application the design of the head must be compact with particular attention to electric safety measuraments.
-It is common to produce electric fields with fast voltage pulses for various usage, including jet or DBD plasma production (\cite{Upadhyay:hvpulse}, \cite{Jarrige:plumecharacteristics}, \cite{Darny:jetplume}), the scheme used here outputs a voltage pulse with an amplitude up to $\SI{10}{\kilo\volt}$ and frequencies up to $\SI{60}{\kilo\hertz}$.
+Development of electric scheme used to build Plasma Coagulation Controller is highly influenced by the need of flexibility in output and mobility for wound treatment. To produce plasma as DBD, in air with Helium or Argon as ignition gasses, it is necessary to apply high electric fields in little space, while to permit easy medical application the design of the head must be compact with particular attention to electric safety measuraments.
+It is common to produce electric fields with fast voltage pulses for various uses, including jet or DBD plasma production (\cite{Upadhyay:hvpulse}, \cite{Jarrige:plumecharacteristics}, \cite{Darny:jetplume}), the scheme used in this study outputs a voltage pulse with an amplitude up to $\SI{10}{\kilo\volt}$ and frequencies up to $\SI{60}{\kilo\hertz}$.
 
 A rappresentation of power and signal lines is in figure \ref{fig:electricline}. The circuit is divided mainly in two parts %as described in chapter \ref{ch:source}
 : the controller, with alimentation and settings controls, and the head, where the discharge happens and plasma is emitted.
 \begin{figure}
  \centering
- \includegraphics[width=0.8\textwidth]{Images/Linea_elettrica.png}
+ \includegraphics[width=0.8\textwidth]{Images/Electric/Linea_elettrica.png}
  \caption{Scheme of the general electric line to produce high voltage, the controller on the left and the head on the right.}
  \label{fig:electricline}
 \end{figure}
@@ -24,12 +24,12 @@ To understand signal propagation is presented a simulation in figure \ref{fig:si
 
 \begin{figure}
  \centering
- \includegraphics[width=0.8\textwidth]{Images/segnali.png}
+ \includegraphics[width=0.8\textwidth]{Images/Electric/segnali.png}
  \caption{Scheme of signal propagation. Up, in green, there is the optical trigger, down, in red, the voltage of primary circuit in the head with axis on the left, in blue, the voltage of secondary circuit with axis on right.}
  \label{fig:signals}
 \end{figure}
 
-During this thesis study were built two sources, with two controllers and heads, the first one will be called source A, the second one source B. From an electrical perspective the two models are almost identical, the second one comes with a low-pass filter on the driver circuit (to diminish high frequencies noise) and slightly higher amplitude capabilities.
+During this thesis study were built two sources, with two controllers and heads, the first one will be called source A, the second one source B. From an electrical perspective the two models are almost identical, the second one comes with a low-pass filter on the driver circuit (to diminish high frequencies noise) and higher amplitude capabilities thanks to a different turns ratio of head's transformer.
 The characterization of electric features is made measuring output tension and current with different settings for the pulse.
 
 \section{Output characterization}
@@ -39,15 +39,6 @@ Voltage signal are taken with an high-voltage probe, attenuation $\times 1000$, 
 
 Measures are taken without gas flowing, to see the output voltage of the circuit, and with an helium flow of $\SI{2}{\liter/\minute}$, to measure the actual output with different amplitude and frequencies. It's also measured an effective current intensity, i.e. a mean value in a time period, to evaluate plasma application's effects on biological tissues.
 
-\begin{comment}
-La sorgente di plasma funziona tramite l'applicazione di un'alta differenza di potenziale tra gli elettrodi separati da materiale dielettrico, come descritti nel capitolo \ref{ch:sorgente}. La tensione in ingresso nel circuito  della testa della sorgente vengono amplificati fino a tensioni di alcuni \si{\kilo\volt}. Dall'arduino di controllo è possibile regolare il tempo di apertura del circuito in un range di [$2$-$20$] \si{\micro\second} e la frequenza di lavoro in un range di [$2$-$60$] \si{\kilo\hertz}. I parametri importanti per caratterizzare il funzionamento della sorgente saranno quindi tensione e corrente all'uscita del circuito secondario del trasformatore, al variare dei parametri di funzionamento. Utilizzando una lastra metallica posta a potenziale, è possibile misurare la corrente in un dato range temporale. È inoltre possibile stimare la corrente efficace che attraversa il bersaglio, importante nel valutare gli effetti dell'applicazione del plasma.
-
-\section{Setup delle misure di tensione e corrente}
-Si vogliono effettuare misure di tensione della sorgente sia senza immissione di elio, senza formazione della plume di plasma, sia nelle condizioni di funzionamento tipiche, con flusso di elio di $\SI{2}{\liter/\minute}$.
-Le tensioni vengono misurate tramite una sonda \emph{...} con attenuazione $\times1000$, le correnti tramite una sonda \emph{Tektronix CT2} che per una corrente di \SI{1}{\milli\ampere} restituisce un segnale di \SI{1}{\milli\volt}. I dati vengono letti su un oscilloscopio \emph{Yokogawa DL9040}, che permette il salvataggio dell'intera forma d'onda misurata nei diversi canali. 
-Viene effettuata la caratterizzazione elettrica di entrambi i prototipi di sorgente, per i quali il circuito utilizzato è lo stesso, quindi non si aspettano variazioni significative.
-\end{comment}
-
 \subsection{Measures without gas}
 It's used the hv probe to pick tension difference between secondary circuit ouput and ground.
 Once a work frequency, $f$, is set, we take voltage wave shape for different values of opening time of the circuit, $\Delta t$, in the selectable range.
@@ -56,11 +47,11 @@ A typical obtained measure is shown in figure \ref{fig:tensionpeak}.
 \begin{figure}
  \centering
  \subfloat[Three pulses]{
-    \includegraphics[width=0.40\textwidth]{Images/estrepicchi.png}
+    \includegraphics[width=0.40\textwidth]{Images/Electric/estrepicchi.png}
  }
  \hfill
  \subfloat[Zoom on one pulse]{
-    \includegraphics[width=0.40\textwidth]{Images/zoom1pk.png}
+    \includegraphics[width=0.40\textwidth]{Images/Electric/zoom1pk.png}
  }
  \caption{Example pulses with source B for $f = \SI{10}{\kilo\hertz}$ and $\Delta t = \SI{2}{\micro\second}$}
  \label{fig:tensionpeak}
@@ -70,100 +61,49 @@ The main pourpous of the measures is to study proportionality between amplitude 
 The error from the fit function is added quadratically to the error given by the cut of high Fourier frequencies, evaluated as the square root of the mean square error between reconstructed and original signal for every point included in the fit range.
 \begin{figure}
 \centering
- \includegraphics[width=0.6\textwidth]{Images/esfit_f10_t2.png}
+ \includegraphics[width=0.6\textwidth]{Images/Electric/esfit_f10_t2.png}
  \caption{Example fit with source B for $f = \SI{10}{\kilo\hertz}$ and $\Delta t = \SI{2}{\micro\second}$}
  \label{fig:landau}
 \end{figure}
 
 
-Results are shown in figure \ref{fig:nogas} for the two sources. As expected, pulse's maximum absolute value grows almost linearly with $\Delta t$, with higher values for source B and a constant behavior for different frequencies. To confirm the hypotesis of constant behavior, the range $0-\SI{16}{\micro\second}$ is fitted with a linear function and the parameters are compared, as shown in figure \ref{fig:linnogas}. The values are displaced with random distances from the mean value, so it can be concluded that the behavior is not defined by the frequency.
+Results are shown in figure \ref{fig:nogas} for the two sources.
+In source A we can see a linear behavior for $4 \le \Delta t \le \SI{16}{\micro\second}$, with tensions from $2$ to $\SI{9}{\kilo\volt}$; for greater $\Delta t$ data loses linearity. The upper limit on chosen $\Delta t$ is given by the need of a minimum time interval between two pulses.
+Also in source B we can see a linear behavior, but tensions are much larger: for $1 \le \Delta t \le \SI{8}{\micro\second}$ tension goes from $4$ to $\SI{12}{\kilo\volt}$. With this source the upper limit for $\Delta t$ is given by voltage output, measures are taken only for tensions needed to have plasma in a DBD regimen, higher opening times would only stress more circuit components.
+Both sources have near the same output for different frequencies, to confirm it data are fitted with a linear function in the range $0-\SI{16}{\micro\second}$ for source A and range $0-\SI{8}{\micro\second}$ for B. Evalueted parameters are compared, as shown in figure \ref{fig:linnogas}. The values are displaced with random distances from the mean value, so it can be concluded that the behavior is not defined by the frequency.
 \begin{figure}
  \centering
  \subfloat[Source A]{
-    \includegraphics[width=0.46\textwidth]{Images/estrepicchi.png}
+    \includegraphics[width=0.6\textwidth]{Images/Electric/Vpp_nogas_A.png}
  }
- \hfill
+ 
  \subfloat[Source B]{
-    \includegraphics[width=0.46\textwidth]{Images/zoom1pk.png}
+    \includegraphics[width=0.6\textwidth]{Images/Electric/Vpp_nogas_B.png}
  }
- \caption{Absolute value of peak in function of $\Delta t$ at different $f$, for both sources.}
+ \caption{Absolute peak's value of secondary circuit in function of $\Delta t$ at different $f$, for both sources.}
  \label{fig:nogas}
 \end{figure}
 
 \begin{figure}
  \centering
  \subfloat[Source A]{
-    \includegraphics[width=0.5\textwidth]{Images/estrepicchi.png}
+    \includegraphics[width=0.4\textwidth]{Images/Electric/mq_nogas_A.png}
  }
  \subfloat[Source B]{
-    \includegraphics[width=0.5\textwidth]{Images/zoom1pk.png}
+    \includegraphics[width=0.4\textwidth]{Images/Electric/mq_nogas_B.png}
  }
- \caption{Linear fit parameters of $V_{peak}(\Delta t)$ for $\Delta t = 0-\SI{16}{\micro\second}$, for both sources.}
+ \caption{Linear fit parameters of $V_{peak}(\Delta t)$ for both sources.}
  \label{fig:linnogas}
 \end{figure}
 
 
-
-\begin{comment}
-\subsection{Misure senza elio}
-La sonda ad alta tensione viene collegata all'uscita del circuito secondario, mentre una sonda con attenuazione $\times10$ viene utilizzata per controllare il segnale in ingresso.
-La sorgente viene azionata variando la frequenza ($f$) e duty cycle ($\Delta t$). Scelta la frequenza di lavoro, viene variata la duty cycle in un range utile, considerando il tempo necessario al terminare delle oscillazioni del segnale prima dell'arrivo di una nuova onda quadra (per frequenze maggiori si potrà arrivare a duty cycle minori).
-Si ottengono curve come in figura \ref{fig:tensione_es}. La risoluzione della misura viene variata in modo da avere l'errore di misura minore possibile.
-
-\begin{figure}
-\centering
-\includegraphics[width=.7\textwidth]{Immagini/tensione_es_2.png}
-\caption{Esempio di misura di tensione, $f = \SI{5}{\kilo\hertz}$ e $\Delta t = \SI{16}{\micro\second}$, prototipo 1.}
-\label{fig:tensione_es}
-\end{figure}
-
-
-
-\section{Presentazione misure ed analisi}
-Sia per le misure di tensione che per le misure di corrente si trova un picco negativo come presentato nelle Figure \ref{fig:tensione_es} e \ref{fig:corrente_es}. Il picco di tensione ha valori tipici tra i $\num{3}$ e i $\SI{10}{\kilo\volt}$ in assenza o in presenza di gas, mentre quello di corrente tra i $\num{2}$ e i $\SI{12}{\milli\ampere}$.
-L'analisi dei dati prevede la ricerca del massimo della tensione e della corrente nelle diverse configurazioni.
-
-\subsection{Tensione di picco senza elio}
-L'andamento medio delle misure presenta un picco negativo pronunciato, compatibile con i tempi di apertura del circuito. Dato un set, il valore di picco viene cercato calcolando la trasformata di Fourier del segnale (tramite le routine fftw3 delle librerie ROOT), tagliando le oscillazioni ad alta frequenza e ricostruendone una media. Nel segnale medio così ricostruito il valore del minimo viene trovato interpolando con una funzione di Landau attorno il minimo, in modo da riprodurre l'asimmetria del picco.
-A queste misure viene aggiunto l'errore dovuto al taglio delle alte frequenze, preso come una media del valore assoluto dell'oscillazione del segnale tagliato. Viene inoltre aggiunto l'errore caratteristico dello strumento di misura, trascurabile rispetto l'errore dovuto alle oscillazioni veloci.
-In figura \ref{fig:landau} un esempio del fit.
-
-\begin{figure}
-\centering
-\includegraphics[width=.6\textwidth]{Immagini/esfiterr.png}
-\caption{Esempio di fit del picco di tensione, $f = \SI{5}{\kilo\hertz}$ e $\Delta t = \SI{16}{\micro\second}$}
-\label{fig:landau}
-\end{figure}
-
-
-Le tensioni del picco così calcolate, al variare della duty cycle per le diverse frequenze, sono presentate in figura \ref{fig:tensioni}.
-Per tutte le frequenze di lavoro tra i $\SI{4}{\micro\second}$ e i $\SI{16}{\micro\second}$ risulta un andamento lineare, con tensione variabile tra i $\SI{2}{\kilo\volt}$ e i $\SI{9}{\kilo\volt}$. Aumentando ancora il tempo di apertura del circuito la tensione arriva a valori più elevati, fino un massimo di circa $\SI{10}{\kilo\volt}$, ma viene perso l'andamento lineare.
-
-
- \begin{figure}
-\centering
-\includegraphics[width=.6\textwidth]{Immagini/nogas.png}
-\caption{Tensioni al variare del tempo di apertura del circuito e per diverse frequenze.}
-\label{fig:tensioni}
-\end{figure}
-
-
-Le misure non sembrano presentare un andamento in funzione della frequenza, per verificarlo vengono calcolati i coefficenti dell'interpolazione lineare per le varie frequenze, presentati in figura \ref{fig:fitlin}.
-Viene confermata l'assenza di un andamento specifico al variare della frequenza.
-
-\begin{figure}
-\centering
-\subfloat[][Pendenza delle rette.]
-  {\includegraphics[width=.48\textwidth]{Immagini/m_freq_nogas.png}}
-\subfloat[][Intercetta delle rette.]
-  {\includegraphics[width=.48\textwidth]{Immagini/q_freq_nogas.png}}
-\caption{Parametri dell'interpolazione lineare dei set di misure senza immissione di gas(nel range $\Delta t$ stabilito), al variare della frequenza.}
-\label{fig:fitlin}
-\end{figure}
-
-\end{comment}
-
 \subsection{Measures with gas}
+Introduction of an helium flow at the end of the head will produce plasma ignition, tension will be different, and it will be possible to measure intensity of the current carried by plasma. To assure safety of plasma application, that cells aren't damaged by plasma, it must be avoided a large current intensity and arc formation. Studies of conditions for DBD discharges and arc transitions (\cite{kogelschatz:jpa-00255561}, \cite{TOMAI2006409}, \cite{PhysRev.34.876}) suggests that maximum current values are in the order of hundreds of $\si{\milli\ampere}$.
+
+Current intensity is measured using a copper sheet with dimensions $\SI{1}{\centi\metre} \times \SI{1}{\centi\metre} \times \SI{0.1}{\centi\metre}$. Plasma plume impacts on the sheet, the current probe is connected to it and send the signal to the oscilloscope, with cable shielding to lessen interferences.
+Distance from source head and target is chosen with a typical value for treatments, relation between current and target distance is studied in \cite{unipd:ceciliaDBD}.
+
+In figure \ref{fig:tens_curr} can be seen a typical measure for $\Delta t = {}{}$ and $f = $ with source A.
 
 \begin{comment}
 \subsection{Misure con elio}
@@ -233,8 +173,10 @@ Per il valore massimo di corrente viene trovato un aumento in funzione della fre
 
 \subsection{Time intervals}
 
-\begin{comment}
 
+
+
+\begin{comment}
 
 Data la possibilità di visualizzare contemporaneamente sia la tensione sia la corrente in uscita dal circuito, viene proposta un'analisi delle variazioni temporali tra i diversi picchi. In particolare viene calcolato il tempo tra i due picchi di corrente e tra il picco di tensione e il picco di corrente primario, mostrati in figura \ref{fig:tempi}.
 In entrambi i casi non è possibile estrapolare un andamento particolare, indicando che non vi sono differenze significative nei tempi di salita dei picchi al variare del tempo di apertura del circuito e della frequenza.
@@ -271,6 +213,78 @@ A parità di tempo di apertura del circuito, una maggiore frequenza implica che 
 \includegraphics[width=.7\textwidth]{Immagini/ieff.png}
 \caption{Corrente efficace calcolata al variare del tempo di apertura del circuito e per diverse frequenze.}
 \label{fig:correff}
+\end{figure}
+
+\end{comment}
+
+
+\begin{comment}
+La sorgente di plasma funziona tramite l'applicazione di un'alta differenza di potenziale tra gli elettrodi separati da materiale dielettrico, come descritti nel capitolo \ref{ch:sorgente}. La tensione in ingresso nel circuito  della testa della sorgente vengono amplificati fino a tensioni di alcuni \si{\kilo\volt}. Dall'arduino di controllo è possibile regolare il tempo di apertura del circuito in un range di [$2$-$20$] \si{\micro\second} e la frequenza di lavoro in un range di [$2$-$60$] \si{\kilo\hertz}. I parametri importanti per caratterizzare il funzionamento della sorgente saranno quindi tensione e corrente all'uscita del circuito secondario del trasformatore, al variare dei parametri di funzionamento. Utilizzando una lastra metallica posta a potenziale, è possibile misurare la corrente in un dato range temporale. È inoltre possibile stimare la corrente efficace che attraversa il bersaglio, importante nel valutare gli effetti dell'applicazione del plasma.
+
+\section{Setup delle misure di tensione e corrente}
+Si vogliono effettuare misure di tensione della sorgente sia senza immissione di elio, senza formazione della plume di plasma, sia nelle condizioni di funzionamento tipiche, con flusso di elio di $\SI{2}{\liter/\minute}$.
+Le tensioni vengono misurate tramite una sonda \emph{...} con attenuazione $\times1000$, le correnti tramite una sonda \emph{Tektronix CT2} che per una corrente di \SI{1}{\milli\ampere} restituisce un segnale di \SI{1}{\milli\volt}. I dati vengono letti su un oscilloscopio \emph{Yokogawa DL9040}, che permette il salvataggio dell'intera forma d'onda misurata nei diversi canali. 
+Viene effettuata la caratterizzazione elettrica di entrambi i prototipi di sorgente, per i quali il circuito utilizzato è lo stesso, quindi non si aspettano variazioni significative.
+\end{comment}
+
+
+
+\begin{comment}
+
+\subsection{Misure senza elio}
+La sonda ad alta tensione viene collegata all'uscita del circuito secondario, mentre una sonda con attenuazione $\times10$ viene utilizzata per controllare il segnale in ingresso.
+La sorgente viene azionata variando la frequenza ($f$) e duty cycle ($\Delta t$). Scelta la frequenza di lavoro, viene variata la duty cycle in un range utile, considerando il tempo necessario al terminare delle oscillazioni del segnale prima dell'arrivo di una nuova onda quadra (per frequenze maggiori si potrà arrivare a duty cycle minori).
+Si ottengono curve come in figura \ref{fig:tensione_es}. La risoluzione della misura viene variata in modo da avere l'errore di misura minore possibile.
+
+\begin{figure}
+\centering
+\includegraphics[width=.7\textwidth]{Immagini/tensione_es_2.png}
+\caption{Esempio di misura di tensione, $f = \SI{5}{\kilo\hertz}$ e $\Delta t = \SI{16}{\micro\second}$, prototipo 1.}
+\label{fig:tensione_es}
+\end{figure}
+
+
+
+\section{Presentazione misure ed analisi}
+Sia per le misure di tensione che per le misure di corrente si trova un picco negativo come presentato nelle Figure \ref{fig:tensione_es} e \ref{fig:corrente_es}. Il picco di tensione ha valori tipici tra i $\num{3}$ e i $\SI{10}{\kilo\volt}$ in assenza o in presenza di gas, mentre quello di corrente tra i $\num{2}$ e i $\SI{12}{\milli\ampere}$.
+L'analisi dei dati prevede la ricerca del massimo della tensione e della corrente nelle diverse configurazioni.
+
+\subsection{Tensione di picco senza elio}
+L'andamento medio delle misure presenta un picco negativo pronunciato, compatibile con i tempi di apertura del circuito. Dato un set, il valore di picco viene cercato calcolando la trasformata di Fourier del segnale (tramite le routine fftw3 delle librerie ROOT), tagliando le oscillazioni ad alta frequenza e ricostruendone una media. Nel segnale medio così ricostruito il valore del minimo viene trovato interpolando con una funzione di Landau attorno il minimo, in modo da riprodurre l'asimmetria del picco.
+A queste misure viene aggiunto l'errore dovuto al taglio delle alte frequenze, preso come una media del valore assoluto dell'oscillazione del segnale tagliato. Viene inoltre aggiunto l'errore caratteristico dello strumento di misura, trascurabile rispetto l'errore dovuto alle oscillazioni veloci.
+In figura \ref{fig:landau} un esempio del fit.
+
+\begin{figure}
+\centering
+\includegraphics[width=.6\textwidth]{Immagini/esfiterr.png}
+\caption{Esempio di fit del picco di tensione, $f = \SI{5}{\kilo\hertz}$ e $\Delta t = \SI{16}{\micro\second}$}
+\label{fig:landau}
+\end{figure}
+
+
+Le tensioni del picco così calcolate, al variare della duty cycle per le diverse frequenze, sono presentate in figura \ref{fig:tensioni}.
+Per tutte le frequenze di lavoro tra i $\SI{4}{\micro\second}$ e i $\SI{16}{\micro\second}$ risulta un andamento lineare, con tensione variabile tra i $\SI{2}{\kilo\volt}$ e i $\SI{9}{\kilo\volt}$. Aumentando ancora il tempo di apertura del circuito la tensione arriva a valori più elevati, fino un massimo di circa $\SI{10}{\kilo\volt}$, ma viene perso l'andamento lineare.
+
+
+ \begin{figure}
+\centering
+\includegraphics[width=.6\textwidth]{Immagini/nogas.png}
+\caption{Tensioni al variare del tempo di apertura del circuito e per diverse frequenze.}
+\label{fig:tensioni}
+\end{figure}
+
+
+Le misure non sembrano presentare un andamento in funzione della frequenza, per verificarlo vengono calcolati i coefficenti dell'interpolazione lineare per le varie frequenze, presentati in figura \ref{fig:fitlin}.
+Viene confermata l'assenza di un andamento specifico al variare della frequenza.
+
+\begin{figure}
+\centering
+\subfloat[][Pendenza delle rette.]
+  {\includegraphics[width=.48\textwidth]{Immagini/m_freq_nogas.png}}
+\subfloat[][Intercetta delle rette.]
+  {\includegraphics[width=.48\textwidth]{Immagini/q_freq_nogas.png}}
+\caption{Parametri dell'interpolazione lineare dei set di misure senza immissione di gas(nel range $\Delta t$ stabilito), al variare della frequenza.}
+\label{fig:fitlin}
 \end{figure}
 
 \end{comment}
