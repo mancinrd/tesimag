@@ -39,6 +39,8 @@ Voltage signal are taken with an high-voltage probe, attenuation $\times 1000$, 
 
 Measures are taken without gas flowing, to see the output voltage of the circuit, and with an helium flow of $\SI{2}{\liter/\minute}$, to measure the actual output with different amplitude and frequencies. It's also measured an effective current intensity, i.e. a mean value in a time period, to evaluate plasma application's effects on biological tissues.
 
+Every lenght measure is done with a decimal caliper, giving an uncertainity of $\SI{0.1}{\milli\meter}$.
+
 \subsection{Measures without gas}
 It's used the hv probe to pick tension difference between secondary circuit ouput and ground.
 Once a work frequency, $f$, is set, we take voltage wave shape for different values of opening time of the circuit, $\Delta t$, in the selectable range.
@@ -68,8 +70,8 @@ The error from the fit function is added quadratically to the error given by the
 
 
 Results are shown in figure \ref{fig:nogas} for the two sources.
-In source A we can see a linear behavior for $4 \le \Delta t \le \SI{16}{\micro\second}$, with tensions from $2$ to $\SI{9}{\kilo\volt}$; for greater $\Delta t$ data loses linearity. The upper limit on chosen $\Delta t$ is given by the need of a minimum time interval between two pulses.
-Also in source B we can see a linear behavior, but tensions are much larger: for $1 \le \Delta t \le \SI{8}{\micro\second}$ tension goes from $4$ to $\SI{12}{\kilo\volt}$. With this source the upper limit for $\Delta t$ is given by voltage output, measures are taken only for tensions needed to have plasma in a DBD regimen, higher opening times would only stress more circuit components.
+In source A we can see a linear behavior for $4 \le \Delta t \le \SI{16}{\micro\second}$, with tensions from $\num{2.02(1)}$ to $\SI{9.25(5)}{\kilo\volt}$; for greater $\Delta t$ data loses linearity. The upper limit on chosen $\Delta t$ is given by the need of a minimum time interval between two pulses.
+Also in source B we can see a linear behavior, but tension values are larger: for $1 \le \Delta t \le \SI{8}{\micro\second}$ tension goes from $\num{3.66(6)}$ to $\SI{11.76(22)}{\kilo\volt}$. With this source the upper limit for $\Delta t$ is given by voltage output, measures are taken only for tension needed to have plasma in a DBD regimen, higher opening times would only stress more circuit components.
 Both sources have near the same output for different frequencies, to confirm it data are fitted with a linear function in the range $0-\SI{16}{\micro\second}$ for source A and range $0-\SI{8}{\micro\second}$ for B. Evalueted parameters are compared, as shown in figure \ref{fig:linnogas}. The values are displaced with random distances from the mean value, so it can be concluded that the behavior is not defined by the frequency.
 \begin{figure}
  \centering
@@ -92,108 +94,184 @@ Both sources have near the same output for different frequencies, to confirm it 
  \subfloat[Source B]{
     \includegraphics[width=0.4\textwidth]{Images/Electric/mq_nogas_B.png}
  }
- \caption{Linear fit parameters of $V_{peak}(\Delta t)$ for both sources.}
+ \caption{Voltage peak are fitted with a linear function $V_{peak} = m \Delta t + q$, in figure we see fit parameters at different frequencies for both sources, in dashes the mean value.}
  \label{fig:linnogas}
 \end{figure}
 
 
 \subsection{Measures with gas}
-Introduction of an helium flow at the end of the head will produce plasma ignition, tension will be different, and it will be possible to measure intensity of the current carried by plasma. To assure safety of plasma application, that cells aren't damaged by plasma, it must be avoided a large current intensity and arc formation. Studies of conditions for DBD discharges and arc transitions (\cite{kogelschatz:jpa-00255561}, \cite{TOMAI2006409}, \cite{PhysRev.34.876}) suggests that maximum current values are in the order of hundreds of $\si{\milli\ampere}$.
+Introduction of an helium flow at the end of the head will produce plasma ignition, tension will be different, and it will be possible to measure intensity of the current carried by plasma. To assure safety of plasma application, that cells aren't damaged by plasma, it must be avoided a large current intensity and arc formation. Studies of conditions for DBD discharges and arc transitions (\cite{kogelschatz:jpa-00255561}, \cite{TOMAI2006409}, \cite{PhysRev.34.876}) suggests that maximum current values are in the order of  of ten $\si{\milli\ampere}$.
 
-Current intensity is measured using a copper sheet with dimensions $\SI{1}{\centi\metre} \times \SI{1}{\centi\metre} \times \SI{0.1}{\centi\metre}$. Plasma plume impacts on the sheet, the current probe is connected to it and send the signal to the oscilloscope, with cable shielding to lessen interferences.
-Distance from source head and target is chosen with a typical value for treatments, relation between current and target distance is studied in \cite{unipd:ceciliaDBD}.
+Current intensity is measured using a copper sheet with dimensions $\SI{10}{\milli\meter} \times \SI{10}{\milli\meter} \times \SI{1}{\milli\meter}$. Plasma plume impacts on the sheet, the current probe is connected to it and send the signal to the oscilloscope, with cable shielding to lessen interferences.
+Current intensity and target distance relation is studied in\cite{unipd:ceciliaDBD}, in this study the distance between target and electrode is chosen around typical value for treatments permitted by head's sources geometry: $\SI{10}{\milli\meter}$ for source A and $\SI{15}{\milli\meter}$ for source B (a bit longer due to electrode position in the head).
 
-In figure \ref{fig:tens_curr} can be seen a typical measure for $\Delta t = {}{}$ and $f = $ with source A.
-
-\begin{comment}
-\subsection{Misure con elio}
-Per caratterizzare il funzionamento della sorgente nelle possibili condizioni di trattamento, vengono misurate contemporaneamente, su due diversi canali dell'oscilloscopio, tensione alla quale si trova l'elettrodo e corrente che fluisce nel plasma. Per la misura di corrente viene fatto impattare il plasma su una piastra di rame  di dimensioni \SI{2}{\centi\metre} $\times$ \SI{2}{\centi\metre} $\times$ \SI{0.5}{\centi\metre}, ad una distanza di \SI{1}{\centi\metre} dall'elettrodo della sorgente, collegata alla sonda di corrente.
-Nuovamente vengono effettuate misure al variare di frequenza ($f$) e duty cycle ($\Delta t$), con le stesse modalità delle misure di tensione.
-Tutte le misure sono effettuate con flusso di gas He pari a $\SI{2}{\litre/\minute}$.
-Si ottengono curve come in figura \ref{fig:corrente_es}.
-
+In figure \ref{fig:tens_curr} can be seen a typical measure for $\Delta t = \SI{8}{\micro\second}$ and $f =\SI{5}{\kilo\hertz}$ with source B. For both sources there is a current peak in correspondence of voltage pulse that increase with tension, however for source B there are measures where the peak is so low that it is covered by noise.
 \begin{figure}
 \centering
- \includegraphics[width=.7\textwidth]{Immagini/corrente_es.png}
-\caption{Esempio di misure di corrente per $f = \SI{5}{\kilo\hertz}$ e $\Delta t = \SI{24}{\micro\second}$, prototipo 1.}
-\label{fig:corrente_es}
+ \includegraphics[width=0.6\textwidth]{Images/Electric/tenscurr_f5_t8.png}
+ \caption{Example measure with source B for $f = \SI{5}{\kilo\hertz}$ and $\Delta t = \SI{8}{\micro\second}$}
+ \label{fig:tens_curr}
 \end{figure}
 
 
-
-\subsection{Tensione e corrente con elio}
-Le misure di tensione presentano l'andamento trovato precedentemente, mentre le misure di corrente presentano un primo picco negativo seguito da un picco più basso di segno opposto, positivo. L'analisi proposta è uguale a quella pensata per i set di misure precedenti: vengono tagliate le oscillazioni ad alta frequenza, ricostruito il segnale (aggiungendo l'errore dovuto al taglio delle alte frequenze e agli strumenti di misura) e il valore del minimo viene trovato interpolando con una funzione di Landau. Da questo fit vengono calcolati valori e posizione del picco di tensione, del picco negativo di corrente e del picco positivo di corrente.
-In figura \ref{fig:landau} un esempio del fit.
-
+Data analysis is done as before, cleaning measures from noise, estimating the peak and it's error. Results are shown in figures \ref{fig:Vpp_gas} and \ref{fig:I_gas}, measures where the current peak is not distinguishable are excluded from the plot.
 \begin{figure}
-\centering
-\includegraphics[width=.6\textwidth]{Immagini/es_fit_landau.png}
-\caption{Esempio di fit del picco di corrente, $f = \SI{5}{\kilo\hertz}$ e $\Delta t = \SI{24}{\micro\second}$}
-\label{fig:landau}
+ \centering
+ \subfloat[Source A]{
+    \includegraphics[width=0.6\textwidth]{Images/Electric/Vpp_gas_A.png}
+ }
+ 
+ \subfloat[Source B]{
+    \includegraphics[width=0.6\textwidth]{Images/Electric/Vpp_gas_B.png}
+ }
+ \caption{Absolute peak's value of secondary circuit in function of $\Delta t$ at different $f$, with an helium flux of $\SI{2}{\liter/\minute}$, for both sources.}
+ \label{fig:Vpp_gas}
 \end{figure}
 
-Le tensioni del picco così calcolate, al variare della duty cycle per le diverse frequenze, sono presentate in figura \ref{fig:picchi}.
-Nuovamente troviamo un andamento lineare per la tensione tra i $\num{4}$ e i $\SI{16}{\micro\second}$. Anche il picco negativo di corrente presenta questo andamento lineare, mentre per il picco positivo non è possibile identificare un comportamento simile, i valori si disperdono.
+\begin{figure}
+ \centering
+ \subfloat[Source A]{
+    \includegraphics[width=0.6\textwidth]{Images/Electric/I_gas_A.png}
+ }
+ 
+ \subfloat[Source B]{
+    \includegraphics[width=0.6\textwidth]{Images/Electric/I_gas_B.png}
+ }
+ \caption{Absolute peak's value of current intensity on copper target with an helium flux of $\SI{2}{\liter/\minute}$, in function of $\Delta t$ at different $f$, for both sources.}
+ \label{fig:I_gas}
+\end{figure}
+
+Tension peaks are slightly lower then values without gas, as expected seeing the plume as an additional load at the end of the circuit (\cite{lieberman1994principles}), but the linear behavior for $V_{pp} \le \SI{10}{\kilo\volt}$ remains and we can compare linearity for different frequencies. Current intensities grows with tension and are higher for source A, but it can be explained by different distances electrode-target. Analysis of linearity also for those measures can show if there is a different behavior changing pulse frequency or source.
+Figures \ref{fig:lingas_Vpp} and \ref{fig:lingas_I} shows results of the linearity study at different frequencies.
+Tension values, for both sources, are scattered around the mean value parameter, confirming independence of voltage growth from pulses frequencies. For source A we find a slope parameter $m_{V} = \SI{0.366(1)}{\kilo\volt/\micro\second}$, for source B $m_{V} = \SI{1.145(8)}{\kilo\volt/\micro\second}$, larger due to the different circuit, as mentioned before and as can be seen from figures.
+Current values shows a different behavior: in source A we find a stady increase of parameters with higher frequencies, in source B data are more scattered and we couldn't extrapolate a behavior. However current slope is in the same range of values for the sources, with a maximum for source A of $m_{I} = \SI{1.10(1)}{\milli\ampere/\micro\second}$ and for source B of $m_{I} = \SI{1.04(17)}{\milli\ampere/\micro\second}$.
+Due to low signal to noise ratio in measures for source B, it is not possible to esclude a relation between current slope (how much current intensity grows increasing opening time) and pulse frequency, however it is established a maximum limit value to take into consideration when using the device.
 
 \begin{figure}
-\centering
-\subfloat[][Modulo del picco di tensione.]
-  {\includegraphics[width=.65\textwidth]{Immagini/vpp_corrente.png}}
-\\
-\subfloat[][Modulo del picco primario di corrente.]
-  {\includegraphics[width=.65\textwidth]{Immagini/I1_corrente.png}}
-\\
-\subfloat[][Picco secondario di corrente.]
-  {\includegraphics[width=.65\textwidth]{Immagini/I2_corrente.png}}
-\caption{Valori dei picchi misurati al variare del tempo di apertura del circuito e per diverse frequenze.}
-\label{fig:picchi}
+ \centering
+ \subfloat[Source A]{
+    \includegraphics[width=0.4\textwidth]{Images/Electric/mq_V_gas_A.png}
+ }
+ \subfloat[Source B]{
+    \includegraphics[width=0.4\textwidth]{Images/Electric/mq_V_gas_B.png}
+ }
+ \caption{Voltage peak are fitted with a linear function $V_{peak} = m \Delta t + q$, in figure we see fit parameters at different frequencies for both sources, in dashes the mean value.}
+ \label{fig:lingas_Vpp}
 \end{figure}
 
 
-Nuovamente, per visualizzare in maniera esplicita l'effetto della variazione della frequenza, vengono calcolati i coefficenti dell'interpolazione lineare per le tensioni di picco e per le correnti di picco negativo, presentati in figura \ref{fig:fitlin_cor}. 
-Per le tensioni risulta un comportamento identico al precedente, dove i valori si assestano attorno una media lievemente inferiore rispetto le misure in assenza di elio.
-Per il valore massimo di corrente viene trovato un aumento in funzione della frequenza di funzionamento della sorgente.
-
 \begin{figure}
-\centering
-\subfloat[][Pendenze dei picchi di tensione.]
-  {\includegraphics[width=.48\textwidth]{Immagini/mVpp_cor.png}}
-\subfloat[][Intercette dei picchi di tensione.]
-  {\includegraphics[width=.48\textwidth]{Immagini/qVpp_cor.png}}
-\newline
-\subfloat[][Pendenze dei picchi di corrente.]
-  {\includegraphics[width=.48\textwidth]{Immagini/mI1_cor.png}}
-\subfloat[][Intercette dei picchi di corrente.]
-  {\includegraphics[width=.48\textwidth]{Immagini/qI1_cor.png}}
-\caption{Parametri dell'interpolazione lineare dei picchi delle misure di tensione e corrente.}
-\label{fig:fitlin_cor}
+ \centering
+ \subfloat[Source A]{
+    \includegraphics[width=0.4\textwidth]{Images/Electric/mq_I_gas_A.png}
+ }
+ \subfloat[Source B]{
+    \includegraphics[width=0.4\textwidth]{Images/Electric/mq_I_gas_B.png}
+ }
+ \caption{Current peak are fitted with a linear function $I_{peak} = m \Delta t + q$, in figure we see fit parameters at different frequencies for both sources. For source A we see in dashes a linear fit, for source B the mean value.}
+ \label{fig:lingas_I}
 \end{figure}
 
-\end{comment}
+
+\subsection{Plasma impedance}
+
+From tension and current measuraments we can define plasma's electric behavior, in this subsection are used source B measures to estimate plasma impedance. Tension output from secondary circuit of head's transformer can be modelized as a dumped sine wave around the peak, as in equation \ref{eq:dmpsin}.
+\begin{equation}
+ V_{S} = V_{0} + V_{\text{pulse}} \sin{(2 \pi f_{V_s} t)} e^{-t/\tau}
+ \label{eq:dmpsin}
+\end{equation}
+
+This formula gives an explicit parameter $f_{V_s}$ that is an estimation of the frequency of the single pulse (the frequency that defines rise and fall of the pulse, different from the work frequency of different pulses imposed by Arduino, called $f$). This parameter is important because plasma's electric behavior depends on this frequency, analyzing signal with different frequencies it's possible to understand plasma's parameters. Frequncy pulse it's different for every opening time of the circuit, $\Delta t$, but it's constant when changing frequency of the pulses, as explained before analyzing tension output at different frequencies. In figure \ref{fig:fitexp} and \ref{fig:parexp} are an example of a peak fitted with the function in formula \ref{eq:dmpsin}, it's fourier transform to show peak frequency corresponding to $f_{V_s}$ for that specific $\Delta t$ and different resulting parameters for different $\Delta t$.
+
+\begin{figure}
+ \centering
+ \subfloat[Dumped sin fit]{
+    \includegraphics[width=0.4\textwidth]{Images/Electric/VFitexp_f8_t5.png}
+ }
+ \subfloat[Fourier transform]{
+    \includegraphics[width=0.4\textwidth]{Images/Electric/Trasf_f8_t5_clean.png}
+ }
+ \caption{On the left example fit of a tension peak, $f = \SI{8}{\kilo\hertz}$ $\Delta t = \SI{5}{\micro\second}$ with function \ref{eq:dmpsin}; on the right the fourier transform of the measure in the interval [$4-\SI{6}{\micro\second}$] that shows the frequency peak $f_{V_s}$}
+ \label{fig:fitexp}
+\end{figure}
+
+\begin{figure}
+ \centering
+ \subfloat[$V_{\text{pulse}}$]{
+    \includegraphics[width=0.4\textwidth]{Images/Electric/fitexp_V0_f8.png}
+ }
+ 
+ \subfloat[$\tau$]{
+    \includegraphics[width=0.4\textwidth]{Images/Electric/fitexp_tau_f8.png}
+ }
+ \subfloat[$f_{V_s}$]{
+    \includegraphics[width=0.4\textwidth]{Images/Electric/fitexp_w_f8.png}
+ }
+ \caption{Fit parameters of pulses with $f=\SI{8}{\kilo\hertz}$ for different $\Delta t$.}
+ \label{fig:parexp}
+\end{figure}
+
+Fit parameters follows always those presented: as expected, with higher opening times $ V_{\text{pulse}} $ grows and $\tau$ lowers, while $f_{V_s}$ has it's own behavior that depends from tension secondary output $V_s$.
+To estimate plasma's impedance it's useful to observe that voltage peak is quite large: it varies of $3\%$ of peak's value in $\SI{150}{\nano\second}$ around it. As tension and current peaks times differs always by a time interval $|t_{V_p} - t_{I_p}| \leq \SI{150}{\nano\second}$, it's possible to assume $V_{t_{I_p}} \simeq V(t_{V_p})$, i.e. that tension during the current peak maximum is equal to tension's peak value. With this approximation, it makes sense to plot tension's peak values against current's peak values, as in figure \ref{fig:viplot}, and given a $\Delta t$ it's possible to give an estimation of impedance module as $Z = \frac{V_{p}}{I_{p}}$. Results are shown in figure \ref{fig:zest}, vs opening times and vs frequency of single pulse $f_{V_s}$.
+
+\begin{figure}
+ \centering
+ \includegraphics[width=0.6\textwidth]{Images/Electric/VI_B.png}
+ \caption{Tension's peak values against current's peak values for different $\Delta t$ and frequencies.}
+ \label{fig:viplot}
+\end{figure}
+
+\begin{figure}
+ \centering
+ \includegraphics[width=0.8\textwidth]{Images/Electric/z_f8.png}
+ \caption{Impedance module estimation for different opening times (left) corresponding to different frequencies (right).}
+ \label{fig:zest}
+\end{figure}
+
+From the graphs it's possible to extrapolate that plasma impedance goes from $\SI{2.98(11)}{\mega\ohm}$ to $\SI{11.82(219)}{\mega\ohm}$, with near constant values in the range of opening times $7-\SI{9}{\micro\second}$.
+From a deeper analysis and specific measures it could be possible to expand the analysis here presented and estimate plasma's electrical resistance, capacitance or induttance.
+
+\subsection{Effective current}
+Current effects in applications on biological tissues have to take into consideration current intensity in a time interval tipically larger then the pulse widths used in our sources (\cite{doi:10.1002/ppap.200731208}, \cite{unipd:ceciliaDBD}). It's possible to estimate an effective current that is more appropriate to take into consideration when evaluating damage due to currents, as a mean of current intensity in a defined time interval calculated with \ref{eq:ieff}, taking $t_2-t_1 = \SI{1}{\milli\second}$. The effective current takes into consideration that current values are very small for all the time between two pulses.
+\begin{equation}
+ \centering
+ I_{\text{eff}} = \frac{1}{(t_2-t_1)}\sqrt{\int_{t_1}^{t_2} I^2 \,dt}
+ \label{eq:ieff}
+\end{equation}
+
+Figure \ref{fig:ieff} shows effective currents measured for both sources. Values are significantly smaller then maximum peak values, expecially for source B where oscillations after the main peak are smaller.
+
+\begin{figure}
+ \centering
+ \subfloat[Source A]{
+    \includegraphics[width=0.4\textwidth]{Images/Electric/Ieff_A.png}
+ }
+ \subfloat[Source B]{
+    \includegraphics[width=0.4\textwidth]{Images/Electric/Ieff_B.png}
+ }
+ \caption{Effective currents in a time interval of $\SI{1}{\milli\second}$.}
+ \label{fig:ieff}
+\end{figure}
+
 
 \subsection{Time intervals}
 
-
-
-
-\begin{comment}
-
-Data la possibilità di visualizzare contemporaneamente sia la tensione sia la corrente in uscita dal circuito, viene proposta un'analisi delle variazioni temporali tra i diversi picchi. In particolare viene calcolato il tempo tra i due picchi di corrente e tra il picco di tensione e il picco di corrente primario, mostrati in figura \ref{fig:tempi}.
-In entrambi i casi non è possibile estrapolare un andamento particolare, indicando che non vi sono differenze significative nei tempi di salita dei picchi al variare del tempo di apertura del circuito e della frequenza.
+Time width of signal affects reaction's probabilities (chapter \ref{ch:shape}) and plasma's power deposition(chapter \ref{ch:temperature}), here we try to give an estimate of this time interval. It can be defined as the FWHM of measured peaks, evaluated as the time when we measure half of tension or current maximum value. As the characterization of the sources shows an almost equal behavior, this study is made only for the latest version of the source, that's the only one used in the following chapters. Results are shown in figure \ref{fig:times}.
+For every frequence there is an unexpected quadratic behavior of tension widths with a minimum for a $\Delta t = \SI{5}{\micro\second}$. It is possible to give an estimation of pulse width with a mean value between this minimum and maximum values obtained for $\Delta t = \SI{1}{\micro\second}$, it is $T_{V} = \SI{963(15)}{\nano\second}$. For currents, widths have great uncertainity where the peak is low, but it is possible to evaluate a mean value for $\Delta t \ge \SI{6}{\micro\second}$, and it is $T_{I} = \SI{968(28)}{\nano\second}$.
+Values for the two measures are compatible and they are a good estimation of pulse time duration.
 
 \begin{figure}
-\centering
-\subfloat[][Tempo tra i picchi di corrente.]
-  {\includegraphics[width=.48\textwidth]{Immagini/ti2ti1.png}}
-\subfloat[][Tempo tra picco tensione e primo picco di corrente.]
-  {\includegraphics[width=.48\textwidth]{Immagini/ti1tv.png}}
-\caption{Misura delle differenze temporali tra i picchi.}
-\label{fig:tempi}
+ \centering
+ \subfloat[Voltage]{
+    \includegraphics[width=0.4\textwidth]{Images/Electric/tempi_V.png}
+ }
+ \subfloat[Current]{
+    \includegraphics[width=0.4\textwidth]{Images/Electric/tempi_I.png}
+ }
+ \caption{FWHM of tension and current peaks varying opening time, for different frequencies.}
+ \label{fig:times}
 \end{figure}
 
-\end{comment}
-
-\subsection{Effective current}
 
 \begin{comment}
 
@@ -288,3 +366,90 @@ Viene confermata l'assenza di un andamento specifico al variare della frequenza.
 \end{figure}
 
 \end{comment}
+
+
+\begin{comment}
+\subsection{Misure con elio}
+Per caratterizzare il funzionamento della sorgente nelle possibili condizioni di trattamento, vengono misurate contemporaneamente, su due diversi canali dell'oscilloscopio, tensione alla quale si trova l'elettrodo e corrente che fluisce nel plasma. Per la misura di corrente viene fatto impattare il plasma su una piastra di rame  di dimensioni \SI{2}{\centi\metre} $\times$ \SI{2}{\centi\metre} $\times$ \SI{0.5}{\centi\metre}, ad una distanza di \SI{1}{\centi\metre} dall'elettrodo della sorgente, collegata alla sonda di corrente.
+Nuovamente vengono effettuate misure al variare di frequenza ($f$) e duty cycle ($\Delta t$), con le stesse modalità delle misure di tensione.
+Tutte le misure sono effettuate con flusso di gas He pari a $\SI{2}{\litre/\minute}$.
+Si ottengono curve come in figura \ref{fig:corrente_es}.
+
+\begin{figure}
+\centering
+ \includegraphics[width=.7\textwidth]{Immagini/corrente_es.png}
+\caption{Esempio di misure di corrente per $f = \SI{5}{\kilo\hertz}$ e $\Delta t = \SI{24}{\micro\second}$, prototipo 1.}
+\label{fig:corrente_es}
+\end{figure}
+
+
+
+\subsection{Tensione e corrente con elio}
+Le misure di tensione presentano l'andamento trovato precedentemente, mentre le misure di corrente presentano un primo picco negativo seguito da un picco più basso di segno opposto, positivo. L'analisi proposta è uguale a quella pensata per i set di misure precedenti: vengono tagliate le oscillazioni ad alta frequenza, ricostruito il segnale (aggiungendo l'errore dovuto al taglio delle alte frequenze e agli strumenti di misura) e il valore del minimo viene trovato interpolando con una funzione di Landau. Da questo fit vengono calcolati valori e posizione del picco di tensione, del picco negativo di corrente e del picco positivo di corrente.
+In figura \ref{fig:landau} un esempio del fit.
+
+\begin{figure}
+\centering
+\includegraphics[width=.6\textwidth]{Immagini/es_fit_landau.png}
+\caption{Esempio di fit del picco di corrente, $f = \SI{5}{\kilo\hertz}$ e $\Delta t = \SI{24}{\micro\second}$}
+\label{fig:landau}
+\end{figure}
+
+Le tensioni del picco così calcolate, al variare della duty cycle per le diverse frequenze, sono presentate in figura \ref{fig:picchi}.
+Nuovamente troviamo un andamento lineare per la tensione tra i $\num{4}$ e i $\SI{16}{\micro\second}$. Anche il picco negativo di corrente presenta questo andamento lineare, mentre per il picco positivo non è possibile identificare un comportamento simile, i valori si disperdono.
+
+\begin{figure}
+\centering
+\subfloat[][Modulo del picco di tensione.]
+  {\includegraphics[width=.65\textwidth]{Immagini/vpp_corrente.png}}
+\\
+\subfloat[][Modulo del picco primario di corrente.]
+  {\includegraphics[width=.65\textwidth]{Immagini/I1_corrente.png}}
+\\
+\subfloat[][Picco secondario di corrente.]
+  {\includegraphics[width=.65\textwidth]{Immagini/I2_corrente.png}}
+\caption{Valori dei picchi misurati al variare del tempo di apertura del circuito e per diverse frequenze.}
+\label{fig:picchi}
+\end{figure}
+
+
+Nuovamente, per visualizzare in maniera esplicita l'effetto della variazione della frequenza, vengono calcolati i coefficenti dell'interpolazione lineare per le tensioni di picco e per le correnti di picco negativo, presentati in figura \ref{fig:fitlin_cor}. 
+Per le tensioni risulta un comportamento identico al precedente, dove i valori si assestano attorno una media lievemente inferiore rispetto le misure in assenza di elio.
+Per il valore massimo di corrente viene trovato un aumento in funzione della frequenza di funzionamento della sorgente.
+
+\begin{figure}
+\centering
+\subfloat[][Pendenze dei picchi di tensione.]
+  {\includegraphics[width=.48\textwidth]{Immagini/mVpp_cor.png}}
+\subfloat[][Intercette dei picchi di tensione.]
+  {\includegraphics[width=.48\textwidth]{Immagini/qVpp_cor.png}}
+\newline
+\subfloat[][Pendenze dei picchi di corrente.]
+  {\includegraphics[width=.48\textwidth]{Immagini/mI1_cor.png}}
+\subfloat[][Intercette dei picchi di corrente.]
+  {\includegraphics[width=.48\textwidth]{Immagini/qI1_cor.png}}
+\caption{Parametri dell'interpolazione lineare dei picchi delle misure di tensione e corrente.}
+\label{fig:fitlin_cor}
+\end{figure}
+
+\end{comment}
+
+
+
+\begin{comment}
+
+Data la possibilità di visualizzare contemporaneamente sia la tensione sia la corrente in uscita dal circuito, viene proposta un'analisi delle variazioni temporali tra i diversi picchi. In particolare viene calcolato il tempo tra i due picchi di corrente e tra il picco di tensione e il picco di corrente primario, mostrati in figura \ref{fig:tempi}.
+In entrambi i casi non è possibile estrapolare un andamento particolare, indicando che non vi sono differenze significative nei tempi di salita dei picchi al variare del tempo di apertura del circuito e della frequenza.
+
+\begin{figure}
+\centering
+\subfloat[][Tempo tra i picchi di corrente.]
+  {\includegraphics[width=.48\textwidth]{Immagini/ti2ti1.png}}
+\subfloat[][Tempo tra picco tensione e primo picco di corrente.]
+  {\includegraphics[width=.48\textwidth]{Immagini/ti1tv.png}}
+\caption{Misura delle differenze temporali tra i picchi.}
+\label{fig:tempi}
+\end{figure}
+
+\end{comment}
+
