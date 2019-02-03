@@ -6,5 +6,5 @@
 \contentsline {subsection}{\numberline {1.2.1}Measures without gas}{5}
 \contentsline {subsection}{\numberline {1.2.2}Measures with gas}{8}
 \contentsline {subsection}{\numberline {1.2.3}Plasma impedance}{9}
-\contentsline {subsection}{\numberline {1.2.4}Effective current}{13}
+\contentsline {subsection}{\numberline {1.2.4}Effective current}{15}
 \contentsline {subsection}{\numberline {1.2.5}Time intervals}{15}

@@ -1,8 +1,8 @@
 \chapter{Electric characterization}
 \label{ch:electric}
 \section{Electric scheme and description}
-Development of electric scheme used to build Plasma Coagulation Controller is highly influenced by the need of flexibility in output and mobility for wound treatment. To produce plasma as DBD, in air with Helium or Argon as ignition gasses, it is necessary to apply high electric fields in little space, while to permit easy medical application the design of the head must be compact with particular attention to electric safety measuraments.
-It is common to produce electric fields with fast voltage pulses for various uses, including jet or DBD plasma production (\cite{Upadhyay:hvpulse}, \cite{Jarrige:plumecharacteristics}, \cite{Darny:jetplume}), the scheme used in this study outputs a voltage pulse with an amplitude up to $\SI{10}{\kilo\volt}$ and frequencies up to $\SI{60}{\kilo\hertz}$.
+In this chapter is discussed the development of Plasma Coagulation Controller eletcric scheme and its characterization. Circuit design, as the entire model design, is highly influenced by needs of flexibility and mobility of the source for wound treatment. To produce plasma as DBD, in air, with helium or argon as ignition gasses, it is necessary to apply high electric fields in little space. Manwhile, to make possible easy medical application the source head (where there si plasma output) must be compact, with particular attention to electric safety measuraments.
+It is common to produce electric fields with fast voltage pulses for various uses, including jet or DBD plasma production (\cite{Upadhyay:hvpulse}, \cite{Jarrige:plumecharacteristics}, \cite{Darny:jetplume})), the scheme used in this study outputs a voltage pulse with an amplitude from $\SI{1}{\kilo\volt}$ to $\SI{10}{\kilo\volt}$ and pulses frequencies from $\SI{5}{\kilo\hertz}$ to $\SI{60}{\kilo\hertz}$.
 
 A rappresentation of power and signal lines is in figure \ref{fig:electricline}. The circuit is divided mainly in two parts %as described in chapter \ref{ch:source}
 : the controller, with alimentation and settings controls, and the head, where the discharge happens and plasma is emitted.
@@ -13,14 +13,14 @@ A rappresentation of power and signal lines is in figure \ref{fig:electricline}.
  \label{fig:electricline}
 \end{figure}
 
-The line divides in:
+Lines divides in:
 \begin{itemize}
- \item \textbf{Alimentation} : the $\SI{220}{\volt}$ DC power line goes in a transformer that gives a $\SI{22}{\volt}$ tension to the head, passing through a diode bridge. This tension aliments the Driver Circuit on the head.
- \item \textbf{Arduino and trigger} : the power line is reduced to $\SI{12}{\volt}$ necessaries to aliment an Arduino controller and a laser. From an analogical output of the Arduino a PWM wave goes to the laser trigger, it transmits information on the wave, frequency and duration, with an optical fiber that ends with a photodiode installed on the driver circuit. Wave frequency is setted by the Arduino, wave duration is setted giving the opening time of the MOSFET that passes the signal to be amplified and sent to the head's transformer. With this setup the high-voltage line is entirely decopuled from the controller, so there are not problems of signal reflection on the power line or the Arduino.
- \item \textbf{Head} : the Driver Circuit receives a power line of $\SI{22}{\volt}$ and an optical trigger that defines frequency and duration of the voltage pulse. When the trigger gives the start signal, the transformer on the head receives on primary circuit a voltage of hundreds $\si{\volt}$ and outputs from secondary circuit a voltage of thousends $\si{\volt}$. Connected to the ouput there is the electrode inside a capillary tube of dielectric material.
+ \item \textbf{Alimentation} : the $\SI{220}{\volt}$ DC power line goes in a transformer that gives a reduced tension to the head, $\SI{22}{\volt}$ in the figure, passing through a diode bridge. This tension aliments the Driver Circuit on the head.
+ \item \textbf{Arduino and trigger} : the power line is reduced to $\SI{12}{\volt}$ necessaries to aliment an Arduino controller and a laser. From an Arduino analogical output a PWM wave goes to the laser trigger, it transmits information on the wave, frequency and duration, with an optical fiber that ends with a photodiode installed on the driver circuit. Wave frequency is setted by the Arduino, wave duration is setted giving the opening time of the MOSFET that passes the signal to be amplified and sent to the head's transformer. With this setup the high-voltage line is entirely decopuled from the controller, so there are not problems of signal reflection on the power line or the Arduino.
+ \item \textbf{Head} : the Driver Circuit receives a power line and an optical trigger that defines frequency and duration of the voltage pulse. When the trigger gives the start signal, the transformer on the head receives on primary circuit a voltage of hundreds $\si{\volt}$ and outputs from secondary circuit a voltage of thousends $\si{\volt}$. Connected to the output there is the electrode inside a capillary tube of dielectric material.
 \end{itemize}
 
-To understand signal propagation is presented a simulation in figure \ref{fig:signals}, obtained with a simplified scheme with Spice. As shown, once the PWM trigger starts, tension on the primary goes from alimentation value to $0$, when the PWM signal ends (after $\SI{6}{\micro\second}$, it has a pulse with amplitude of $\SI{150}{\volt}$ (width of $\SI{1.2}{\micro\second}$) and a pulse of $\SI{-5000}{\volt}$ at the output of secondary circuit. A longer PWM implies a longer charging time, so an higher pulse. Ultimately, amplitude of the pulse is proportional to the width of the PWM signal and to know working conditions of the source it is necessary to study the relation between opening time and amplitude output on the actual circuit.
+To understand signal propagation is presented a simulation in figure \ref{fig:signals}, obtained with a simplified scheme with Spice. As shown, once the PWM trigger starts, tension on the primary goes from alimentation value to $0$, when the PWM signal ends (after $\SI{6}{\micro\second}$, it has a pulse with amplitude of $\SI{150}{\volt}$ (width of $\SI{1.2}{\micro\second}$) and a pulse of $\SI{-5000}{\volt}$ at the output of secondary circuit. A longer PWM implies a longer charging time, so an higher pulse. Ultimately, amplitude of the pulse is proportional to the width of the PWM signal and to know working conditions of the source it is necessary to study relation between opening time and amplitude output on the actual circuit.
 
 \begin{figure}
  \centering
@@ -29,23 +29,23 @@ To understand signal propagation is presented a simulation in figure \ref{fig:si
  \label{fig:signals}
 \end{figure}
 
-During this thesis study were built two sources, with two controllers and heads, the first one will be called source A, the second one source B. From an electrical perspective the two models are almost identical, the second one comes with a low-pass filter on the driver circuit (to diminish high frequencies noise) and higher amplitude capabilities thanks to a different turns ratio of head's transformer.
-The characterization of electric features is made measuring output tension and current with different settings for the pulse.
+During this thesis study were built two sources, with two controllers and heads, the first one will be called source A, the second one source B. From an electrical perspective the two models are almost identical, the second one comes with a low-pass filter on the driver circuit (to diminish high frequencies noise) and higher amplitude capabilities thanks to a different turns ratio in head's transformer.
+The characterization of electric features is made measuring output tension and current with different settings.
 
 \section{Output characterization}
-Plasma ignition and discharge features are regolated by electric field generated in the circuit head and power deposition to flowing gas, so the parameters involved are pulse amplitude and frequency arriving on the electrode, settable in the circuit. Medical application of plasma requires low current intensity, in this study it's measured the current flowing on a copper plate targeted by the plasma plume at a certain distance. Ultimately the different parameters for the measures are: $\Delta t$, opening time of the trigger that defines amplitude of the pulses, and $f$, frequency of the pulses. 
+Plasma ignition and discharge features are regolated by electric field generated in the circuit head and power deposition to flowing gas, so the parameters involved are pulse amplitude and frequency arriving on the electrode, settable in the circuit. Medical application of plasma requires low current intensity, in this study it's measured current intensity flowing on a copper sheet targeted by the plasma plume at a certain distance. Ultimately the different parameters for the measures are: $\Delta t$, opening time of the trigger that defines amplitude of the pulses, and $f$, frequency of the pulses. 
 
-Voltage signal are taken with an high-voltage probe, attenuation $\times 1000$, current signal with a \emph{Tektronix CT2} probe that gives a $\SI{1}{\milli\volt}$ for a current of $\SI{1}{\milli\ampere}$. All signals are measured with a \emph{Yokogawa DL9040} oscilloscope, from which is saved the waveform of voltage and current.
+Voltage signals are taken with an high-voltage probe, attenuation $\times 1000$, current signal with a \emph{Tektronix CT2} probe that gives a $\SI{1}{\milli\volt}$ for a current of $\SI{1}{\milli\ampere}$. All signals are measured with a \emph{Yokogawa DL9040} oscilloscope, from which is saved the waveform of voltage and current.
 
-Measures are taken without gas flowing, to see the output voltage of the circuit, and with an helium flow of $\SI{2}{\liter/\minute}$, to measure the actual output with different amplitude and frequencies. It's also measured an effective current intensity, i.e. a mean value in a time period, to evaluate plasma application's effects on biological tissues.
+Measures are taken without gas flowing, to see clean output voltage of the circuit, and with an helium flow of $\SI{2}{\liter/\minute}$, to measure the actual output in presence of plasma, with different amplitude and frequencies. It's also measured an effective current intensity, i.e. a mean value in a time period, to evaluate plasma application's effects on biological tissues.
 
-Every lenght measure is done with a decimal caliper, giving an uncertainity of $\SI{0.1}{\milli\meter}$.
+Every lenght measure is done with a decimal caliper, it's taken an uncertainity of $\SI{0.1}{\milli\meter}$.
 
 \subsection{Measures without gas}
-It's used the hv probe to pick tension difference between secondary circuit ouput and ground.
+It's used the hv probe to pick tension's differences between secondary circuit ouput and ground.
 Once a work frequency, $f$, is set, we take voltage wave shape for different values of opening time of the circuit, $\Delta t$, in the selectable range.
-To assure that a voltage pulse ends before another starts, this range is different for different frequencies: higher work frequencies means more pulses in a given time, taking into consideration pulse oscillations time width, proportional to opening time, the range of possible $\Delta t$ is smaller at higher frequencies.
-A typical obtained measure is shown in figure \ref{fig:tensionpeak}.
+To assure that a voltage pulse ends before another starts, this range is different for different frequencies: higher work frequencies means more pulses in a given time, taking into consideration pulse oscillations, the range of possible $\Delta t$ is smaller at higher frequencies.
+A typical measure is shown in figure \ref{fig:tensionpeak}.
 \begin{figure}
  \centering
  \subfloat[Three pulses]{
@@ -59,8 +59,8 @@ A typical obtained measure is shown in figure \ref{fig:tensionpeak}.
  \label{fig:tensionpeak}
 \end{figure}
 
-The main pourpous of the measures is to study proportionality between amplitude of the peak and opening time, for different frequencies. Those signals are analyzed evaluating their Fourier Transform (using ROOT C++ libraries \cite{ROOT:fft}) and reconstructing the signal without higher frequencies, to exclude noise fluctuations. The reconstructed peak is an asymmetric function as in figure \ref{fig:landau}, it's possible to interpolate it with a Landau function \cite{ROOT:landau} and obtain peak value and position.
-The error from the fit function is added quadratically to the error given by the cut of high Fourier frequencies, evaluated as the square root of the mean square error between reconstructed and original signal for every point included in the fit range.
+The main pourpous of the measures is to study proportionality between amplitude of the peak and opening time, for different frequencies. Those signals are analyzed evaluating their Fourier Transform (using ROOT C++ libraries \cite{ROOT:fft}) and reconstructing the signal without higher frequencies, to exclude noise fluctuations. The reconstructed peak is an asymmetric function in time as in figure \ref{fig:landau}, it's possible to interpolate it with a Landau function \cite{ROOT:landau} and obtain peak value and position.
+The error from the fit function is added quadratically to the error given by the cut of high Fourier frequencies, evaluated as the square root of the mean square difference between reconstructed and original signal for every point included in fit range.
 \begin{figure}
 \centering
  \includegraphics[width=0.6\textwidth]{Images/Electric/esfit_f10_t2.png}
@@ -71,8 +71,8 @@ The error from the fit function is added quadratically to the error given by the
 
 Results are shown in figure \ref{fig:nogas} for the two sources.
 In source A we can see a linear behavior for $4 \le \Delta t \le \SI{16}{\micro\second}$, with tensions from $\num{2.02(1)}$ to $\SI{9.25(5)}{\kilo\volt}$; for greater $\Delta t$ data loses linearity. The upper limit on chosen $\Delta t$ is given by the need of a minimum time interval between two pulses.
-Also in source B we can see a linear behavior, but tension values are larger: for $1 \le \Delta t \le \SI{8}{\micro\second}$ tension goes from $\num{3.66(6)}$ to $\SI{11.76(22)}{\kilo\volt}$. With this source the upper limit for $\Delta t$ is given by voltage output, measures are taken only for tension needed to have plasma in a DBD regimen, higher opening times would only stress more circuit components.
-Both sources have near the same output for different frequencies, to confirm it data are fitted with a linear function in the range $0-\SI{16}{\micro\second}$ for source A and range $0-\SI{8}{\micro\second}$ for B. Evalueted parameters are compared, as shown in figure \ref{fig:linnogas}. The values are displaced with random distances from the mean value, so it can be concluded that the behavior is not defined by the frequency.
+Also in source B we can see a linear behavior, but tension values are larger, for $1 \le \Delta t \le \SI{8}{\micro\second}$ tension goes from $\num{3.66(6)}$ to $\SI{11.76(22)}{\kilo\volt}$. With this source the upper limit for $\Delta t$ is chosen observing voltage output: measures are taken only for tensions needed to have plasma in a DBD regimen, higher opening times would only stress more circuit components.
+Both sources have near the same output for different frequencies, to confirm it datas are fitted with a linear function in the range $0-\SI{16}{\micro\second}$ for source A and range $0-\SI{8}{\micro\second}$ for source B. Evalueted parameters are compared, as shown in figure \ref{fig:linnogas}. The values are displaced with random distances from the mean value, so it can be concluded that the behavior is not defined by the frequency.
 \begin{figure}
  \centering
  \subfloat[Source A]{
@@ -94,18 +94,18 @@ Both sources have near the same output for different frequencies, to confirm it 
  \subfloat[Source B]{
     \includegraphics[width=0.4\textwidth]{Images/Electric/mq_nogas_B.png}
  }
- \caption{Voltage peak are fitted with a linear function $V_{peak} = m \Delta t + q$, in figure we see fit parameters at different frequencies for both sources, in dashes the mean value.}
+ \caption{Voltage peaks are fitted with a linear function $V_{peak} = m \Delta t + q$, in figure we see fit parameters at different frequencies for both sources, in dashes the mean value.}
  \label{fig:linnogas}
 \end{figure}
 
 
 \subsection{Measures with gas}
-Introduction of an helium flow at the end of the head will produce plasma ignition, tension will be different, and it will be possible to measure intensity of the current carried by plasma. To assure safety of plasma application, that cells aren't damaged by plasma, it must be avoided a large current intensity and arc formation. Studies of conditions for DBD discharges and arc transitions (\cite{kogelschatz:jpa-00255561}, \cite{TOMAI2006409}, \cite{PhysRev.34.876}) suggests that maximum current values are in the order of  of ten $\si{\milli\ampere}$.
+Introduction of an helium flow at the end of the head will produce plasma ignition, tension will be different, and it will be possible to measure current intensity carried by plasma. To assure safety of plasma application, that cells aren't damaged by plasma, it must be avoided a large current intensity and arc formation. Studies of conditions for DBD discharges and arc transitions (\cite{kogelschatz:jpa-00255561}, \cite{TOMAI2006409}, \cite{PhysRev.34.876}) suggests that for fast pulses it's safe to have current intensity $< \SI{10}{\milli\ampere}$.
 
-Current intensity is measured using a copper sheet with dimensions $\SI{10}{\milli\meter} \times \SI{10}{\milli\meter} \times \SI{1}{\milli\meter}$. Plasma plume impacts on the sheet, the current probe is connected to it and send the signal to the oscilloscope, with cable shielding to lessen interferences.
+Current intensity is measured using a copper sheet with dimensions $\SI{10}{\milli\meter} \times \SI{10}{\milli\meter} \times \SI{1}{\milli\meter}$. Plasma plume impacts on the sheet, the current probe is connected to it and sends a voltage signal to the oscilloscope, with cable shielding to lessen interferences.
 Current intensity and target distance relation is studied in\cite{unipd:ceciliaDBD}, in this study the distance between target and electrode is chosen around typical value for treatments permitted by head's sources geometry: $\SI{10}{\milli\meter}$ for source A and $\SI{15}{\milli\meter}$ for source B (a bit longer due to electrode position in the head).
 
-In figure \ref{fig:tens_curr} can be seen a typical measure for $\Delta t = \SI{8}{\micro\second}$ and $f =\SI{5}{\kilo\hertz}$ with source B. For both sources there is a current peak in correspondence of voltage pulse that increase with tension, however for source B there are measures where the peak is so low that it is covered by noise.
+In figure \ref{fig:tens_curr} can be seen a typical measure for $\Delta t = \SI{8}{\micro\second}$ and $f =\SI{5}{\kilo\hertz}$ with source B. For both sources there is a current peak in correspondence of voltage pulse that increases with tension, however for source B there are measures where the peak is so low that it is covered by noise.
 \begin{figure}
 \centering
  \includegraphics[width=0.6\textwidth]{Images/Electric/tenscurr_f5_t8.png}
@@ -114,7 +114,7 @@ In figure \ref{fig:tens_curr} can be seen a typical measure for $\Delta t = \SI{
 \end{figure}
 
 
-Data analysis is done as before, cleaning measures from noise, estimating the peak and it's error. Results are shown in figures \ref{fig:Vpp_gas} and \ref{fig:I_gas}, measures where the current peak is not distinguishable are excluded from the plot.
+Data analysis is done as before, cleaning measures from noise, estimating the peak and it's error. Results are shown in figures \ref{fig:Vpp_gas} and \ref{fig:I_gas}, measures where the current peak is not distinguishable are excluded from plots.
 \begin{figure}
  \centering
  \subfloat[Source A]{
@@ -124,7 +124,7 @@ Data analysis is done as before, cleaning measures from noise, estimating the pe
  \subfloat[Source B]{
     \includegraphics[width=0.6\textwidth]{Images/Electric/Vpp_gas_B.png}
  }
- \caption{Absolute peak's value of secondary circuit in function of $\Delta t$ at different $f$, with an helium flux of $\SI{2}{\liter/\minute}$, for both sources.}
+ \caption{Absolute peak's values of secondary circuit output in function of $\Delta t$ at different $f$, with an helium flux of $\SI{2}{\liter/\minute}$, for both sources.}
  \label{fig:Vpp_gas}
 \end{figure}
 
@@ -141,10 +141,11 @@ Data analysis is done as before, cleaning measures from noise, estimating the pe
  \label{fig:I_gas}
 \end{figure}
 
-Tension peaks are slightly lower then values without gas, as expected seeing the plume as an additional load at the end of the circuit (\cite{lieberman1994principles}), but the linear behavior for $V_{pp} \le \SI{10}{\kilo\volt}$ remains and we can compare linearity for different frequencies. Current intensities grows with tension and are higher for source A, but it can be explained by different distances electrode-target. Analysis of linearity also for those measures can show if there is a different behavior changing pulse frequency or source.
+Tension peaks are slightly lower then values without gas, as expected seeing the plume as an additional load at the end of the circuit (\cite{lieberman1994principles}), but the linear behavior for $V_{pp} \le \SI{10}{\kilo\volt}$ remains and we can compare linearity for different frequencies. Current intensities grows with tension and are higher for source A, as expected given different distances electrode-target. Analysis of linearity also for those measures can show if there is a different behavior changing pulse frequency or source.
 Figures \ref{fig:lingas_Vpp} and \ref{fig:lingas_I} shows results of the linearity study at different frequencies.
-Tension values, for both sources, are scattered around the mean value parameter, confirming independence of voltage growth from pulses frequencies. For source A we find a slope parameter $m_{V} = \SI{0.366(1)}{\kilo\volt/\micro\second}$, for source B $m_{V} = \SI{1.145(8)}{\kilo\volt/\micro\second}$, larger due to the different circuit, as mentioned before and as can be seen from figures.
+Tension values, for both sources, are scattered around the mean value parameter without a clear behavior, confirming independence hypotesis of voltage growth from pulses frequencies. For source A we find a slope parameter $m_{V} = \SI{0.366(1)}{\kilo\volt/\micro\second}$, for source B $m_{V} = \SI{1.145(8)}{\kilo\volt/\micro\second}$, larger due to the different circuit, as mentioned before.
 Current values shows a different behavior: in source A we find a stady increase of parameters with higher frequencies, in source B data are more scattered and we couldn't extrapolate a behavior. However current slope is in the same range of values for the sources, with a maximum for source A of $m_{I} = \SI{1.10(1)}{\milli\ampere/\micro\second}$ and for source B of $m_{I} = \SI{1.04(17)}{\milli\ampere/\micro\second}$.
+An explanation for parameter's trend in source A it's that for higher frequencies the interval between two pulses it's smaller and oscillations of electrode potential after a pulse influences more gas ionized fraction, so mean density value for charged particles is higher for higher frequencies. 
 Due to low signal to noise ratio in measures for source B, it is not possible to esclude a relation between current slope (how much current intensity grows increasing opening time) and pulse frequency, however it is established a maximum limit value to take into consideration when using the device.
 
 \begin{figure}
@@ -155,7 +156,7 @@ Due to low signal to noise ratio in measures for source B, it is not possible to
  \subfloat[Source B]{
     \includegraphics[width=0.4\textwidth]{Images/Electric/mq_V_gas_B.png}
  }
- \caption{Voltage peak are fitted with a linear function $V_{peak} = m \Delta t + q$, in figure we see fit parameters at different frequencies for both sources, in dashes the mean value.}
+ \caption{Voltage peaks are fitted with a linear function $V_{peak} = m \Delta t + q$, in figure we see fit parameters at different frequencies for both sources, in dashes the mean value.}
  \label{fig:lingas_Vpp}
 \end{figure}
 
@@ -168,20 +169,19 @@ Due to low signal to noise ratio in measures for source B, it is not possible to
  \subfloat[Source B]{
     \includegraphics[width=0.4\textwidth]{Images/Electric/mq_I_gas_B.png}
  }
- \caption{Current peak are fitted with a linear function $I_{peak} = m \Delta t + q$, in figure we see fit parameters at different frequencies for both sources. For source A we see in dashes a linear fit, for source B the mean value.}
+ \caption{Current peaks are fitted with a linear function $I_{peak} = m \Delta t + q$, in figure we see fit parameters at different frequencies for both sources. For source A we see in dashes a linear fit, for source B the mean value.}
  \label{fig:lingas_I}
 \end{figure}
 
 
 \subsection{Plasma impedance}
-
-From tension and current measuraments we can define plasma's electric behavior, in this subsection are used source B measures to estimate plasma impedance. Tension output from secondary circuit of head's transformer can be modelized as a dumped sine wave around the peak, as in equation \ref{eq:dmpsin}.
+From tension and current measuraments we can define plasma's electric behavior, in this subsection source B measures are used to estimate plasma impedance. Tension output from head's transformer can be modelized as a dumped sine wave around the peak, as in equation \ref{eq:dmpsin}.
 \begin{equation}
- V_{S} = V_{0} + V_{\text{pulse}} \sin{(2 \pi f_{V_s} t)} e^{-t/\tau}
+ V_{S} = V_{0} + V_{\text{pulse}} \sin{(2 \pi f_{V_{s}} t)} e^{-t/\tau}
  \label{eq:dmpsin}
 \end{equation}
 
-This formula gives an explicit parameter $f_{V_s}$ that is an estimation of the frequency of the single pulse (the frequency that defines rise and fall of the pulse, different from the work frequency of different pulses imposed by Arduino, called $f$). This parameter is important because plasma's electric behavior depends on this frequency, analyzing signal with different frequencies it's possible to understand plasma's parameters. Frequncy pulse it's different for every opening time of the circuit, $\Delta t$, but it's constant when changing frequency of the pulses, as explained before analyzing tension output at different frequencies. In figure \ref{fig:fitexp} and \ref{fig:parexp} are an example of a peak fitted with the function in formula \ref{eq:dmpsin}, it's fourier transform to show peak frequency corresponding to $f_{V_s}$ for that specific $\Delta t$ and different resulting parameters for different $\Delta t$.
+This formula gives an explicit parametrization for $f_{V_{s}}$ that is an estimation of the frequency of the single pulse (the frequency that defines rise and fall of the pulse, different from the work frequency of different pulses imposed by Arduino, called $f$). This parameter is important because plasma's electric behavior depends on this frequency, analyzing signal with different frequencies $f_{V_{s}}$ it's possible to understand plasma's parameters. Frequency pulse it's different for every opening time of the circuit, $\Delta t$, but it's constant when changing frequency of pulses, as explained before analyzing tension outputs at different frequencies. In figure \ref{fig:fitexp} are presented examples of a peak fitted with the function in formula \ref{eq:dmpsin} and it's fourier transform to show peak frequency corresponding to $f_{V_s}$ for that specific $\Delta t$. In figure \ref{fig:parexp} are shown different resulting parameters for different $\Delta t$.
 
 \begin{figure}
  \centering
@@ -191,7 +191,7 @@ This formula gives an explicit parameter $f_{V_s}$ that is an estimation of the 
  \subfloat[Fourier transform]{
     \includegraphics[width=0.4\textwidth]{Images/Electric/Trasf_f8_t5_clean.png}
  }
- \caption{On the left example fit of a tension peak, $f = \SI{8}{\kilo\hertz}$ $\Delta t = \SI{5}{\micro\second}$ with function \ref{eq:dmpsin}; on the right the fourier transform of the measure in the interval [$4-\SI{6}{\micro\second}$] that shows the frequency peak $f_{V_s}$}
+ \caption{On the left example fit of a tension peak, $f = \SI{8}{\kilo\hertz}$ $\Delta t = \SI{5}{\micro\second}$ with function \ref{eq:dmpsin}; on the right the fourier transform of the measure in the interval [$3-\SI{6}{\micro\second}$] that shows the frequency peak $f_{V_s}$}
  \label{fig:fitexp}
 \end{figure}
 
@@ -211,8 +211,8 @@ This formula gives an explicit parameter $f_{V_s}$ that is an estimation of the 
  \label{fig:parexp}
 \end{figure}
 
-Fit parameters follows always those presented: as expected, with higher opening times $ V_{\text{pulse}} $ grows and $\tau$ lowers, while $f_{V_s}$ has it's own behavior that depends from tension secondary output $V_s$.
-To estimate plasma's impedance it's useful to observe that voltage peak is quite large: it varies of $3\%$ of peak's value in $\SI{150}{\nano\second}$ around it. As tension and current peaks times differs always by a time interval $|t_{V_p} - t_{I_p}| \leq \SI{150}{\nano\second}$, it's possible to assume $V_{t_{I_p}} \simeq V(t_{V_p})$, i.e. that tension during the current peak maximum is equal to tension's peak value. With this approximation, it makes sense to plot tension's peak values against current's peak values, as in figure \ref{fig:viplot}, and given a $\Delta t$ it's possible to give an estimation of impedance module as $Z = \frac{V_{p}}{I_{p}}$. Results are shown in figure \ref{fig:zest}, vs opening times and vs frequency of single pulse $f_{V_s}$.
+Fit parameters follows always those presented: as expected, with higher opening times $ V_{\text{pulse}} $ grows while $f_{V_{s}}$ and $\tau$ have their own behaviors that depends from tension secondary output $V_s$.
+To estimate plasma's impedance it's useful to observe that voltage peak is quite large in time: it varies of less then $3\%$ of peak's value in an interval of $\SI{150}{\nano\second}$ around it. As tension and current peaks times differs always by a time interval $|t_{V_p} - t_{I_p}| \leq \SI{150}{\nano\second}$, it's possible to assume $V_{t_{I_p}} \simeq V(t_{V_p})$, i.e. that tension during the current peak maximum is equal to tension's peak value. With this approximation, it makes sense to plot tension's peak values against current's peak values, as in figure \ref{fig:viplot}, and given a $\Delta t$ it's possible to give an estimation of impedance module as $Z = \frac{V_{p}}{I_{p}}$. Resulting impedance are shown in figure \ref{fig:zest}, changing opening times and changing frequency of single pulse $f_{V_{s}}$.
 
 \begin{figure}
  \centering
@@ -232,14 +232,14 @@ From the graphs it's possible to extrapolate that plasma impedance goes from $\S
 From a deeper analysis and specific measures it could be possible to expand the analysis here presented and estimate plasma's electrical resistance, capacitance or induttance.
 
 \subsection{Effective current}
-Current effects in applications on biological tissues have to take into consideration current intensity in a time interval tipically larger then the pulse widths used in our sources (\cite{doi:10.1002/ppap.200731208}, \cite{unipd:ceciliaDBD}). It's possible to estimate an effective current that is more appropriate to take into consideration when evaluating damage due to currents, as a mean of current intensity in a defined time interval calculated with \ref{eq:ieff}, taking $t_2-t_1 = \SI{1}{\milli\second}$. The effective current takes into consideration that current values are very small for all the time between two pulses.
+Current effects in applications on biological tissues have to take into consideration current intensity in a time interval tipically larger then the pulse widths used in our sources (\cite{doi:10.1002/ppap.200731208}, \cite{unipd:ceciliaDBD}). It's possible to estimate an effective current that is more appropriate to take into consideration when evaluating damage due to currents, as a mean of current intensity in a defined time interval calculated with equation \ref{eq:ieff}, taking $t_2-t_1 = \SI{1}{\milli\second}$. The effective current takes into consideration that current values are very small for all the time between two pulses.
 \begin{equation}
  \centering
  I_{\text{eff}} = \frac{1}{(t_2-t_1)}\sqrt{\int_{t_1}^{t_2} I^2 \,dt}
  \label{eq:ieff}
 \end{equation}
 
-Figure \ref{fig:ieff} shows effective currents measured for both sources. Values are significantly smaller then maximum peak values, expecially for source B where oscillations after the main peak are smaller.
+Figure \ref{fig:ieff} shows effective currents measured for both sources. Values are significantly smaller then maximum peak values, expecially for source B where oscillations after the main peak are smaller. The maximum value for the two sources is given by $I_{\text{eff} A} = \SI{2.47(7)}{\milli\ampere}$ and $I_{\text{eff} B} = \SI{0.23(1)}{\milli\ampere}$.
 
 \begin{figure}
  \centering
@@ -255,10 +255,9 @@ Figure \ref{fig:ieff} shows effective currents measured for both sources. Values
 
 
 \subsection{Time intervals}
-
-Time width of signal affects reaction's probabilities (chapter \ref{ch:shape}) and plasma's power deposition(chapter \ref{ch:temperature}), here we try to give an estimate of this time interval. It can be defined as the FWHM of measured peaks, evaluated as the time when we measure half of tension or current maximum value. As the characterization of the sources shows an almost equal behavior, this study is made only for the latest version of the source, that's the only one used in the following chapters. Results are shown in figure \ref{fig:times}.
-For every frequence there is an unexpected quadratic behavior of tension widths with a minimum for a $\Delta t = \SI{5}{\micro\second}$. It is possible to give an estimation of pulse width with a mean value between this minimum and maximum values obtained for $\Delta t = \SI{1}{\micro\second}$, it is $T_{V} = \SI{963(15)}{\nano\second}$. For currents, widths have great uncertainity where the peak is low, but it is possible to evaluate a mean value for $\Delta t \ge \SI{6}{\micro\second}$, and it is $T_{I} = \SI{968(28)}{\nano\second}$.
-Values for the two measures are compatible and they are a good estimation of pulse time duration.
+Time width of signal affects reaction's probabilities (chapter \ref{ch:shape}) and plasma's power deposition(chapter \ref{ch:temperature}), here we try to give an estimate of those time intervals. It can be defined as the FWHM of measured peaks, evaluated as the time when we measure half of tension or current maximum value. As the characterization of the sources shows an almost equal behavior, this study is made only for the latest version of the source, that's the only one used in the following chapters. Results are shown in figure \ref{fig:times}.
+For every frequence there is a quadratic behavior of tension widths with a minimum for a $\Delta t = \SI{5}{\micro\second}$ that depends on circuit scheme. It is possible to give an estimation of pulse width with a mean value between this minimum and maximum values obtained for $\Delta t = \SI{1}{\micro\second}$, it is $T_{V} = \SI{963(15)}{\nano\second}$. For currents, widths have great uncertainity where the peak is low, but it is possible to evaluate a mean value for $\Delta t \ge \SI{6}{\micro\second}$, and it is $T_{I} = \SI{968(28)}{\nano\second}$.
+Values from the two measures are compatible and they are a good estimation of pulse time duration.
 
 \begin{figure}
  \centering
