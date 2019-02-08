@@ -1,10 +1,14 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Electric characterization}{3}
-\contentsline {section}{\numberline {1.1}Electric scheme and description}{3}
-\contentsline {section}{\numberline {1.2}Output characterization}{5}
-\contentsline {subsection}{\numberline {1.2.1}Measures without gas}{5}
-\contentsline {subsection}{\numberline {1.2.2}Measures with gas}{8}
-\contentsline {subsection}{\numberline {1.2.3}Plasma impedance}{9}
-\contentsline {subsection}{\numberline {1.2.4}Effective current}{15}
-\contentsline {subsection}{\numberline {1.2.5}Time intervals}{15}
+\contentsline {chapter}{\numberline {1}Spectral Analysis}{3}
+\contentsline {subsection}{\numberline {1.0.1}Emission theory and measures}{3}
+\contentsline {subsection}{\numberline {1.0.2}Line recognition}{5}
+\contentsline {paragraph}{\ce {NO}}{5}
+\contentsline {paragraph}{\ce {OH}}{5}
+\contentsline {paragraph}{\ce {N_2} , \ce {N+}}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {subsection}{\numberline {1.0.3}Different discharge parameters}{5}
+\contentsline {subsection}{\numberline {1.0.4}Estimation of plasma temperatures}{5}
+\contentsline {subsubsection}{$T_{r}$ \ce {OH}}{5}
+\contentsline {subsubsection}{$T_{r}$ \ce {N_2}}{5}
+\contentsline {subsubsection}{$T_{v}$ \ce {N_2}}{5}
