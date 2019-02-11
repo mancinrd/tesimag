@@ -1,14 +1,17 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Spectral Analysis}{3}
-\contentsline {subsection}{\numberline {1.0.1}Emission theory and measures}{3}
-\contentsline {subsection}{\numberline {1.0.2}Line recognition}{5}
-\contentsline {paragraph}{\ce {NO}}{5}
-\contentsline {paragraph}{\ce {OH}}{5}
-\contentsline {paragraph}{\ce {N_2} , \ce {N+}}{5}
-\contentsline {paragraph}{}{5}
-\contentsline {subsection}{\numberline {1.0.3}Different discharge parameters}{5}
-\contentsline {subsection}{\numberline {1.0.4}Estimation of plasma temperatures}{5}
-\contentsline {subsubsection}{$T_{r}$ \ce {OH}}{5}
-\contentsline {subsubsection}{$T_{r}$ \ce {N_2}}{5}
-\contentsline {subsubsection}{$T_{v}$ \ce {N_2}}{5}
+\contentsline {section}{\numberline {1.1}Radiation emission}{3}
+\contentsline {section}{\numberline {1.2}Experimental setup}{4}
+\contentsline {section}{\numberline {1.3}Line recognition}{5}
+\contentsline {paragraph}{\ce {NO} lines}{6}
+\contentsline {paragraph}{\ce {OH} lines}{7}
+\contentsline {paragraph}{\ce {N_2} and \ce {N+_2} lines}{7}
+\contentsline {paragraph}{Atomic lines}{7}
+\contentsline {section}{\numberline {1.4}Relative intensities}{9}
+\contentsline {paragraph}{Pulse frequency}{9}
+\contentsline {paragraph}{Sight position}{9}
+\contentsline {section}{\numberline {1.5}Estimation of plasma temperatures}{11}
+\contentsline {subsection}{\numberline {1.5.1}Rotational temperature for \ce {OH}}{11}
+\contentsline {subsection}{\numberline {1.5.2}Rotational temperature for \ce {N_2}}{11}
+\contentsline {subsection}{\numberline {1.5.3}Vibrational temperature for \ce {N_2}}{11}
