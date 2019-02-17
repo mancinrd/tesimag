@@ -1,0 +1,182 @@
+\chapter{Shape and dynamics}
+\label{ch:forma}
+Importance of plasma shape in its application. General description of bullets.
+What it's studied and how.
+Observation of plasma bullets in other studies. Shape, size, velocity, example (image of helium and argon bullets). Rebound signal and long time evolution. Frontal shape.
+
+
+\section{Experimental setup}
+The scope is to visually observe dynamics of plasma formation and propagation, so it's needed an acquisition setup with an high-speed camera (little integration time), around \SI{10}{\nano\second}, and an image intensifier that permits to visualize light emitted in such a short time interval.
+
+This is a measure where we need coincidence between discharge and frame measure so it is necessary to consider instruments and plasma source specific delays and give appropriate triggers.
+
+Experimental setup is shown in photo \ref{fig:fotosetup} and a scheme is presented in \ref{fig:schemashape}, there are the trigger signal lines, optical acquisition pointed at source exit and measure acquisition composed by a computer and an oscilloscope. 
+\begin{figure}
+ \centering
+ \includegraphics[width=0.6\textwidth]{Images/Shape/acq_ottica.png}
+ \caption{Photo of the experimental setup.}
+ \label{fig:fotosetup}
+\end{figure}
+
+\begin{figure}
+ \centering
+ \includegraphics[width=0.7\textwidth]{Images/Shape/acq_ottica.png}
+ \caption{Experimental setup scheme. Function generator 1, function generator 2 and delay generator send trigger signal to camera (CCD), to source and to image intensifier (MCP), full lines in the scheme. Camera sends measured frame to a computer (PC) and from source, source's target, function generator 2 and delay are taken signals read on the oscilloscope, pointed lines in the scheme.}
+ \label{fig:schemashape}
+\end{figure}
+
+
+
+\subsection{Source and optical setup}
+Source head is positioned vertically and emitted light is collected from the side.
+Optical apparatus is composed by a lens %specific
+ coupled with a Micro Channel Plate image intensifier (MCP). An MCP works as in figure \ref{fig:MCP}: for every photon received, thanks to an high-voltage power supply, it emits many photons.
+\begin{figure}
+ \centering
+ \includegraphics[width=0.4\textwidth]{Images/Shape/MCPsingle-stage.jpg}
+ \caption{Micro Channel Plate image intensifier functioning.}
+ \label{fig:MCP}
+\end{figure}
+
+Those photons are received by an high-speed camera \emph{Point Grey Flea} (\cite{flea}) equipped with a CCD of $\num{1024} \times \num{768}$ square pixels $\SI{4.75}{\micro\meter}$ wide. Every frame is sent to the pc where FLIR software elaborates and saves them in pgm format (\cite{pgm}).
+
+\subsection{Source, power lines and electric signals}
+It's used a source with electric features and functioning similar to those described before, with an output between $\num{3}$ and \SI{8}{\kilo\volt}, variabile changing $\Delta t$ of the trigger signal (see \ref{ch:electric}), that is always given through an optical fiber with frequency $f$. Differances are that tension is positive and not negative, because it helps formation of the plume with gasses harder to ignite (e.g. Argon), and that trigger signal is given by a generator function ($2$ in the scheme) to define discharge time respect to the trigger of other instruments.
+
+The source is positioned vertically at a distance of \SI{42.0(1)}{\milli\meter} from optical bench, with the glass nozzle that permits to observe plasma formation inside it (external diameter \SI{8.0(1)}{\milli\meter}, internal diameter \SI{6.0(1)}{\milli\meter}), with a distance from the end of the electrode to nozzle exit of \SI{12}{\milli\meter}.
+
+Under the source is possible to put targets where plasma impact, are used two different targets at different heights: conductive target and insulator target. The first one is a copper square sheet of dimensions $\SI{10}{\milli\meter} \times \SI{10}{\milli\meter} \times \SI{1}{\milli\meter}$ (used for current measures in chapter \ref{ch:electric}), the second one is a simple plastic material.
+
+
+CCD camera is powered by the connection to acquisition computer while image intensifier MCP is powered by an high-voltage supply, both are triggered by the delay generator, with different times (see next section).
+
+
+On an oscilloscope are measured the trigger signal given to source head, the trigger signal given to MPC, the voltage electrode with high-voltage probe \emph{Tektronix P6015A} and the current intensity when it's used the conductive target. Current intensity measure is done measuring voltage drop on a resistance of $\SI{1}{\mega\ohm}$ with a probe $x\num{10}$.
+
+\subsection{Trigger synchronization}
+Experiment's scope is to know plasma dynamics at a specific point on voltage waveform, so it's necessary to know precisely discharge and measure times.
+
+To compose the necessary trigger line are utilized:
+\begin{itemize}
+ \item function generator \emph{Or-x 310}, $1$ in figure, that sends a square wave with set amplitude, width and frequency $f$;
+ \item function generator \emph{Lecroy 9210}, $2$ in figure, that sends a square wave with frequency given by the trigger, amplitude set, and variable width $\Delta t$;
+ \item delay time generator \emph{Stanford DG535}, that sends square wave with set amplitude, frequency given by the voltage input and starting times given by voltage input startin time plus settable delays (4 channels).
+\end{itemize}
+
+Every intrument has it's own time that elapse between trigger signal and effective measure. The longer one is arming time for high-speed camera in the order of \si{\milli\second}, the tinyest one is integration time for acquisition system, that starts from the activation of the image intensifier and span $\SI{15}{\nano\second}$.
+
+A time line is shown in figure \ref{fig:times}, an example of signal taken with the oscilloscope is in figure \ref{fig:times_signals}. There are three relevant times defined by function and delay generators:
+\begin{enumerate}
+ \item $t_{0}$ is the starting time for the square wave given by \emph{Function generator 1}, with an amplitude of $\SI{5}{\volt}$ and a frequency $f$, that goes as external trigger to \emph{Function generator 2} and as voltage input to \emph{Delay generator}. From \emph{Function generator 2}, at $t_{0}$, starts the square wave that triggers discharge and arming of camera, for a time given by $\Delta t$ that will define voltage amplitude (see chapter \ref{ch:electric}) and the same trigger frequency $f$. From \emph{Delay generator}, at $t_{0}$, without delays, starts the trigger signal to arm the camera with the CCD.
+ \item $t_{\text{DIS}}$ is the effective discharge time, when the amplitude peak starts. From trigger signal end to amplitude peak start there is a time delay given mainly by the response time of photodiode. Measuring the signals as in figure \ref{fig:times_signals}, it's possible to estimate this delay as $\SI{987.7(567)}{\nano\second}$, constant for every $f$ and $\Delta t$. Once the discharge starts, in the grey zone in figure, there are the events that we want to measure, plasma formation and propagation.
+ \item $t_{\text{MIS}}$ is the measure time, when the MCP is triggered on. The delay between $t_{0}$ and $t_{\text{MIS}}$, $t_{D}$, is given by the \emph{Delay generator} with possible steps of \SI{1}{\pico\second}. Changing $t_{D}$ during measure it's possible to see plasma dynamics at different times that corresponds to different points on electrode tension waveform, as in figure \ref{fig:times_signals}.
+\end{enumerate}
+\begin{figure}
+ \centering
+ \includegraphics[width=0.6\textwidth]{Images/Shape/times.png}
+ \caption{Time signal synchronization scheme: $t_{0}$ is the starting trigger time, $\Delta t$ is the opening time for plasma source (see chapter \ref{ch:electric}), $t_{\text{DIS}}$ is the starting time for the discharge and $t_{\text{MIS}}$ the starting time for the MCP i.e. the measure time}.
+ \label{fig:times}
+\end{figure}
+
+\begin{figure}
+ \centering
+ \includegraphics[width=0.6\textwidth]{Images/Shape/times_osc.png}
+ \caption{Oscilloscope measure example, in green the discharge trigger, in red the electrode tension output and in blue the MCP trigger.}
+ \label{fig:times_signals}
+\end{figure}
+
+
+Integration time for a single frame is \SI{15}{\nano\second}, so the time step between two measures has to be larger then it. For slow plasma bullets (Neon or Argon) it's used a step of \SI{50}{\nano\second}, for fast bullets (Helium) it's used a step of \SI{20}{\nano\second}.
+
+
+The effective measure time have to consider slower time of the camera, larger then \SI{50}{\milli\second}. It's important to note that also with little frequencies, around \SI{50}{\hertz} (see later the minimum working frequency for different gasses), time between two pulses is \SI{20}{\milli\second}, so it is not possible to see two consecutive frames, we observe the same time in different discharges.
+
+Changing the settings on camera acquisition software is possible to measure a signal below pixel's saturation point. One of the parameters is the \emph{Shutter time}, the opening time of the camera shutter, that if set on a value larger then the time between two signals permits to integrate between two frames.
+When we work with a gas, we select an appropriate \emph{Gain} value and an appropriate \emph{Shutter time}, chosing to work measuring a single discharge frame or a multiple discharge frame.
+
+\subsection{Different setups}
+Plasma formation is influenced by many parameters such as frequency of high-voltage pulses, their rise time and maximum, gas type, gas flow, presence of a target and its features (see \cite{Mericam_Bourdet_2009}, \cite{Jarrige_2010}).
+
+For pulse frequency we find a lower limit value, different for each ignition gas, under which there is no discharge. For frequencies higher then this value we don't expect changes (as there aren't in the electric behavior in chapter \ref{ch:electric}), so we use a single chosen value that permits plasma ignition and doesn't stress the experimental setup.
+High-voltage values and gas type determine plasma bullet formation and affect its expulsion velocity. In particular, different gasses have different atomic mass and ionization energies, they will have different voltage ignition values and reactive species formed in plasma will have different velocities.
+Gas flow influences how much gas there is when the ignition starts, so varying it we observe different bullets diameter and velocity.
+Target influences bullet expulsion, propagation and plasma rebound signal. With a conductive target near plasma exit we will have an easier path seen by charges that propagates and, once the bullet hits the target, its observed higher luminosity going from the target to the electrode. With an insulator target we don't find the ionization channel closing on the target, but we observe charge deposition on the insulator with a shape that depends from the gas and the target.
+In some setups, to help plasma ignition it's also used a conductor ring at ground potential or at floating potential, placed around source nozzle, after the electrode position.
+
+
+In this study we present different setups with three different gasses, as shown in table \ref{tab:setups}.
+
+\begin{table}
+ \centering
+ \begin{tabular}{cccccccc}
+  \toprule
+  Gas   &Setup  &$\Delta t$ &Target &Target distance    &Flow rate  &Other  &$\Delta t_D$\\
+  \midrule
+  \multirow{8}*{\ce{He}}    &A  &$\num{30}, \num{35}, \num{40}$ &Conductor  &\SI{24}{\milli\meter}  &\SI{2}{\liter/\minute} &-  &\SI{50}{\nano\second}\\
+                            &B  &$\num{30}, \num{35}, \num{40}$ &Conductor  &\SI{32}{\milli\meter}  &\SI{2}{\liter/\minute} &-  &\SI{20}{\nano\second}\\
+                            &C  &$\num{30}, \num{35}, \num{40}$ &Insulator  &\SI{24}{\milli\meter}  &\SI{2}{\liter/\minute} &-  &\SI{20}{\nano\second}\\
+                            &D  &$\num{30}, \num{35}, \num{40}$ &-  &-  &\SI{2}{\liter/\minute} &-  &\SI{20}{\nano\second}\\
+                            &E  &$\num{35}$ &-  &-  &\SI{2}{\liter/\minute} &Ground ring  &\SI{20}{\nano\second}\\
+                            &F  &$\num{35}$ &-  &-  &\SI{1}{\liter/\minute} &-  &\SI{20}{\nano\second}\\
+                            &G  &$\num{35}$ &-  &-  &\SI{3}{\liter/\minute} &-  &\SI{20}{\nano\second}\\
+                            &H  &$\num{35}$ &-  &-  &\SI{4}{\liter/\minute} &-  &\SI{20}{\nano\second}\\
+  \midrule
+  \multirow{5}*{\ce{Ne}}    &A  &$\num{20}, \num{25}, \num{30}$ &Conductor  &\SI{24}{\milli\meter}  &\SI{2}{\liter/\minute} &-  &\SI{50}{\nano\second}\\
+                            &B  &$\num{20}, \num{25}, \num{30}$ &Conductor  &\SI{32}{\milli\meter}  &\SI{2}{\liter/\minute} &-  &\SI{50}{\nano\second}\\
+                            &C  &$\num{20}, \num{25}, \num{30}$ &Insulator  &\SI{24}{\milli\meter}  &\SI{2}{\liter/\minute} &-  &\SI{50}{\nano\second}\\
+                            &D  &$\num{20}, \num{25}, \num{30}$ &-  &-  &\SI{2}{\liter/\minute} &-  &\SI{50}{\nano\second}\\
+                            &E  &$\num{30}$ &-  &-  &\SI{2}{\liter/\minute} &Ground ring  &\SI{50}{\nano\second}\\
+  \midrule
+  \multirow{6}*{\ce{Ar}}    &A  &$\num{35}$ &-  &-  &\SI{2}{\liter/\minute} &Ground ring  &\SI{50}{\nano\second}\\
+                            &B  &$\num{35}$ &-  &\SI{32}{\milli\meter}  &\SI{2}{\liter/\minute} &-  &\SI{20}{\nano\second}\\
+                            &C  &$\num{35}$ &-  &-  &\SI{2}{\liter/\minute} &Floating ring  &\SI{50}{\nano\second}\\
+                            &D  &$\num{35}$ &Conductor  &\SI{20}{\milli\meter}  &\SI{2}{\liter/\minute} &Ground ring  &\SI{50}{\nano\second}\\
+                            &E  &$\num{35}$ &Conductor  &\SI{20}{\milli\meter}  &\SI{2}{\liter/\minute} &-  &\SI{50}{\nano\second}\\
+                            &F  &$\num{35}$ &-  &-  &\SI{2}{\liter/\minute} &-  &\SI{50}{\nano\second}\\
+                            &G  &$\num{35}$ &Conductor  &\SI{32}{\milli\meter}  &\SI{2}{\liter/\minute} &-  &\SI{50}{\nano\second}\\
+  \bottomrule
+ \end{tabular}
+ \caption{Description of measure setups.}
+ \label{tab:setups}
+\end{table}
+
+
+\subsection{Frame analysis and calibration}
+Once a measure setup is chosen, $t_D$ is set around the start of the discharge, we measure the oscilloscope waveform for every channel (setup as explained before), and from them we save $5$ frames for every $t_D$ varying it with steps of $\Delta t_D$. Measures are taken until the end of the main tension peaks and the camera doesn't see anything.
+
+
+From oscilloscope waveforms we can extrapolate the measure time from the start of the discharge and tension value at measure time. When there is the conductive target it's also possible to see current intensity and it's peak time.
+
+Frame analysis is done converting the pgm files in 2-dimensional histograms, using \emph{TH2} class written in \emph{ROOT} libraries (see \cite{ROOT:TH2}).
+We are interested in plasma bullet formation and it's expulsion, but also in other fenomenological behavior that is observed during measures.
+For plasma bullet we take the mean for every pixel between the five frames taken, from then it's isolated the plasma bullet as the collection of pixels with maximum intensity in considered zone. From this image we can extrapolate the center of the plasma bullet, it's velocity and it's x and y diameter.
+
+
+Relative dimension of what we are observing is found with a calibration with a given target. It's used a plate with $4$ holes, with diameter of \SI{1.00(5)}{\milli\meter} at the vertice of a square with an edge lenght of \SI{10.00(5)}{\milli\meter}, positioned where there is pasma during experiments and illuminated from behind.
+Acquiring a frame of this setup it's possible to extrapolate pixel distances that corresponds to \SI{10}{\milli\meter} for every square edge, average them, and calculate pixel's width in our frames, resulting a value of $d_{pix} = \SI{0.172(2)}{\milli\meter}$.
+
+\section{Neon flow}
+%It's an easy to ignite gas and with high luminosity
+
+
+\section{Helium flow}
+%Description of bullet with helium flow.
+
+
+\section{Argon flow}
+%It's a very hard to ignite gas and with medium luminosity.
+
+
+%\section{Simple 1D-model}
+%General desription, why and Comsol.
+
+%\subsection{Theory}
+
+%\subsection{Results and measure comparision}
+
+
+%\section{Profilo di temperatura}
+
+%\subsection{Setup termocamera e termocoppia}
+
+%\subsection{Misure di temperatura}
