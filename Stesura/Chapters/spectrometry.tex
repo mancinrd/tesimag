@@ -6,7 +6,7 @@ We are intersted in plasma that contains molecules involved in blood coagulation
 
 
 \section{Radiation emission}
-As remembered in previous chapters, at the exit of source head is produced plasma from a mixture gas of helium or argon and air, so there is a certain fraction of free charges inside the plume fo plasma. Along free electrons, there are ions and species that colliding with them are in an excited state, metastable or with small lifetime. All those reactive species partecipe in different reactions, and also in excitation and de-excitation reactions with conseguent emission of radiation. When an electron goes from state p at higher energy to state k of lower energy, is emitted radiation with central wavelenght $\lambda_0$. Power emitted by this radiation is given by radiant flux $d\phi_{\lambda}$ and selecting a solid angle as in figure, is possible to define radiance $L_{\lambda}$, and intensity $I$, as in equations \ref{eq:emission}. Intensity for a radiation ultimately depends on $n(p)$, population density for state p, and Einstein Coefficient for the transition $A_{pk}$ that is typical for the transition (\cite{book:291477}).
+As remembered in previous chapters, at the exit of source head is produced plasma from a mixture gas of helium (or argon) and air, so along free electrons, there are ions and species that colliding with them are in an excited state, metastable or with small lifetime. All those reactive species partecipe in different reactions, and also in excitation and de-excitation reactions with conseguent emission of radiation. When an electron goes from state p at higher energy to state k of lower energy, is emitted radiation with central wavelenght $\lambda_0$. Power emitted by this radiation is given by radiant flux $d\phi_{\lambda}$ and selecting a solid angle as in figure, is possible to define radiance $L_{\lambda}$, and intensity $I$, as in equations \ref{eq:emission}. Intensity for a radiation ultimately depends on $n(p)$, population density for state p, and Einstein Coefficient for the transition $A_{pk}$ that is typical for the transition (\cite{book:291477}).
 
 \begin{minipage}{.48\textwidth}
  \includegraphics[width=0.8\textwidth]{Images/Spectroscopy/plasmaemission.png}
@@ -30,7 +30,7 @@ There are many reactions involving oxygen and nitrogen (see for example \cite{Ko
 
 \section{Experimental setup}
 For the source it's used a prototype that presents electrical specifics and settings same as source A described in previous chapters. A metal plate is positioned as target at a distance of $\SI{10}{\milli\meter}$ from plasma exit. To ignite plasma is used helium, with flow set to $\SI{2}{\liter/\minute}$.
-To measure emission it's used a spectrometer IsoPlane, that thanks to diffraction separates emissions with different wavelenghts using a plane grating. The spectrometer has a focal lenght of $\SI{320}{\milli\meter}$ and is equipped with three different gratings: $\num{150}$, $\num{1200}$ and \SI{2400}{gg/\milli\meter}, corresponding to different resolutions of $\num{0.26}$, $\num{0.03}$ and $\SI{0.01}{\nano\meter}$.
+To measure emission it's used a spectrometer IsoPlane, that thanks to diffraction separates emissions with different wavelenghts using a plane grating. The spectrometer has a focal lenght of $\SI{320}{\milli\meter}$ and is equipped with three different gratings: $\num{150}$, $\num{1200}$ and \SI{2400}{gg/\milli\meter}, corresponding to different resolutions. %of $\num{0.26}$, $\num{0.03}$ and $\SI{0.01}{\nano\meter}$.
 As in figure \ref{fig:app}, light emitted by plasma is collected with a quartz lens %...
 and passes trough an optical fiber %..
 connected to the spectrometer entry, while at the spectrometer exit there is a CCD camera of $2048$ pixels and a count limit of $\num{65000}$.
@@ -41,7 +41,7 @@ connected to the spectrometer entry, while at the spectrometer exit there is a C
 \label{fig:app}
 \end{figure}
 
-Once a grating is chosen, the acquisition system can be set at a starting wavelenght and from there it takes measures until the end of the CCD, so for a wavelenght interval different for different gratings.
+Once a grating is chosen, the acquisition system can be set at a starting wavelenght and from there it takes measures until the end of the CCD, so for a different wavelenght interval for different gratings.
 For every measure is selected an appropriate acquisition time that permits to observe peaks with a good count number and avoid saturation.
 
 It's important to stress out that, with this measuring method and due to complexity of plasma reactions and composition, it's not possible to extrapolate quantitative considerations between different species concentration. However it's possible to recognize the presence of certain species and make some considerations watching spectra variation with different experimental setup.
@@ -65,7 +65,7 @@ To see what's generally produced in a discharge is taken a spectrum for the enti
 First is made a rapid acquisition with the lowest resolution possible, to see intersting regions and have an idea of required exposition times. After that is made a slow acquisition with higher resolution for all wavelenghts. The entire spectrum is reconstructed attaching different spectra, showed in figure \ref{fig:spectr}, where are labelled principal transitions.
 For every measure is taken also a background spectrum, without plasma, to recognize peaks that are not from the plasma.
 
-Data is read with IDL routines (\cite{}) and analyzed with ROOT TSpectrum.h library (\cite{}). Every spectrum is divided by its exposition time, to normalize different measures. Then is estimated the white noise contribution as mean value from a portion of the spectrum that doesn't presents peaks and its subtracted to the counts for each wavelenght. Peaks are then found with TSpectrum functions (where is possible to set a treshold in heigth and the general width for lines to be searched) and peaks from background are isolated in plasma spectra. Definitive position for each transition is found with a gaussian fit in an interval that takes into consideration the asymmetry where it's needed.
+Data is read with IDL routines (\cite{GUMLEY200215}) and analyzed with ROOT TSpectrum.h library (\cite{ROOT:TSpectrum}). Every spectrum is divided by its exposition time, to normalize different measures. Then is estimated the white noise contribution as mean value from a portion of the spectrum that doesn't presents peaks and its subtracted to the counts for each wavelenght. Peaks are then found with TSpectrum functions (where is possible to set a treshold in heigth and the general width for lines to be searched) and peaks from background are isolated in plasma spectra. Definitive position for each transition is found with a gaussian fit in an interval that takes into consideration the asymmetry where it's needed.
 
 As said before, this study is focused on measure related to ROS and NRS, so in lines for \ce{NO}, \ce{OH} and \ce{N_2}.
 
@@ -78,7 +78,7 @@ As said before, this study is focused on measure related to ROS and NRS, so in l
 
 
 \paragraph{\ce{NO} lines}
-Are observed two doublets for the transition \ce{A^2\Sigma^+ - X^2\Pi} with vibrational numbers (0-0) and (0-1) (\cite{Knie:166349}, \cite{VANSPRANG197955}), presented in table \ref{tab:spettroNO}. Intensities for the peaks are normalized with maximum value of $\num{1000}$ for the acquisition, the table shows as the intensities for this transition is very low. Other transition relative to this molecule have even lower relative intensity and are not observed in our study.
+Are observed two doublets for the transition $\ce{A^2\Sigma^+} \rightarrow \ce{X^2\Pi}$ with vibrational numbers (0-0) and (0-1) (\cite{Knie:166349}, \cite{VANSPRANG197955}), presented in table \ref{tab:spettroNO}. Intensities for the peaks are normalized with maximum value of $\num{1000}$ for the acquisition, the table shows as the intensities for this transition is very low. Other transition relative to this molecule have even lower relative intensity and are not observed in our study.
 \begin{table}[h]
 \centering
  \begin{tabular}{cc}
@@ -97,7 +97,7 @@ Are observed two doublets for the transition \ce{A^2\Sigma^+ - X^2\Pi} with vibr
 
 
 \paragraph{\ce{OH} lines}
-Is observed the rotational band for transition (\ce{A^2\Sigma}, $\nu' = 0$ $\rightarrow$ \ce{X^2\Pi}, $\nu'' = 0$), observing $13$ principal lines (\cite{doi:10.1142/S0129183100000857}).
+Is found the rotational band for transition (\ce{A^2\Sigma}, $\nu' = 0$ $\rightarrow$ \ce{X^2\Pi}, $\nu'' = 0$), observing $13$ principal lines (\cite{doi:10.1142/S0129183100000857}).
 In figure \ref{fig:OHsp} a zoom on the spectrum, in table \ref{tab:sptrOH} peak values.
 \begin{figure}
  \centering
@@ -134,7 +134,7 @@ In figure \ref{fig:OHsp} a zoom on the spectrum, in table \ref{tab:sptrOH} peak 
 
 
 \paragraph{\ce{N_2} and \ce{N+_2} lines}
-Measured spectrum presents several lines for diatomic molecule dinitrogen, including strongest lines. Is observed the Second Positive System for \ce{N2} transition $\ce{C^3\Pi} \rightarrow \ce{B^3\Pi}$ and the First Negative System for \ce{N2+} transition $\ce{B^2\Sigma} \rightarrow \ce{X^2\Sigma}$, in table \ref{tab:sptrN} peak values (\cite{N2lab}, \cite{Britun_2007}). For \ce{N2} is found also a band of multiple rotational lines centered around \SI{336.58(1)}{\nano\meter}.
+Measured spectrum presents several lines, including the strongest, for diatomic molecule dinitrogen. Is observed the Second Positive System for \ce{N2} transition $\ce{C^3\Pi} \rightarrow \ce{B^3\Pi}$ and the First Negative System for \ce{N2+} transition $\ce{B^2\Sigma} \rightarrow \ce{X^2\Sigma}$, in table \ref{tab:sptrN} peak values (\cite{N2lab}, \cite{Britun_2007}). For \ce{N2} is found also a band of multiple rotational lines centered around \SI{336.58(1)}{\nano\meter}.
 Some of the peaks are seen in the second diffraction order, where there is more distance between lines. In figure \ref{fig:N2} are presented two zooms for \ce{N2} lines.
 \begin{figure}
  \centering
@@ -142,7 +142,7 @@ Some of the peaks are seen in the second diffraction order, where there is more 
     \includegraphics[width=0.45\textwidth]{Images/Spectroscopy/N2v_f5t16.png}
  }
  \hfill
- \subfloat[Strongest line (0-0)]{
+ \subfloat[Strongest line (0-0), $2^{\text{nd}}$ diffraction order]{
     \includegraphics[width=0.45\textwidth]{Images/Spectroscopy/N2r_f5t16.png}
  }
  \caption{Zoom for \ce{N2} transitions.}
@@ -201,12 +201,17 @@ Are observed other lines from elements present in the plume (\cite{NIST}):
 
 
 \section{Relative intensities}
-It's studied spectra variation changing experimental setup: pulse settings and measurements position.
+From comparision of spectra with different discharge parameters and different position for light collection point, is possible to extrapolate some informations on production rates of excited species.
+
 Intensities are evaluated for \ce{OH} and \ce{N2} species, collectively for the lines in a wavelength range specific for the peaks. For \ce{OH} lines is considered all the rotational band between $\num{306}$-\SI{309}{\nano\meter}, lines for \ce{N2} are separated in those between $\num{335}$-\SI{337}{\nano\meter} (rotational band and (0-0) transition) and those between $\num{368}$-\SI{382}{\nano\meter} (vibrational transitions with $\Delta \nu = 2$).
 
-\paragraph{Pulse frequency} \ce{OH} lines for both positions have same intensity with low and medium power setup, while is lower with higher frequency, with similar behavior in both positions. \ce{N2} intensities also decrease with higher frequencies, for every lines, it reaches around $0.6\%$ for $f = \SI{15}{\kilo\hertz}$ in position 1, and lower values for position 2. It seems that production of those reactive species have rates dependant from pulse frequency, for high frequency there might be more relevant competitor reactions.
+\subsection{Pulse settings}
+Pulse settings characterize the discharge. As seen in chapter \ref{ch:electric} for different frequencies we have near the same electric behavior, but it could influence specie's production rates. \ce{OH} lines for both positions have same intensity with low and medium power setup, while is lower with higher frequency, with similar behavior in both positions. \ce{N2} intensities also decrease with higher frequencies, for every lines, it reaches around $0.6\%$ for $f = \SI{15}{\kilo\hertz}$ in position 1, and lower values for position 2.
+It seems that production of those reactive species have rates dependant from pulse frequency, for high frequency there might be more relevant competitor reactions.
 
-\paragraph{Sight position} At \SI{10}{\milli\meter} from the source, in position 2, intensities for \ce{OH} decreases drastically, under $0.1\%$ of values in position 1. \ce{OH} species seems to have small lifetime or mobility, so deposition of this species is higher when closer to the target.
+\subsection{Line of sight}
+Positioning the line of sight of the spectrometer at different heigths along the plume axis, we can extrapolate informations about the lifetime of the species and the distance that they can travel. 
+At \SI{10}{\milli\meter} from the source, in position 2, intensities for \ce{OH} decreases drastically, under $0.1\%$ of values in position 1. \ce{OH} species seems to have small lifetime or mobility, so deposition of this species is higher when closer to the target.
 For \ce{N2} intensities are equal at low frequency for both positions, while for higher frequencies they decrease more for position 2. For low frequency, concentration of excited \ce{N2} is high so even distant from the target we have high radiation emission. When it decreases, for higher frequencies, concentration lowers and we have few molecules that reach the target.
 \begin{figure}
 \centering
@@ -227,29 +232,60 @@ For \ce{N2} intensities are equal at low frequency for both positions, while for
 
 
 \section{Estimation of plasma temperatures}
-Possible to estimate plasma composition parameters. Rotational = temperature of ions, vibrational = storage energy. 
-\subsection{Rotational temperature for \ce{OH}}
-How, simulation, article.
+From diatomic molecule's spectra it's possible to evaluate some parameters that are indicators of plasma's state: rotational temperatures for \ce{OH} and \ce{N2}, $T_{r}$, and vibrational temperature for \ce{N2}, $T_{v}$.
+These parameters are estimation of the temperature at which thermal energy is comparable to the gap energy between rotational or vibrational state transitions, they can be defined as in equations \ref{eq:temperatures} where $\nu$ is the vibrational quantum number and $I$ is the quantizied moment of inertia of the molecule.
+\begin{equation}
+ \centering
+ \begin{split}
+  &T_{r} = \frac{\hslash^2}{2 k_{B} I}\\
+  &T_{v} = \frac{h \nu}{k_{B}}
+ \end{split}
+ \label{eq:temperatures}
+\end{equation}
+
+Rotational temperatures can be considered an estimation of neutral gas kinetic temperature, assuming that the population origins only from heavy particle collisions. Vibrational temperature gives an idea of the population of vibrational states, useful to determine chemical reactions inside plasma.
+
+\subsection{Rotational temperature for \ce{OH} and for \ce{N2}}
+In rotational bands the intensity of a transition for a specific wavelength is proportional to the number density popolation of upper state (equation \ref{eq:emission}), that, considering a Maxwell-Boltzmann distribution, is proportional to the temperature of the species. In equation \ref{eq:Irot} the proportionality is explicitated, with $D_{0}$ parameter that depends on number of initial molecules, partition function of the rotational state and quantum rotational numbers for upper and lower state, $S$ is the oscillator strenght specific for the molecule and $E_{r}$ depends from a constant defined by the vibrational state and from quantum rotational number for upper state (\cite{MOON2003249}).
+\begin{equation}
+ \centering
+ I = \left(\frac{2 \pi}{\lambda}\right)^4 D_0 S \exp\left(-\frac{E_r}{k_B T_r}\right)
+ \label{eq:Irot}
+\end{equation}
+
+Given the high number of rotational lines, not distinguishable with our spectrometer, an approach to temperature estimation is to simulate spectra with different temperatures and to minimize differences for measured spectrum (\cite{Izarra_2000}).
+In a predetermined range of temperatures we simulate different spectra with different temperatures, where each line is a gaussian peak with its width that takes into consideration broadning due to thermal motion, Doppler effect and measure resolution. For every spectrum is calculated the mean square differance, the temperature si selected as that associated with the minimum differance and are taken upper and lower limits where differance is larger by $5\%$ of the minimum value. An example of the spectra is in figure \ref{fig:Trfit}, while resulting temperatures are in figure \ref{fig:Trval}.
 \begin{figure}
 \centering
-\includegraphics[width=0.65\textwidth]{Images/Spectroscopy/TrOH.png}
- \caption{Estimation of rotational temperature of \ce{OH} molecule, for different frequencies, in blue position 1 in red position 2.}
- \label{fig:TrOH}
+  \subfloat[\ce{OH}]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/OHFit_f5t16elio.png}
+  }
+  \hfill
+  \subfloat[\ce{N2}]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/N2rotFit_elio.png}
+  }
+ \caption{Example of optimal spectrum simulation for considered species.}
+ \label{fig:Trfit}
 \end{figure}
 
-\subsection{Rotational temperature for \ce{N_2}}
-How, simulation, article.
+
+From estimated temperatures we can see that they are compatible with each other, for every distance and for every pulse setup. It's then possible to evaluate a mean value for the species, that are $T_{r,\ce{OH}} = \SI{352(38)}{\kelvin}$ and $T_{r,\ce{N2}} = \SI{321(41)}{\kelvin}$, compatible with each other, and that, as said before, can be taken as an indicator of kinetic temperature for neutral species, so as temperature of the gas. This temperatures are a little higher then expected, but it can still be defined a cold plasma.
 \begin{figure}
 \centering
-\includegraphics[width=0.65\textwidth]{Images/Spectroscopy/TrN2.png}
- \caption{Estimation of rotational temperature of \ce{N2} molecule, for different frequencies, in blue position 1 in red position 2.}
- \label{fig:TrN2}
+  \subfloat[\ce{OH}]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/TrOH.png}
+  }
+  \hfill
+  \subfloat[\ce{N2}]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/TrN2.png}
+  }
+ \caption{Estimation of rotational temperature of \ce{OH} and \ce{N2} molecules, for different frequencies, in blue position 1 in red position 2.}
+ \label{fig:Trval}
 \end{figure}
-
 
 \subsection{Vibrational temperature for \ce{N_2}}
-How, boltzmann graph, article.
-
+Given a set of vibrational transition lines with defined $\Delta \nu = \nu' - \nu''$, their relative intensities are correlated to each other, with a proporionality that involves vibrational temperature (\cite{Britun_2007}).
+Once estimated peak's intensities for considered transitions, it can be made the Boltzmann graph as in figure \ref{fig:boltzex} and from then calculate $T_v$ as in formula \ref{eq:Tv}.
 \begin{figure}
 \centering
 \includegraphics[width=0.65\textwidth]{Images/Spectroscopy/boltzman_f5t16v.png}
@@ -257,10 +293,19 @@ How, boltzmann graph, article.
  \label{fig:boltzex}
 \end{figure}
 
+\begin{equation}
+ \begin{split}
+  & log(I(\nu') = S \nu'' + I_0 \\
+  & T_v [K] = \frac{10^4}{3.57 \cdot S - 0.03}
+ \end{split}
+\label{eq:Tv}
+\end{equation}
+
+Results are presented in figure \ref{fig:TvN2}. For this parameter we have values compatible with each other at low and medium power pulse settings with a mean value of $T_v = \SI{3405(154)}{\kelvin}$, while we find a lower temperature for high power pulse settings $T_v = \SI{2781(322)}{\kelvin}$. It seems that whith an higher pulse frequency we have lower concentration of excited \ce{N2} produced with lower mean energy.
 \begin{figure}
 \centering
 \includegraphics[width=0.65\textwidth]{Images/Spectroscopy/TvN2.png}
- \caption{Estimation of vibrational temperature of \ce{OH} molecule, for different frequencies, in blue position 1 in red position 2.}
+ \caption{Estimation of vibrational temperature of \ce{N2} molecule, for different frequencies, in blue position 1 in red position 2.}
  \label{fig:TvN2}
 \end{figure}
 
