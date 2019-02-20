@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  17 FEB 2019 19:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  20 FEB 2019 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2015,7 +2015,16 @@ LaTeX Warning: Unused global option(s):
 
 (./tesi_plasmamed.aux
 
-LaTeX Warning: Label `fig:times' multiply defined.
+LaTeX Warning: Label `fig:elio_d035_I' multiply defined.
+
+
+LaTeX Warning: Label `fig:elio_d035_I' multiply defined.
+
+
+LaTeX Warning: Label `fig:elio_d' multiply defined.
+
+
+LaTeX Warning: Label `tab:elio_d' multiply defined.
 
 )
 \openout1 = `tesi_plasmamed.aux'.
@@ -2141,27 +2150,7 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Britun_2007':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Izarra_2000':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Jarrige_2010':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Kossyi_1992':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with '6153386':
 (biblatex)                - Invalid format of field 'month'.
 
 
@@ -2190,404 +2179,268 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write7
 \openout7 = `tesi_plasmamed.toc'.
 
- (./Chapters/electric.tex [1
+ (./Chapters/shape.tex [1
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
 Chapter 1.
-<Images/Electric/Linea_elettrica.png, id=17, 597.73312pt x 420.82219pt>
-File: Images/Electric/Linea_elettrica.png Graphic file (type png)
-<use Images/Electric/Linea_elettrica.png>
-Package pdftex.def Info: Images/Electric/Linea_elettrica.png  used on input lin
-e 11.
-(pdftex.def)             Requested size: 334.60422pt x 235.57533pt.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 12.
+<Images/Shape/frames.png, id=16, 418.56375pt x 258.9675pt>
+File: Images/Shape/frames.png Graphic file (type png)
+<use Images/Shape/frames.png>
+Package pdftex.def Info: Images/Shape/frames.png  used on input line 8.
+(pdftex.def)             Requested size: 334.60422pt x 207.02014pt.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 9.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [3]
-<Images/Electric/segnali.png, id=26, 1126.2075pt x 659.46375pt>
-File: Images/Electric/segnali.png Graphic file (type png)
-<use Images/Electric/segnali.png>
-Package pdftex.def Info: Images/Electric/segnali.png  used on input line 27.
-(pdftex.def)             Requested size: 334.60422pt x 195.92876pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <./Images/Electric/Linea_elettrica.png>]
-<Images/Electric/estrepicchi.png, id=35, 765.86125pt x 532.99126pt>
-File: Images/Electric/estrepicchi.png Graphic file (type png)
-<use Images/Electric/estrepicchi.png>
-Package pdftex.def Info: Images/Electric/estrepicchi.png  used on input line 53
-.
-(pdftex.def)             Requested size: 167.2989pt x 116.4289pt.
-<Images/Electric/zoom1pk.png, id=36, 765.86125pt x 532.99126pt>
-File: Images/Electric/zoom1pk.png Graphic file (type png)
-<use Images/Electric/zoom1pk.png>
-Package pdftex.def Info: Images/Electric/zoom1pk.png  used on input line 57.
-(pdftex.def)             Requested size: 167.2989pt x 116.4289pt.
- [5 <./Images/Electric/segnali.png>]
-<Images/Electric/esfit_f10_t2.png, id=42, 700.6175pt x 472.76625pt>
-File: Images/Electric/esfit_f10_t2.png Graphic file (type png)
-<use Images/Electric/esfit_f10_t2.png>
-Package pdftex.def Info: Images/Electric/esfit_f10_t2.png  used on input line 6
-6.
-(pdftex.def)             Requested size: 250.95476pt x 169.33727pt.
-<Images/Electric/Vpp_nogas_A.png, id=43, 818.05624pt x 521.95pt>
-File: Images/Electric/Vpp_nogas_A.png Graphic file (type png)
-<use Images/Electric/Vpp_nogas_A.png>
-Package pdftex.def Info: Images/Electric/Vpp_nogas_A.png  used on input line 80
-.
-(pdftex.def)             Requested size: 250.95476pt x 160.11438pt.
-<Images/Electric/Vpp_nogas_B.png, id=44, 818.05624pt x 521.95pt>
-File: Images/Electric/Vpp_nogas_B.png Graphic file (type png)
-<use Images/Electric/Vpp_nogas_B.png>
-Package pdftex.def Info: Images/Electric/Vpp_nogas_B.png  used on input line 84
-.
-(pdftex.def)             Requested size: 250.95476pt x 160.11438pt.
- [6 <./Images/Electric/estrepicchi.png> <./Images/Electric/zoom1pk.png> <./Imag
-es/Electric/esfit_f10_t2.png>]
-<Images/Electric/mq_nogas_A.png, id=51, 600.2425pt x 673.51625pt>
-File: Images/Electric/mq_nogas_A.png Graphic file (type png)
-<use Images/Electric/mq_nogas_A.png>
-Package pdftex.def Info: Images/Electric/mq_nogas_A.png  used on input line 93.
-
-(pdftex.def)             Requested size: 167.2989pt x 187.71999pt.
-<Images/Electric/mq_nogas_B.png, id=52, 600.2425pt x 673.51625pt>
-File: Images/Electric/mq_nogas_B.png Graphic file (type png)
-<use Images/Electric/mq_nogas_B.png>
-Package pdftex.def Info: Images/Electric/mq_nogas_B.png  used on input line 96.
-
-(pdftex.def)             Requested size: 167.2989pt x 187.71999pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <./Images/Electric/Vpp_nogas_A.png> <./Images/Electric/Vpp_nogas_B.png>]
-<Images/Electric/tenscurr_f5_t8.png, id=57, 700.6175pt x 472.76625pt>
-File: Images/Electric/tenscurr_f5_t8.png Graphic file (type png)
-<use Images/Electric/tenscurr_f5_t8.png>
-Package pdftex.def Info: Images/Electric/tenscurr_f5_t8.png  used on input line
- 111.
-(pdftex.def)             Requested size: 250.95476pt x 169.33727pt.
-<Images/Electric/Vpp_gas_A.png, id=58, 750.805pt x 527.9725pt>
-File: Images/Electric/Vpp_gas_A.png Graphic file (type png)
-<use Images/Electric/Vpp_gas_A.png>
-Package pdftex.def Info: Images/Electric/Vpp_gas_A.png  used on input line 122.
-
-(pdftex.def)             Requested size: 250.95476pt x 176.47108pt.
-<Images/Electric/Vpp_gas_B.png, id=59, 810.02625pt x 549.05125pt>
-File: Images/Electric/Vpp_gas_B.png Graphic file (type png)
-<use Images/Electric/Vpp_gas_B.png>
-Package pdftex.def Info: Images/Electric/Vpp_gas_B.png  used on input line 126.
-
-(pdftex.def)             Requested size: 250.95476pt x 170.10359pt.
-<Images/Electric/I_gas_A.png, id=60, 700.6175pt x 472.76625pt>
-File: Images/Electric/I_gas_A.png Graphic file (type png)
-<use Images/Electric/I_gas_A.png>
-Package pdftex.def Info: Images/Electric/I_gas_A.png  used on input line 135.
-(pdftex.def)             Requested size: 250.95476pt x 169.33727pt.
-<Images/Electric/I_gas_B.png, id=61, 700.6175pt x 472.76625pt>
-File: Images/Electric/I_gas_B.png Graphic file (type png)
-<use Images/Electric/I_gas_B.png>
-Package pdftex.def Info: Images/Electric/I_gas_B.png  used on input line 139.
-(pdftex.def)             Requested size: 250.95476pt x 169.33727pt.
- [8 <./Images/Electric/mq_nogas_A.png> <./Images/Electric/mq_nogas_B.png>]
-<Images/Electric/mq_V_gas_A.png, id=66, 600.2425pt x 673.51625pt>
-File: Images/Electric/mq_V_gas_A.png Graphic file (type png)
-<use Images/Electric/mq_V_gas_A.png>
-Package pdftex.def Info: Images/Electric/mq_V_gas_A.png  used on input line 155
-.
-(pdftex.def)             Requested size: 167.2989pt x 187.71999pt.
-<Images/Electric/mq_V_gas_B.png, id=67, 600.2425pt x 673.51625pt>
-File: Images/Electric/mq_V_gas_B.png Graphic file (type png)
-<use Images/Electric/mq_V_gas_B.png>
-Package pdftex.def Info: Images/Electric/mq_V_gas_B.png  used on input line 158
-.
-(pdftex.def)             Requested size: 167.2989pt x 187.71999pt.
-<Images/Electric/mq_I_gas_A.png, id=68, 600.2425pt x 673.51625pt>
-File: Images/Electric/mq_I_gas_A.png Graphic file (type png)
-<use Images/Electric/mq_I_gas_A.png>
-Package pdftex.def Info: Images/Electric/mq_I_gas_A.png  used on input line 168
-.
-(pdftex.def)             Requested size: 167.2989pt x 187.71999pt.
-<Images/Electric/mq_I_gas_B.png, id=69, 600.2425pt x 673.51625pt>
-File: Images/Electric/mq_I_gas_B.png Graphic file (type png)
-<use Images/Electric/mq_I_gas_B.png>
-Package pdftex.def Info: Images/Electric/mq_I_gas_B.png  used on input line 171
-.
-(pdftex.def)             Requested size: 167.2989pt x 187.71999pt.
- [9 <./Images/Electric/tenscurr_f5_t8.png>] [10 <./Images/Electric/Vpp_gas_A.pn
-g> <./Images/Electric/Vpp_gas_B.png>] [11 <./Images/Electric/I_gas_A.png> <./Im
-ages/Electric/I_gas_B.png>] [12 <./Images/Electric/mq_V_gas_A.png> <./Images/El
-ectric/mq_V_gas_B.png> <./Images/Electric/mq_I_gas_A.png> <./Images/Electric/mq
-_I_gas_B.png>]
-<Images/Electric/VFitexp_f8_t5.png, id=86, 700.6175pt x 472.76625pt>
-File: Images/Electric/VFitexp_f8_t5.png Graphic file (type png)
-<use Images/Electric/VFitexp_f8_t5.png>
-Package pdftex.def Info: Images/Electric/VFitexp_f8_t5.png  used on input line 
-190.
-(pdftex.def)             Requested size: 167.2989pt x 112.8891pt.
-<Images/Electric/Trasf_f8_t5_clean.png, id=87, 700.6175pt x 472.76625pt>
-File: Images/Electric/Trasf_f8_t5_clean.png Graphic file (type png)
-<use Images/Electric/Trasf_f8_t5_clean.png>
-Package pdftex.def Info: Images/Electric/Trasf_f8_t5_clean.png  used on input l
-ine 193.
-(pdftex.def)             Requested size: 167.2989pt x 112.8891pt.
-<Images/Electric/fitexp_V0_f8.png, id=88, 700.6175pt x 472.76625pt>
-File: Images/Electric/fitexp_V0_f8.png Graphic file (type png)
-<use Images/Electric/fitexp_V0_f8.png>
-Package pdftex.def Info: Images/Electric/fitexp_V0_f8.png  used on input line 2
-02.
-(pdftex.def)             Requested size: 167.2989pt x 112.8891pt.
-<Images/Electric/fitexp_tau_f8.png, id=89, 700.6175pt x 472.76625pt>
-File: Images/Electric/fitexp_tau_f8.png Graphic file (type png)
-<use Images/Electric/fitexp_tau_f8.png>
-Package pdftex.def Info: Images/Electric/fitexp_tau_f8.png  used on input line 
-206.
-(pdftex.def)             Requested size: 167.2989pt x 112.8891pt.
-<Images/Electric/fitexp_w_f8.png, id=90, 700.6175pt x 472.76625pt>
-File: Images/Electric/fitexp_w_f8.png Graphic file (type png)
-<use Images/Electric/fitexp_w_f8.png>
-Package pdftex.def Info: Images/Electric/fitexp_w_f8.png  used on input line 20
-9.
-(pdftex.def)             Requested size: 167.2989pt x 112.8891pt.
-<Images/Electric/VI_B.png, id=91, 700.6175pt x 472.76625pt>
-File: Images/Electric/VI_B.png Graphic file (type png)
-<use Images/Electric/VI_B.png>
-Package pdftex.def Info: Images/Electric/VI_B.png  used on input line 219.
-(pdftex.def)             Requested size: 250.95476pt x 169.33727pt.
-<Images/Electric/z_f8.png, id=92, 1073.00874pt x 497.86pt>
-File: Images/Electric/z_f8.png Graphic file (type png)
-<use Images/Electric/z_f8.png>
-Package pdftex.def Info: Images/Electric/z_f8.png  used on input line 226.
-(pdftex.def)             Requested size: 334.60422pt x 155.24661pt.
-
-Overfull \hbox (33.10526pt too wide) in paragraph at lines 231--233
-[]\T1/cmr/m/n/10.95 From the graphs it's pos-si-ble to ex-trap-o-late that plas
-ma impedance goes from $[] []$
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13 <./Images/Electric/VFitexp_f8_t5.png> <./Images/Electric/Trasf_f8_t5_clean
-.png>]
-[14 <./Images/Electric/fitexp_V0_f8.png> <./Images/Electric/fitexp_tau_f8.png> 
-<./Images/Electric/fitexp_w_f8.png> <./Images/Electric/VI_B.png>]
-<Images/Electric/Ieff_A.png, id=103, 700.6175pt x 472.76625pt>
-File: Images/Electric/Ieff_A.png Graphic file (type png)
-<use Images/Electric/Ieff_A.png>
-Package pdftex.def Info: Images/Electric/Ieff_A.png  used on input line 248.
-(pdftex.def)             Requested size: 167.2989pt x 112.8891pt.
-<Images/Electric/Ieff_B.png, id=104, 700.6175pt x 472.76625pt>
-File: Images/Electric/Ieff_B.png Graphic file (type png)
-<use Images/Electric/Ieff_B.png>
-Package pdftex.def Info: Images/Electric/Ieff_B.png  used on input line 251.
-(pdftex.def)             Requested size: 167.2989pt x 112.8891pt.
-
-
-LaTeX Warning: Reference `ch:shape' on page 15 undefined on input line 258.
-
-
-LaTeX Warning: Reference `ch:temperature' on page 15 undefined on input line 25
-8.
-
-[15 <./Images/Electric/z_f8.png>]
-<Images/Electric/tempi_V.png, id=110, 700.6175pt x 472.76625pt>
-File: Images/Electric/tempi_V.png Graphic file (type png)
-<use Images/Electric/tempi_V.png>
-Package pdftex.def Info: Images/Electric/tempi_V.png  used on input line 266.
-(pdftex.def)             Requested size: 167.2989pt x 112.8891pt.
-<Images/Electric/tempi_I.png, id=111, 700.6175pt x 472.76625pt>
-File: Images/Electric/tempi_I.png Graphic file (type png)
-<use Images/Electric/tempi_I.png>
-Package pdftex.def Info: Images/Electric/tempi_I.png  used on input line 269.
-(pdftex.def)             Requested size: 167.2989pt x 112.8891pt.
- Excluding 'comment' comment.
-Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment. Excluding 'comment' comment.) [16 <./Images/Electr
-ic/Ieff_A.png> <./Images/Electric/Ieff_B.png> <./Images/Electric/tempi_V.png> <
-./Images/Electric/tempi_I.png (PNG copy)>] (./Chapters/shape.tex
-Chapter 2.
-<Images/Shape/frames.png, id=116, 418.56375pt x 258.9675pt>
-File: Images/Shape/frames.png Graphic file (type png)
-<use Images/Shape/frames.png>
-Package pdftex.def Info: Images/Shape/frames.png  used on input line 9.
-(pdftex.def)             Requested size: 334.60422pt x 207.02014pt.
-[17
-
-
-]
-<Images/Shape/acq_ottica.png, id=120, 339.51843pt x 266.49562pt>
+<Images/Shape/acq_ottica.png, id=26, 339.51843pt x 266.49562pt>
 File: Images/Shape/acq_ottica.png Graphic file (type png)
 <use Images/Shape/acq_ottica.png>
-Package pdftex.def Info: Images/Shape/acq_ottica.png  used on input line 34.
+Package pdftex.def Info: Images/Shape/acq_ottica.png  used on input line 33.
 (pdftex.def)             Requested size: 250.95476pt x 196.98001pt.
 File: Images/Shape/acq_ottica.png Graphic file (type png)
 <use Images/Shape/acq_ottica.png>
-Package pdftex.def Info: Images/Shape/acq_ottica.png  used on input line 41.
+Package pdftex.def Info: Images/Shape/acq_ottica.png  used on input line 40.
 (pdftex.def)             Requested size: 292.77629pt x 229.81612pt.
-<Images/Shape/MCPsingle-stage.jpg, id=121, 180.675pt x 157.58875pt>
+<Images/Shape/MCPsingle-stage.jpg, id=27, 180.675pt x 157.58875pt>
 File: Images/Shape/MCPsingle-stage.jpg Graphic file (type jpg)
 <use Images/Shape/MCPsingle-stage.jpg>
 Package pdftex.def Info: Images/Shape/MCPsingle-stage.jpg  used on input line 5
-4.
+3.
 (pdftex.def)             Requested size: 167.2989pt x 145.92358pt.
- [18 <./Images/Shape/frames.png>] [19 <./Images/Shape/acq_ottica.png>]
-[20 <./Images/Shape/MCPsingle-stage.jpg>]
-<Images/Shape/times.png, id=134, 289.08pt x 215.30438pt>
+
+
+LaTeX Warning: Reference `ch:electric' on page 4 undefined on input line 61.
+
+[4 <./Images/Shape/frames.png>] [5 <./Images/Shape/acq_ottica.png>]
+
+LaTeX Warning: Reference `ch:electric' on page 6 undefined on input line 65.
+
+[6 <./Images/Shape/MCPsingle-stage.jpg>]
+
+LaTeX Warning: Reference `ch:electric' on page 7 undefined on input line 87.
+
+<Images/Shape/times.png, id=44, 289.08pt x 215.30438pt>
 File: Images/Shape/times.png Graphic file (type png)
 <use Images/Shape/times.png>
-Package pdftex.def Info: Images/Shape/times.png  used on input line 94.
+Package pdftex.def Info: Images/Shape/times.png  used on input line 93.
 (pdftex.def)             Requested size: 250.95476pt x 186.9092pt.
-<Images/Shape/times_osc.png, id=135, 700.6175pt x 490.83376pt>
+
+LaTeX Warning: Reference `ch:electric' on page 7 undefined on input line 94.
+
+
+LaTeX Warning: Reference `ch:electric' on page 7 undefined on input line 94.
+
+<Images/Shape/times_osc.png, id=45, 700.6175pt x 490.83376pt>
 File: Images/Shape/times_osc.png Graphic file (type png)
 <use Images/Shape/times_osc.png>
-Package pdftex.def Info: Images/Shape/times_osc.png  used on input line 101.
+Package pdftex.def Info: Images/Shape/times_osc.png  used on input line 100.
 (pdftex.def)             Requested size: 250.95476pt x 175.80876pt.
- [21] [22 <./Images/Shape/times.png> <./Images/Shape/times_osc.png>]
-Overfull \hbox (20.43527pt too wide) in paragraph at lines 129--157
+[7] [8 <./Images/Shape/times.png> <./Images/Shape/times_osc.png>]
+
+LaTeX Warning: Reference `ch:electric' on page 9 undefined on input line 117.
+
+
+Overfull \hbox (20.43527pt too wide) in paragraph at lines 128--156
  [][] 
  []
 
-) [23] [24] [25] (./Chapters/spectrometry.tex [26
+[9] [10]
+<Images/Shape/elio_d035_es1.png, id=67, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_es1.png Graphic file (type png)
+<use Images/Shape/elio_d035_es1.png>
+Package pdftex.def Info: Images/Shape/elio_d035_es1.png  used on input line 202
+.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+<Images/Shape/elio_d035_es2.png, id=68, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_es2.png Graphic file (type png)
+<use Images/Shape/elio_d035_es2.png>
+Package pdftex.def Info: Images/Shape/elio_d035_es2.png  used on input line 206
+.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+<Images/Shape/elio_d035_es3.png, id=69, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_es3.png Graphic file (type png)
+<use Images/Shape/elio_d035_es3.png>
+Package pdftex.def Info: Images/Shape/elio_d035_es3.png  used on input line 210
+.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+<Images/Shape/elio_d035_es4.png, id=70, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_es4.png Graphic file (type png)
+<use Images/Shape/elio_d035_es4.png>
+Package pdftex.def Info: Images/Shape/elio_d035_es4.png  used on input line 214
+.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+ [11] [12 <./Images/Shape/elio_d035_es1.png> <./Images/Shape/elio_d035_es2.png>
+ <./Images/Shape/elio_d035_es3.png> <./Images/Shape/elio_d035_es4.png>]
+<Images/Shape/elio_d035_V.png, id=80, 716.6775pt x 506.89375pt>
+File: Images/Shape/elio_d035_V.png Graphic file (type png)
+<use Images/Shape/elio_d035_V.png>
+Package pdftex.def Info: Images/Shape/elio_d035_V.png  used on input line 229.
+(pdftex.def)             Requested size: 200.75996pt x 141.99115pt.
+<Images/Shape/elio_d035_Im.png, id=81, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_Im.png Graphic file (type png)
+<use Images/Shape/elio_d035_Im.png>
+Package pdftex.def Info: Images/Shape/elio_d035_Im.png  used on input line 233.
+
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+
+LaTeX Warning: Reference `fig:elio_d035_bary' on page 13 undefined on input lin
+e 241.
+
+<Images/Shape/elio_d035_xb.png, id=82, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_xb.png Graphic file (type png)
+<use Images/Shape/elio_d035_xb.png>
+Package pdftex.def Info: Images/Shape/elio_d035_xb.png  used on input line 249.
+
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+<Images/Shape/elio_d035_yb.png, id=83, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_yb.png Graphic file (type png)
+<use Images/Shape/elio_d035_yb.png>
+Package pdftex.def Info: Images/Shape/elio_d035_yb.png  used on input line 253.
+
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+[13 <./Images/Shape/elio_d035_V.png> <./Images/Shape/elio_d035_Im.png>]
+
+LaTeX Warning: Reference `fig:elio_d035_diry' on page 14 undefined on input lin
+e 258.
+
+<Images/Shape/elio_d035_incl.png, id=89, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_incl.png Graphic file (type png)
+<use Images/Shape/elio_d035_incl.png>
+Package pdftex.def Info: Images/Shape/elio_d035_incl.png  used on input line 26
+1.
+(pdftex.def)             Requested size: 250.95476pt x 169.33727pt.
+
+LaTeX Warning: Reference `fig:elio_d035_dim' on page 14 undefined on input line
+ 268.
+
+<Images/Shape/elio_d035_dx.png, id=90, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_dx.png Graphic file (type png)
+<use Images/Shape/elio_d035_dx.png>
+Package pdftex.def Info: Images/Shape/elio_d035_dx.png  used on input line 275.
+
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+<Images/Shape/elio_d035_dy.png, id=91, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_dy.png Graphic file (type png)
+<use Images/Shape/elio_d035_dy.png>
+Package pdftex.def Info: Images/Shape/elio_d035_dy.png  used on input line 279.
+
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+[14 <./Images/Shape/elio_d035_xb.png> <./Images/Shape/elio_d035_yb.png> <./Imag
+es/Shape/elio_d035_incl.png>]
+<Images/Shape/elio_d035_xb_fitv.png, id=95, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_xb_fitv.png Graphic file (type png)
+<use Images/Shape/elio_d035_xb_fitv.png>
+Package pdftex.def Info: Images/Shape/elio_d035_xb_fitv.png  used on input line
+ 295.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+<Images/Shape/elio_d035_vx_fitv.png, id=96, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_vx_fitv.png Graphic file (type png)
+<use Images/Shape/elio_d035_vx_fitv.png>
+Package pdftex.def Info: Images/Shape/elio_d035_vx_fitv.png  used on input line
+ 299.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
 
 
-]
-Chapter 3.
-<Images/Spectroscopy/plasmaemission.png, id=158, 238.8925pt x 158.5925pt>
-File: Images/Spectroscopy/plasmaemission.png Graphic file (type png)
-<use Images/Spectroscopy/plasmaemission.png>
-Package pdftex.def Info: Images/Spectroscopy/plasmaemission.png  used on input 
-line 12.
-(pdftex.def)             Requested size: 160.60858pt x 106.62181pt.
+LaTeX Warning: Reference `ch:electric' on page 15 undefined on input line 307.
 
-Overfull \hbox (2.68787pt too wide) in paragraph at lines 11--24
-[]$[]$ $[]$ 
+[15 <./Images/Shape/elio_d035_dx.png> <./Images/Shape/elio_d035_dy.png>]
+<Images/Shape/elio_d_Im.png, id=100, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d_Im.png Graphic file (type png)
+<use Images/Shape/elio_d_Im.png>
+Package pdftex.def Info: Images/Shape/elio_d_Im.png  used on input line 321.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+<Images/Shape/elio_d_xb.png, id=101, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d_xb.png Graphic file (type png)
+<use Images/Shape/elio_d_xb.png>
+Package pdftex.def Info: Images/Shape/elio_d_xb.png  used on input line 325.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+<Images/Shape/elio_d_yb.png, id=102, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d_yb.png Graphic file (type png)
+<use Images/Shape/elio_d_yb.png>
+Package pdftex.def Info: Images/Shape/elio_d_yb.png  used on input line 328.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+<Images/Shape/elio_d_dx.png, id=103, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d_dx.png Graphic file (type png)
+<use Images/Shape/elio_d_dx.png>
+Package pdftex.def Info: Images/Shape/elio_d_dx.png  used on input line 332.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+<Images/Shape/elio_d_dy.png, id=104, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d_dy.png Graphic file (type png)
+<use Images/Shape/elio_d_dy.png>
+Package pdftex.def Info: Images/Shape/elio_d_dy.png  used on input line 335.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+<Images/Shape/elio_d_vx.png, id=105, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d_vx.png Graphic file (type png)
+<use Images/Shape/elio_d_vx.png>
+Package pdftex.def Info: Images/Shape/elio_d_vx.png  used on input line 339.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+
+
+LaTeX Warning: Float too large for page by 77.34328pt on input line 342.
+
+
+Overfull \hbox (30.27705pt too wide) in paragraph at lines 346--355
+ [][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `fig:elio_035' on page 16 undefined on input line 363.
 
- [27]
-<Images/Spectroscopy/apparato.jpg, id=162, 1270.7475pt x 538.01pt>
-File: Images/Spectroscopy/apparato.jpg Graphic file (type jpg)
-<use Images/Spectroscopy/apparato.jpg>
-Package pdftex.def Info: Images/Spectroscopy/apparato.jpg  used on input line 3
-9.
-(pdftex.def)             Requested size: 250.95476pt x 106.24554pt.
 
-[28 <./Images/Spectroscopy/apparato.jpg> <./Images/Spectroscopy/plasmaemission.
-png>]
-<Images/Spectroscopy/spettrotot_unico_label_def.png, id=167, 690.1785pt x 469.7
-55pt>
-File: Images/Spectroscopy/spettrotot_unico_label_def.png Graphic file (type png
-)
-<use Images/Spectroscopy/spettrotot_unico_label_def.png>
-Package pdftex.def Info: Images/Spectroscopy/spettrotot_unico_label_def.png  us
-ed on input line 74.
-(pdftex.def)             Requested size: 414.07343pt x 281.83368pt.
- [29]
-<Images/Spectroscopy/OH_f5t16v.png, id=171, 700.6175pt x 472.76625pt>
-File: Images/Spectroscopy/OH_f5t16v.png Graphic file (type png)
-<use Images/Spectroscopy/OH_f5t16v.png>
-Package pdftex.def Info: Images/Spectroscopy/OH_f5t16v.png  used on input line 
-104.
-(pdftex.def)             Requested size: 250.95476pt x 169.33727pt.
- [30 <./Images/Spectroscopy/spettrotot_unico_label_def.png>]
-<Images/Spectroscopy/N2v_f5t16.png, id=176, 700.6175pt x 472.76625pt>
-File: Images/Spectroscopy/N2v_f5t16.png Graphic file (type png)
-<use Images/Spectroscopy/N2v_f5t16.png>
-Package pdftex.def Info: Images/Spectroscopy/N2v_f5t16.png  used on input line 
-143.
-(pdftex.def)             Requested size: 188.21288pt x 126.99934pt.
-<Images/Spectroscopy/N2r_f5t16.png, id=177, 716.6775pt x 484.81125pt>
-File: Images/Spectroscopy/N2r_f5t16.png Graphic file (type png)
-<use Images/Spectroscopy/N2r_f5t16.png>
-Package pdftex.def Info: Images/Spectroscopy/N2r_f5t16.png  used on input line 
-147.
-(pdftex.def)             Requested size: 188.21288pt x 127.32033pt.
- [31 <./Images/Spectroscopy/OH_f5t16v.png> <./Images/Spectroscopy/N2v_f5t16.png
-> <./Images/Spectroscopy/N2r_f5t16.png>] [32]
-<Images/Spectroscopy/I_OH.png, id=187, 700.6175pt x 472.76625pt>
-File: Images/Spectroscopy/I_OH.png Graphic file (type png)
-<use Images/Spectroscopy/I_OH.png>
-Package pdftex.def Info: Images/Spectroscopy/I_OH.png  used on input line 220.
+[16 <./Images/Shape/elio_d035_xb_fitv.png> <./Images/Shape/elio_d035_vx_fitv.pn
+g>] [17 <./Images/Shape/elio_d_Im.png> <./Images/Shape/elio_d_xb.png> <./Images
+/Shape/elio_d_yb.png> <./Images/Shape/elio_d_dx.png> <./Images/Shape/elio_d_dy.
+png> <./Images/Shape/elio_d_vx.png>]
+<Images/Shape/elio_035_Im.png, id=112, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_035_Im.png Graphic file (type png)
+<use Images/Shape/elio_035_Im.png>
+Package pdftex.def Info: Images/Shape/elio_035_Im.png  used on input line 380.
 (pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Images/Spectroscopy/I_N2r.png, id=188, 700.6175pt x 472.76625pt>
-File: Images/Spectroscopy/I_N2r.png Graphic file (type png)
-<use Images/Spectroscopy/I_N2r.png>
-Package pdftex.def Info: Images/Spectroscopy/I_N2r.png  used on input line 224.
+<Images/Shape/elio_035_xb.png, id=113, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_035_xb.png Graphic file (type png)
+<use Images/Shape/elio_035_xb.png>
+Package pdftex.def Info: Images/Shape/elio_035_xb.png  used on input line 384.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+<Images/Shape/elio_035_yb.png, id=114, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_035_yb.png Graphic file (type png)
+<use Images/Shape/elio_035_yb.png>
+Package pdftex.def Info: Images/Shape/elio_035_yb.png  used on input line 387.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+<Images/Shape/elio_035_dx.png, id=115, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_035_dx.png Graphic file (type png)
+<use Images/Shape/elio_035_dx.png>
+Package pdftex.def Info: Images/Shape/elio_035_dx.png  used on input line 391.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+<Images/Shape/elio_035_dy.png, id=116, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_035_dy.png Graphic file (type png)
+<use Images/Shape/elio_035_dy.png>
+Package pdftex.def Info: Images/Shape/elio_035_dy.png  used on input line 394.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+<Images/Shape/elio_035_vx.png, id=117, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_035_vx.png Graphic file (type png)
+<use Images/Shape/elio_035_vx.png>
+Package pdftex.def Info: Images/Shape/elio_035_vx.png  used on input line 398.
+(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
 
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Images/Spectroscopy/I_N2v.png, id=189, 700.6175pt x 472.76625pt>
-File: Images/Spectroscopy/I_N2v.png Graphic file (type png)
-<use Images/Spectroscopy/I_N2v.png>
-Package pdftex.def Info: Images/Spectroscopy/I_N2v.png  used on input line 228.
 
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
- [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Float too large for page by 65.34328pt on input line 401.
 
- [34 <./Images/Spectroscopy/I_OH.png> <./Images/Spectroscopy/I_N2r.png> <./Imag
-es/Spectroscopy/I_N2v.png>]
-<Images/Spectroscopy/OHFit_f5t16elio.png, id=196, 705.3552pt x 397.9668pt>
-File: Images/Spectroscopy/OHFit_f5t16elio.png Graphic file (type png)
-<use Images/Spectroscopy/OHFit_f5t16elio.png>
-Package pdftex.def Info: Images/Spectroscopy/OHFit_f5t16elio.png  used on input
- line 262.
-(pdftex.def)             Requested size: 200.75996pt x 113.2699pt.
-<Images/Spectroscopy/N2rotFit_elio.png, id=197, 477.9456pt x 345.9324pt>
-File: Images/Spectroscopy/N2rotFit_elio.png Graphic file (type png)
-<use Images/Spectroscopy/N2rotFit_elio.png>
-Package pdftex.def Info: Images/Spectroscopy/N2rotFit_elio.png  used on input l
-ine 266.
-(pdftex.def)             Requested size: 200.75996pt x 145.30644pt.
-<Images/Spectroscopy/TrOH.png, id=198, 700.6175pt x 472.76625pt>
-File: Images/Spectroscopy/TrOH.png Graphic file (type png)
-<use Images/Spectroscopy/TrOH.png>
-Package pdftex.def Info: Images/Spectroscopy/TrOH.png  used on input line 277.
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Images/Spectroscopy/TrN2.png, id=199, 700.6175pt x 472.76625pt>
-File: Images/Spectroscopy/TrN2.png Graphic file (type png)
-<use Images/Spectroscopy/TrN2.png>
-Package pdftex.def Info: Images/Spectroscopy/TrN2.png  used on input line 281.
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Images/Spectroscopy/boltzman_f5t16v.png, id=200, 700.6175pt x 472.76625pt>
-File: Images/Spectroscopy/boltzman_f5t16v.png Graphic file (type png)
-<use Images/Spectroscopy/boltzman_f5t16v.png>
-Package pdftex.def Info: Images/Spectroscopy/boltzman_f5t16v.png  used on input
- line 291.
-(pdftex.def)             Requested size: 271.86234pt x 183.44751pt.
- [35] [36 <./Images/Spectroscopy/OHFit_f5t16elio.png> <./Images/Spectroscopy/N2
-rotFit_elio.png> <./Images/Spectroscopy/TrOH.png> <./Images/Spectroscopy/TrN2.p
-ng>]
-<Images/Spectroscopy/TvN2.png, id=208, 700.6175pt x 472.76625pt>
-File: Images/Spectroscopy/TvN2.png Graphic file (type png)
-<use Images/Spectroscopy/TvN2.png>
-Package pdftex.def Info: Images/Spectroscopy/TvN2.png  used on input line 307.
-(pdftex.def)             Requested size: 271.86234pt x 183.44751pt.
- Excluding 'comment' comment. Excluding 'comment' comment.) [37 <./Images/Spect
-roscopy/boltzman_f5t16v.png>] [38 <./Images/Spectroscopy/TvN2.png>]
+
+Overfull \hbox (41.16902pt too wide) in paragraph at lines 405--415
+ [][] 
+ []
+
+) [18] [19 <./Images/Shape/elio_035_Im.png> <./Images/Shape/elio_035_xb.png> <.
+/Images/Shape/elio_035_yb.png> <./Images/Shape/elio_035_dx.png> <./Images/Shape
+/elio_035_dy.png> <./Images/Shape/elio_035_vx.png>] [20]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 26.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (20.0652pt too wide) in paragraph at lines 27--27
-\T1/cmtt/m/n/10.95 cern . ch / doc / master / namespaceTMath . html # a65669087
-5991a17d35e8a514f37f35d9$\T1/cmr/m/n/10.95 . 
- []
-
-[39
-
-] [40] [41]
-Overfull \hbox (0.6737pt too wide) in paragraph at lines 27--27
-[]\T1/cmr/m/n/10.95 Wikipedia con-trib-u-tors. \T1/cmr/m/it/10.95 Vi-bronic spe
-c-troscopy\T1/cmr/m/n/10.95 . 2018. \T1/cmr/m/sc/10.95 url\T1/cmr/m/n/10.95 : $
-\T1/cmtt/m/n/10.95 https : / / en . wikipedia .
- []
-
 
 ! Package inputenc Error: Unicode char   (U+2009)
 (inputenc)                not set up for use with LaTeX.
@@ -2602,7 +2455,9 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[42] (./tesi_plasmamed.aux)
+[21
+
+] (./tesi_plasmamed.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -2614,46 +2469,40 @@ Package logreq Info: Writing requests to 'tesi_plasmamed.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36695 strings out of 492982
- 741792 string characters out of 6134895
+ 36464 strings out of 492982
+ 734774 string characters out of 6134895
  970645 words of memory out of 5000000
- 39632 multiletter control sequences out of 15000+600000
- 572315 words of font info for 132 fonts, out of 8000000 for 9000
+ 39434 multiletter control sequences out of 15000+600000
+ 568593 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,20n,80p,10447b,2689s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,15n,67p,10447b,1745s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0800.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfsl1095.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfsx0900.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on tesi_plasmamed.pdf (42 pages, 1650444 bytes).
+type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfsx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sftt1095.pfb>
+Output written on tesi_plasmamed.pdf (21 pages, 771407 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 204 compressed objects within 3 object streams
+ 220 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 258 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 

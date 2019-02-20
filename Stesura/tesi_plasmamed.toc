@@ -1,34 +1,22 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Electric characterization}{3}
-\contentsline {section}{\numberline {1.1}Electric scheme and description}{3}
-\contentsline {section}{\numberline {1.2}Output characterization}{5}
-\contentsline {subsection}{\numberline {1.2.1}Measures without gas}{5}
-\contentsline {subsection}{\numberline {1.2.2}Measures with gas}{8}
-\contentsline {subsection}{\numberline {1.2.3}Plasma impedance}{9}
-\contentsline {subsection}{\numberline {1.2.4}Effective current}{15}
-\contentsline {subsection}{\numberline {1.2.5}Time intervals}{15}
-\contentsline {chapter}{\numberline {2}Shape and dynamics}{17}
-\contentsline {section}{\numberline {2.1}Experimental setup}{17}
-\contentsline {subsection}{\numberline {2.1.1}Source and optical setup}{18}
-\contentsline {subsection}{\numberline {2.1.2}Source, power lines and electric signals}{18}
-\contentsline {subsection}{\numberline {2.1.3}Trigger synchronization}{20}
-\contentsline {subsection}{\numberline {2.1.4}Different setups}{21}
-\contentsline {subsection}{\numberline {2.1.5}Frame analysis and calibration}{23}
-\contentsline {section}{\numberline {2.2}Neon flow}{25}
-\contentsline {section}{\numberline {2.3}Helium flow}{25}
-\contentsline {section}{\numberline {2.4}Argon flow}{25}
-\contentsline {chapter}{\numberline {3}Spectral Analysis}{27}
-\contentsline {section}{\numberline {3.1}Radiation emission}{27}
-\contentsline {section}{\numberline {3.2}Experimental setup}{28}
-\contentsline {section}{\numberline {3.3}Line recognition}{29}
-\contentsline {paragraph}{\ce {NO} lines}{30}
-\contentsline {paragraph}{\ce {OH} lines}{31}
-\contentsline {paragraph}{\ce {N_2} and \ce {N+_2} lines}{31}
-\contentsline {paragraph}{Atomic lines}{31}
-\contentsline {section}{\numberline {3.4}Relative intensities}{33}
-\contentsline {subsection}{\numberline {3.4.1}Pulse settings}{33}
-\contentsline {subsection}{\numberline {3.4.2}Line of sight}{33}
-\contentsline {section}{\numberline {3.5}Estimation of plasma temperatures}{34}
-\contentsline {subsection}{\numberline {3.5.1}Rotational temperature for \ce {OH} and for \ce {N2}}{35}
-\contentsline {subsection}{\numberline {3.5.2}Vibrational temperature for \ce {N_2}}{35}
+\contentsline {chapter}{\numberline {1}Shape and dynamics}{3}
+\contentsline {section}{\numberline {1.1}Experimental setup}{3}
+\contentsline {subsection}{\numberline {1.1.1}Source and optical setup}{4}
+\contentsline {subsection}{\numberline {1.1.2}Source, power lines and electric signals}{4}
+\contentsline {subsection}{\numberline {1.1.3}Trigger synchronization}{6}
+\contentsline {subsection}{\numberline {1.1.4}Different setups}{9}
+\contentsline {subsection}{\numberline {1.1.5}Frame analysis and calibration}{9}
+\contentsline {section}{\numberline {1.2}Helium flow}{11}
+\contentsline {subsection}{\numberline {1.2.1}Plasma bullet description}{11}
+\contentsline {paragraph}{Electrode voltage and bullet intensity}{13}
+\contentsline {paragraph}{Barycenter coordinates and direction}{13}
+\contentsline {paragraph}{Bullet dimensions}{14}
+\contentsline {paragraph}{Bullet velocity}{15}
+\contentsline {subsection}{\numberline {1.2.2}Voltage influence}{15}
+\contentsline {subsection}{\numberline {1.2.3}Flow influence}{16}
+\contentsline {subsection}{\numberline {1.2.4}Target influence}{18}
+\contentsline {subsubsection}{Insulator}{18}
+\contentsline {subsubsection}{Conductor}{18}
+\contentsline {section}{\numberline {1.3}Neon flow}{18}
+\contentsline {section}{\numberline {1.4}Argon flow}{18}
