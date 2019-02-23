@@ -15,11 +15,18 @@
 \contentsline {paragraph}{Bullet velocity}{15}
 \contentsline {subsection}{\numberline {1.2.2}Voltage influence}{15}
 \contentsline {subsection}{\numberline {1.2.3}Flow influence}{16}
-\contentsline {subsection}{\numberline {1.2.4}Insulator target}{18}
+\contentsline {subsection}{\numberline {1.2.4}Insulator target}{20}
 \contentsline {paragraph}{Charge deposition}{21}
 \contentsline {subsection}{\numberline {1.2.5}Distant conductive target}{21}
 \contentsline {paragraph}{Bullet dynamics}{21}
 \contentsline {paragraph}{Current measure}{23}
 \contentsline {paragraph}{Backstream}{25}
-\contentsline {section}{\numberline {1.3}Neon flow}{25}
-\contentsline {section}{\numberline {1.4}Argon flow}{25}
+\contentsline {subsection}{\numberline {1.2.6}Close conductive target}{25}
+\contentsline {paragraph}{Current measure}{25}
+\contentsline {section}{\numberline {1.3}Neon flow}{28}
+\contentsline {subsection}{\numberline {1.3.1}Free bullet}{28}
+\contentsline {subsection}{\numberline {1.3.2}Insulator target}{29}
+\contentsline {subsection}{\numberline {1.3.3}Conductive target}{29}
+\contentsline {paragraph}{Current measure}{32}
+\contentsline {paragraph}{Backstream}{32}
+\contentsline {section}{\numberline {1.4}Argon flow}{32}

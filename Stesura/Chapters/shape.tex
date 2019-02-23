@@ -19,7 +19,7 @@ Plasma bullets still needs to be studied in depth, we only know the basic dynami
 
 The scope of this experiment is to observe plasma bullets produced with our source, their shape and their velocity and how they change with different discharge conditions.
 
-Given their typical velocities and the temperature of the plasma, bullet propagation is tought to be related to a travelling ionization front. This propagation can be studied with simplified simulation of DBD discharges, where it's reproduced the behavior of plasma bullets (\cite{doi:10.1063/1.4963115}, \cite{Breden_2012}) or the interaction between plasma and a target (\cite{doi:10.1063/1.4923345}).
+Given their typical velocities and the temperature of the plasma, bullet propagation is tought to be related to a travelling ionization front. This propagation can be studied with simplified simulation of DBD discharges, where it's reproduced the behaviour of plasma bullets (\cite{doi:10.1063/1.4963115}, \cite{Breden_2012}) or the interaction between plasma and a target (\cite{doi:10.1063/1.4923345}).
 %We present a simple 1D model that can reproduce the propagation of this ionization front.
 
 \section{Experimental setup}
@@ -114,7 +114,7 @@ When we work with a gas, we select an appropriate \emph{Gain} value and an appro
 \subsection{Different setups}
 Plasma formation is influenced by many parameters such as frequency of high-voltage pulses, their rise time and maximum, gas type, gas flow, presence of a target and its features (see \cite{Mericam_Bourdet_2009}, \cite{Jarrige_2010}).
 
-For pulse frequency we find a lower limit value, different for each ignition gas, under which there is no discharge. For frequencies higher then this value we don't expect changes (as there aren't in the electric behavior in chapter \ref{ch:electric}), so we use a single chosen value that permits plasma ignition and doesn't stress the experimental setup.
+For pulse frequency we find a lower limit value, different for each ignition gas, under which there is no discharge. For frequencies higher then this value we don't expect changes (as there aren't in the electric behaviour in chapter \ref{ch:electric}), so we use a single chosen value that permits plasma ignition and doesn't stress the experimental setup.
 High-voltage values and gas type determine plasma bullet formation and affect its expulsion velocity. In particular, different gasses have different atomic mass and ionization energies, they will have different voltage ignition values and reactive species formed in plasma will have different velocities.
 Gas flow influences how much gas there is when the ignition starts, so varying it we observe different bullets diameter and velocity.
 Target influences bullet expulsion, propagation and plasma rebound signal. With a conductive target near plasma exit we will have an easier path seen by charges that propagates and, once the bullet hits the target, its observed higher luminosity going from the target to the electrode. With an insulator target we don't find the ionization channel closing on the target, but we observe charge deposition on the insulator with a shape that depends from the gas and the target.
@@ -127,7 +127,7 @@ In this study we present different setups with three different gasses, as shown 
  \centering
  \begin{tabular}{cccccccc}
   \toprule
-  Gas   &Setup  &$\Delta t$ &Target &Target distance    &Flow rate  &Other  &$\Delta t_D$\\
+  Gas   &Setup  &$\Delta t$ &Target &Target position    &Flow rate  &Other  &$\Delta t_D$\\
   \midrule
   \multirow{8}*{\ce{He}}    &A  &$\num{30}, \num{35}, \num{40}$ &Conductor  &\SI{24}{\milli\meter}  &\SI{2}{\liter/\minute} &-  &\SI{50}{\nano\second}\\
                             &B  &$\num{30}, \num{35}, \num{40}$ &Conductor  &\SI{32}{\milli\meter}  &\SI{2}{\liter/\minute} &-  &\SI{20}{\nano\second}\\
@@ -166,7 +166,7 @@ From oscilloscope waveforms we can extrapolate the measure time from the start o
 
 
 Frame analysis is done converting the pgm files in 2-dimensional histograms, using \emph{TH2} class written in \emph{ROOT} libraries (see \cite{ROOT:TH2}).
-We are interested in plasma bullet formation and it's expulsion, but also in other fenomenological behavior that is observed during measures.
+We are interested in plasma bullet formation and it's expulsion, but also in other fenomenological behaviour that is observed during measures.
 
 For plasma bullet we take the mean for every pixel between the five frames taken, from then it's isolated the plasma bullet as the collection of pixels with maximum intensity in the frame. From this image we extrapolate the position of the bullet with the coordinates of it's luminosity barycenter on the plane seen by camera, called x-y in the analysis.
 Once established the center, we can find it's contour as the points were luminosity goes under a certain percentage of the maximum, from that we estimate it's dimensions along x and y axis and it's average luminosity.
@@ -187,7 +187,7 @@ In our experiment we produce helium plasma with pulse frequency $f = \SI{5}{\kil
 Delays are setted to take a single frame during every acquisition, for every measure we take $5$ frames and average them.
 
 
-First we present a tipical discharge without target, after is shown how the behavior changes varying parameters and then it's discussed how a target influences bullet propagation.
+First we present a tipical discharge without target, after is shown how the behaviour changes varying parameters and then it's discussed how a target influences bullet propagation.
 
 \subsection{Plasma bullet description}
 We use as example bullet the setup D with $\Delta t = \SI{3.5}{\micro\second}$, i.e. absence of a target and gas flow of \SI{2}{\liter/\minute}.
@@ -284,10 +284,10 @@ In y direction we find a constant value of \SI{4.65(20)}{\milli\meter} during pr
 
 \paragraph{Bullet velocity}
 From barycenter graphs we see as bullet motion has a definite velocity during described phases.
-Fitting the graph with a line during the displacement phase inside the nozzle, as in figure \ref{fig:elio_d035_vx}, we find that it moves with a speed of $v_{\text{disp}} = \SI{46.48(20)}{\kilo\meter/\second}$. Once it exits the nozzle it speeds up, until a value of $v_{\text{prop}} = \SI{95.16(60)}{\kilo\meter/\second}$.
+Fitting the graph with a line during the displacement phase inside the nozzle, as in figure \ref{fig:elio_d035_vx}, we find that it moves with a speed of $v_{N} = \SI{46.48(20)}{\kilo\meter/\second}$. Once it exits the nozzle it speeds up, until a value of $v_{A} = \SI{95.16(60)}{\kilo\meter/\second}$.
 
 
-With a 3 point finite differance formula we can estimate it's velocity point by point (excluding the first and the last), finding the values shown in figure \ref{fig:elio_d035_vx}. From those values we can average velocities during the two motion phases, finding compatible mean value respect the linear fit: $v_{\text{disp}} = \SI{48.23(103)}{\kilo\meter/\second}$ and $v_{\text{prop}} = \SI{95.16(182)}{\kilo\meter/\second}$.
+With a 3 point finite differance formula we can estimate it's velocity point by point (excluding the first and the last), finding the values shown in figure \ref{fig:elio_d035_vx}. From those values we can average velocities during the two motion phases, finding compatible mean value respect the linear fit: $v_{N} = \SI{48.23(103)}{\kilo\meter/\second}$ and $v_{A} = \SI{95.16(182)}{\kilo\meter/\second}$.
 \begin{figure}
  \centering
  \subfloat[Fit of x barycenter.]{
@@ -310,9 +310,9 @@ The discharge starts always in the same voltage interval, around \SI{5.7}{\kilo\
 
 The plot for the barycenter coordinates (figure \ref{fig:elio_d} (b) - (c)) shows how with higher voltage the bullet reaches further distances ($x_{\text{dist}}$ and $y_{\text{dist}}$ in table). For the lower voltage peak it seems that the bullet doesn't propagate in air, as it stops right after nozzle exit.
 
-Dimensions of the bullet (figure \ref{fig:elio_d} (d) - (e)) are not influenced by voltage value, as we can see they have the exact same behavior, around the same values, for every opening time. A notable differance it's in the y diameter inside the nozzle, where for higher tension we have a slightly larger value. As mentioned before here we have refraction effects due to the glass nozzle, different for those measures due to the higher luminosity.
+Dimensions of the bullet (figure \ref{fig:elio_d} (d) - (e)) are not influenced by voltage value, as we can see they have the exact same behaviour, around the same values, for every opening time. A notable differance it's in the y diameter inside the nozzle, where for higher tension we have a slightly larger value. As mentioned before here we have refraction effects due to the glass nozzle, different for those measures due to the higher luminosity.
 
-Velocity values (figure \ref{fig:elio_d} (f)) show how the bullet behavior is solid during the propagation inside the nozzle and becames more erratic once it exits. As mentioned before, for the lowest opening time we have lower velocities and a rapid drop after contact with air, in this configuration it's not possible to find a propagation velocity. For higher opening times we find the same behavior, with a proportionality between peak voltage value and velocities: if before we found a stable motion with $v_{\text{prop}} = \SI{92.93(6)}{\kilo\meter/\second}$, with higher tension it reaches $v_{\text{prop}} = \SI{149.47(9)}{\kilo\meter/\second}$.
+Velocity values (figure \ref{fig:elio_d} (f)) show how the bullet behaviour is solid during the propagation inside the nozzle and becames more erratic once it exits. As mentioned before, for the lowest opening time we have lower velocities and a rapid drop after contact with air, in this configuration it's not possible to find a propagation velocity. For higher opening times we find the same behaviour, with a proportionality between peak voltage value and velocities: if before we found a stable motion with $v_{A} = \SI{92.93(6)}{\kilo\meter/\second}$, with higher tension it reaches $v_{A} = \SI{149.47(9)}{\kilo\meter/\second}$.
 
 \begin{figure}
  \centering
@@ -346,14 +346,14 @@ Velocity values (figure \ref{fig:elio_d} (f)) show how the bullet behavior is so
  \centering
  \begin{tabular}{ccccccc}
  \toprule
- $V_{p}$ [kV]    &$t_{0}$ [ns] &$V_{0}$ [kV]    &$x_{\text{dist}}$ [mm]   &$y_{\text{dist}}$ [mm]   &$v_{\text{disp}}$ [km/s]   &$v_{\text{prop}}$ [km/s]\\
+ $V_{p}$ [kV]    &$t_{0}$ [ns] &$V_{0}$ [kV]    &$x_{\text{dist}}$ [mm]   &$y_{\text{dist}}$ [mm]   &$v_{N}$ [km/s]   &$v_{A}$ [km/s]\\
  \midrule
  \num{5.66(30)}  &\num{131.5}  &\num{5.55(28)}    &\num{15.99(1)} &\num{1.66(2)}  &\num{37.72(4)} &-\\
  \num{6.59(33)}  &\num{120.9}  &\num{5.71(29)}    &\num{26.08(2)} &\num{1.92(4)}  &\num{46.48(2)} &\num{95.16(6)}\\
  \num{7.22(36)}  &\num{119.5}  &\num{6.01(30)}    &\num{34.55(5)} &\num{2.07(1)}  &\num{59.80(3)} &\num{149.47(9)}\\
  \bottomrule
  \end{tabular}
- \caption{Result of the analysis with different voltage peak values for the pulse. $V_{p}$ is the peak value for the pulse, $t_{0}$ bullet formation time, $V_{0}$ bullet formation tension, $x_{\text{dist}}$ and $y_{\text{dist}}$ are the highest distances reached by the bullet from electrode position, $v_{\text{disp}}$ is the velocity in x direction reached inside the nozzle, $v_{\text{prop}}$ is the velocity of propagation in air in x direction.}
+ \caption{Result of the analysis with different voltage peak values for the pulse. $V_{p}$ is the peak value for the pulse, $t_{0}$ bullet formation time, $V_{0}$ bullet formation tension, $x_{\text{dist}}$ and $y_{\text{dist}}$ are the highest distances reached by the bullet from electrode position, $v_{N}$ is the velocity in x direction reached inside the nozzle, $v_{A}$ is the velocity of propagation in air in x direction.}
  \label{tab:elio_d}
 \end{table}
 \end{comment}
@@ -362,14 +362,14 @@ Velocity values (figure \ref{fig:elio_d} (f)) show how the bullet behavior is so
  \centering
  \begin{tabular}{cccccc}
  \toprule
- $V_{p}$ [kV]    &$V_{0}$ [kV]    &$x_{\text{dist}}$ [mm]   &$y_{\text{dist}}$ [mm]   &$v_{\text{disp}}$ [km/s]   &$v_{\text{prop}}$ [km/s]\\
+ $V_{p}$ [kV]    &$V_{0}$ [kV]    &$x_{\text{dist}}$ [mm]   &$y_{\text{dist}}$ [mm]   &$v_{N}$ [km/s]   &$v_{A}$ [km/s]\\
  \midrule
  \num{5.66(30)}  &\num{5.55(28)}    &\num{15.99(1)} &\num{1.66(2)}  &\num{37.72(4)} &-\\
  \num{6.59(33)}  &\num{5.71(29)}    &\num{26.08(2)} &\num{1.92(4)}  &\num{46.48(2)} &\num{95.16(6)}\\
  \num{7.22(36)}  &\num{6.01(30)}    &\num{34.55(5)} &\num{2.07(1)}  &\num{59.80(3)} &\num{149.47(9)}\\
  \bottomrule
  \end{tabular}
- \caption{Result of the analysis with different voltage peak values for the pulse. $V_{p}$ is the peak value for the pulse, $V_{0}$ bullet formation tension, $x_{\text{dist}}$ and $y_{\text{dist}}$ are the highest distances reached by the bullet from electrode position, $v_{\text{disp}}$ is the velocity in x direction reached inside the nozzle, $v_{\text{prop}}$ is the velocity of propagation in air in x direction.}
+ \caption{Result of the analysis with different voltage peak values for the pulse. $V_{p}$ is the peak value for the pulse, $V_{0}$ bullet formation tension, $x_{\text{dist}}$ and $y_{\text{dist}}$ are the highest distances reached by the bullet from electrode position, $v_{N}$ is the velocity in x direction reached inside the nozzle, $v_{A}$ is the velocity of propagation in air in x direction.}
  \label{tab:elio_d}
 \end{table}
 
@@ -383,8 +383,8 @@ From the barycenter coordinates (figure \ref{fig:elio_d} (b) - (c)) we see as mo
 
 Dimensions of the bullet (figure \ref{fig:elio_d} (d) - (e)) are not very  influenced by gas flow, but we can see little inverse proportionality. For stronger flows we have always littler diameters inside the nozzle, in both directions.
 
-Velocities shows how the bullet behavior changes also inside the nozzle varying gas flow (figure \ref{fig:elio_d} (f)). With little flow, we find a costant displacement velocity in the nozzle, while with more flow the bullet slows down when moving (as shown in \cite{Jarrige_2010}), with a decrease in velocity of \SI{7.58(4)}{\kilo\meter/\second/\milli\meter}.
-Once the bullet exits the nozzle, we see how it almost stops when there is high flow, while it shows the same behavior if flow is under \SI{3}{\liter/\minute} and it has maximum velocity for the lowest gas flow, maintaining it for longer time.
+Velocities shows how the bullet behaviour changes also inside the nozzle varying gas flow (figure \ref{fig:elio_d} (f)). With little flow, we find a costant displacement velocity in the nozzle, while with more flow the bullet slows down when moving (as shown in \cite{Jarrige_2010}), with a decrease in velocity of \SI{7.58(4)}{\kilo\meter/\second/\milli\meter}.
+Once the bullet exits the nozzle, we see how it almost stops when there is high flow, while it shows the same behaviour if flow is under \SI{3}{\liter/\minute} and it has maximum velocity for the lowest gas flow, maintaining it for longer time.
 
 
 Can be concluded that with higher flow we have bullet with longer lifetime and littler mobility, reaching lesser distances with lesser velocity.
@@ -422,7 +422,7 @@ Can be concluded that with higher flow we have bullet with longer lifetime and l
  \centering
  \begin{tabular}{ccccccc}
  \toprule
- Flow [L/min]    &$t_{0}$ [ns] &$V_{0}$ [kV]    &$x_{\text{dist}}$ [mm]   &$y_{\text{dist}}$ [mm]   &$v_{\text{disp}}$ [km/s]   &$v_{\text{prop}}$ [km/s]\\
+ Flow [L/min]    &$t_{0}$ [ns] &$V_{0}$ [kV]    &$x_{\text{dist}}$ [mm]   &$y_{\text{dist}}$ [mm]   &$v_{N}$ [km/s]   &$v_{A}$ [km/s]\\
  \midrule
  \num{1}  &\num{121.9}  &\num{5.87(8)}    &\num{30.65(3)} &\num{2.75(1)}  &\num{54.33(10)} &\num{113.97(9)}\\
  \num{2}  &\num{120.9}  &\num{5.71(29)}    &\num{26.08(2)} &\num{1.92(4)}  &\num{46.48(2)} &\num{95.16(6)}\\
@@ -430,7 +430,7 @@ Can be concluded that with higher flow we have bullet with longer lifetime and l
  \num{4}  &\num{121.3}  &\num{5.90(12)}    &\num{22.80(3)} &\num{2.30(1)}  &\num{58.89(14)} &\num{61.94(44)}\\
  \bottomrule
  \end{tabular}
- \caption{Result of the analysis with different gas flows. $t_{0}$ is the bullet formation time, $V_{0}$ the bullet formation tension, $x_{\text{dist}}$ and $y_{\text{dist}}$ are the highest distances reached by the bullet from electrode position, $v_{\text{disp}}$ is the velocity in x direction reached inside the nozzle, $v_{\text{prop}}$ is the velocity of propagation in air in x direction.}
+ \caption{Result of the analysis with different gas flows. $t_{0}$ is the bullet formation time, $V_{0}$ the bullet formation tension, $x_{\text{dist}}$ and $y_{\text{dist}}$ are the highest distances reached by the bullet from electrode position, $v_{N}$ is the velocity in x direction reached inside the nozzle, $v_{A}$ is the velocity of propagation in air in x direction.}
  \label{tab:elio_d}
 \end{table} 
 \end{comment}
@@ -439,7 +439,7 @@ Can be concluded that with higher flow we have bullet with longer lifetime and l
  \centering
  \begin{tabular}{cccccc}
  \toprule
- Flow [L/min]    &$V_{0}$ [kV]    &$x_{\text{dist}}$ [mm]   &$y_{\text{dist}}$ [mm]   &$v_{\text{disp}}$ [km/s]   &$v_{\text{prop}}$ [km/s]\\
+ Flow [L/min]    &$V_{0}$ [kV]    &$x_{\text{dist}}$ [mm]   &$y_{\text{dist}}$ [mm]   &$v_{N}$ [km/s]   &$v_{A}$ [km/s]\\
  \midrule
  \num{1}  &\num{5.87(8)}    &\num{30.65(3)} &\num{2.75(1)}  &\num{54.33(10)} &\num{113.97(9)}\\
  \num{2}  &\num{5.71(29)}    &\num{26.08(2)} &\num{1.92(4)}  &\num{46.48(2)} &\num{95.16(6)}\\
@@ -447,15 +447,15 @@ Can be concluded that with higher flow we have bullet with longer lifetime and l
  \num{4}  &\num{5.90(12)}    &\num{22.80(3)} &\num{2.30(1)}  &\num{58.89(14)} &\num{61.94(44)}\\
  \bottomrule
  \end{tabular}
- \caption{Result of the analysis with different gas flows. $V_{0}$ the bullet formation tension, $x_{\text{dist}}$ and $y_{\text{dist}}$ are the highest distances reached by the bullet from electrode position, $v_{\text{disp}}$ is the velocity in x direction reached inside the nozzle, $v_{\text{prop}}$ is the velocity of propagation in air in x direction.}
+ \caption{Result of the analysis with different gas flows. $V_{0}$ the bullet formation tension, $x_{\text{dist}}$ and $y_{\text{dist}}$ are the highest distances reached by the bullet from electrode position, $v_{N}$ is the velocity in x direction reached inside the nozzle, $v_{A}$ is the velocity of propagation in air in x direction.}
  \label{tab:elio_d}
 \end{table}
 
 
 \subsection{Insulator target}
-Plasma produced with this source will be applied on biological tissues, so it's fundamental to know how bullet behavior changes with different targets.
+Plasma produced with this source will be applied on biological tissues, so it's fundamental to know how bullet behaviour changes with different targets.
 
-An insulator target is not expected to affect the behavior until the bullet reaches it. An intersting effect is seen after the impact of the bullet with the target, as in figure \ref{fig:elio_ins}, where the plasma seems to deposit charge on the insulator in a circular shape.
+An insulator target is not expected to affect the behaviour until the bullet reaches it. An intersting effect is seen after the impact of the bullet with the target, as in figure \ref{fig:elio_ins}, where the plasma seems to deposit charge on the insulator in a circular shape.
 \begin{figure}
  \centering
  \subfloat[Bullet propagation \SI{437.6}{\nano\second}.]{
@@ -476,7 +476,7 @@ An insulator target is not expected to affect the behavior until the bullet reac
 
 In figure \ref{fig:elio_c_xb} we can see barycenter's x-coordinate of the bullet and its diameter. While for the lowest tension value we see that the bullet stops before it reaches the target, for the other two sets it clearly stops at the target position. Distance values are comparable with those without target (figure \ref{fig:elio_d}), a little higher for medium tension value, as the bullet instead of stopping at a position before it (as it does whitout target) collide with the target.
 Bullet width is exactly the same with or without target during it's propagation. We can see changes only when it impacts on the target and shrinks rapidly.
-Displacement velocities inside the nozzle and propagation velocities in air are of the same order of values without target, as we can see in figure \ref{fig:elio_c_vx}. We find higher $v_{\text{prop}}$ only for medium tension value, where it reaches \SI{118.98(7)}{\kilo\meter/\second}, due to the rapid collision with the target instead of slowing down and stopping.
+Displacement velocities inside the nozzle and propagation velocities in air are of the same order of values without target, as we can see in figure \ref{fig:elio_c_vx}. We find higher $v_{A}$ only for medium tension value, where it reaches \SI{118.98(7)}{\kilo\meter/\second}, due to the rapid collision with the target instead of slowing down and stopping.
 \begin{figure}
  \centering
  \subfloat[Barycenter position.]{
@@ -488,7 +488,7 @@ Displacement velocities inside the nozzle and propagation velocities in air are 
  }
  \caption{Barycenter motion and diameter in x direction, for different voltage peak values.}
  \label{fig:elio_c_xb}
- \end{figure}
+\end{figure}
 
 \paragraph{Charge deposition}
 Once the bullet reaches the target we can see how the glowing region enlarges on its surface from the plot of y diameter, as in figure \ref{fig:elio_c_ylim}. To evaluate the expansion diameter and velocity, we can plot the differance between y limit and y barycenter once the bullet reaches the target. In figure \ref{fig:elio_c_ylim} we can see that the diameter of the maximum expansion is little higher for larger tension value, as well as it's expansion velocity: for opening time of \SI{3.5}{\micro\second} we find a diameter of \SI{6.54(4)}{\milli\meter} and an expansion velocity of \SI{31.36(25)}{\kilo\meter/\second}, while for \SI{4.0}{\micro\second} we find \SI{7.40(2)}{\milli\meter} and \SI{64.04(39)}{\kilo\meter/\second}. It is an expected result as the bullet have more energy with an higher peak value, the velocity along x is larger and we have also higher expansion velocity.
@@ -508,7 +508,7 @@ Once the bullet reaches the target we can see how the glowing region enlarges on
 
 
 \subsection{Distant conductive target}
-In measure set A the target is positioned at \SI{24}{\milli\meter} from the bench, correponding to \SI{30}{\milli\meter} from the electrode. A conductive target is expected to affect bullet behavior as it reachs its proximity, as there are free charges on the surface. If with an insulator we see charge deposition, with a conductor we see a rapid backstream (with a motion inverse to that of the bullet) with great luminosity when the bullet impacts on it, as in figure \ref{fig:elio_met}.
+In measure set A the target is positioned at \SI{24}{\milli\meter} from the bench, correponding to \SI{30}{\milli\meter} from the electrode. A conductive target is expected to affect bullet behaviour as it reachs its proximity, as there are free charges on the surface. If with an insulator we see charge deposition, with a conductor we see a rapid backstream (with a motion inverse to that of the bullet) with great luminosity when the bullet impacts on it, as in figure \ref{fig:elio_met}.
 \begin{figure}
  \centering
  \subfloat[Bullet propagation \SI{371.2}{\nano\second}.]{
@@ -542,7 +542,7 @@ Considering only the bullet, separated from the backstream, first thing to note 
 \end{figure}
 
 
-Barycenter motion shows also some peculiarities: even with low tension the bullet reaches the target, showing larger propagation velocity then with other configurations. It's diameter doesn't shows different behavior, it stays constant until nozzle exit and remains constant until it reaches the target and shrinks to a point. As said before, velocities of propagation in air are generally larger then whitout target, they arrives from \SI{112.04(5)}{\kilo\meter/\second} for low voltage peak to \SI{160.55(9)}{\kilo\meter/\second} for high voltage peak.
+Barycenter motion shows also some peculiarities: even with low tension the bullet reaches the target, showing larger propagation velocity then with other configurations. It's diameter doesn't shows different behaviour, it stays constant until nozzle exit and remains constant until it reaches the target and shrinks to a point. As said before, velocities of propagation in air are generally larger then whitout target, they arrives from \SI{112.04(5)}{\kilo\meter/\second} for low voltage peak to \SI{160.55(9)}{\kilo\meter/\second} for high voltage peak.
 \begin{figure}
  \centering
  \subfloat[Barycenter.]{
@@ -562,7 +562,7 @@ Barycenter motion shows also some peculiarities: even with low tension the bulle
 
 \paragraph{Current measure}
 Thanks to the conductive target, we can measure current intensity flowing in it due to charge transported by bullets, and, more intersting, the relation between impact time and when it's measured peak current.
-Current intensity it's shown in figure \ref{fig:elio_a_icurr}, we can see a positive peak, more influenced by tension peak value, and a negative peak in correspondence of the negative tension peak and of the second luminosity peak for the bullet.
+Current intensity it's shown in figure \ref{fig:elio_a_icurr}, we can see a positive peak, more influenced by tension peak value, and a negative peak in correspondence of the negative tension peak and of the second luminosity peak for the bullet. It's important to note that the time interval where we have high luminosity for the bullet and its position is around the target position, is the same time interval where we measure current.
 \begin{figure}
  \centering
  \includegraphics[width=0.6\textwidth]{Images/Shape/elio_a_icurr.png}
@@ -573,7 +573,7 @@ Current intensity it's shown in figure \ref{fig:elio_a_icurr}, we can see a posi
 In the graphs we can distinguish a starting time for the peak current, and a time where it reaches it's maximum value. Even if it's difficult to establish precisely the starting time, we can see as both of them are larger for lower tension values, we have lower and slower current intensity when bullets have less energy. To study the relation between those values, we extrapolate relevant times and the bullet distance from the target when we start to see current, presented in table \ref{tab:elio_a_times}. From the values we can see that we begin to measure current before the bullet barycenter reaches the target, and even maximum current is measured before the impact time of the bullet for medium and high tension value.
 We can estimate a distance of interaction as the differance between bullet barycenter position and target position. This distance becames larger when we set an higher voltage for the pulse, when the bullet velocity is higher.
 
-Current measure can be explained if the bullet motion is associated with charge motion: as the bullet travels towards the target, charges with highest speed reach the target before the barycenter and we begin to measure current before it reaches the target. When the bullet has higher energy, charges have more speed, arrive before to the target and more of them interacts with it, so we will have an higher peak, positioned before in time.
+Current measure can be explained if the bullet motion is associated with charge motion: as the bullet travels towards the target, charges with highest speed reach the target before the barycenter and we begin to measure current before it reaches the target. Once the bullet loses luminosity, also current stops to flow in the target. When the bullet has higher energy, charges have more speed, arrive before to the target and we will lose lesser charges during propagation, so we will measure more current, with a peak that starts earlyer.
 \begin{table}
  \centering
  \begin{tabular}{cccccc}
@@ -585,7 +585,7 @@ Current measure can be explained if the bullet motion is associated with charge 
   \num{7.2(4)}  &\num{41.50(62)}    &\num{350.3(150)}   &\num{410.3(150)}   &\num{450.3(150)}   &\num{15.18(2)}\\
   \bottomrule
  \end{tabular}
- \caption{Values extrapolated from current measure and bullet barycenter motion. $V_{p}$ is the voltage peak for the pulse, $i_{p}$ is the current peak value, $t_{0,i}$ is the starting time for the current value, $t_{p,i}$ is the time of the peak value, $t_{\text{imp}}$ is the time of the impact of bullet on target, $x_{\text{target}} - x(t_{0,i})$ is the distance between bullet position when we start to measure current and target position.}
+ \caption{Values extrapolated from current measure and bullet barycenter motion for set A. $V_{p}$ is the voltage peak for the pulse, $i_{p}$ is the current peak value, $t_{0,i}$ is the starting time for the current value, $t_{p,i}$ is the time of the peak value, $t_{\text{imp}}$ is the time of the impact of bullet on target, $x_{\text{target}} - x(t_{0,i})$ is the distance between bullet position when we start to measure current and target position.}
  \label{fig:elio_a_times}
 \end{table}
 
@@ -610,16 +610,255 @@ The phenomenon can be explained as a very rapid charge stream from the target to
  \subfloat[Diameter along y.]{
     \includegraphics[width=0.43\textwidth]{Images/Shape/elio_a_dy_back.png}
  }
- \caption{Backstream features in time.}
+ \caption{Backstream features versus time, measure set A.}
  \label{fig:elio_a_back}
 \end{figure}
 
 
 \subsection{Close conductive target}
 In measure set B the target is positioned at \SI{32}{\milli\meter} from the bench, correponding to \SI{22}{\milli\meter} from the electrode.
+With a conductive target this close it's more difficult to see the bullet evolution, as it is more rapid and the backstream has even higher relevance.
+
+In figure \ref{fig:elio_b_dyn} are presented the results of the analysis. For all the sets we see always high luminosity, even after a time interval corresponding to the end of the voltage peak. As we can see from barycenter and diameter values, the peculiarity of this set is that for higher voltage peak values, we cannot even see the bullet, as it closes on the target in a sort of large plume right after nozzle exit. The other two sets shows the same behaviour described before, with even higher velocities: for medium voltage we find a velocity of \SI{59.30(5)}{\kilo\meter/\second} inside the nozzle and a velocity of \SI{174.44(8)}{\kilo\meter/\second} in air.
+\begin{figure}
+ \centering
+ \subfloat[Mean luminosity.]{
+    \includegraphics[width=0.43\textwidth]{Images/Shape/elio_b_Im.png}
+ }
+ \hfill
+ \subfloat[Barycenter along x.]{
+    \includegraphics[width=0.43\textwidth]{Images/Shape/elio_b_xb.png}
+ }
+ 
+ \subfloat[Diameter along x.]{
+    \includegraphics[width=0.43\textwidth]{Images/Shape/elio_b_dx.png}
+ }
+ \hfill
+ \subfloat[Diameter along y.]{
+    \includegraphics[width=0.43\textwidth]{Images/Shape/elio_b_vx.png}
+ }
+ \caption{Analysis of measure set B.}
+ \label{fig:elio_b_dyn}
+\end{figure}
+
+\paragraph{Current measure}
+As done with set A, for low and medium voltage it's possible to analyze time and space intervals between bullet barycenter motion and current measure. Obtained values are shown in table \ref{tab:elio_b_times}.
+\begin{table}
+ \centering
+ \begin{tabular}{cccccc}
+  \toprule
+  $V_{p}$ [kV]  &$i_{p}$ [mA]   &$t_{0,i}$ [ns] &$t_{p,i}$ [ns] &$t_{\text{imp}}$ [ns]  &$x_{\text{target}} - x(t_{0,i})$ [mm]\\
+  \midrule
+  \num{5.7(3)}  &\num{47.41(237)}    &\num{370.6(150)}   &\num{450.6(150)}   &\num{450.6(150)}   &\num{11.34(2)}\\
+  \num{6.6(4)}  &\num{77.41(387)}    &\num{311.2(150)}   &\num{411.2(150)}   &\num{391.2(150)}   &\num{13.61(4)}\\
+  \bottomrule
+ \end{tabular}
+ \caption{Values extrapolated from current measure and bullet barycenter motion for set B. $V_{p}$ is the voltage peak for the pulse, $i_{p}$ is the current peak value, $t_{0,i}$ is the starting time for the current value, $t_{p,i}$ is the time of the peak value, $t_{\text{imp}}$ is the time of the impact of bullet on target, $x_{\text{target}} - x(t_{0,i})$ is the distance between bullet position when we start to measure current and target position.}
+ \label{fig:elio_a_times}
+\end{table}
+
+Again we find that current flows in target before the impact of the bullet, when it is distant from the target (parameter $x_{\text{target}} - x(t_{0,i})$ in table), but current rises more rapidly if the bullet has more energy. Comparing these values with those of set A, we find that for the same voltage peak value, the current peak starts faster and reaches an higher peak value. Again, hypotizing that the bullet motion is correlated with the charge motion, an earlier impact point (as in set B compared to set A) means that we will lose lesser charge during the propagation and measure an higher current value on target.
+
 
 \section{Neon flow}
-%It's an easy to ignite gas and with high luminosity
+The second noble gas used to produce cold plasma is neon, the easyier one to ignite
+and more luminous between used gas mixture of noble elements with low weight.
+Neon it's an element with standard atomic weight of $\num{20.180}$, 1st ionization energy of \SI{21.565}{\electronvolt} and 2nd ionization energy of \SI{40.963}{\electronvolt} and several lines with wavelenght in visible spectrum. It's easy to ignite because when the voltage pulse is applied to the electrode, even for low frequencies, the gas presents high luminosity in a wide space. This emissivity it's the reason why neon is commonly used to build neon lamps.
+
+Measures with this gas are done to compare bullets with entirely different gas features and equivalent setups. As plasma emission begins with lower voltage and frequencies for electrode pulses compared to helium, we set a low working frequency $f = \SI{1}{\kilo\hertz}$ and three opening times nearly equivalent to low, medium and high voltage from before. The different measures setup are presented in table \ref{tab:setups}.
+
+\subsection{Free bullet}
+We want to see plasma dynamics whitout a target, changing between low, medium and high tension peak value. Results are shown in figure \ref{fig:neon_d} and table \ref{tab:neon_d}.
+First thing to notice is that plasma is produced not specifically at electrode's end where the electric field should be higher, as in helium, but a little before, with lower luminosity. Luminosity evolution from there is similar to what we have in helium, but there is a long lifed residual luminosity that lasts longer.
+Studying barycenter motion and it's diameter, we see that until the end of the nozzle we have similar dynamics, after it, we can point out two main differances:
+\begin{itemize}
+ \item bullets come out of the nozzle more difficultly and lose velocity more rapidly, covering littler distances. Propagation velocity in air rises exiting the nozzle (until \SI{160.32(7)}{\kilo\meter/\second} with high voltage), but goes down abruptily and the bullet slows down, as its luminosity lowers.
+ \item differently from helium, bullet's width rise a little increasing voltage. As we can see from figure, bullet's diameter is almost a constant value during the motion, increasing only before nozzle exit, however we have always higher values with higher voltage, suggesting that the bullet is more large with higher voltage.
+\end{itemize}
+
+This behaviour can be explained as the bullet is the result of more excitation reactions that produces emission with wavelenght in visible spectrum, and those reactions have lower threshold energy. If reactions needs less energetic electrons, we have more of them that partecipates, spreading more the glow, and more of them that loses energy once they are in contact with air outside the nozzle, distant from the high voltage electrode.
+
+\begin{figure}
+ \centering
+ \subfloat[Voltage waveform.]{
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_a_V.png}
+ }
+ \hfill
+ \subfloat[Mean luminosity.]{
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_d_Im.png}
+ }
+ 
+ \subfloat[x barycenter.]{
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_d_xb.png}
+ }
+ \hfill
+ \subfloat[x velocity.]{
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_d_vx.png}
+ }
+ 
+ \subfloat[x diameter.]{
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_d_dx.png}
+ }
+ \hfill
+ \subfloat[y diameter.]{
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_d_dy.png}
+ }
+ \caption{Results of the analysis for setup D wiith neon gas, for different peak voltage values.}
+ \label{fig:neon_d}
+\end{figure}
+
+
+\begin{table}
+ \centering
+ \begin{tabular}{ccccc}
+ \toprule
+ $V_{p}$ [kV]    &$V_{0}$ [kV]    &$x_{\text{dist}}$ [mm]   &$v_{N}$ [km/s]   &$v_{A}$ [km/s]\\
+ \midrule
+ \num{4.81(24)}  &\num{4.81(24)}    &\num{18.13(5)} &\num{34.59(3)} &\num{43.19(7)}\\
+ \num{5.33(27)}  &\num{5.20(26)}    &\num{22.42(6)} &\num{42.82(4)} &\num{61.17(5)}\\
+ \num{6.05(30)}  &\num{5.16(26)}    &\num{26.60(9)} &\num{62.92(5)} &\num{160.32(7)}\\
+ \bottomrule
+ \end{tabular}
+ \caption{Result of the analysis with different voltage peak values for the pulse. $V_{p}$ is the peak value for the pulse, $V_{0}$ bullet formation tension, $x_{\text{dist}}$ is the highest distances reached by the bullet from electrode position, $v_{N}$ is the velocity in x direction reached inside the nozzle, $v_{A}$ is the velocity of propagation in air.}
+ \label{tab:neon_d}
+\end{table}
+
+
+\subsection{Insulator target}
+Also for this gas we see as an insulator target, positioned at \SI{30}{\milli\meter} from the electrode, influences bullet dynamics.
+Results are similar with helium or neon bullets: palsma forms near the electrode, exits from the nozzle and the impact on the target produce a round shaped figure on it, as in figure \ref{fig:elio_ins}. We can see also in neon that, for low voltage peak value, the bullet doesn't reaches the target, as the maximum distance travelled is lower then target distance, seen with setup D. This suggests that the target does not influences the bullet when it is not in its proximity.
+A peculiarity with neon is that we can see a second, very low, peak in luminosity after long time (measure taken only with medium voltage in figure), corresponding to the second voltage peak of the pulse. Once again we see that neon is more reactive then helium, were this peak doesn't shows.
+\begin{figure}
+ \centering
+ \subfloat[Mean luminosity.]{
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_c_dx.png}
+ }
+ \hfill
+ \subfloat[Barycenter position.]{
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_c_xb.png}
+ }
+ \caption{Mean luminosity and barycenter motion for neon gas in setup C.}
+ \label{fig:neon_c_xb}
+\end{figure}
+
+
+The circle produced by bullet impact on target can be analyzed as done before, showing how the figure expands in y direction. From figure \ref{fig:neon_c_ylim} we can extrapolate a velocity of \SI{5.01(29)}{\kilo\meter/\second} for medium voltage and \SI{30.76(25)}{\kilo\meter/\second} for high voltage. They are both lower compared to helium, as expected if we consider that the bullet slows down more rapidly once it's outside the nozzle.
+\begin{figure}
+ \centering
+ \includegraphics[width=0.46\textwidth]{Images/Shape/neon_c_ylim.png}
+ \caption{Neon plasma expansion on insulator target, for different voltage peak values.}
+ \label{fig:neon_c_ylim}
+\end{figure}
+
+
+\subsection{Conductive target}
+As with helium, a conductive target has an influence in all neon bullet's dynamics, in particular we see a more rapid passage from the bullet shape to the elongated one that gives rise to the backstream described in figure \ref{fig:elio_met}.
+
+In figure \ref{fig:neon_ab_xb} we see that the distant target (setup A) is reached by the bullet with medium and high voltage, but there isn't a change in luminosity. Near nozzle exit bullets speed up, reach rapidly the target, stretch and then reduces their diameter to the impact point.
+For a close target we see a change in luminosity in correspondence of the negative peak and of the second positive peak. With high voltage we loose completely the bullet shape once plasma exits the nozzle, all the space between nozzle exit and target is completely filled by glowing gas.
+\begin{figure}
+ \centering
+ \subfloat[Mean luminosity, $\Delta x_{\text{targ}} = \SI{30}{\milli\meter}$.]{
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_a_Im.png}
+ }
+ \hfill
+ \subfloat[Mean luminosity, $\Delta x_{\text{targ}} = \SI{22}{\milli\meter}$.]{
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_b_Im.png}
+ }
+ 
+ \subfloat[x barycenter, $\Delta x_{\text{targ}} = \SI{30}{\milli\meter}$]{
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_a_xb.png}
+ }
+ \hfill
+ \subfloat[x barycenter, $\Delta x_{\text{targ}} = \SI{22}{\milli\meter}$]{
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_b_xb.png}
+ }
+ 
+ \subfloat[x diameter, $\Delta x_{\text{targ}} = \SI{30}{\milli\meter}$]{
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_a_dx.png}
+ }
+ \hfill
+ \subfloat[x diameter, $\Delta x_{\text{targ}} = \SI{22}{\milli\meter}$]{
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_b_dx.png}
+ }
+ \caption{Results of the analysis for setup A and B with neon gas, for different peak voltage values.}
+ \label{fig:neon_ab_xb}
+\end{figure}
+
+
+\paragraph{Current measure}
+Current measures are different respect to measure done with helium gas, here results suggest a relation between luminosity intensity and current intensity. As we can see in figure \ref{fig:neon_ab_icurr} ad in table \ref{tab:neon_ab_ival}, a current peak is measured only for high voltage with distant target and for medium and high voltage with close target. If emission intensity is too low when the bullet enter in the range of interaction with the target, current intensity is not measured, with higher voltage the bullet is more rapid, reaches the target before the loss in luminosity and we measure current.
+
+Starting time of current peak is again precedent to the impact time of the bullet with the target. Interaction distances presented in table are similar to the ones found for helium.
+\begin{figure}
+ \centering
+ \subfloat[$\Delta x_{\text{targ}} = \SI{30}{\milli\meter}$.]{
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_a_i.png}
+ }
+ \hfill
+ \subfloat[$\Delta x_{\text{targ}} = \SI{22}{\milli\meter}$.]{
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_b_i.png}
+ }
+ \caption{Current intensity measured in set A and B, with different voltage peak values.}
+ \label{fig:neon_ab_icurr}
+\end{figure}
+
+\begin{table}
+ \centering
+ \begin{tabular}{ccccccc}
+  \toprule
+  $\Delta x_{\text{targ}}$ [mm] &$V_{p}$ [kV]  &$i_{p}$ [mA]   &$t_{0,i}$ [ns] &$t_{p,i}$ [ns] &$t_{\text{imp}}$ [ns]  &$x_{\text{target}} - x(t_{0,i})$ [mm]\\
+  \midrule
+  \num{30}  &\num{6.05(30)}  &\num{6.87(34)}    &\num{329(15)}   &\num{477(15)}   &\num{453(21)}   &\num{19.96(3)}\\
+  \midrule
+  \multirow{2}*{\num{22}}   &\num{5.33(27)}  &\num{7.72(39)}    &\num{347(15)}   &\num{447(15)}   &\num{447(15)}   &\num{13.06(3)}\\
+                            &\num{6.05(30)}  &\num{14.56(73)}    &\num{300(15)}   &\num{398(15)}   &\num{380(21)}   &\num{13.66(4)}\\
+  \bottomrule
+ \end{tabular}
+ \caption{Values extrapolated from current measure and bullet barycenter motion for neon, set A and B. $\Delta x_{\text{targ}}$ is the distance between electrode and target, $V_{p}$ is the voltage peak for the pulse, $i_{p}$ is the current peak value, $t_{0,i}$ is the starting time for the current value, $t_{p,i}$ is the time of the peak value, $t_{\text{imp}}$ is the time of the impact of bullet on target, $x_{\text{target}} - x(t_{0,i})$ is the distance between bullet position when we start to measure current and target position.}
+ \label{fig:neon_ab_ival}
+\end{table}
+
+
+\paragraph{Backstream}
+For neon the backstream phenomenon is strong, where the bullet reaches the target we find high luminosity around nozzle exit. This backstream presents itself as zone of glowing gas with large width and near constant height, with a barycenter motion that shift direction towards the electrode or towards the target, with so little motion that is not possible to infer it's dynamics. Once the pulse voltage lowers, also the backstream fade away, as the bullet that impacts on target. 
+
+\begin{figure}
+ \centering
+ \subfloat[Mean luminosity, set A.]{
+    \includegraphics[width=0.43\textwidth]{Images/Shape/neon_a_back_Im.png}
+ }
+ \hfill
+ \subfloat[Mean luminosity,  set B.]{
+    \includegraphics[width=0.43\textwidth]{Images/Shape/neon_b_back_Im.png}
+ }
+ 
+ \subfloat[Barycenter along x, set A.]{
+    \includegraphics[width=0.43\textwidth]{Images/Shape/neon_a_back_xb.png}
+ }
+ \hfill
+ \subfloat[Barycenter along x,  set B.]{
+    \includegraphics[width=0.43\textwidth]{Images/Shape/neon_b_back_xb.png}
+ }
+ 
+ \subfloat[Diameter along x, set A.]{
+    \includegraphics[width=0.43\textwidth]{Images/Shape/neon_a_back_dx.png}
+ }
+ \hfill
+ \subfloat[Diameter along x,  set B.]{
+    \includegraphics[width=0.43\textwidth]{Images/Shape/neon_b_back_dx.png}
+ }
+ 
+ %\subfloat[Diameter along y, $\Delta x_{\text{targ}} = \SI{30}{\milli\meter}$.]{
+ %   \includegraphics[width=0.43\textwidth]{Images/Shape/neon_a_back_dy.png}
+ %}
+ %\hfill
+ %\subfloat[Diameter along y.]{
+ %   \includegraphics[width=0.43\textwidth]{Images/Shape/neon_b_back_dy.png}
+ %}
+ \caption{Analysis of the backstream in measure set A and B for neon.}
+ \label{fig:neon_ab_tot_back}
+\end{figure}
 
 
 \section{Argon flow}

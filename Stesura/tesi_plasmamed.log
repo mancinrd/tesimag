@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  21 FEB 2019 21:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  23 FEB 2019 22:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2021,10 +2021,13 @@ LaTeX Warning: Label `fig:elio_d035_I' multiply defined.
 LaTeX Warning: Label `fig:elio_d035_I' multiply defined.
 
 
+LaTeX Warning: Label `tab:elio_d' multiply defined.
+
+
 LaTeX Warning: Label `fig:elio_d' multiply defined.
 
 
-LaTeX Warning: Label `tab:elio_d' multiply defined.
+LaTeX Warning: Label `fig:elio_a_times' multiply defined.
 
 )
 \openout1 = `tesi_plasmamed.aux'.
@@ -2243,7 +2246,7 @@ Package pdftex.def Info: Images/Shape/times_osc.png  used on input line 100.
 LaTeX Warning: Reference `ch:electric' on page 9 undefined on input line 117.
 
 
-Overfull \hbox (20.43527pt too wide) in paragraph at lines 128--156
+Overfull \hbox (19.52858pt too wide) in paragraph at lines 128--156
  [][] 
  []
 
@@ -2424,41 +2427,44 @@ Package pdftex.def Info: Images/Shape/elio_035_vx.png  used on input line 415.
 
 LaTeX Warning: Float too large for page by 65.34328pt on input line 418.
 
-Excluding 'comment' comment.
-<Images/Shape/elio_ins1.png, id=118, 700.6175pt x 472.76625pt>
+Excluding 'comment' comment. [18] [19 <./Images/Shape/elio_035_Im.png> <./Image
+s/Shape/elio_035_xb.png> <./Images/Shape/elio_035_yb.png> <./Images/Shape/elio_
+035_dx.png> <./Images/Shape/elio_035_dy.png> <./Images/Shape/elio_035_vx.png>]
+<Images/Shape/elio_ins1.png, id=126, 700.6175pt x 472.76625pt>
 File: Images/Shape/elio_ins1.png Graphic file (type png)
 <use Images/Shape/elio_ins1.png>
 Package pdftex.def Info: Images/Shape/elio_ins1.png  used on input line 463.
 (pdftex.def)             Requested size: 175.66577pt x 118.53752pt.
-<Images/Shape/elio_ins2.png, id=119, 700.6175pt x 472.76625pt>
+<Images/Shape/elio_ins2.png, id=127, 700.6175pt x 472.76625pt>
 File: Images/Shape/elio_ins2.png Graphic file (type png)
 <use Images/Shape/elio_ins2.png>
 Package pdftex.def Info: Images/Shape/elio_ins2.png  used on input line 467.
 (pdftex.def)             Requested size: 175.66577pt x 118.53752pt.
-<Images/Shape/elio_ins3.png, id=120, 700.6175pt x 472.76625pt>
+<Images/Shape/elio_ins3.png, id=128, 700.6175pt x 472.76625pt>
 File: Images/Shape/elio_ins3.png Graphic file (type png)
 <use Images/Shape/elio_ins3.png>
 Package pdftex.def Info: Images/Shape/elio_ins3.png  used on input line 471.
 (pdftex.def)             Requested size: 175.66577pt x 118.53752pt.
 
 
-LaTeX Warning: Reference `fig:elio_c_vx' on page 18 undefined on input line 479
+LaTeX Warning: Reference `fig:elio_c_vx' on page 20 undefined on input line 479
 .
 
-<Images/Shape/elio_c_xb.png, id=121, 700.6175pt x 472.76625pt>
+<Images/Shape/elio_c_xb.png, id=129, 700.6175pt x 472.76625pt>
 File: Images/Shape/elio_c_xb.png Graphic file (type png)
 <use Images/Shape/elio_c_xb.png>
 Package pdftex.def Info: Images/Shape/elio_c_xb.png  used on input line 484.
 (pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Images/Shape/elio_c_dx.png, id=122, 700.6175pt x 472.76625pt>
+<Images/Shape/elio_c_dx.png, id=130, 700.6175pt x 472.76625pt>
 File: Images/Shape/elio_c_dx.png Graphic file (type png)
 <use Images/Shape/elio_c_dx.png>
 Package pdftex.def Info: Images/Shape/elio_c_dx.png  used on input line 488.
 (pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-[18] [19 <./Images/Shape/elio_035_Im.png> <./Images/Shape/elio_035_xb.png> <./I
-mages/Shape/elio_035_yb.png> <./Images/Shape/elio_035_dx.png> <./Images/Shape/e
-lio_035_dy.png> <./Images/Shape/elio_035_vx.png>] [20 <./Images/Shape/elio_ins1
-.png> <./Images/Shape/elio_ins2.png> <./Images/Shape/elio_ins3.png>]
+
+Underfull \vbox (badness 8151) has occurred while \output is active []
+
+ [20 <./Images/Shape/elio_ins1.png> <./Images/Shape/elio_ins2.png> <./Images/Sh
+ape/elio_ins3.png>]
 <Images/Shape/elio_c_dy.png, id=134, 700.6175pt x 472.76625pt>
 File: Images/Shape/elio_c_dy.png Graphic file (type png)
 <use Images/Shape/elio_c_dy.png>
@@ -2494,24 +2500,25 @@ File: Images/Shape/elio_a_Im.png Graphic file (type png)
 <use Images/Shape/elio_a_Im.png>
 Package pdftex.def Info: Images/Shape/elio_a_Im.png  used on input line 539.
 (pdftex.def)             Requested size: 179.84601pt x 121.35814pt.
- [21 <./Images/Shape/elio_c_xb.png> <./Images/Shape/elio_c_dx.png>] [22 <./Imag
-es/Shape/elio_c_dy.png> <./Images/Shape/elio_c_ylim.png> <./Images/Shape/elio_m
-et1.png> <./Images/Shape/elio_met2.png> <./Images/Shape/elio_met3.png>]
-<Images/Shape/elio_a_xb.png, id=147, 700.6175pt x 472.76625pt>
+<Images/Shape/elio_a_xb.png, id=141, 700.6175pt x 472.76625pt>
 File: Images/Shape/elio_a_xb.png Graphic file (type png)
 <use Images/Shape/elio_a_xb.png>
 Package pdftex.def Info: Images/Shape/elio_a_xb.png  used on input line 550.
 (pdftex.def)             Requested size: 179.84601pt x 121.35814pt.
-<Images/Shape/elio_a_dx.png, id=148, 700.6175pt x 472.76625pt>
+<Images/Shape/elio_a_dx.png, id=142, 700.6175pt x 472.76625pt>
 File: Images/Shape/elio_a_dx.png Graphic file (type png)
 <use Images/Shape/elio_a_dx.png>
 Package pdftex.def Info: Images/Shape/elio_a_dx.png  used on input line 554.
 (pdftex.def)             Requested size: 179.84601pt x 121.35814pt.
-<Images/Shape/elio_a_vx.png, id=149, 700.6175pt x 472.76625pt>
+<Images/Shape/elio_a_vx.png, id=143, 700.6175pt x 472.76625pt>
 File: Images/Shape/elio_a_vx.png Graphic file (type png)
 <use Images/Shape/elio_a_vx.png>
 Package pdftex.def Info: Images/Shape/elio_a_vx.png  used on input line 557.
 (pdftex.def)             Requested size: 179.84601pt x 121.35814pt.
+ [21 <./Images/Shape/elio_c_xb.png> <./Images/Shape/elio_c_dx.png>]
+[22 <./Images/Shape/elio_c_dy.png> <./Images/Shape/elio_c_ylim.png> <./Images/S
+hape/elio_met1.png> <./Images/Shape/elio_met2.png> <./Images/Shape/elio_met3.pn
+g>]
 <Images/Shape/elio_a_icurr.png, id=150, 700.6175pt x 472.76625pt>
 File: Images/Shape/elio_a_icurr.png Graphic file (type png)
 <use Images/Shape/elio_a_icurr.png>
@@ -2555,11 +2562,185 @@ File: Images/Shape/elio_a_dy_back.png Graphic file (type png)
 Package pdftex.def Info: Images/Shape/elio_a_dy_back.png  used on input line 61
 2.
 (pdftex.def)             Requested size: 179.84601pt x 121.35814pt.
-) [25] [26 <./Images/Shape/elio_a_Im_back.png> <./Images/Shape/elio_a_xb_back.p
-ng> <./Images/Shape/elio_a_dx_back.png> <./Images/Shape/elio_a_dy_back.png>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 26.
+<Images/Shape/elio_b_Im.png, id=161, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_b_Im.png Graphic file (type png)
+<use Images/Shape/elio_b_Im.png>
+Package pdftex.def Info: Images/Shape/elio_b_Im.png  used on input line 627.
+(pdftex.def)             Requested size: 179.84601pt x 121.35814pt.
+<Images/Shape/elio_b_xb.png, id=162, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_b_xb.png Graphic file (type png)
+<use Images/Shape/elio_b_xb.png>
+Package pdftex.def Info: Images/Shape/elio_b_xb.png  used on input line 631.
+(pdftex.def)             Requested size: 179.84601pt x 121.35814pt.
+<Images/Shape/elio_b_dx.png, id=163, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_b_dx.png Graphic file (type png)
+<use Images/Shape/elio_b_dx.png>
+Package pdftex.def Info: Images/Shape/elio_b_dx.png  used on input line 635.
+(pdftex.def)             Requested size: 179.84601pt x 121.35814pt.
+<Images/Shape/elio_b_vx.png, id=164, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_b_vx.png Graphic file (type png)
+<use Images/Shape/elio_b_vx.png>
+Package pdftex.def Info: Images/Shape/elio_b_vx.png  used on input line 639.
+(pdftex.def)             Requested size: 179.84601pt x 121.35814pt.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+
+LaTeX Warning: Reference `tab:elio_b_times' on page 25 undefined on input line 
+645.
+
+
+Overfull \hbox (25.17545pt too wide) in paragraph at lines 648--656
+ [][] 
+ []
+
+[25] [26 <./Images/Shape/elio_a_Im_back.png> <./Images/Shape/elio_a_xb_back.png
+> <./Images/Shape/elio_a_dx_back.png> <./Images/Shape/elio_a_dy_back.png>]
+[27 <./Images/Shape/elio_b_Im.png> <./Images/Shape/elio_b_xb.png> <./Images/Sha
+pe/elio_b_dx.png> <./Images/Shape/elio_b_vx.png>] [28]
+<Images/Shape/neon_a_V.png, id=178, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_a_V.png Graphic file (type png)
+<use Images/Shape/neon_a_V.png>
+Package pdftex.def Info: Images/Shape/neon_a_V.png  used on input line 685.
+(pdftex.def)             Requested size: 192.39949pt x 129.82716pt.
+<Images/Shape/neon_d_Im.png, id=179, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_d_Im.png Graphic file (type png)
+<use Images/Shape/neon_d_Im.png>
+Package pdftex.def Info: Images/Shape/neon_d_Im.png  used on input line 689.
+(pdftex.def)             Requested size: 192.39949pt x 129.82716pt.
+<Images/Shape/neon_d_xb.png, id=180, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_d_xb.png Graphic file (type png)
+<use Images/Shape/neon_d_xb.png>
+Package pdftex.def Info: Images/Shape/neon_d_xb.png  used on input line 693.
+(pdftex.def)             Requested size: 192.39949pt x 129.82716pt.
+<Images/Shape/neon_d_vx.png, id=181, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_d_vx.png Graphic file (type png)
+<use Images/Shape/neon_d_vx.png>
+Package pdftex.def Info: Images/Shape/neon_d_vx.png  used on input line 697.
+(pdftex.def)             Requested size: 192.39949pt x 129.82716pt.
+<Images/Shape/neon_d_dx.png, id=182, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_d_dx.png Graphic file (type png)
+<use Images/Shape/neon_d_dx.png>
+Package pdftex.def Info: Images/Shape/neon_d_dx.png  used on input line 701.
+(pdftex.def)             Requested size: 192.39949pt x 129.82716pt.
+<Images/Shape/neon_d_dy.png, id=183, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_d_dy.png Graphic file (type png)
+<use Images/Shape/neon_d_dy.png>
+Package pdftex.def Info: Images/Shape/neon_d_dy.png  used on input line 705.
+(pdftex.def)             Requested size: 192.39949pt x 129.82716pt.
+<Images/Shape/neon_c_dx.png, id=184, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_c_dx.png Graphic file (type png)
+<use Images/Shape/neon_c_dx.png>
+Package pdftex.def Info: Images/Shape/neon_c_dx.png  used on input line 735.
+(pdftex.def)             Requested size: 192.39949pt x 129.82716pt.
+<Images/Shape/neon_c_xb.png, id=185, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_c_xb.png Graphic file (type png)
+<use Images/Shape/neon_c_xb.png>
+Package pdftex.def Info: Images/Shape/neon_c_xb.png  used on input line 739.
+(pdftex.def)             Requested size: 192.39949pt x 129.82716pt.
+<Images/Shape/neon_c_ylim.png, id=186, 700.6175pt x 476.78125pt>
+File: Images/Shape/neon_c_ylim.png Graphic file (type png)
+<use Images/Shape/neon_c_ylim.png>
+Package pdftex.def Info: Images/Shape/neon_c_ylim.png  used on input line 748.
+(pdftex.def)             Requested size: 192.39949pt x 130.92973pt.
+<Images/Shape/neon_a_Im.png, id=187, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_a_Im.png Graphic file (type png)
+<use Images/Shape/neon_a_Im.png>
+Package pdftex.def Info: Images/Shape/neon_a_Im.png  used on input line 763.
+(pdftex.def)             Requested size: 192.39949pt x 129.82716pt.
+<Images/Shape/neon_b_Im.png, id=188, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_b_Im.png Graphic file (type png)
+<use Images/Shape/neon_b_Im.png>
+Package pdftex.def Info: Images/Shape/neon_b_Im.png  used on input line 767.
+(pdftex.def)             Requested size: 192.39949pt x 129.82716pt.
+<Images/Shape/neon_a_xb.png, id=189, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_a_xb.png Graphic file (type png)
+<use Images/Shape/neon_a_xb.png>
+Package pdftex.def Info: Images/Shape/neon_a_xb.png  used on input line 771.
+(pdftex.def)             Requested size: 192.39949pt x 129.82716pt.
+<Images/Shape/neon_b_xb.png, id=190, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_b_xb.png Graphic file (type png)
+<use Images/Shape/neon_b_xb.png>
+Package pdftex.def Info: Images/Shape/neon_b_xb.png  used on input line 775.
+(pdftex.def)             Requested size: 192.39949pt x 129.82716pt.
+<Images/Shape/neon_a_dx.png, id=191, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_a_dx.png Graphic file (type png)
+<use Images/Shape/neon_a_dx.png>
+Package pdftex.def Info: Images/Shape/neon_a_dx.png  used on input line 779.
+(pdftex.def)             Requested size: 192.39949pt x 129.82716pt.
+<Images/Shape/neon_b_dx.png, id=192, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_b_dx.png Graphic file (type png)
+<use Images/Shape/neon_b_dx.png>
+Package pdftex.def Info: Images/Shape/neon_b_dx.png  used on input line 783.
+(pdftex.def)             Requested size: 192.39949pt x 129.82716pt.
+ [29] [30 <./Images/Shape/neon_a_V.png> <./Images/Shape/neon_d_Im.png> <./Image
+s/Shape/neon_d_xb.png> <./Images/Shape/neon_d_vx.png> <./Images/Shape/neon_d_dx
+.png> <./Images/Shape/neon_d_dy.png>] [31 <./Images/Shape/neon_c_dx.png> <./Ima
+ges/Shape/neon_c_xb.png> <./Images/Shape/neon_c_ylim.png>]
+
+LaTeX Warning: Reference `tab:neon_ab_ival' on page 32 undefined on input line 
+790.
+
+<Images/Shape/neon_a_i.png, id=203, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_a_i.png Graphic file (type png)
+<use Images/Shape/neon_a_i.png>
+Package pdftex.def Info: Images/Shape/neon_a_i.png  used on input line 797.
+(pdftex.def)             Requested size: 192.39949pt x 129.82716pt.
+<Images/Shape/neon_b_i.png, id=204, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_b_i.png Graphic file (type png)
+<use Images/Shape/neon_b_i.png>
+Package pdftex.def Info: Images/Shape/neon_b_i.png  used on input line 801.
+(pdftex.def)             Requested size: 192.39949pt x 129.82716pt.
+
+Overfull \hbox (55.84714pt too wide) in paragraph at lines 808--818
+ [][] 
+ []
+
+<Images/Shape/neon_a_back_Im.png, id=205, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_a_back_Im.png Graphic file (type png)
+<use Images/Shape/neon_a_back_Im.png>
+Package pdftex.def Info: Images/Shape/neon_a_back_Im.png  used on input line 83
+0.
+(pdftex.def)             Requested size: 179.84601pt x 121.35814pt.
+<Images/Shape/neon_b_back_Im.png, id=206, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_b_back_Im.png Graphic file (type png)
+<use Images/Shape/neon_b_back_Im.png>
+Package pdftex.def Info: Images/Shape/neon_b_back_Im.png  used on input line 83
+4.
+(pdftex.def)             Requested size: 179.84601pt x 121.35814pt.
+<Images/Shape/neon_a_back_xb.png, id=207, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_a_back_xb.png Graphic file (type png)
+<use Images/Shape/neon_a_back_xb.png>
+Package pdftex.def Info: Images/Shape/neon_a_back_xb.png  used on input line 83
+8.
+(pdftex.def)             Requested size: 179.84601pt x 121.35814pt.
+<Images/Shape/neon_b_back_xb.png, id=208, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_b_back_xb.png Graphic file (type png)
+<use Images/Shape/neon_b_back_xb.png>
+Package pdftex.def Info: Images/Shape/neon_b_back_xb.png  used on input line 84
+2.
+(pdftex.def)             Requested size: 179.84601pt x 121.35814pt.
+<Images/Shape/neon_a_back_dx.png, id=209, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_a_back_dx.png Graphic file (type png)
+<use Images/Shape/neon_a_back_dx.png>
+Package pdftex.def Info: Images/Shape/neon_a_back_dx.png  used on input line 84
+6.
+(pdftex.def)             Requested size: 179.84601pt x 121.35814pt.
+<Images/Shape/neon_b_back_dx.png, id=210, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_b_back_dx.png Graphic file (type png)
+<use Images/Shape/neon_b_back_dx.png>
+Package pdftex.def Info: Images/Shape/neon_b_back_dx.png  used on input line 85
+0.
+(pdftex.def)             Requested size: 179.84601pt x 121.35814pt.
+) [32] [33 <./Images/Shape/neon_a_Im.png> <./Images/Shape/neon_b_Im.png> <./Ima
+ges/Shape/neon_a_xb.png> <./Images/Shape/neon_b_xb.png> <./Images/Shape/neon_a_
+dx.png> <./Images/Shape/neon_b_dx.png>] [34 <./Images/Shape/neon_a_i.png> <./Im
+ages/Shape/neon_b_i.png>] [35 <./Images/Shape/neon_a_back_Im.png> <./Images/Sha
+pe/neon_b_back_Im.png> <./Images/Shape/neon_a_back_xb.png> <./Images/Shape/neon
+_b_back_xb.png> <./Images/Shape/neon_a_back_dx.png> <./Images/Shape/neon_b_back
+_dx.png>] [36
+
+]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 26.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 
@@ -2576,9 +2757,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[27
-
-] (./tesi_plasmamed.aux)
+[37] (./tesi_plasmamed.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -2590,13 +2769,13 @@ Package logreq Info: Writing requests to 'tesi_plasmamed.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36576 strings out of 492982
- 737800 string characters out of 6134895
+ 36722 strings out of 492982
+ 741800 string characters out of 6134895
  970645 words of memory out of 5000000
- 39526 multiletter control sequences out of 15000+600000
+ 39645 multiletter control sequences out of 15000+600000
  568593 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,67p,10447b,1745s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,67p,10447b,1745s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
@@ -2612,18 +2791,19 @@ per/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfsl1095.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfsx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sftt1095.pfb>
-Output written on tesi_plasmamed.pdf (27 pages, 980606 bytes).
+r/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfsl1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0900.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sftt1095.pfb>
+Output written on tesi_plasmamed.pdf (37 pages, 1211375 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 324 PDF objects out of 1000 (max. 8388607)
+ 176 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 263 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 398 words of extra memory for PDF output out of 10000 (max. 10000000)
 
