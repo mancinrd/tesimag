@@ -657,7 +657,7 @@ As done with set A, for low and medium voltage it's possible to analyze time and
  \label{fig:elio_a_times}
 \end{table}
 
-Again we find that current flows in target before the impact of the bullet, when it is distant from the target (parameter $x_{\text{target}} - x(t_{0,i})$ in table), but current rises more rapidly if the bullet has more energy. Comparing these values with those of set A, we find that for the same voltage peak value, the current peak starts faster and reaches an higher peak value. Again, hypotizing that the bullet motion is correlated with the charge motion, an earlier impact point (as in set B compared to set A) means that we will lose lesser charge during the propagation and measure an higher current value on target.
+Again we find that current flows in target before the impact of the bullet, when it is distant from the target (parameter $x_{\text{target}} - x(t_{0,i})$ in table), but current rises more rapidly if the bullet has more energy. Comparing these values with results for set A, we find that for the same voltage peak value, the current peak starts faster and reaches an higher peak value. Again, hypotizing that the bullet motion is correlated with charge motion, an earlier impact point (as in set B compared to set A) means that we will lose lesser charge during the propagation and measure an higher current value on target.
 
 
 \section{Neon flow}
@@ -722,6 +722,15 @@ This behaviour can be explained as the bullet is the result of more excitation r
  \caption{Result of the analysis with different voltage peak values for the pulse. $V_{p}$ is the peak value for the pulse, $V_{0}$ bullet formation tension, $x_{\text{dist}}$ is the highest distances reached by the bullet from electrode position, $v_{N}$ is the velocity in x direction reached inside the nozzle, $v_{A}$ is the velocity of propagation in air.}
  \label{tab:neon_d}
 \end{table}
+
+
+For both helium and neon inside the nozzle there is bullet propagation, it is possible to compare how the velocity $v_{N}$ changes varying voltage peak value for the gasses. In figure \ref{fig:hene_d_vn} there is the plot for the two gasses, as we can see with few points it's not possible to extrapolate accurately the behavior, with a linear plot we find that helium bullet's velocity grows with a slope of \SI{14.55(240)}{\kilo\meter/\second \kilo\volt}, while for neon bullet's velocity we find \SI{23.23(366)}{\kilo\meter/\second \kilo\volt}. Those values are of the same magnitude, but not so compatible, suggesting that bullet's velocity may depend from gas composition not only with a different threshold value.
+\begin{figure}
+ \centering
+ \includegraphics[width=0.52\textwidth]{Images/Shape/hene_vN.png}
+ \caption{Plot of bullet's velocity inside the nozzle increasing voltage, for helium and neon.}
+ \label{fig:hene_d_vn}
+\end{figure}
 
 
 \subsection{Insulator target}
@@ -821,31 +830,31 @@ Starting time of current peak is again precedent to the impact time of the bulle
 
 
 \paragraph{Backstream}
-For neon the backstream phenomenon is strong, where the bullet reaches the target we find high luminosity around nozzle exit. This backstream presents itself as zone of glowing gas with large width and near constant height, with a barycenter motion that shift direction towards the electrode or towards the target, with so little motion that is not possible to infer it's dynamics. Once the pulse voltage lowers, also the backstream fade away, as the bullet that impacts on target. 
+Backstream phenomenon in neon is easily observable, where the bullet reaches the target we find high luminosity around nozzle exit. It presents itself as zone of glowing gas with large width and near constant height, with a barycenter motion that shift direction towards the electrode or towards the target, with so little motion that is not possible to infer it's dynamics. Once the pulse voltage lowers, also the backstream fade away, as the bullet that impacts on target. 
 
 \begin{figure}
  \centering
- \subfloat[Mean luminosity, set A.]{
+ \subfloat[Mean luminosity, $\Delta x_{\text{targ}} = \SI{30}{\milli\meter}$.]{
     \includegraphics[width=0.43\textwidth]{Images/Shape/neon_a_back_Im.png}
  }
  \hfill
- \subfloat[Mean luminosity,  set B.]{
+ \subfloat[Mean luminosity,  $\Delta x_{\text{targ}} = \SI{22}{\milli\meter}$.]{
     \includegraphics[width=0.43\textwidth]{Images/Shape/neon_b_back_Im.png}
  }
  
- \subfloat[Barycenter along x, set A.]{
+ \subfloat[Barycenter along x, $\Delta x_{\text{targ}} = \SI{30}{\milli\meter}$.]{
     \includegraphics[width=0.43\textwidth]{Images/Shape/neon_a_back_xb.png}
  }
  \hfill
- \subfloat[Barycenter along x,  set B.]{
+ \subfloat[Barycenter along x,  $\Delta x_{\text{targ}} = \SI{22}{\milli\meter}$.]{
     \includegraphics[width=0.43\textwidth]{Images/Shape/neon_b_back_xb.png}
  }
  
- \subfloat[Diameter along x, set A.]{
+ \subfloat[Diameter along x, $\Delta x_{\text{targ}} = \SI{30}{\milli\meter}$.]{
     \includegraphics[width=0.43\textwidth]{Images/Shape/neon_a_back_dx.png}
  }
  \hfill
- \subfloat[Diameter along x,  set B.]{
+ \subfloat[Diameter along x,  $\Delta x_{\text{targ}} = \SI{22}{\milli\meter}$.]{
     \includegraphics[width=0.43\textwidth]{Images/Shape/neon_b_back_dx.png}
  }
  
@@ -862,7 +871,172 @@ For neon the backstream phenomenon is strong, where the bullet reaches the targe
 
 
 \section{Argon flow}
-%It's a very hard to ignite gas and with medium luminosity.
+The third noble gas used it's Argon, it is the harder one to produce plasma with at atmosferic pressure. Argon has a standard atomic weight of $\num{39.948}$, 1st ionization energy of \SI{15.760}{\electronvolt} and 2nd ionization energy of \SI{27.629}{\electronvolt}.
+The peculiarity of this gas is its tendency to form filaments of glowing plasma, long in the electrode axis direction and short in height, instead of a large zone of plasma column as seen with helium or neon. Figure \ref{fig:argonex} shows an example where there is a grounded ring made of copper positioned around the outer nozzle, that hallows to produce plasma with lower voltage and repetition rate. For our measurements we use a frequency and an opening time for the voltage pulse that hallow to observe plasma with and whitout this ring, to see differances between the setups.
+\begin{figure}
+ \centering
+ \includegraphics[width=0.6\textwidth]{Images/Shape/argon_b_120.png}
+ \caption{Example of discharge with argon in setup B, after \SI{120}{\nano\second} from discharge start. Note the grounded ring that covers a portion of the nozzle after the electrode.}
+ \label{fig:argonex}
+\end{figure}
+
+
+Along the production of filaments, argon shows also the tendency to transite from a glow to an arc discharge when a target is positioned near it, as in figure \ref{fig:arcex}. As we remembered in chapter \ref{ch:electric}, when there is a plasma arc there is also large current intensity circulating in plasma and in the target, a condition that we want to avoid for blood coagulation with cold plasma. For this reason we use the target at one single position, one where we see plasma interaction with the target whitout arc transition.
+\begin{figure}
+ \centering
+ \includegraphics[width=0.6\textwidth]{Images/Shape/arcex.png}
+ \caption{Example of arc discharge with argon and a target positioned \SI{22}{\milli\meter} from the electrode, after \SI{500}{\nano\second} from discharge start. The arc covers all the gap between electrode on the left and conductive target on the right.}
+ \label{fig:arcex}
+\end{figure}
+
+\subsection{Dynamic example}
+We take measurements in setup B as example: argon flow of \SI{2}{\liter/\min}, presence of the grounded ring outside the nozzle and absence of target.
+Formation, expulsion and propagation of argon plasma is phenomenologically different if compared to helium or neon plasma, but we can always separate two phases: inside the nozzle and outside it.
+
+\paragraph{Plasma formation}
+Inside the nozzle we observe plasma formation as filaments that start on the electrode and reach nozzle's walls, with different lenghts for each frame. There isn't a uniform propagation of those filaments toward the exit, however we see that after a time of \SI{180}{\nano\second}, every filament covers all the distance between electrode and nozzle exit (\SI{10}{\milli\meter}), as in figure \ref{fig:arnoz_prop}. Hypotizing the definition of a propagating front composed by the filament's ends it will have a velocity of, at least, $v_{N} = \SI{55.56}{\kilo\meter/\second}$. 
+\begin{figure}
+ \centering
+ \subfloat[t = \SI{0}{\nano\second}]{
+    \includegraphics[width=0.5\textwidth]{Images/Shape/argon_b_0.png}
+ }
+ 
+ \subfloat[t = \SI{80}{\nano\second}]{
+    \includegraphics[width=0.5\textwidth]{Images/Shape/argon_b_80.png}
+ }
+ 
+ \subfloat[t = \SI{180}{\nano\second}]{
+    \includegraphics[width=0.5\textwidth]{Images/Shape/argon_b_180.png}
+ }
+ \caption{Propagation of argon plasma filaments inside the nozzle, measurements setup B.}
+ \label{fig:arnoz_prop}
+\end{figure}
+
+\paragraph{Plasma expulsion}
+After the time interval where we can see plasma only inside the nozzle, it's possible to observe zones with high luminosity also in air. Plasma is expelled as tiny round shaped formations, separated from each other, as in figure \ref{fig:arair_prop}.
+\begin{figure}
+ \centering
+ \includegraphics[width=0.6\textwidth]{Images/Shape/argon_b_220.png}
+ \caption{Expulsion of argon plasma in air at \SI{220}{\nano\second} from discharge start, measurements set B.}
+ \label{fig:arair_prop}
+\end{figure}
+
+For every frame we observe several formations with different positions and diameters, it's possible to study the dynamic of plasma propagation studying the evolution of those parameters.
+For each frame we identify every formation that presents luminosity over a limit value, isolating it's shape. From there it's possible to count how many formations there are, what are their mean luminosities, barycenter's coordinates and diameters, as we did with the bullets in helium and neon.
+Given a frame at a specific time, we fill histograms for those parameters and extrapolate their distribution. For different times, it's possible to compare those distributions, as it's done for barycenter's coordinate x in figure \ref{fig:argon_xb_evol}. 
+\begin{figure}
+ \centering
+ \includegraphics[width=0.6\textwidth]{Images/Shape/argon_b_xbevol.png}
+ \caption{Distribution of barycenter's coordinate x, for plasma formations expelled from the source, at three different times, in measurements setup B. For every time, we see how many formations are observed centered at a specific position $x_b$.}
+ \label{fig:argon_xb_evol}
+\end{figure}
+
+
+Given those distributions for every parameter, it's possible to evaluate the mean value for luminosity, barycenter coordinates and diameters at any given time, reconstructing an analysis similar to that presented for other gasses. Results are presented in figure \ref{fig:argon_b}, where the points are the mean value of the distribution and the error is associated with distribution widths.
+We see that the number of plasma formations follows voltage waveform: we count more plasma formations right after the voltage positive peak value and right after the voltage negative peak value. Also mean luminosity shows this behavior: we see emission with more intensity right after the positive and the negative voltage peaks, with higher errors during the negative peak, showing that values are more spread around the mean value.
+Barycenter motion in the x direction shows that the distribution propagates during the time interval where voltage is positive and stops when it becames zero, at a certain distance from the end of the nozzle. It's relevant to point out that we are studying this propagation only outside the nozzle, so position values starts around \SI{85}{\milli\meter}, that is the end of the nozzle. During the propagation phase it's possible to estimate a velocity for the mean value of those formations with a fit as shown in figure, resulting in $v_A = \SI{30.16(356)}{\kilo\meter/\second}$.
+Diameters values are presented to show dimensions of plasma formations. Diameter along x and y direction varies in a range between \num{0.3} and \SI{1.3}{\milli\meter}, with a stretch in the x direction where voltage's absolute value is higher, and a stable value in the y direction around \SI{0.7(2)}{\milli\meter}. 
+
+\begin{figure}
+ \centering
+ \subfloat[Voltage waveform.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/argon_b_V.png}
+ }
+ \hfill
+ \subfloat[Number of formations.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/argon_b_N.png}
+ }
+ 
+ \subfloat[Mean luminosity.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/argon_b_Im.png}
+ }
+ \hfill
+ \subfloat[Barycenter along x.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/argon_b_xb.png}
+ }
+ 
+ \subfloat[Diameter along x.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/argon_b_dx.png}
+ }
+ \hfill
+ \subfloat[Diameter along y.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/argon_b_dy.png}
+ }
+ \caption{Analysis of argon plasma formations, measurements setup B. Every point identifies the mean value of considered parameter between all plasma formations observed at a given time, while the error is associated with the distribution width.}
+ \label{fig:argon_b}
+\end{figure}
+
+
+\subsection{Absence of target}
+The grounded ring positioned around the nozzle for measurements sets A, B and D, phenomenologically, helps the formation of plasma, hallowing to produce it with lower amplitude and repetition rate of voltage pulses. We try visualize the effects of this ring on plasma dynamics comparing the expulsion of plasma in setups with or without it, respectively measurements set A and F.
+
+Analysis is done as described before for set B, results are in figure \ref{fig:argon_af}, where the voltage waveform is identical to the one presented in figure \ref{fig:argon_b}.
+As in set B, we find a peak in plasma formation numbers and luminosity in correspondence of voltage peak values, positive and negative. Intersting thing to note it's that the number of formations is always lower for measurements without the ring, implying that it's expelled more plasma when there is the ring.
+Baricenter position changes uniformally for both sets, resulting in a velocity of the mean value of $v_A = \SI{47.90(475)}{\kilo\meter/\second}$ with the ring and $v_A = \SI{39.03(295)}{\kilo\meter/\second}$ without it.
+Diameters have an average value higher for set A in both direction, but data is spread a lot for all measurements sets, so it's not possible to note differances outside the error.
+
+Argon plasma dynamics doesn't change behavior introducing the grounded ring on the nozzle, but plasma formations that are expelled reach higher velocities.
+
+\begin{figure}
+ \centering
+ \subfloat[Number of formations.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/argon_af_N.png}
+ }
+ \hfill
+ \subfloat[Mean luminosity.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/argon_af_Im.png}
+ }
+ 
+ \subfloat[Barycenter along x.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/argon_af_xb.png}
+ }
+ 
+ \subfloat[Diameter along x.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/argon_af_dx.png}
+ }
+ \hfill
+ \subfloat[Diameter along y.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/argon_af_dy.png}
+ }
+ \caption{Analysis of argon plasma formations, with grounded ring positioned outside the nozzle (set A) and without it (set F).}
+ \label{fig:argon_af}
+\end{figure}
+
+\subsection{Influence of target}
+A target positioned after nozzle exit induces easily an arc transition with argon plasma, to study the influence of the target in plasma dynamics it is necessary to find a distance from the electrode for wich there is not an arc transition. In measurements sets D and E we study plasma formation and evolution with a copper target (the same described before) positioned at \SI{30}{\milli\meter}, respectively with and without grounded ring around the nozzle.
+
+
+Analysis is done as described before, results are in figure \ref{fig:argon_de}, where the voltage waveform is identical to the one in figure \ref{fig:argon_b}.
+For those setup the number of formations, their luminosity and the diameters are not influenced by the presence of the grounded ring.
+The most relevant differance between those measures and the others it's that with grounded ring mean position of formations travels with a velocity of $v_A = \SI{30.49(410)}{\kilo\meter/\second}$, while when there isn't the ring we find $v_A = \SI{61.24(284)}{\kilo\meter/\second}$, an higher value.
+
+An explanation could be that if plasma is repelled by the electrode it is attracted by a conductor at ground potential, when there isn't the grounded ring the target is the conductor at ground potential more close to the electrode, so plasma is attracted by it.
+
+\begin{figure}
+ \centering
+ \subfloat[Number of formations.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/argon_de_N.png}
+ }
+ \hfill
+ \subfloat[Mean luminosity.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/argon_de_Im.png}
+ }
+ 
+ \subfloat[Barycenter along x.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/argon_de_xb.png}
+ }
+ 
+ \subfloat[Diameter along x.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/argon_de_dx.png}
+ }
+ \hfill
+ \subfloat[Diameter along y.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/argon_de_dy.png}
+ }
+ \caption{Analysis of argon plasma formations, when there is a target in front of nozzle exit, with grounded ring (set D) and without it (set E).}
+ \label{fig:argon_af}
+\end{figure}
+
 
 
 %\section{Simple 1D-model}
@@ -871,10 +1045,3 @@ For neon the backstream phenomenon is strong, where the bullet reaches the targe
 %\subsection{Theory}
 
 %\subsection{Results and measure comparision}
-
-
-%\section{Profilo di temperatura}
-
-%\subsection{Setup termocamera e termocoppia}
-
-%\subsection{Misure di temperatura}
