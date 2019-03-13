@@ -1,0 +1,125 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{flircamera}{online}{}
+    \verb{url}
+    \verb https://www.flir.com/globalassets/imported-assets/document/rnd_011_us
+    \verb .pdf
+    \endverb
+  \endentry
+
+  \entry{Gade2014}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GR}{%
+         family={Gade},
+         familyi={G\bibinitperiod},
+         given={Rikke},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MTB}{%
+         family={Moeslund},
+         familyi={M\bibinitperiod},
+         given={Thomas\bibnamedelima B.},
+         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GRMTB1}
+    \strng{fullhash}{GRMTB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1007/s00138-013-0570-5
+    \endverb
+    \field{issn}{1432-1769}
+    \field{number}{1}
+    \field{pages}{245\bibrangedash 262}
+    \field{title}{Thermal cameras and applications: a survey}
+    \verb{url}
+    \verb https://doi.org/10.1007/s00138-013-0570-5
+    \endverb
+    \field{volume}{25}
+    \field{journaltitle}{Machine Vision and Applications}
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{biotissues}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GK}{%
+         family={Giering},
+         familyi={G\bibinitperiod},
+         given={Kerstin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MO}{%
+         family={Minet},
+         familyi={M\bibinitperiod},
+         given={Olaf},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=LI}{%
+         family={Lamprecht},
+         familyi={L\bibinitperiod},
+         given={Ingolf},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Müller},
+         familyi={M\bibinitperiod},
+         given={G},
+         giveni={G},
+      }}%
+    }
+    \strng{namehash}{GK+1}
+    \strng{fullhash}{GKMOLIMG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{pages}{45\bibrangedash 65}
+    \field{title}{Review of Thermal Properties of Biological Tissues}
+    \field{journaltitle}{SPIE-The International Society For Optical
+  Engineering}
+    \field{month}{01}
+    \field{year}{1995}
+  \endentry
+
+  \entry{Pimazzoni2018}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=PA}{%
+         family={Pimazzoni},
+         familyi={P\bibinitperiod},
+         given={Antonio},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PA1}
+    \strng{fullhash}{PA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Investigation of the parameters of a particle beam by
+  numerical models and diagnostic calorimetry}
+    \field{year}{2018}
+  \endentry
+\enddatalist
+\endinput
