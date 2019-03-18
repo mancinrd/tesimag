@@ -18,47 +18,49 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: tesi_plasmamed-blx.bib
 Database file #2: bibliography.bib
+Warning--I didn't find a database entry for "ceciliaDBD"
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 5 entries,
+You've used 13 entries,
             6268 wiz_defined-function locations,
-            1203 strings with 9229 characters,
-and the built_in function-call counts, 17831 in all, are:
-= -- 1050
-> -- 355
-< -- 99
-+ -- 397
-- -- 139
-* -- 1209
-:= -- 1796
+            1286 strings with 12023 characters,
+and the built_in function-call counts, 75718 in all, are:
+= -- 5173
+> -- 1775
+< -- 294
++ -- 2567
+- -- 991
+* -- 5241
+:= -- 8455
 add.period$ -- 0
-call.type$ -- 5
-change.case$ -- 29
-chr.to.int$ -- 37
-cite$ -- 8
-duplicate$ -- 1953
-empty$ -- 1791
-format.name$ -- 194
-if$ -- 3712
+call.type$ -- 13
+change.case$ -- 141
+chr.to.int$ -- 54
+cite$ -- 24
+duplicate$ -- 8497
+empty$ -- 6701
+format.name$ -- 882
+if$ -- 14713
 int.to.chr$ -- 0
-int.to.str$ -- 7
+int.to.str$ -- 27
 missing$ -- 0
-newline$ -- 123
-num.names$ -- 123
-pop$ -- 1403
+newline$ -- 497
+num.names$ -- 488
+pop$ -- 4285
 preamble$ -- 1
-purify$ -- 43
+purify$ -- 242
 quote$ -- 0
-skip$ -- 600
+skip$ -- 2031
 stack$ -- 0
-substring$ -- 1618
-swap$ -- 495
-text.length$ -- 113
-text.prefix$ -- 5
+substring$ -- 8435
+swap$ -- 1898
+text.length$ -- 296
+text.prefix$ -- 4
 top$ -- 1
-type$ -- 158
+type$ -- 430
 warning$ -- 0
-while$ -- 248
+while$ -- 1077
 width$ -- 0
-write$ -- 119
+write$ -- 485
+(There was 1 warning)

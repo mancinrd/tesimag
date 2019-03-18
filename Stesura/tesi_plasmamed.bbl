@@ -16,110 +16,493 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}
-  \entry{flircamera}{online}{}
-    \verb{url}
-    \verb https://www.flir.com/globalassets/imported-assets/document/rnd_011_us
-    \verb .pdf
-    \endverb
-  \endentry
-
-  \entry{Gade2014}{article}{}
-    \name{author}{2}{}{%
-      {{hash=GR}{%
-         family={Gade},
+\datalist[entry]{none/global//global/global}
+  \entry{DeMasi_2018}{article}{}
+    \name{author}{12}{}{%
+      {{hash=MGD}{%
+         family={Masi},
+         familyi={M\bibinitperiod},
+         given={Gianluca\bibnamedelima De},
+         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Gareri},
          familyi={G\bibinitperiod},
-         given={Rikke},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Cordaro},
+         familyi={C\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Fassina},
+         familyi={F\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Brun},
+         familyi={B\bibinitperiod},
+         given={Paola},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ZB}{%
+         family={Zaniol},
+         familyi={Z\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Cavazzana},
+         familyi={C\bibinitperiod},
+         given={Roberto},
          giveni={R\bibinitperiod},
       }}%
-      {{hash=MTB}{%
-         family={Moeslund},
+      {{hash=ME}{%
+         family={Martines},
          familyi={M\bibinitperiod},
-         given={Thomas\bibnamedelima B.},
-         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Emilio},
+         giveni={E\bibinitperiod},
       }}%
-    }
-    \strng{namehash}{GRMTB1}
-    \strng{fullhash}{GRMTB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-    \verb{doi}
-    \verb 10.1007/s00138-013-0570-5
-    \endverb
-    \field{issn}{1432-1769}
-    \field{number}{1}
-    \field{pages}{245\bibrangedash 262}
-    \field{title}{Thermal cameras and applications: a survey}
-    \verb{url}
-    \verb https://doi.org/10.1007/s00138-013-0570-5
-    \endverb
-    \field{volume}{25}
-    \field{journaltitle}{Machine Vision and Applications}
-    \field{year}{2014}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{biotissues}{article}{}
-    \name{author}{4}{}{%
-      {{hash=GK}{%
-         family={Giering},
-         familyi={G\bibinitperiod},
-         given={Kerstin},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=MO}{%
-         family={Minet},
-         familyi={M\bibinitperiod},
-         given={Olaf},
-         giveni={O\bibinitperiod},
-      }}%
-      {{hash=LI}{%
-         family={Lamprecht},
-         familyi={L\bibinitperiod},
-         given={Ingolf},
-         giveni={I\bibinitperiod},
+      {{hash=ZM}{%
+         family={Zuin},
+         familyi={Z\bibinitperiod},
+         given={Matteo},
+         giveni={M\bibinitperiod},
       }}%
       {{hash=MG}{%
-         family={Müller},
+         family={Marinaro},
          familyi={M\bibinitperiod},
-         given={G},
-         giveni={G},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=RSD}{%
+         family={Rosa},
+         familyi={R\bibinitperiod},
+         given={S.\bibnamedelima De},
+         giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=lC}{%
+         family={lndolfi},
+         familyi={l\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{GK+1}
-    \strng{fullhash}{GKMOLIMG1}
+    \strng{namehash}{MGD+1}
+    \strng{fullhash}{MGDGCCLFABPZBCRMEZMMGRSDlC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-    \field{pages}{45\bibrangedash 65}
-    \field{title}{Review of Thermal Properties of Biological Tissues}
-    \field{journaltitle}{SPIE-The International Society For Optical
-  Engineering}
-    \field{month}{01}
+    \field{issn}{1947-5764}
+    \field{number}{3}
+    \field{pages}{245\bibrangedash 254}
+    \field{title}{Plasma Coagulation Controller: A Low- Power Atmospheric
+  Plasma Source for Accelerated Blood Coagulation}
+    \field{volume}{8}
+    \field{journaltitle}{Plasma Medicine}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Upadhyay:hvpulse}{article}{}
+    \name{author}{4}{}{%
+      {{hash=UJ}{%
+         family={Upadhyay},
+         familyi={U\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SML}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={M.\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=AAB}{%
+         family={Ahuja},
+         familyi={A\bibinitperiod},
+         given={Aakash\bibnamedelima B.},
+         giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=NCP}{%
+         family={Navathe},
+         familyi={N\bibinitperiod},
+         given={C.\bibnamedelima P.},
+         giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{UJ+1}
+    \strng{fullhash}{UJSMLAABNCP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1063/1.4884883
+    \endverb
+    \field{number}{6}
+    \field{pages}{064704}
+    \field{title}{Development of high-voltage pulse generator with variable
+  amplitude and duration}
+    \field{volume}{85}
+    \field{journaltitle}{Review of Scientific Instruments}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Jarrige:plumecharacteristics}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JJ}{%
+         family={Jarrige},
+         familyi={J\bibinitperiod},
+         given={Julien},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Laroussi},
+         familyi={L\bibinitperiod},
+         given={Mounir},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Karakas},
+         familyi={K\bibinitperiod},
+         given={Erdinc},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IOP} Publishing}%
+    }
+    \strng{namehash}{JJLMKE1}
+    \strng{fullhash}{JJLMKE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/0963-0252/19/6/065005
+    \endverb
+    \field{number}{6}
+    \field{pages}{065005}
+    \field{title}{Formation and dynamics of plasma bullets in a non-thermal
+  plasma jet: influence of the high-voltage parameters on the plume
+  characteristics}
+    \verb{url}
+    \verb https://doi.org/10.1088%2F0963-0252%2F19%2F6%2F065005
+    \endverb
+    \field{volume}{19}
+    \field{journaltitle}{Plasma Sources Science and Technology}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Darny:jetplume}{article}{}
+    \name{author}{6}{}{%
+      {{hash=DT}{%
+         family={Darny},
+         familyi={D\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=PJM}{%
+         family={Pouvesle},
+         familyi={P\bibinitperiod},
+         given={J-M},
+         giveni={J\bibinitperiod-M\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Puech},
+         familyi={P\bibinitperiod},
+         given={V},
+         giveni={V},
+      }}%
+      {{hash=DC}{%
+         family={Douat},
+         familyi={D\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=DS}{%
+         family={Dozias},
+         familyi={D\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=RE}{%
+         family={Robert},
+         familyi={R\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IOP} Publishing}%
+    }
+    \strng{namehash}{DT+1}
+    \strng{fullhash}{DTPJMPVDCDSRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1361-6595/aa5b15
+    \endverb
+    \field{number}{4}
+    \field{pages}{045008}
+    \field{title}{Analysis of conductive target influence in plasma jet
+  experiments through helium metastable and electric field measurements}
+    \verb{url}
+    \verb https://doi.org/10.1088%2F1361-6595%2Faa5b15
+    \endverb
+    \field{volume}{26}
+    \field{journaltitle}{Plasma Sources Science and Technology}
+    \field{year}{2017}
+  \endentry
+
+  \entry{ROOT:fft}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{ROOT documentation for TVirtualFFT class}
+    \verb{url}
+    \verb https://root.cern.ch/doc/master/classTVirtualFFT.html
+    \endverb
+  \endentry
+
+  \entry{ROOT:landau}{online}{}
+    \name{author}{1}{}{%
+      {{hash=BR}{%
+         family={Brun},
+         familyi={B\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BR1}
+    \strng{fullhash}{BR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{ROOT documentation for Landau() function}
+    \verb{url}
+    \verb https://root.cern.ch/doc/master/namespaceTMath.html#a656690875991a17d
+    \verb 35e8a514f37f35d9
+    \endverb
     \field{year}{1995}
   \endentry
 
-  \entry{Pimazzoni2018}{thesis}{}
+  \entry{kogelschatz:jpa-00255561}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KU}{%
+         family={Kogelschatz},
+         familyi={K\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=EB}{%
+         family={Eliasson},
+         familyi={E\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=EW}{%
+         family={Egli},
+         familyi={E\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KUEBEW1}
+    \strng{fullhash}{KUEBEW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1051/jp4:1997405
+    \endverb
+    \field{number}{C4}
+    \field{pages}{C4\bibrangedash 47\bibrangedash C4\bibrangedash 66}
+    \field{title}{{Dielectric-Barrier Discharges. Principle and Applications}}
+    \verb{url}
+    \verb https://hal.archives-ouvertes.fr/jpa-00255561
+    \endverb
+    \field{volume}{07}
+    \verb{file}
+    \verb https://hal.archives-ouvertes.fr/jpa-00255561/file/ajp-jp4199707C405.
+    \verb pdf
+    \endverb
+    \field{journaltitle}{{Journal de Physique IV Colloque}}
+    \field{year}{1997}
+  \endentry
+
+  \entry{TOMAI2006409}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TT}{%
+         family={Tomai},
+         familyi={T\bibinitperiod},
+         given={Takaaki},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=IT}{%
+         family={Ito},
+         familyi={I\bibinitperiod},
+         given={Tsuyohito},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Terashima},
+         familyi={T\bibinitperiod},
+         given={Kazuo},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \keyw{Supercritical fluid, Barrier discharge, Microplasma, Optical
+  spectroscopy}
+    \strng{namehash}{TTITTK1}
+    \strng{fullhash}{TTITTK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.tsf.2005.08.101
+    \endverb
+    \field{issn}{0040-6090}
+    \field{note}{The Joint Meeting of 7th APCPST (Asia Pacific Conference on
+  Plasma Science and Technology) and 17th SPSM (Symposium on Plasma Science for
+  Materials)}
+    \field{pages}{409 \bibrangedash  413}
+    \field{title}{Generation of dielectric barrier discharge in high-pressure
+  N2 and CO2 environments up to supercritical conditions}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0040609005013052
+    \endverb
+    \field{volume}{506-507}
+    \field{journaltitle}{Thin Solid Films}
+    \field{year}{2006}
+  \endentry
+
+  \entry{PhysRev.34.876}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TL}{%
+         family={Tonks},
+         familyi={T\bibinitperiod},
+         given={Lewi},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LI}{%
+         family={Langmuir},
+         familyi={L\bibinitperiod},
+         given={Irving},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{TLLI1}
+    \strng{fullhash}{TLLI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRev.34.876
+    \endverb
+    \field{issue}{6}
+    \field{pages}{876\bibrangedash 922}
+    \field{title}{A General Theory of the Plasma of an Arc}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRev.34.876
+    \endverb
+    \field{volume}{34}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1929}
+  \endentry
+
+  \entry{unipd:ceciliaDBD}{thesis}{}
     \name{author}{1}{}{%
-      {{hash=PA}{%
-         family={Pimazzoni},
+      {{hash=PC}{%
+         family={Piferi},
          familyi={P\bibinitperiod},
-         given={Antonio},
+         given={Cecilia},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PC1}
+    \strng{fullhash}{PC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Caratterizzazione di sorgenti di plasma per applicazioni
+  biomediche}
+    \field{year}{2016/17}
+  \endentry
+
+  \entry{lieberman1994principles}{book}{}
+    \name{author}{2}{}{%
+      {{hash=LM}{%
+         family={Lieberman},
+         familyi={L\bibinitperiod},
+         given={M.A.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Lichtenberg},
+         familyi={L\bibinitperiod},
+         given={A.J.},
          giveni={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{PA1}
-    \strng{fullhash}{PA1}
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{LMLA1}
+    \strng{fullhash}{LMLA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{title}{Investigation of the parameters of a particle beam by
-  numerical models and diagnostic calorimetry}
-    \field{year}{2018}
+    \field{isbn}{9780471005773}
+    \field{title}{Principles of Plasma Discharges and Materials Processing}
+    \verb{url}
+    \verb https://books.google.it/books?id=-cloQgAACAAJ
+    \endverb
+    \field{year}{1994}
+  \endentry
+
+  \entry{doi:10.1002/ppap.200731208}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TS}{%
+         family={Tümmel},
+         familyi={T\bibinitperiod},
+         given={Stephanie},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Mertens},
+         familyi={M\bibinitperiod},
+         given={Nina},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Jiejun},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VW}{%
+         family={Viöl},
+         familyi={V\bibinitperiod},
+         given={Wolfgang},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \keyw{biomaterials, dielectric barrier discharge (DBD), plasma treatment,
+  surface temperature, UV-irradiation}
+    \strng{namehash}{TS+1}
+    \strng{fullhash}{TSMNWJVW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/ppap.200731208
+    \endverb
+    \verb{eprint}
+    \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/ppap.200731208
+    \endverb
+    \field{number}{S1}
+    \field{pages}{S465\bibrangedash S469}
+    \field{title}{Low Temperature Plasma Treatment of Living Human Cells}
+    \verb{url}
+    \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/ppap.200731208
+    \endverb
+    \field{volume}{4}
+    \field{journaltitle}{Plasma Processes and Polymers}
+    \field{year}{2007}
   \endentry
 \enddatalist
 \endinput

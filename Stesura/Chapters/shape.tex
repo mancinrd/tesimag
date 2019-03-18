@@ -375,47 +375,100 @@ Velocity values (figure \ref{fig:elio_d} (f)) show how the bullet behaviour is s
 
 
 \subsection{Flow influence}
-As said before, neutral gas velocity is very little in comparision of the ionization front velocity of the bullet, we expect that changes in the gas flow will have an effect on the quantity of helium present in the nozzle more then on the energy of the atoms and electrons. We try four different flows with the same peak voltage, in figure \ref{fig:elio_d} and table \ref{tab:elio_d} are presented the results of the analysis.
+As said before, neutral gas velocity is low if compared to bullet speed, however it could influence the overall dynamic of bullet propagation. We try four different flows with the same peak voltage, in figure \ref{fig:elio_flow} and table \ref{tab:elio_flow} are presented the results of the analysis.
 
-Also for this parameter, the discharge starts always in the same voltage interval, around \SI{5.7}{\kilo\volt}. For gas flows of $\num{1}$ and \SI{2}{\liter/\minute} bullet luminosity decreases in a time interval around \SI{100}{\nano\second} once it exits the nozzle, for higher flows it has a luminosity clearly stronger then background for a longer time interval, around \SI{200}{\nano\second} (figure \ref{fig:elio_035} (a)).
+Also for this parameter, the discharge starts always in the same voltage interval, for values higher then \SI{5.7}{\kilo\volt}. For gas flows of $\num{1}$ and \SI{2}{\liter/\minute} bullet luminosity decreases in a time interval around \SI{100}{\nano\second} once it exits the nozzle, for higher flows it has a luminosity clearly stronger then background for a longer time interval, around \SI{200}{\nano\second} (figure \ref{fig:elio_flow} (a)).
 
-From the barycenter coordinates (figure \ref{fig:elio_d} (b) - (c)) we see as more gas flow seems to be correlated with lower mobility of the bullet: we have shorter distances with higher flows. For maximum tried flow, even if bullet luminosity is more then the background, the bullet travels a very little distance from the exit of the nozzle and it's barycenter remains almost fixed in space.
+From the barycenter coordinates (figure \ref{fig:elio_flow} (b) - (c)) we see as more gas flow seems to be correlated with lower mobility of the bullet: we have shorter distances with higher flows. For maximum flow, even if bullet luminosity is more then the background, the bullet travels a very little distance from the exit of the nozzle and it's barycenter stays in the same position until bullet luminosity goes off.
 
-Dimensions of the bullet (figure \ref{fig:elio_d} (d) - (e)) are not very  influenced by gas flow, but we can see little inverse proportionality. For stronger flows we have always littler diameters inside the nozzle, in both directions.
+\begin{comment}
+Inside the no Width of the bullet increases with increasing and gas flow (figure \ref{fig:elio_d} (d) - (e)) is an inverse proportionality: For stronger flows we have always littler diameters inside the nozzle, in both directions.
+\end{comment}
 
-Velocities shows how the bullet behaviour changes also inside the nozzle varying gas flow (figure \ref{fig:elio_d} (f)). With little flow, we find a costant displacement velocity in the nozzle, while with more flow the bullet slows down when moving (as shown in \cite{Jarrige_2010}), with a decrease in velocity of \SI{7.58(4)}{\kilo\meter/\second/\milli\meter}.
+
+The study of bullet's velocity it's the more intersting one to understand the phenomenology of bullet propagation. In figure \ref{elio_flow}
 Once the bullet exits the nozzle, we see how it almost stops when there is high flow, while it shows the same behaviour if flow is under \SI{3}{\liter/\minute} and it has maximum velocity for the lowest gas flow, maintaining it for longer time.
 
+The study of bullet's velocity can give more insight to the phenomenology of bullet propagation, we show them in figure \ref{elio_flow} (e), with a zoom in figure \ref{elio_flow} (f). Bullet's velocity always decreases moving inside the nozzle, until it reaches a certain distance where it starts to increase. The distance at which the bullet speeds up is different for different flows as you can see in table \ref{tab:elio_Re}. The result is a more evident slowing effect inside the nozzle when the flow is lower then \SI{3}{\liter/\minute} (as we can see also in \cite{Jarrige_2010}).
 
-Can be concluded that with higher flow we have bullet with longer lifetime and littler mobility, reaching lesser distances with lesser velocity.
-
-
+Once the bullet exits from the nozzle, we see that the mean value of velocities reached in air is inversly proportional to gas flow, the bullets stops more rapidly when the flow is higher.
 \begin{figure}
  \centering
  \subfloat[Mean luminosity.]{
     \includegraphics[width=0.48\textwidth]{Images/Shape/elio_035_Im.png}
  }
- \hfill
+ 
  \subfloat[x barycenter.]{
     \includegraphics[width=0.48\textwidth]{Images/Shape/elio_035_xb.png}
  }
+ \hfill
  \subfloat[y barycenter.]{
     \includegraphics[width=0.48\textwidth]{Images/Shape/elio_035_yb.png}
  }
- \hfill
+ 
  \subfloat[x diameter.]{
     \includegraphics[width=0.48\textwidth]{Images/Shape/elio_035_dx.png}
  }
+ \hfill
  \subfloat[y diameter.]{
     \includegraphics[width=0.48\textwidth]{Images/Shape/elio_035_dy.png}
  }
- \hfill
+ 
  \subfloat[x velocity.]{
     \includegraphics[width=0.48\textwidth]{Images/Shape/elio_035_vx.png}
  }
- \caption{Results of the analysis for different gas flow (opening time of \SI{3.5}{\micro\second} without target).}
- \label{fig:elio_d}
+ \hfill
+ \subfloat[x velocity inside the nozzle.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/vnoz_flux_zoom.png}
+ }
+ \caption{Results of the analysis for different gas flow, with a voltage peak value of \SI{5.7}{\kilo\volt}, without target.}
+ \label{fig:elio_flow}
 \end{figure}
+
+\begin{table}
+ \centering
+ \begin{tabular}{cccccc}
+ \toprule
+ Flow [L/min]    &$V_{0}$ [kV]    &$x_{\text{dist}}$ [mm]   &$y_{\text{dist}}$ [mm]   &$v_{N}$ [km/s]   &$v_{A}$ [km/s]\\
+ \midrule
+ \num{1}  &\num{5.87(8)}    &\num{30.65(3)} &\num{2.75(1)}  &\num{54.33(10)} &\num{113.97(9)}\\
+ \num{2}  &\num{5.71(29)}    &\num{26.08(2)} &\num{1.92(4)}  &\num{46.48(2)} &\num{95.16(6)}\\
+ \num{3}  &\num{5.41(27)}    &\num{19.38(1)} &\num{1.84(1)}  &\num{39.88(4)} &\num{80.96(30)}\\
+ \num{4}  &\num{5.90(12)}    &\num{22.80(3)} &\num{2.30(1)}  &\num{58.89(14)} &\num{41.94(44)}\\
+ \bottomrule
+ \end{tabular}
+ \caption{Result of the analysis with different gas flows. $V_{0}$ the bullet formation tension, $x_{\text{dist}}$ and $y_{\text{dist}}$ are the highest distances reached by the bullet from electrode position, $v_{N}$ is the average velocity in x direction inside the nozzle, $v_{A}$ is the average velocity of propagation in air in x direction.}
+ \label{tab:elio_d}
+\end{table}
+
+
+The different behavior of the bullet with different neutral gas flow could be related to the variation of the Reynold number of the fluid, that could assume critical values. Following the study in \cite{doi:10.1063/1.4819246} we evaluate the Reynold number with different flow as in equation \ref{eq:Re}, where $v$ is the gas velocity found from the gas flow value $Q$, $\rho$ is helium density, $\mu$ is helium viscosity and $D$ is the nozzle diameter.
+\begin{equation}
+ \text{Rn} = \frac{v \rho D}{\mu} = \frac{Q}{\pi (D/2)^2} \frac{\rho D}{\mu}
+ \label{eq:Re}
+\end{equation}
+We find the values in table \ref{tab:elio_Re}, always below critical Reynold number ($> \num{2000}$), so we can conclude that changes on neutal gas flow from \num{1} to \SI{4}{\liter/\minute} don't lead to transition from laminar to turbolent flow.
+\begin{table}
+  \centering
+  \begin{tabular}{cccc}
+  \toprule
+  Q [L/min]   &$v_{N,\text{min}}$ [km/s]   &$x_{\text{air}}$ [\si{\milli\meter}]   &Rn\\
+  \midrule
+  1    &\num{48.46}    &\num{78.78}     &\num{36.88}\\
+  2    &\num{40.09}    &\num{80.55}     &\num{73.77}\\
+  3    &\num{33.74}    &\num{81.75}     &\num{110.65}\\
+  4    &\num{17.01}    &\num{81.28}     &\num{147.54}\\
+  \bottomrule
+  \end{tabular}
+  \caption{Bullet's propagation parameters inside the nozzle for different neutral gas flow. $v_{N}$ is the lowest velocity reached inside the nozzle; $x_{\text{air}}$ is the position where the bullet increase velocity, tought to be where the bullet meets the air outside the nozzle; Rn is the Reynold number associated to the gas flow.}
+  \label{tab:elio_Re}
+\end{table}
+
+While the bullet propagates inside the nozzle, at a certain time it meets the air outside, changing the elements that partecipates in ionization reactions from helium to those found in air. The bullet decelerate inside the nozzle and accelerate when it meets air (\cite{Jarrige_2010}).
+The change in bullet velocity when we increase gas velocity could be related to the different transition time and position from helium to air. With an higher flow the bullet travels in a gas of almost only helium for longer time and its velocity decreases more, leading to a different dynamic during propagation in air.
+
+
+
 
 \begin{comment}
 \begin{table}
@@ -434,22 +487,6 @@ Can be concluded that with higher flow we have bullet with longer lifetime and l
  \label{tab:elio_d}
 \end{table} 
 \end{comment}
-
-\begin{table}
- \centering
- \begin{tabular}{cccccc}
- \toprule
- Flow [L/min]    &$V_{0}$ [kV]    &$x_{\text{dist}}$ [mm]   &$y_{\text{dist}}$ [mm]   &$v_{N}$ [km/s]   &$v_{A}$ [km/s]\\
- \midrule
- \num{1}  &\num{5.87(8)}    &\num{30.65(3)} &\num{2.75(1)}  &\num{54.33(10)} &\num{113.97(9)}\\
- \num{2}  &\num{5.71(29)}    &\num{26.08(2)} &\num{1.92(4)}  &\num{46.48(2)} &\num{95.16(6)}\\
- \num{3}  &\num{5.41(27)}    &\num{19.38(1)} &\num{1.84(1)}  &\num{39.88(4)} &\num{40.96(10)}\\
- \num{4}  &\num{5.90(12)}    &\num{22.80(3)} &\num{2.30(1)}  &\num{58.89(14)} &\num{61.94(44)}\\
- \bottomrule
- \end{tabular}
- \caption{Result of the analysis with different gas flows. $V_{0}$ the bullet formation tension, $x_{\text{dist}}$ and $y_{\text{dist}}$ are the highest distances reached by the bullet from electrode position, $v_{N}$ is the velocity in x direction reached inside the nozzle, $v_{A}$ is the velocity of propagation in air in x direction.}
- \label{tab:elio_d}
-\end{table}
 
 
 \subsection{Insulator target}
@@ -1039,9 +1076,221 @@ An explanation could be that if plasma is repelled by the electrode it is attrac
 
 
 
-%\section{Simple 1D-model}
-%General desription, why and Comsol.
+\section{Hints on bullet propagation model}
+Formation and propagation of bullets in cold plasma discharges is a phenomenon that still has to be explained, there isn't a specific model that describes it.
+From our measures we can make some hypotesis to correlate what we see to plasma parameters such as electron temperature and transport coefficients.
 
-%\subsection{Theory}
+\paragraph{Bolsig+ and electron temperature}
+To estimate electron temperature and its transport coefficients we utilize the software \emph{Bolsig+}, a Boltzman equation solver that permits to evaluate those parameters with different gas temperature and composition (\cite{Hagelaar_2005}).
 
-%\subsection{Results and measure comparision}
+Electron motion in a plasma inside an electric field $E$ is described with the electron distribution function in the six-dimensional phase space $f$, estimated resolving the Boltzmann equation \ref{eq:BE}, where $C[f]$ represents the change rate of $f$ due to collisions.
+\begin{equation}
+\frac{\partial f}{\partial t} + v \cdot \nabla f - \frac{e}{m} E \cdot \nabla_{v} f = C[f]
+ \label{eq:BE}
+\end{equation}
+Once we obtain the distribution $f$, it's possible to evaluate the electron temperature $T_{e}$ of the plasma considering that $f$ should follow a Maxwell-Boltzmann distribution.
+
+
+The first two moments of \ref{eq:BE} are, respectively, the continuity equation and the momentum equation, approximated by the drift-diffusion equation, as in \ref{eq:BE12}, where $\Gamma$ is the electron flux, $S$ is the electron source term related to reactions, $\mu$ is the mobility coefficient and $D$ is the diffusion coefficient.
+\begin{equation}
+ \begin{split}
+ &\frac{\partial n}{\partial t} + \nabla \Gamma = S \\
+ &\Gamma = -\mu E n - \nabla (D n)
+ \end{split}
+ \label{eq:BE12}
+\end{equation}
+
+When we apply high intensity electric fields the drift term in electron motion controls plasma dynamics and we find that electron velocity is proportional to its mobility.
+
+Once we hypotize which reactions happens in plasma, Bolsig+ uses a two term approximation and further approximations on the dependance of $f$ from energy, time and space, to solve these equations and find electron temperature and transport coefficients. Those parameters are found in function of the reduced electric field $E/N$, where $N$ is the neutral numarical density of the plasma, that we consider as that of an ideal gas at atmospheric pressure $N = \SI{2.687e25}{\meter^{-3}}$.
+
+
+We consider four different gasses in this analysis, to simulate the ones we used and the principal components of air: helium, neon, nitrogen and oxygen. A selection of considered reactions is presented in table \ref{tab:B+reactions}, they are taken from the archive in \emph{LxCat} (\cite{LxCat}), composition of the gas is changed following the hypotesis that we make for different descriptions.
+\begin{table}
+ \centering
+ \begin{tabular}{cccc}
+  \toprule
+  Gas   &Reaction   &Threshold energy [eV]  &Description\\
+  \midrule
+  \multirow{3}*{\ce{He}}    &-                      &-      &elastic\\
+                            &\ce{He -> He^{*}} &19.8   &excitation\\
+                            &\ce{He -> He^{+}} &24.6   &ionization\\
+  \midrule
+  \multirow{5}*{\ce{Ne}}    &-                      &-      &elastic\\
+                            &\ce{Ne -> Ne^{*}} &16.6   &excitation (3P2)\\
+                            &\ce{Ne -> Ne^{*}} &16.7   &excitation (3P1)\\
+                            &\ce{Ne -> Ne^{*}} &16.8   &excitation (1P1)\\
+                            &\ce{Ne -> Ne^{+}} &21.6   &ionization\\
+  \midrule
+  \multirow{10}*{\ce{N_{2}}}&-                      &-      &elastic\\
+                            &\ce{N_2 -> N_2^{*}} &0.02   &excitation (rot)\\
+                            &\ce{N_2 -> N_2^{*}} &0.29   &excitation (vib v=1)\\
+                            &\ce{N_2 -> N_2^{*}} &0.59   &excitation (vib v=2)\\
+                            &\ce{N_2 -> N_2^{*}} &1.47   &excitation (vib v=4)\\
+                            &\ce{N_2 -> N_2^{*}} &6.17   &excitation (vib A3 v=1-4)\\
+                            &\ce{N_2 -> N_2^{*}} &7.00   &excitation (vib A3 v=5-9)\\
+                            &\ce{N_2 -> N_2^{*}} &11.03   &excitation (ele C3)\\
+                            &\ce{N_2 -> N_2^{*}} &11.87   &excitation (ele E3)\\
+                            &\ce{N_2 -> N_2^{+}} &15.59   &ionization\\
+  \midrule
+  \multirow{7}*{\ce{O_{2}}} &\ce{O_2 -> O^{-}} + \ce{O} &-   &attachment (2body)\\
+                            &-                      &-      &elastic\\
+                            &\ce{O_2 -> O_2^{*}} &0.02   &excitation (rot)\\
+                            &\ce{O_2 -> O_2^{*}} &0.19   &excitation (vib v=1)\\
+                            &\ce{O_2 -> O_2^{*}} &4.5    &excitation\\
+                            &\ce{O_2 -> O_2^{*}} &8.4    &excitation\\
+                            &\ce{O_2 -> O_2^{+}} &12.06   &ionization\\
+  \bottomrule
+ \end{tabular}
+ \caption{Selection of reactions used for different gasses. Elastic reactions are momentum transfer reactions; excitation reactions could be rotational, vibrational (it is indicated the starting vibrational quantum number) or electronic.}
+ \label{tab:B+reactions}
+\end{table}
+
+\subsection{Ion waves or electron drift}
+Our hypotesis is that bullets luminosity it's due to the recombination of ions and electrons inside the gas, giving birth to molecules and atoms in excited states that goes rapidly to lower energy levels emitting photons.
+A model for bullet propagation would have to elaborate a description of the conditions under which ions and excited species are created, how they propagates in space and how the behavior changes in different experimental setup, in agreement with the experimental results shown before in this chapter.
+
+For ionization propagation we considered two possible different mechanisms: propagation of a ionization wave or electron motion.
+
+\paragraph{Ion waves}
+In absence of magnetic fields and neglecting reactions contribute to motion we can describe ions dynamics as in equations \ref{eq:iondyn} (\cite{book:567903}), where $M$ is the ion mass, $n_{i}$ its density, $\gamma_{i}$ is the adiabatic consant of ion species and $T_{i}$ is the ion temperature.
+\begin{equation}
+\begin{split}
+ &\frac{\partial n_i}{\partial t} + \nabla \cdot (n_i v_i) = 0\\
+ &M n_i \left(\frac{\partial v_{i}}{\partial t} + (v_{i} \cdot \nabla) v_{i} \right) = e n_i E - \gamma_i K_{B} T_{i} \nabla n_i
+ \end{split}
+ \label{eq:iondyn}
+\end{equation}
+
+We can linearize those equations considering their equilibrium solution plus a perturbation on every parameter that we could expand in linear plane waves (for detailed calculations see \cite{book:567903}). Imposing also electroneutrality condition ($n_i$ = $n_e$ = $n$), we find equations \ref{eq:ionlin}, where all quantities with subscript $1$ are perturbations, $\phi$ is the electric potential relative to the electric field $E$, $\omega$ is the angular frequency of the wave perturbation and $k$ is its wavenumber.
+\begin{equation}
+ \begin{split}
+  &n_1 = n_0 \frac{e \phi_1}{K_B T_e}\\
+  &i \omega n_1 = n_0 i k v_{i1}\\
+  &i \omega M n_0 v_{i1} = i k K_B (T_e + \gamma_i T_i) \frac{n_0 k v_{i1}}{\omega}
+ \end{split}
+\label{eq:ionlin}
+\end{equation}
+
+The solution of this equation is a wave with speed $v_{s}$ in equation \ref{eq:vs}, where we neglect the ion temperature when compared to the electron temperature.
+\begin{equation}
+ v_s = \sqrt{\left(\frac{K_B T_e \gamma_i + K_B T_i}{M}\right)} \simeq \sqrt{\left(\frac{K_B T_e \gamma_i}{M}\right)}
+ \label{eq:vs}
+\end{equation}
+
+
+If we insert the ionization and recombination reaction contributions we find a suppression factor that would decrease the amplitude of the perturbation over time and space.
+
+Ultimately we see that if we put a perturbation on the electric field in a plasma, it propagates with a velocity proportional to the square root of electron temperature over ion mass. In this analysis we want to verify if the velocity of those ion waves are comparable with bullet's measured velocities.
+
+
+\paragraph{Electron velocity}
+The second hypotesis to explain bullet propagation is that it is related to the actual motion of electrons inside the plasma, that colliding with ions leads to reactions as expleined before.
+
+We can consider two possible electron velocities: electron thermal velocity, the speed of a particle at a specific temperature, or electron drift velocity, the speed of a charged particle when there is an electric field. Once we evaluate electron temperature and mobility solving equation \ref{eq:BE} and \ref{eq:BE12} with \emph{Bolsig+}, we can estimate the average thermal velocity and the drift velocity as in equation \ref{eq:vel}.
+\begin{equation}
+ \begin{split}
+  &v_{\text{th}} = \sqrt{\frac{2 K_B T_e}{m_e}} \\
+  &v_d = \mu_e E
+ \end{split}
+\label{eq:vel}
+\end{equation}
+
+
+\paragraph{Result comparison}
+We consider the experimental measurements with a conductive target positioned at \SI{32}{\milli\meter} from the electrode, estimating the electric field as if uniform in space. We evaluate electron temperature, electron mobility and from them we evaluate ionization wave velocity, thermal velocity and drift velocity, to be compared with bullet velocity in the nozzle, where we approximately know the gas composition.
+In table \ref{tab:param} are presented resulting parameters for helium and neon (compatible with those found \cite{book10.1007/978-3-642-61247-3}, \cite{Dickinson_1999}, \cite{Skullerud_1990}), in table \ref{tab:vels} evaluated velocities. 
+\begin{table}
+  \centering
+  \begin{tabular}{ccccc}
+  \toprule
+   Gas  &$V_p$ [kV]   &$E$ [kV/m]   &$T_e$ [eV] &$\mu_e$ [\si{\meter^2/\second\volt}]\\
+  \midrule
+   \multirow{3}*{He}    &5.7    &190    &4.5    &0.080\\
+                        &6.6    &220    &5.2    &0.079\\
+                        &7.3    &243    &5.8    &0.080\\
+  \midrule
+  \multirow{3}*{Ne}     &4.8    &160    &7.2    &0.144\\
+                        &5.3    &177    &7.3    &0.142\\
+                        &6.1    &203    &7.6    &0.140\\
+  \bottomrule
+  \end{tabular}
+ \caption{Plasma parameters with different peak voltage values.}
+ \label{tab:par}
+ \end{table}
+
+\begin{table}
+  \centering
+  \begin{tabular}{ccccc}
+  \toprule
+   Gas  &$v_{N}$ [km/s] &$v_{s}$ [km/s] &$v_{\text{th}}$ [km/s] &$v_{\text{d}}$ [km/s]\\
+  \midrule
+   \multirow{3}*{He}    &37.72  &13.42  &14.73  &15.23\\
+                        &46.48  &14.15  &15.53  &17.40\\
+                        &59.80  &14.84  &16.29  &19.41\\
+  \midrule
+  \multirow{3}*{Ne}     &34.59  &7.30  &8.06  &23.04\\
+                        &42.82  &7.41  &8.18  &25.13\\
+                        &62.92  &7.51  &8.30  &28.42\\
+  \bottomrule
+  \end{tabular}
+ \caption{Plasma velocities for different voltage peak values, evalueted with parameters in \ref{tab:par}.$v_{N}$ is the experimental bullet velocity measured inside the nozzle; $v_{s}$ is the ion wave velocity; $v_{\text{th}}$ is the electron average thermal velocity; $v_{d}$ is the electron drift velocity.}
+ \label{tab:vel}
+ \end{table}
+ 
+ 
+As we can see all estimates velocities are lower then the actual velocities we measure, but we find the same order of magnitude, expecially for drift velocities.
+From measurements we find that bullets in neon have higher speed then bullets in helium for the same voltage value, as shown in figure \ref{fig:hene_d_vn}. We find this behavior only for drift velocities, because neon has always higher mobility then helium, while other velocities decrease with increasing ion mass. We can compare if the increase in velocity due to increase in voltage value is comparable with the increase of drift velocity. More specifically, we can see if the ratio of neon mobility over helium mobility is comparable with the ratio of the slope in figure \ref{fig:hene_d_vn} for helium and neon. From the experiment we find that $m_{\ce{Ne}}/m_{\ce{He}} = \num{1.60}$, for mobility we find values around $\mu_{\ce{Ne}}/\mu_{\ce{He}} = \num{1.75}$. The values are compatible so we can assume that the increase in neon bullet velocities is correlated with the increase of its mobility.
+
+We don't have an exact measure of the electric field during the experiment, however, if we assume that velocities inside the nozzle are drift velocities, we can have an estimation of the electric field needed to reach those velocities. We find values from \num{300} to \SI{700}{\kilo\volt/\meter}, plausible considering our voltage values and distances.
+
+\subsection{Mobility and velocity}
+If we assume that the bullet velocity is proportional to electron mobility, we can try to explain bullet propagation qualitatively, inside the nozzle and in air.
+
+Electron mobility in a gas is proportional to reactions rate realtive to the gas, if we change gas composition, mobility will change. For our description we consider helium gas mixed with nitrogen and oxygen in different proportions, where the ratio of nitrogen to oxygen concentration remains costant at $7/3$, similar to the value in air.
+
+In figure \ref{fig:mu} we can see how mobility varies in function of the helium fraction with different electric fields, or in function of the electric field with different helium fractions. It's intersting to see that mobility has a peak when we add a little percentage of air in helium.
+\begin{figure}
+\subfloat[$\mu$ for different helium concentration.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/muE_xhe.png}
+ }
+ \hfill
+ \subfloat[$\mu$ for different electric field.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/muE_xhe_2.png}
+ }
+ \caption{Electric mobility values with different electric field and gas composition. $x_{\ce{He}}$ is helium concentration, $1-x_{\ce{He}}$ is air concentration, where for air we use a gas of $70\%$ nitrogen and $30\%$ oxygen.}
+ \label{fig:mu}
+\end{figure}
+
+\paragraph{Bullet in nozzle}
+When the bullet propagates inside the nozzle we can consider that the gas is only composed by helium and the electric field decreases due to voltage decrease and distance from the electrode increase. In those conditions the drift velocity decreases linearly, as in figure \ref{fig:muE} (b), and in a similar way we see the bullet decelerating (a). When the bullet meets the air outside, it goes from one line to another in the graph, increasing or decreasing its velocity based on the changing air composition.
+\begin{figure}
+ \subfloat[Bullet velocity inside the nozzle for different gas flow.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/vnoz_flux_zoom.png}
+ }
+ \hfill
+ \subfloat[Drift velocity in function of electric field.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/v_E_xhe.png}
+ }
+ \caption{Comparison of bullet and drift velocity inside the nozzle.}
+ \label{fig:muE}
+\end{figure}
+
+\paragraph{Bullet in air}
+When the bullet meets the air outside gas composition changes rapidly and we see a peak right after nozzle exit, as we see a peak in drift velocity if we add a low percentage of nitrogen and oxygen in helium, figure \ref{fig:muxhe}. The drift velocity peak is higher for higher values of the electric field, compatible with what we see from measurements.
+\begin{figure}
+ \subfloat[Bullet velocity at nozzle exit, gas flow = \SI{2}{\liter/\minute}.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/elio_vx_2lmin.png}
+ }
+ \hfill
+ \subfloat[Drift velocity in function of gas composition.]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/vE_xhe.png}
+ }
+ \caption{Comparison of bullet and drift velocity outside the nozzle.}
+ \label{fig:muE}
+\end{figure}
+
+
+%inserire analisi mfp
+
+Ultimately, we can say that there are several hints that suggests that bullet propagation velocity is correlated to electron mobility.

@@ -1,12 +1,12 @@
 \chapter{Spectral Analysis}
 \label{ch:spettro}
-A fundamental aspect of the Plasma Coagulation Controller is what species are produced and deposited during its application. Various studies observed the spectrum of plasma DBD discharge in air at atmosferic pressure and ambient temperature (\cite{DBDair_Trot}, \cite{DBDAirTypicalSpec}), meanly it presents peaks relative to reactive species from water, oxygen, nitrogen and its oxides at visible wavelenght, from $\num{200}$ to $\SI{880}{\nano\meter}$.
+A fundamental aspect of the Plasma Coagulation Controller is what species are produced and deposited during its application. Various studies observed the spectrum of plasma DBD discharge in air at atmosferic pressure and ambient temperature (\cite{DBDair_Trot}, \cite{DBDAirTypicalSpec}), it presents peaks relative to reactive species from water, oxygen, nitrogen and its oxides at visible wavelenght, from $\num{200}$ to $\SI{880}{\nano\meter}$.
 
 We are intersted in plasma that contains molecules involved in blood coagulation mechanisms, Reactive Oxidant Species (such as hydroxil radical \ce{OH}) and Reactive Nitrogen Species (derived from nitric oxide \ce{NO}) (\cite{6153386}). In this spectroscopy study is given particular attention to them and their precursor, i.e. the presence of transitions relative to hydroxil, oxygen and molecular nitrogen.
 
 
 \section{Radiation emission}
-As remembered in previous chapters, at the exit of source head is produced plasma from a mixture gas of helium (or argon) and air, so along free electrons, there are ions and species that colliding with them are in an excited state, metastable or with small lifetime. All those reactive species partecipe in different reactions, and also in excitation and de-excitation reactions with conseguent emission of radiation. When an electron goes from state p at higher energy to state k of lower energy, is emitted radiation with central wavelenght $\lambda_0$. Power emitted by this radiation is given by radiant flux $d\phi_{\lambda}$ and selecting a solid angle as in figure, is possible to define radiance $L_{\lambda}$, and intensity $I$, as in equations \ref{eq:emission}. Intensity for a radiation ultimately depends on $n(p)$, population density for state p, and Einstein Coefficient for the transition $A_{pk}$ that is typical for the transition (\cite{book:291477}).
+The source produces plasma from a mixture gas of helium (or neon or argon) and air, along free electrons there are ions and species that colliding with energetic electrons go in excited states, metastable or with small lifetime. All reactive species partecipe in different reactions, and also in excitation and de-excitation reactions with conseguent emission of radiation. When an electron goes from state p at higher energy to state k of lower energy, is emitted radiation with central wavelenght $\lambda_0$. Power emitted by this radiation is given by radiant flux $d\phi_{\lambda}$ and selecting a solid angle as in figure, is possible to define radiance $L_{\lambda}$, and intensity $I$, as in equations \ref{eq:emission}. Intensity for a radiation ultimately depends on $n(p)$, population density for state p, and Einstein Coefficient for the transition $A_{pk}$ that is typical for the transition (\cite{book:291477}).
 
 \begin{minipage}{.48\textwidth}
  \includegraphics[width=0.8\textwidth]{Images/Spectroscopy/plasmaemission.png}
@@ -27,18 +27,22 @@ Using air as gas, composed by molecules, at visible wavelenght are observed vibr
 
 There are many reactions involving oxygen and nitrogen (see for example \cite{Kossyi_1992}), in this study we determine only principal transition observable with our spectrometer, to know dominant reactive species present in our plasma plume.
 
+The experiments divides in emission line recognition and intensity measurements at different positions and with different gas mixtures.
 
-\section{Experimental setup}
-For the source it's used a prototype that presents electrical specifics and settings same as source A described in previous chapters. A metal plate is positioned as target at a distance of $\SI{10}{\milli\meter}$ from plasma exit. To ignite plasma is used helium, with flow set to $\SI{2}{\liter/\minute}$.
-To measure emission it's used a spectrometer IsoPlane, that thanks to diffraction separates emissions with different wavelenghts using a plane grating. The spectrometer has a focal lenght of $\SI{320}{\milli\meter}$ and is equipped with three different gratings: $\num{150}$, $\num{1200}$ and \SI{2400}{gg/\milli\meter}, corresponding to different resolutions. %of $\num{0.26}$, $\num{0.03}$ and $\SI{0.01}{\nano\meter}$.
+\section{Line recognition}
+
+\subsection{High resolution spectrometer}
+We hypotize that plasma emission lines don't depend on which source we use, but on the discharge parameters, as described in chapter \ref{ch:electric}, the source is a prototype that presents electrical specifics and settings same as source A. A metal plate is positioned as target at a distance of $\SI{10}{\milli\meter}$ from plasma exit, as in figure \ref{fig:app1}. To ignite plasma is used helium, with flow set to $\SI{2}{\liter/\minute}$.
+
+We utilize an IsoPlane spectrometer, that separates emissions with different eavelenghts thanks to diffraction. The spectrometer has a focal lenght of $\SI{320}{\milli\meter}$ and is equipped with three different gratings: $\num{150}$, $\num{1200}$ and \SI{2400}{gg/\milli\meter}, corresponding to different resolutions. %of $\num{0.26}$, $\num{0.03}$ and $\SI{0.01}{\nano\meter}$.
 As in figure \ref{fig:app}, light emitted by plasma is collected with a quartz lens %...
 and passes trough an optical fiber %..
 connected to the spectrometer entry, while at the spectrometer exit there is a CCD camera of $2048$ pixels and a count limit of $\num{65000}$.
 \begin{figure}
 \centering
 \includegraphics[width=.6\textwidth]{Images/Spectroscopy/apparato.jpg}
-\caption{Setup of the experiment: there is the working source, the metal target and the optical setup on the left.}
-\label{fig:app}
+\caption{Setup of the esperiment for line recognitizion: we can see the source, the metal target and the optical setup on the left.}
+\label{fig:app1}
 \end{figure}
 
 Once a grating is chosen, the acquisition system can be set at a starting wavelenght and from there it takes measures until the end of the CCD, so for a different wavelenght interval for different gratings.
@@ -46,21 +50,8 @@ For every measure is selected an appropriate acquisition time that permits to ob
 
 It's important to stress out that, with this measuring method and due to complexity of plasma reactions and composition, it's not possible to extrapolate quantitative considerations between different species concentration. However it's possible to recognize the presence of certain species and make some considerations watching spectra variation with different experimental setup.
 
-An intersting parameter is the working distance between source's head and target, so we observe spectra focalizing the lens in two different positions:
-\begin{itemize}
- \item position 1: as close as possible to plasma exit point
- \item position 2: close to the target, at \SI{10}{\milli\meter} from plasma exit point
-\end{itemize}
 
-Reactions that produce and recombine reactive species, and consequently density and lifetime of species, are influenced by electric field and duration of the discharge. We observe spectra changing amplitude and frequency of the pulse, with tree different combinations that corresponds to different power coupled with the discharge:
-\begin{itemize}
- \item low: $f = \SI{5}{\kilo\hertz}$ and $\Delta t = \SI{15}{\micro\second}$
- \item medium: $f = \SI{10}{\kilo\hertz}$ and $\Delta t = \SI{10}{\micro\second}$
- \item high : $f = \SI{15}{\kilo\hertz}$ and $\Delta t = \SI{10}{\micro\second}$
-\end{itemize}
-
-
-\section{Line recognition}
+\subsection{Emission measurements}
 To see what's generally produced in a discharge is taken a spectrum for the entire wavelenght's region intersted, from $\num{230}$ to $\SI{800}{\nano\meter}$, with standard setup of medium power and position 1.
 First is made a rapid acquisition with the lowest resolution possible, to see intersting regions and have an idea of required exposition times. After that is made a slow acquisition with higher resolution for all wavelenghts. The entire spectrum is reconstructed attaching different spectra, showed in figure \ref{fig:spectr}, where are labelled principal transitions.
 For every measure is taken also a background spectrum, without plasma, to recognize peaks that are not from the plasma.
@@ -199,20 +190,36 @@ Are observed other lines from elements present in the plume (\cite{NIST}):
 \end{table}
 
 
-
 \section{Relative intensities}
-From comparision of spectra with different discharge parameters and different position for light collection point, is possible to extrapolate some informations on production rates of excited species.
+To understand the mechanisms of plasma expulsion and deposition, we measure plasma emission intensity varying voltage peak values, line of sight of the spectrometer and gas composition.
+
+
+\subsection{Pulse settings}
+We measure emission lines with different parameters for the voltage pulse, utilizing the same experimental apparatus as before. As seen in chapter \ref{ch:electric} for different pulse repetition rates we have the same electric behavior, but this parameter could still influence specie's production rates.
+
+Reactions that produce and recombine reactive species, and consequently density and lifetime of species, are influenced by electric field and duration of the discharge. We observe spectra with three different parameter combinations, corresponding to different intensity of the treatment:
+\begin{itemize}
+ \item low: $f = \SI{5}{\kilo\hertz}$ and $\Delta t = \SI{15}{\micro\second}$
+ \item medium: $f = \SI{10}{\kilo\hertz}$ and $\Delta t = \SI{10}{\micro\second}$
+ \item high : $f = \SI{15}{\kilo\hertz}$ and $\Delta t = \SI{10}{\micro\second}$
+\end{itemize}
+
+For every setting we take the spectrum positioning the line of sight of the spectrometer in two different positions:
+\begin{itemize}
+ \item position 1: as close as possible to plasma exit point
+ \item position 2: close to the target, at \SI{10}{\milli\meter} from plasma exit point
+\end{itemize}
 
 Intensities are evaluated for \ce{OH} and \ce{N2} species, collectively for the lines in a wavelength range specific for the peaks. For \ce{OH} lines is considered all the rotational band between $\num{306}$-\SI{309}{\nano\meter}, lines for \ce{N2} are separated in those between $\num{335}$-\SI{337}{\nano\meter} (rotational band and (0-0) transition) and those between $\num{368}$-\SI{382}{\nano\meter} (vibrational transitions with $\Delta \nu = 2$).
 
-\subsection{Pulse settings}
-Pulse settings characterize the discharge. As seen in chapter \ref{ch:electric} for different frequencies we have near the same electric behavior, but it could influence specie's production rates. \ce{OH} lines for both positions have same intensity with low and medium power setup, while is lower with higher frequency, with similar behavior in both positions. \ce{N2} intensities also decrease with higher frequencies, for every lines, it reaches around $0.6\%$ for $f = \SI{15}{\kilo\hertz}$ in position 1, and lower values for position 2.
-It seems that production of those reactive species have rates dependant from pulse frequency, for high frequency there might be more relevant competitor reactions.
 
-\subsection{Line of sight}
-Positioning the line of sight of the spectrometer at different heigths along the plume axis, we can extrapolate informations about the lifetime of the species and the distance that they can travel. 
-At \SI{10}{\milli\meter} from the source, in position 2, intensities for \ce{OH} decreases drastically, under $0.1\%$ of values in position 1. \ce{OH} species seems to have small lifetime or mobility, so deposition of this species is higher when closer to the target.
-For \ce{N2} intensities are equal at low frequency for both positions, while for higher frequencies they decrease more for position 2. For low frequency, concentration of excited \ce{N2} is high so even distant from the target we have high radiation emission. When it decreases, for higher frequencies, concentration lowers and we have few molecules that reach the target.
+In figure \ref{fig:irel} we present measurements result for considered lines. .
+
+Intensities for \ce{OH} decreases drastically increasing the distance from the source, in position 2 we find values lower than $0.1\%$ of those from position 1. \ce{OH} lines for both positions have same intensity with low and medium power setup, while is lower with higher frequency, with similar behavior in both positions.
+
+Also \ce{N2} intensities depend on pulse repetition rate: they decrease with higher frequency, for every lines, reaching around $0.6\%$ for $f = \SI{15}{\kilo\hertz}$ in position 1, and lower values for position 2.
+
+It seems that production of both those reactive species have rates dependant from pulse repetition rates, in particular the intensity of their emission decreases at higher frequencies.
 \begin{figure}
 \centering
  \subfloat[\ce{OH} intensities in range $\num{306}$-\SI{309}{\nano\meter}]{
@@ -226,9 +233,105 @@ For \ce{N2} intensities are equal at low frequency for both positions, while for
  \subfloat[\ce{N2} intensities range $\num{368}$-\SI{382}{\nano\meter}]{
     \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/I_N2v.png}
  }
- \caption{Relative intensities in selected portions of the spectrum, for different frequencies, in blue for position 1 in red for position 2.}
+ \caption{Relative intensities of selected portions of the spectrum, for different frequencies, in blue for position 1 in red for position 2.}
  \label{fig:irel}
 \end{figure}
+
+
+\subsection{Line of Sight}
+We want to analyze plasma emission at different positions, in a similar way to what we did in the previous measurements, but with more points.
+We utilize the latest source prototype, source B in chapter \ref{ch:electric}, in a setup similar to the one described in chapter \ref{ch:shape}, as in figure \ref{fig:app2}, with a target at \SI{10}{\milli\meter} from the end of the nozzle.
+\begin{figure}
+\centering
+\includegraphics[width=.7\textwidth]{Images/Spectroscopy/app2_lines.png}
+\caption{Setup of the esperiment for intensity measurements: we can see spectrometer's lens on the left, the source and the metal target.}
+\label{fig:app2}
+\end{figure}
+
+
+Measuring instrument is a mini-spectrometer \emph{Hamamatsu C10082CAH}, with resolution of \SI{1}{\nano\meter}, spectral range from \SI{200}{\nano\meter} to \SI{800}{\nano\meter} and a CCD sensor \emph{S10420-1106} with \num{2048} pixels.
+
+To produce plasma we use three different gasses: helium with a flow of \SI{2}{\liter/\minute}, neon with gas flow \SI{2.5}{\liter/\minute} and argon with flow \SI{2}{\liter/\minute}.
+
+The experimental setup hallows to measure plasma's spectrum at different heights along the nozzle axis, we evaluate intensity in four different positions:
+\begin{itemize}
+ \item \SI{-5}{\milli\meter}, inside the nozzle
+ \item \SI{0}{\milli\meter}, at the end of the nozzle
+ \item \SI{5}{\milli\meter}, between nozzle and target
+ \item \SI{10}{\milli\meter}, right before target position
+\end{itemize}
+
+
+We consider the total emission for the entire spectral range \num{200}-\SI{800}{\nano\meter} and the relative emission for some selected lines, different for the different gasses:
+\begin{itemize}
+ \item UVB lines : doublet centered at \SI{293.2}{\nano\meter} and \SI{295.5}{\nano\meter} that could be emitted by \ce{NO} molecules, but we can not be sure due to spectrometer's low resolution;
+ \item \ce{N_2} : three lines centered at \SI{317.2}{\nano\meter} (transition $(1-0)$), \SI{338.0}{\nano\meter} (transition $(0-0)$) and \SI{371.9}{\nano\meter} (transition $(2-4)$);
+ \item \ce{He} : one line at \SI{603.5}{\nano\meter}, second diffraction order;
+ \item \ce{Ne} : one doublet at \SI{587.8}{\nano\meter} and \SI{589.6}{\nano\meter}, one doublet at \SI{610.2}{\nano\meter} and \SI{612.0}{\nano\meter} and a single line at \SI{690.1}{\nano\meter};
+ \item \ce{Ar} : three different lines at \SI{725.9}{\nano\meter}, \SI{734.0}{\nano\meter} and \SI{769.6}{\nano\meter}.
+\end{itemize}
+
+
+Results are in figure \ref{fig:Irel_pos}, total intensities are normalized to set the measure inside the nozzle at \num{1000} counts, relative intensities are divided for the respective total intensity.
+When we use helium to start the plasma, emission is lower inside the nozzle, increase at the exit and decreases slightly moving towards the target. For UVB and \ce{N_2} lines we see the same behavior, while helium line has constant intensity.
+For neon plasma we see that emission values are comparable inside and outside the nozzle. It's intersting to note that neon emission decreases linearly, while \ce{N_2} emission increases and it's an effect that we can see visually: going from the nozzle to the target plasma color goes to red (neon emission) to violet (nitrogen emission).
+For argon plasma we see that plasma emission due to argon decreases from inside the nozzle to outside it, while \ce{N_2} emission increases.
+\begin{figure}
+\centering
+  \subfloat[Total emission intensity.]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/Itot_pos.png}
+  }
+  
+  \subfloat[UVB lines]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/Irel_NO_pos.png}
+  }
+  \hfill
+  \subfloat[\ce{N_2} lines]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/Irel_N2_pos.png}
+  }
+  
+  \subfloat[\ce{He} lines for helium gas, \ce{Ne} lines for neon gas, \ce{Ar} lines for argon gas.]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/Irel_gas_pos.png}
+  }
+\caption{Behavior of total intensities (a) and relative intensities for selected portions of the spectrum (b-c-d), changing spectrometer's line of sight, with different starting gas. At \SI{0}{\milli\meter} the lens points at the end of the nozzle, at \SI{10}{\milli\meter} at a metal target. Total intensities are normalized differently for different gasses, tha graph shows only the behavior for different positions. Relative intensities in (d) are for lines corresponding to the element that we use as starting gas.}
+ \label{fig:Irel_pos}
+\end{figure}
+
+As we could expect we see that inside the nozzle the emission depends from the gas we use to start the plasma, going outside emission due to nitrogen species increases.
+
+
+\subsection{Gas composition}
+We use helium as starting gas, mixed with argon or nitrogen using specific flowmeters, that hallows to add up to \SI{0.2}{\liter/\minute}, with resolution of \SI{0.01}{\liter/\minute}.
+If we set the helium flow to \SI{2}{\liter/\minute}, we can have gas mixtures where argon and nitrogen have a maximum percentage of $\num{10}\%$.
+
+We point the spectrometer at the end of the nozzle and collect spectra for three different gas concentrations, finding the intensities in figure \ref{fig:Irel_flow}.
+When we add nitrogen to the gas, emission doesn't change for every line. We have this result because we are increasing very slightly nitrogen concentration respect to the quantity naturally present in air. It means that at the end of the nozzle we alredy see all the nitrogen emission from the air.
+When we add argon, the total emission increases, while relative emission from elements other than argon decreases slightly, as we expect if we add he argon lines to the total sum. It means that the only variation when we add argon is that we see the emission relative to this element, the emission relative to other elements stays unchanged.
+\begin{figure}
+\centering
+  \subfloat[Total emission intensity.]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/Itot_flux.png}
+  }
+  
+  \subfloat[UVB lines]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/Irel_NO_flux.png}
+  }
+  \hfill
+  \subfloat[\ce{N_2} lines]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/Irel_N2_flux.png}
+  }
+  
+  \subfloat[\ce{He} line]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/Irel_He_flux.png}
+  }
+  \hfill
+  \subfloat[\ce{Ar} line for argon gas mixture]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/Irel_Ar_flux.png}
+  }
+\caption{Behavior of total intensities (a) and relative intensities for selected portions of the spectrum (b-c-d-e), changing the composition of the gas. A flow of \SI{0.2}{\liter/\minute} corresponds to the $\num{10}\%$ of the total gas flow. Total intensities are normalized differently for different gasses, tha graph shows only the behavior for different positions.}
+ \label{fig:Irel_flow}
+\end{figure}
+
 
 
 \section{Estimation of plasma temperatures}
