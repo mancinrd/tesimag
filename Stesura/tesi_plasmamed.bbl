@@ -106,6 +106,32 @@
     \field{year}{2018}
   \endentry
 
+  \entry{unipd:ceciliaDBD}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=PC}{%
+         family={Piferi},
+         familyi={P\bibinitperiod},
+         given={Cecilia},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PC1}
+    \strng{fullhash}{PC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Caratterizzazione di sorgenti di plasma per applicazioni
+  biomediche}
+    \field{year}{2016/17}
+  \endentry
+
+  \entry{N87datasheet}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Coils core datasheet}
+    \verb{url}
+    \verb https://www.mouser.it/datasheet/2/400/e_32_16_9-1527777.pdf
+    \endverb
+  \endentry
+
   \entry{Upadhyay:hvpulse}{article}{}
     \name{author}{4}{}{%
       {{hash=UJ}{%
@@ -347,8 +373,6 @@
          giveni={K\bibinitperiod},
       }}%
     }
-    \keyw{Supercritical fluid, Barrier discharge, Microplasma, Optical
-  spectroscopy}
     \strng{namehash}{TTITTK1}
     \strng{fullhash}{TTITTK1}
     \field{labelnamesource}{author}
@@ -357,15 +381,9 @@
     \verb https://doi.org/10.1016/j.tsf.2005.08.101
     \endverb
     \field{issn}{0040-6090}
-    \field{note}{The Joint Meeting of 7th APCPST (Asia Pacific Conference on
-  Plasma Science and Technology) and 17th SPSM (Symposium on Plasma Science for
-  Materials)}
     \field{pages}{409 \bibrangedash  413}
     \field{title}{Generation of dielectric barrier discharge in high-pressure
   N2 and CO2 environments up to supercritical conditions}
-    \verb{url}
-    \verb http://www.sciencedirect.com/science/article/pii/S0040609005013052
-    \endverb
     \field{volume}{506-507}
     \field{journaltitle}{Thin Solid Films}
     \field{year}{2006}
@@ -405,24 +423,6 @@
     \field{volume}{34}
     \field{journaltitle}{Phys. Rev.}
     \field{year}{1929}
-  \endentry
-
-  \entry{unipd:ceciliaDBD}{thesis}{}
-    \name{author}{1}{}{%
-      {{hash=PC}{%
-         family={Piferi},
-         familyi={P\bibinitperiod},
-         given={Cecilia},
-         giveni={C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{PC1}
-    \strng{fullhash}{PC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Caratterizzazione di sorgenti di plasma per applicazioni
-  biomediche}
-    \field{year}{2016/17}
   \endentry
 
   \entry{lieberman1994principles}{book}{}
