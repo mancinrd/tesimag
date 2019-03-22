@@ -1,11 +1,89 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Plasma source description and electric characterization}{3}
-\contentsline {section}{\numberline {1.1}General source description}{3}
-\contentsline {section}{\numberline {1.2}Electric scheme}{5}
-\contentsline {section}{\numberline {1.3}Output characterization}{7}
-\contentsline {subsection}{\numberline {1.3.1}Measurements without gas}{7}
-\contentsline {subsection}{\numberline {1.3.2}Measurements with gas}{8}
-\contentsline {paragraph}{Time intervals}{11}
-\contentsline {subsection}{\numberline {1.3.3}Effective current}{14}
-\contentsline {subsection}{\numberline {1.3.4}Plasma impedance}{14}
+\contentsline {chapter}{\numberline {1}Introduction}{5}
+\contentsline {section}{\numberline {1.1}Plasma medicine}{5}
+\contentsline {paragraph}{Bactericidal effects}{6}
+\contentsline {paragraph}{Blood coagulation}{6}
+\contentsline {section}{\numberline {1.2}Cold Atmospheric Plasma}{6}
+\contentsline {subsection}{\numberline {1.2.1}Plasma generation: RF and DBD}{7}
+\contentsline {paragraph}{RF source}{9}
+\contentsline {paragraph}{DBD source}{9}
+\contentsline {chapter}{\numberline {2}Plasma source description and electric characterization}{13}
+\contentsline {section}{\numberline {2.1}General source description}{13}
+\contentsline {section}{\numberline {2.2}Electric scheme}{14}
+\contentsline {section}{\numberline {2.3}Output characterization}{15}
+\contentsline {subsection}{\numberline {2.3.1}Measurements without gas}{16}
+\contentsline {subsection}{\numberline {2.3.2}Measurements with gas}{17}
+\contentsline {paragraph}{Time intervals}{20}
+\contentsline {subsection}{\numberline {2.3.3}Effective current}{22}
+\contentsline {subsection}{\numberline {2.3.4}Plasma impedance}{22}
+\contentsline {chapter}{\numberline {3}Shape and dynamics}{25}
+\contentsline {section}{\numberline {3.1}Experimental setup}{25}
+\contentsline {subsection}{\numberline {3.1.1}Source and optical setup}{28}
+\contentsline {subsection}{\numberline {3.1.2}Source, power lines and electric signals}{28}
+\contentsline {subsection}{\numberline {3.1.3}Trigger synchronization}{29}
+\contentsline {subsection}{\numberline {3.1.4}Different setups}{31}
+\contentsline {subsection}{\numberline {3.1.5}Frame analysis and calibration}{31}
+\contentsline {section}{\numberline {3.2}Helium flow}{32}
+\contentsline {subsection}{\numberline {3.2.1}Plasma bullet description}{32}
+\contentsline {paragraph}{Electrode voltage and bullet intensity}{32}
+\contentsline {paragraph}{Barycenter coordinates and direction}{34}
+\contentsline {paragraph}{Bullet dimensions}{35}
+\contentsline {paragraph}{Bullet velocity}{35}
+\contentsline {subsection}{\numberline {3.2.2}Voltage influence}{37}
+\contentsline {subsection}{\numberline {3.2.3}Flow influence}{37}
+\contentsline {subsection}{\numberline {3.2.4}Insulating target}{39}
+\contentsline {paragraph}{Charge deposition}{41}
+\contentsline {subsection}{\numberline {3.2.5}Conductive target}{42}
+\contentsline {paragraph}{Bullet dynamics}{42}
+\contentsline {paragraph}{Current measurements}{45}
+\contentsline {paragraph}{Backstream}{45}
+\contentsline {subsubsection}{Position of the target}{46}
+\contentsline {paragraph}{Current measurements}{46}
+\contentsline {section}{\numberline {3.3}Neon flow}{48}
+\contentsline {subsection}{\numberline {3.3.1}Free bullet}{48}
+\contentsline {subsection}{\numberline {3.3.2}Insulating target}{50}
+\contentsline {subsection}{\numberline {3.3.3}Conductive target}{50}
+\contentsline {paragraph}{Current measurements}{51}
+\contentsline {paragraph}{Backstream}{51}
+\contentsline {section}{\numberline {3.4}Argon flow}{54}
+\contentsline {subsection}{\numberline {3.4.1}Dynamic example}{54}
+\contentsline {paragraph}{Plasma formation}{54}
+\contentsline {paragraph}{Plasma expulsion}{56}
+\contentsline {subsection}{\numberline {3.4.2}Absence of target}{57}
+\contentsline {subsection}{\numberline {3.4.3}Influence of target}{57}
+\contentsline {section}{\numberline {3.5}Hints on bullet propagation model}{57}
+\contentsline {paragraph}{Bolsig+ and electron temperature}{61}
+\contentsline {subsection}{\numberline {3.5.1}Ion waves or electron drift}{61}
+\contentsline {paragraph}{Ion waves}{61}
+\contentsline {paragraph}{Electron velocity}{63}
+\contentsline {paragraph}{Result comparison}{63}
+\contentsline {subsection}{\numberline {3.5.2}Mobility and velocity}{64}
+\contentsline {paragraph}{Bullet in nozzle}{64}
+\contentsline {paragraph}{Bullet in air}{66}
+\contentsline {chapter}{\numberline {4}Spectral Analysis}{67}
+\contentsline {section}{\numberline {4.1}Radiation emission}{67}
+\contentsline {section}{\numberline {4.2}Line recognition}{68}
+\contentsline {subsection}{\numberline {4.2.1}Emission measurements}{68}
+\contentsline {paragraph}{\ce {NO} lines}{69}
+\contentsline {paragraph}{\ce {OH} lines}{69}
+\contentsline {paragraph}{\ce {N_2} and \ce {N+_2} lines}{69}
+\contentsline {paragraph}{Atomic lines}{70}
+\contentsline {section}{\numberline {4.3}Relative intensities}{72}
+\contentsline {subsection}{\numberline {4.3.1}Pulse settings}{72}
+\contentsline {subsection}{\numberline {4.3.2}Line of Sight}{72}
+\contentsline {subsection}{\numberline {4.3.3}Gas composition}{74}
+\contentsline {section}{\numberline {4.4}Estimation of plasma temperatures}{74}
+\contentsline {subsection}{\numberline {4.4.1}Rotational temperature for \ce {OH} and for \ce {N2}}{77}
+\contentsline {subsection}{\numberline {4.4.2}Vibrational temperature for \ce {N_2}}{78}
+\contentsline {chapter}{\numberline {5}Temperature profile}{81}
+\contentsline {section}{\numberline {5.1}Experimental setup}{81}
+\contentsline {paragraph}{Camera}{81}
+\contentsline {paragraph}{Source}{82}
+\contentsline {paragraph}{Target}{82}
+\contentsline {paragraph}{Measurements procedure}{82}
+\contentsline {section}{\numberline {5.2}Temperature profile}{82}
+\contentsline {section}{\numberline {5.3}Power estimation}{83}
+\contentsline {paragraph}{Pulse rate dependency}{85}
+\contentsline {paragraph}{Voltage peak value dependency}{86}
+\contentsline {paragraph}{Distance dependency}{86}

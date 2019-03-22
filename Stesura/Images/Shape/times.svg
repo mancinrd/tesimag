@@ -170,7 +170,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2930556"
-     inkscape:cx="127.33269"
+     inkscape:cx="318.74007"
      inkscape:cy="390.21817"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -181,7 +181,8 @@
      inkscape:window-height="713"
      inkscape:window-x="67"
      inkscape:window-y="27"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     inkscape:snap-text-baseline="true">
     <sodipodi:guide
        position="19.848013,115.81418"
        orientation="1,0"
@@ -404,18 +405,19 @@
    id="flowSpan4338">DIS</flowSpan></flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot4263-1"
-       style="font-style:normal;font-weight:normal;font-size:13.33333397px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-weight:normal;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke:none"
        transform="matrix(0.26458333,0,0,0.26458333,50.941166,149.36413)"><flowRegion
-         id="flowRegion4265-2"
-         style="font-size:13.33333397px"><rect
+         id="flowRegion4265-2"><rect
            id="rect4267-93"
-           width="46.401722"
-           height="51.815262"
+           width="98.990334"
+           height="25.520941"
            x="92.030075"
-           y="275.5462"
-           style="font-size:13.33333397px" /></flowRegion><flowPara
-         id="flowPara4269-1"
-         style="font-size:13.33333397px">t<flowSpan
+           y="275.5462" /></flowRegion><flowPara
+         id="flowPara4269-1">t<flowSpan
    style="font-size:65%;baseline-shift:sub"
-   id="flowSpan4340">MIS</flowSpan></flowPara></flowRoot>  </g>
+   id="flowSpan932">MIS</flowSpan> = t<flowSpan
+   style="font-size:65%;baseline-shift:sub"
+   id="flowSpan926">DIS</flowSpan> + t<flowSpan
+   style="font-size:65%;baseline-shift:sub"
+   id="flowSpan928">D</flowSpan></flowPara></flowRoot>  </g>
 </svg>

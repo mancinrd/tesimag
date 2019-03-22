@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  19 MAR 2019 03:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  22 MAR 2019 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -938,47 +938,21 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count289
-\Gm@cntv=\count290
-\c@Gm@tempcnt=\count291
-\Gm@bindingoffset=\dimen164
-\Gm@wd@mp=\dimen165
-\Gm@odd@mp=\dimen166
-\Gm@even@mp=\dimen167
-\Gm@layoutwidth=\dimen168
-\Gm@layoutheight=\dimen169
-\Gm@layouthoffset=\dimen170
-\Gm@layoutvoffset=\dimen171
-\Gm@dimlist=\toks24
-)
 (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count292
-\c@@ppsavesec=\count293
-\c@@ppsaveapp=\count294
+\c@@pps=\count289
+\c@@ppsavesec=\count290
+\c@@ppsaveapp=\count291
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
-\TX@col@width=\dimen172
-\TX@old@table=\dimen173
-\TX@old@col=\dimen174
-\TX@target=\dimen175
-\TX@delta=\dimen176
-\TX@cols=\count295
-\TX@ftn=\toks25
+\TX@col@width=\dimen164
+\TX@old@table=\dimen165
+\TX@old@col=\dimen166
+\TX@target=\dimen167
+\TX@delta=\dimen168
+\TX@cols=\count292
+\TX@ftn=\toks24
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
@@ -986,58 +960,58 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen177
-\captionmargin@=\dimen178
-\captionwidth=\dimen179
-\caption@tempdima=\dimen180
-\caption@indent=\dimen181
-\caption@parindent=\dimen182
-\caption@hangindent=\dimen183
+\captionmargin=\dimen169
+\captionmargin@=\dimen170
+\captionwidth=\dimen171
+\caption@tempdima=\dimen172
+\caption@indent=\dimen173
+\caption@parindent=\dimen174
+\caption@hangindent=\dimen175
 )
-\c@ContinuedFloat=\count296
+\c@ContinuedFloat=\count293
 )
 (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count297
+\c@KVtest=\count294
 \sf@farskip=\skip71
-\sf@captopadj=\dimen184
+\sf@captopadj=\dimen176
 \sf@capskip=\skip72
 \sf@nearskip=\skip73
-\c@subfigure=\count298
-\c@subfigure@save=\count299
-\c@lofdepth=\count300
-\c@subtable=\count301
-\c@subtable@save=\count302
-\c@lotdepth=\count303
+\c@subfigure=\count295
+\c@subfigure@save=\count296
+\c@lofdepth=\count297
+\c@subtable=\count298
+\c@subtable@save=\count299
+\c@lotdepth=\count300
 \sf@top=\skip74
 \sf@bottom=\skip75
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip76
-\multirow@cntb=\count304
+\multirow@cntb=\count301
 \multirow@dima=\skip77
-\bigstrutjot=\dimen185
+\bigstrutjot=\dimen177
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen186
-\lightrulewidth=\dimen187
-\cmidrulewidth=\dimen188
-\belowrulesep=\dimen189
-\belowbottomsep=\dimen190
-\aboverulesep=\dimen191
-\abovetopsep=\dimen192
-\cmidrulesep=\dimen193
-\cmidrulekern=\dimen194
-\defaultaddspace=\dimen195
-\@cmidla=\count305
-\@cmidlb=\count306
-\@aboverulesep=\dimen196
-\@belowrulesep=\dimen197
-\@thisruleclass=\count307
-\@lastruleclass=\count308
-\@thisrulewidth=\dimen198
+\heavyrulewidth=\dimen178
+\lightrulewidth=\dimen179
+\cmidrulewidth=\dimen180
+\belowrulesep=\dimen181
+\belowbottomsep=\dimen182
+\aboverulesep=\dimen183
+\abovetopsep=\dimen184
+\cmidrulesep=\dimen185
+\cmidrulekern=\dimen186
+\defaultaddspace=\dimen187
+\@cmidla=\count302
+\@cmidlb=\count303
+\@aboverulesep=\dimen188
+\@belowrulesep=\dimen189
+\@thisruleclass=\count304
+\@lastruleclass=\count305
+\@thisrulewidth=\dimen190
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
@@ -1048,17 +1022,17 @@ LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen199
-\WF@size=\dimen256
-\c@WF@wrappedlines=\count309
+\wrapoverhang=\dimen191
+\WF@size=\dimen192
+\c@WF@wrappedlines=\count306
 \WF@box=\box51
-\WF@everypar=\toks26
+\WF@everypar=\toks25
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen257
-\Gin@req@width=\dimen258
+\Gin@req@height=\dimen193
+\Gin@req@width=\dimen194
 )
 (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
@@ -1081,6 +1055,9 @@ Package ifluatex Info: LuaTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -1101,7 +1078,7 @@ Package etexcmds Info: Could not find \expanded.
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count310
+\lrq@indent=\count307
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1116,49 +1093,49 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write4
-\integerpart=\count311
-\decimalpart=\count312
+\integerpart=\count308
+\decimalpart=\count309
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count313
-\c@listtotal=\count314
-\c@listcount=\count315
-\c@liststart=\count316
-\c@liststop=\count317
-\c@citecount=\count318
-\c@citetotal=\count319
-\c@multicitecount=\count320
-\c@multicitetotal=\count321
-\c@instcount=\count322
-\c@maxnames=\count323
-\c@minnames=\count324
-\c@maxitems=\count325
-\c@minitems=\count326
-\c@citecounter=\count327
-\c@savedcitecounter=\count328
-\c@uniquelist=\count329
-\c@uniquename=\count330
-\c@refsection=\count331
-\c@refsegment=\count332
-\c@maxextratitle=\count333
-\c@maxextratitleyear=\count334
-\c@maxextradate=\count335
-\c@maxextraalpha=\count336
-\c@abbrvpenalty=\count337
-\c@highnamepenalty=\count338
-\c@lownamepenalty=\count339
-\c@maxparens=\count340
-\c@parenlevel=\count341
-\blx@tempcnta=\count342
-\blx@tempcntb=\count343
-\blx@tempcntc=\count344
-\blx@maxsection=\count345
-\blx@maxsegment@0=\count346
-\blx@notetype=\count347
-\blx@parenlevel@text=\count348
-\blx@parenlevel@foot=\count349
-\blx@sectionciteorder@0=\count350
+\c@tabx@nest=\count310
+\c@listtotal=\count311
+\c@listcount=\count312
+\c@liststart=\count313
+\c@liststop=\count314
+\c@citecount=\count315
+\c@citetotal=\count316
+\c@multicitecount=\count317
+\c@multicitetotal=\count318
+\c@instcount=\count319
+\c@maxnames=\count320
+\c@minnames=\count321
+\c@maxitems=\count322
+\c@minitems=\count323
+\c@citecounter=\count324
+\c@savedcitecounter=\count325
+\c@uniquelist=\count326
+\c@uniquename=\count327
+\c@refsection=\count328
+\c@refsegment=\count329
+\c@maxextratitle=\count330
+\c@maxextratitleyear=\count331
+\c@maxextradate=\count332
+\c@maxextraalpha=\count333
+\c@abbrvpenalty=\count334
+\c@highnamepenalty=\count335
+\c@lownamepenalty=\count336
+\c@maxparens=\count337
+\c@parenlevel=\count338
+\blx@tempcnta=\count339
+\blx@tempcntb=\count340
+\blx@tempcntc=\count341
+\blx@maxsection=\count342
+\blx@maxsegment@0=\count343
+\blx@notetype=\count344
+\blx@parenlevel@text=\count345
+\blx@parenlevel@foot=\count346
+\blx@sectionciteorder@0=\count347
 \labelnumberwidth=\skip78
 \labelalphawidth=\skip79
 \biblabelsep=\skip80
@@ -1169,9 +1146,9 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip85
 \blx@bcfin=\read2
 \blx@bcfout=\write5
-\c@mincomprange=\count351
-\c@maxcomprange=\count352
-\c@mincompwidth=\count353
+\c@mincomprange=\count348
+\c@maxcomprange=\count349
+\c@mincompwidth=\count350
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1182,74 +1159,74 @@ Package biblatex Info: Trying to load biblatex bibstyle data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count354
-\c@savedafterword=\count355
-\c@annotator=\count356
-\c@savedannotator=\count357
-\c@author=\count358
-\c@savedauthor=\count359
-\c@bookauthor=\count360
-\c@savedbookauthor=\count361
-\c@commentator=\count362
-\c@savedcommentator=\count363
-\c@editor=\count364
-\c@savededitor=\count365
-\c@editora=\count366
-\c@savededitora=\count367
-\c@editorb=\count368
-\c@savededitorb=\count369
-\c@editorc=\count370
-\c@savededitorc=\count371
-\c@foreword=\count372
-\c@savedforeword=\count373
-\c@holder=\count374
-\c@savedholder=\count375
-\c@introduction=\count376
-\c@savedintroduction=\count377
-\c@namea=\count378
-\c@savednamea=\count379
-\c@nameb=\count380
-\c@savednameb=\count381
-\c@namec=\count382
-\c@savednamec=\count383
-\c@translator=\count384
-\c@savedtranslator=\count385
-\c@shortauthor=\count386
-\c@savedshortauthor=\count387
-\c@shorteditor=\count388
-\c@savedshorteditor=\count389
-\c@labelname=\count390
-\c@savedlabelname=\count391
-\c@institution=\count392
-\c@savedinstitution=\count393
-\c@lista=\count394
-\c@savedlista=\count395
-\c@listb=\count396
-\c@savedlistb=\count397
-\c@listc=\count398
-\c@savedlistc=\count399
-\c@listd=\count400
-\c@savedlistd=\count401
-\c@liste=\count402
-\c@savedliste=\count403
-\c@listf=\count404
-\c@savedlistf=\count405
-\c@location=\count406
-\c@savedlocation=\count407
-\c@organization=\count408
-\c@savedorganization=\count409
-\c@origlocation=\count410
-\c@savedoriglocation=\count411
-\c@origpublisher=\count412
-\c@savedorigpublisher=\count413
-\c@publisher=\count414
-\c@savedpublisher=\count415
-\c@language=\count416
-\c@savedlanguage=\count417
-\c@origlanguage=\count418
-\c@savedoriglanguage=\count419
-\c@pageref=\count420
-\c@savedpageref=\count421
+\c@afterword=\count351
+\c@savedafterword=\count352
+\c@annotator=\count353
+\c@savedannotator=\count354
+\c@author=\count355
+\c@savedauthor=\count356
+\c@bookauthor=\count357
+\c@savedbookauthor=\count358
+\c@commentator=\count359
+\c@savedcommentator=\count360
+\c@editor=\count361
+\c@savededitor=\count362
+\c@editora=\count363
+\c@savededitora=\count364
+\c@editorb=\count365
+\c@savededitorb=\count366
+\c@editorc=\count367
+\c@savededitorc=\count368
+\c@foreword=\count369
+\c@savedforeword=\count370
+\c@holder=\count371
+\c@savedholder=\count372
+\c@introduction=\count373
+\c@savedintroduction=\count374
+\c@namea=\count375
+\c@savednamea=\count376
+\c@nameb=\count377
+\c@savednameb=\count378
+\c@namec=\count379
+\c@savednamec=\count380
+\c@translator=\count381
+\c@savedtranslator=\count382
+\c@shortauthor=\count383
+\c@savedshortauthor=\count384
+\c@shorteditor=\count385
+\c@savedshorteditor=\count386
+\c@labelname=\count387
+\c@savedlabelname=\count388
+\c@institution=\count389
+\c@savedinstitution=\count390
+\c@lista=\count391
+\c@savedlista=\count392
+\c@listb=\count393
+\c@savedlistb=\count394
+\c@listc=\count395
+\c@savedlistc=\count396
+\c@listd=\count397
+\c@savedlistd=\count398
+\c@liste=\count399
+\c@savedliste=\count400
+\c@listf=\count401
+\c@savedlistf=\count402
+\c@location=\count403
+\c@savedlocation=\count404
+\c@organization=\count405
+\c@savedorganization=\count406
+\c@origlocation=\count407
+\c@savedoriglocation=\count408
+\c@origpublisher=\count409
+\c@savedorigpublisher=\count410
+\c@publisher=\count411
+\c@savedpublisher=\count412
+\c@language=\count413
+\c@savedlanguage=\count414
+\c@origlanguage=\count415
+\c@savedoriglanguage=\count416
+\c@pageref=\count417
+\c@savedpageref=\count418
 \shorthandwidth=\skip86
 \shortjournalwidth=\skip87
 \shortserieswidth=\skip88
@@ -1277,13 +1254,13 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count422
-\c@textcitetotal=\count423
-\c@textcitemaxnames=\count424
-\c@biburlnumpenalty=\count425
-\c@biburlucpenalty=\count426
-\c@biburllcpenalty=\count427
-\c@smartand=\count428
+\c@textcitecount=\count419
+\c@textcitetotal=\count420
+\c@textcitemaxnames=\count421
+\c@biburlnumpenalty=\count422
+\c@biburlucpenalty=\count423
+\c@biburllcpenalty=\count424
+\c@smartand=\count425
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1295,16 +1272,16 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count429
-\c@bbx:relatedtotal=\count430
+\c@bbx:relatedcount=\count426
+\c@bbx:relatedtotal=\count427
 ))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2017/12/19 v3.10 biblatex citation style (PK/JW/AB)
-\c@cbx@tempcnta=\count431
-\c@cbx@tempcntb=\count432
+\c@cbx@tempcnta=\count428
+\c@cbx@tempcntb=\count429
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1322,15 +1299,15 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
-)))
+))
 (/usr/share/texlive/texmf-dist/tex/latex/chemformula/chemformula.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks27
-\pgfutil@tempdima=\dimen259
-\pgfutil@tempdimb=\dimen260
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen195
+\pgfutil@tempdimb=\dimen196
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -1349,30 +1326,30 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks28
-\pgfkeys@temptoks=\toks29
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks30
+\pgfkeys@tmptoks=\toks29
 ))
-\pgf@x=\dimen261
-\pgf@y=\dimen262
-\pgf@xa=\dimen263
-\pgf@ya=\dimen264
-\pgf@xb=\dimen265
-\pgf@yb=\dimen266
-\pgf@xc=\dimen267
-\pgf@yc=\dimen268
+\pgf@x=\dimen197
+\pgf@y=\dimen198
+\pgf@xa=\dimen199
+\pgf@ya=\dimen256
+\pgf@xb=\dimen257
+\pgf@yb=\dimen258
+\pgf@xc=\dimen259
+\pgf@yc=\dimen260
 \w@pgf@writea=\write6
 \r@pgf@reada=\read3
-\c@pgf@counta=\count433
-\c@pgf@countb=\count434
-\c@pgf@countc=\count435
-\c@pgf@countd=\count436
-\t@pgf@toka=\toks31
-\t@pgf@tokb=\toks32
-\t@pgf@tokc=\toks33
+\c@pgf@counta=\count430
+\c@pgf@countb=\count431
+\c@pgf@countc=\count432
+\c@pgf@countd=\count433
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -1388,8 +1365,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count437
-\pgfsyssoftpath@bigbuffer@items=\count438
+\pgfsyssoftpath@smallbuffer@items=\count434
+\pgfsyssoftpath@bigbuffer@items=\count435
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -1402,12 +1379,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen269
-\pgfmath@count=\count439
+\pgfmath@dimen=\dimen261
+\pgfmath@count=\count436
 \pgfmath@box=\box53
-\pgfmath@toks=\toks34
-\pgfmath@stack@operand=\toks35
-\pgfmath@stack@operation=\toks36
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -1427,37 +1404,37 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count440
+\c@pgfmathroundto@lastzeros=\count437
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen270
-\pgf@picmaxx=\dimen271
-\pgf@picminy=\dimen272
-\pgf@picmaxy=\dimen273
-\pgf@pathminx=\dimen274
-\pgf@pathmaxx=\dimen275
-\pgf@pathminy=\dimen276
-\pgf@pathmaxy=\dimen277
-\pgf@xx=\dimen278
-\pgf@xy=\dimen279
-\pgf@yx=\dimen280
-\pgf@yy=\dimen281
-\pgf@zx=\dimen282
-\pgf@zy=\dimen283
+\pgf@picminx=\dimen262
+\pgf@picmaxx=\dimen263
+\pgf@picminy=\dimen264
+\pgf@picmaxy=\dimen265
+\pgf@pathminx=\dimen266
+\pgf@pathmaxx=\dimen267
+\pgf@pathminy=\dimen268
+\pgf@pathmaxy=\dimen269
+\pgf@xx=\dimen270
+\pgf@xy=\dimen271
+\pgf@yx=\dimen272
+\pgf@yy=\dimen273
+\pgf@zx=\dimen274
+\pgf@zy=\dimen275
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen284
-\pgf@path@lasty=\dimen285
+\pgf@path@lastx=\dimen276
+\pgf@path@lasty=\dimen277
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen286
-\pgf@shorten@start@additional=\dimen287
+\pgf@shorten@end@additional=\dimen278
+\pgf@shorten@start@additional=\dimen279
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
@@ -1465,19 +1442,19 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box54
 \pgf@hbox=\box55
 \pgf@layerbox@main=\box56
-\pgf@picture@serial@count=\count441
+\pgf@picture@serial@count=\count438
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen288
+\pgflinewidth=\dimen280
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen289
-\pgf@pt@y=\dimen290
-\pgf@pt@temp=\dimen291
+\pgf@pt@x=\dimen281
+\pgf@pt@y=\dimen282
+\pgf@pt@temp=\dimen283
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -1493,12 +1470,12 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen292
+\pgfarrowsep=\dimen284
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen293
-\pgf@sys@shading@range@num=\count442
+\pgf@max=\dimen285
+\pgf@sys@shading@range@num=\count439
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -1529,8 +1506,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen294
-\pgf@nodesepend=\dimen295
+\pgf@nodesepstart=\dimen286
+\pgf@nodesepend=\dimen287
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -1544,10 +1521,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen296
-\pgffor@skip=\dimen297
-\pgffor@stack=\toks37
-\pgffor@toks=\toks38
+\pgffor@iter=\dimen288
+\pgffor@skip=\dimen289
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -1555,31 +1532,31 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count443
-\pgfplotmarksize=\dimen298
+\pgf@plot@mark@count=\count440
+\pgfplotmarksize=\dimen290
 )
-\tikz@lastx=\dimen299
-\tikz@lasty=\dimen300
-\tikz@lastxsaved=\dimen301
-\tikz@lastysaved=\dimen302
-\tikzleveldistance=\dimen303
-\tikzsiblingdistance=\dimen304
+\tikz@lastx=\dimen291
+\tikz@lasty=\dimen292
+\tikz@lastxsaved=\dimen293
+\tikz@lastysaved=\dimen294
+\tikzleveldistance=\dimen295
+\tikzsiblingdistance=\dimen296
 \tikz@figbox=\box59
 \tikz@figbox@bg=\box60
 \tikz@tempbox=\box61
 \tikz@tempbox@bg=\box62
-\tikztreelevel=\count444
-\tikznumberofchildren=\count445
-\tikznumberofcurrentchild=\count446
-\tikz@fig@count=\count447
+\tikztreelevel=\count441
+\tikznumberofchildren=\count442
+\tikznumberofcurrentchild=\count443
+\tikz@fig@count=\count444
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count448
-\pgfmatrixcurrentcolumn=\count449
-\pgf@matrix@numberofcolumns=\count450
+\pgfmatrixcurrentrow=\count445
+\pgfmatrixcurrentcolumn=\count446
+\pgf@matrix@numberofcolumns=\count447
 )
-\tikz@expandcount=\count451
+\tikz@expandcount=\count448
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -1744,19 +1721,19 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
 Package: xtemplate 2018/02/21 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen305
-\l__xtemplate_tmp_int=\count452
+\l__xtemplate_tmp_dim=\dimen297
+\l__xtemplate_tmp_int=\count449
 \l__xtemplate_tmp_muskip=\muskip18
 \l__xtemplate_tmp_skip=\skip92
 )
 Package: xfrac 2018/02/21 L3 Experimental split-level fractions
 \l__xfrac_slash_box=\box63
 \l__xfrac_tmp_box=\box64
-\l__xfrac_denominator_bot_sep_dim=\dimen306
-\l__xfrac_numerator_bot_sep_dim=\dimen307
-\l__xfrac_numerator_top_sep_dim=\dimen308
-\l__xfrac_slash_left_sep_dim=\dimen309
-\l__xfrac_slash_right_sep_dim=\dimen310
+\l__xfrac_denominator_bot_sep_dim=\dimen298
+\l__xfrac_numerator_bot_sep_dim=\dimen299
+\l__xfrac_numerator_top_sep_dim=\dimen300
+\l__xfrac_slash_left_sep_dim=\dimen301
+\l__xfrac_slash_right_sep_dim=\dimen302
 \l__xfrac_slash_left_muskip=\muskip19
 \l__xfrac_slash_right_muskip=\muskip20
 .................................................
@@ -1782,53 +1759,53 @@ Package: scrlfile 2017/09/07 v3.24 KOMA-Script package (loading files)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
 code.tex
 File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
-\pgfarrowinset=\dimen311
-\pgfarrowlength=\dimen312
-\pgfarrowwidth=\dimen313
-\pgfarrowlinewidth=\dimen314
+\pgfarrowinset=\dimen303
+\pgfarrowlength=\dimen304
+\pgfarrowwidth=\dimen305
+\pgfarrowlinewidth=\dimen306
 )
 Package: chemformula 2017/03/23 v4.15e typeset chemical compounds and reactions
  (CN)
-\l__chemformula_tmpa_dim=\dimen315
-\l__chemformula_tmpb_dim=\dimen316
-\l__chemformula_tmpc_dim=\dimen317
-\l__chemformula_tmpa_int=\count453
-\l__chemformula_tmpb_int=\count454
-\l__chemformula_tmpc_int=\count455
+\l__chemformula_tmpa_dim=\dimen307
+\l__chemformula_tmpb_dim=\dimen308
+\l__chemformula_tmpc_dim=\dimen309
+\l__chemformula_tmpa_int=\count450
+\l__chemformula_tmpb_int=\count451
+\l__chemformula_tmpc_int=\count452
 \l__chemformula_tmpa_box=\box65
 \l__chemformula_tmpb_box=\box66
-\l__chemformula_arrow_length_dim=\dimen318
-\l__chemformula_arrow_label_height_dim=\dimen319
-\l__chemformula_arrow_label_offset_dim=\dimen320
-\l__chemformula_arrow_minimum_length_dim=\dimen321
-\l__chemformula_arrow_shortage_dim=\dimen322
-\l__chemformula_arrow_offset_dim=\dimen323
-\l__chemformula_arrow_yshift_dim=\dimen324
-\l__chemformula_radical_radius_dim=\dimen325
-\l__chemformula_radical_hshift_dim=\dimen326
-\l__chemformula_radical_vshift_dim=\dimen327
-\l__chemformula_radical_space_dim=\dimen328
-\l__chemformula_arrow_head_dim=\dimen329
-\l__chemformula_name_dim=\dimen330
-\l__chemformula_adduct_space_dim=\dimen331
-\l__chemformula_charge_shift_dim=\dimen332
-\l__chemformula_subscript_shift_dim=\dimen333
-\l__chemformula_superscript_shift_dim=\dimen334
-\l__chemformula_subscript_dim=\dimen335
-\l__chemformula_superscript_dim=\dimen336
-\l__chemformula_bond_dim=\dimen337
-\l__chemformula_bond_space_dim=\dimen338
-\l__chemformula_elspec_pair_distance_dim=\dimen339
-\l__chemformula_elspec_pair_line_length_dim=\dimen340
-\l__chemformula_elspec_pair_width_dim=\dimen341
-\l__chemformula_kroegervink_positive_radius_dim=\dimen342
-\l__chemformula_kroegervink_positive_hshift_dim=\dimen343
-\l__chemformula_kroegervink_positive_vshift_dim=\dimen344
-\l__chemformula_kroegervink_positive_space_dim=\dimen345
+\l__chemformula_arrow_length_dim=\dimen310
+\l__chemformula_arrow_label_height_dim=\dimen311
+\l__chemformula_arrow_label_offset_dim=\dimen312
+\l__chemformula_arrow_minimum_length_dim=\dimen313
+\l__chemformula_arrow_shortage_dim=\dimen314
+\l__chemformula_arrow_offset_dim=\dimen315
+\l__chemformula_arrow_yshift_dim=\dimen316
+\l__chemformula_radical_radius_dim=\dimen317
+\l__chemformula_radical_hshift_dim=\dimen318
+\l__chemformula_radical_vshift_dim=\dimen319
+\l__chemformula_radical_space_dim=\dimen320
+\l__chemformula_arrow_head_dim=\dimen321
+\l__chemformula_name_dim=\dimen322
+\l__chemformula_adduct_space_dim=\dimen323
+\l__chemformula_charge_shift_dim=\dimen324
+\l__chemformula_subscript_shift_dim=\dimen325
+\l__chemformula_superscript_shift_dim=\dimen326
+\l__chemformula_subscript_dim=\dimen327
+\l__chemformula_superscript_dim=\dimen328
+\l__chemformula_bond_dim=\dimen329
+\l__chemformula_bond_space_dim=\dimen330
+\l__chemformula_elspec_pair_distance_dim=\dimen331
+\l__chemformula_elspec_pair_line_length_dim=\dimen332
+\l__chemformula_elspec_pair_width_dim=\dimen333
+\l__chemformula_kroegervink_positive_radius_dim=\dimen334
+\l__chemformula_kroegervink_positive_hshift_dim=\dimen335
+\l__chemformula_kroegervink_positive_vshift_dim=\dimen336
+\l__chemformula_kroegervink_positive_space_dim=\dimen337
 \l__chemformula_stoich_space_skip=\skip96
 \l__chemformula_math_space_skip=\skip97
-\l__chemformula_count_tokens_int=\count456
-\g__chemformula_lewis_int=\count457
+\l__chemformula_count_tokens_int=\count453
+\g__chemformula_lewis_int=\count454
 \l__chemformula_arrow_arg_i_box=\box67
 \l__chemformula_arrow_arg_ii_box=\box68
 \l__chemformula_superscript_box=\box69
@@ -2001,19 +1978,146 @@ Package: chemformula 2017/03/23 v4.15e typeset chemical compounds and reactions
 . 
 . Defining command \setchemformula with sig. 'm' on line 3339.
 .................................................
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
 )
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count455
+\Gm@cntv=\count456
+\c@Gm@tempcnt=\count457
+\Gm@bindingoffset=\dimen338
+\Gm@wd@mp=\dimen339
+\Gm@odd@mp=\dimen340
+\Gm@even@mp=\dimen341
+\Gm@layoutwidth=\dimen342
+\Gm@layoutheight=\dimen343
+\Gm@layouthoffset=\dimen344
+\Gm@layoutvoffset=\dimen345
+\Gm@dimlist=\toks38
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks39
+\thm@bodyfont=\toks40
+\thm@headfont=\toks41
+\thm@notefont=\toks42
+\thm@headpunct=\toks43
+\thm@preskip=\skip101
+\thm@postskip=\skip102
+\thm@headsep=\skip103
+\dth@everypar=\toks44
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/eucal.sty
+Package: eucal 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks45
+\AP@partial=\box71
+\AP@footins=\box72
+)
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count458
+\lst@gtempboxa=\box73
+\lst@token=\toks46
+\lst@length=\count459
+\lst@currlwidth=\dimen346
+\lst@column=\count460
+\lst@pos=\count461
+\lst@lostspace=\dimen347
+\lst@width=\dimen348
+\lst@newlines=\count462
+\lst@lineno=\count463
+\lst@maxwidth=\dimen349
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count464
+\lst@skipnumbers=\count465
+\lst@framebox=\box74
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip104
+\f@nch@O@elh=\skip105
+\f@nch@O@erh=\skip106
+\f@nch@O@olh=\skip107
+\f@nch@O@orh=\skip108
+\f@nch@O@elf=\skip109
+\f@nch@O@erf=\skip110
+\f@nch@O@olf=\skip111
+\f@nch@O@orf=\skip112
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 )
 
 LaTeX Warning: Unused global option(s):
     [headings,footinclude=true,cleardoublepage=empty,BCOR=5mm].
 
-(./tesi_plasmamed.aux)
+(./tesi_plasmamed.aux
+
+LaTeX Warning: Label `fig:times' multiply defined.
+
+
+LaTeX Warning: Label `fig:elio_d035_I' multiply defined.
+
+
+LaTeX Warning: Label `fig:elio_d035_I' multiply defined.
+
+
+LaTeX Warning: Label `tab:elio_d' multiply defined.
+
+
+LaTeX Warning: Label `fig:elio_a_times' multiply defined.
+
+
+LaTeX Warning: Label `fig:elio_ins' multiply defined.
+
+
+LaTeX Warning: Label `fig:argon_af' multiply defined.
+
+
+LaTeX Warning: Label `fig:muE' multiply defined.
+
+)
 \openout1 = `tesi_plasmamed.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -2050,17 +2154,17 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count458
-\scratchdimen=\dimen346
-\scratchbox=\box71
-\nofMPsegments=\count459
-\nofMParguments=\count460
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count461
-\MPscratchDim=\dimen347
-\MPnumerator=\count462
-\makeMPintoPDFobject=\count463
-\everyMPtoPDFconversion=\toks40
+\scratchcounter=\count466
+\scratchdimen=\dimen350
+\scratchbox=\box75
+\nofMPsegments=\count467
+\nofMParguments=\count468
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count469
+\MPscratchDim=\dimen351
+\MPnumerator=\count470
+\makeMPintoPDFobject=\count471
+\everyMPtoPDFconversion=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -2081,6 +2185,127 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout5 = `tesi_plasmamed-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'tesi_plasmamed.bbl' found.
+
+(./tesi_plasmamed.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Martines_2009':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Stoffels_2007':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Haertel2014':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Yan2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Zhu_2009':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Ohyama_2009':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Amorim_2015':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Kogelschatz2003':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Stoffels_2006':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Mericam_Bourdet_2009':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Breden_2012':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Jarrige_2010':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Hagelaar_2005':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Dickinson_1999':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Skullerud_1990':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with '6153386':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Kossyi_1992':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Britun_2007':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Izarra_2000':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Gade2014':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 5.
+Package biblatex Info: Reference segment=0 on input line 5.
+ ABD: EveryShipout initializing macros
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -2089,15 +2314,15 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=418.25368pt
-* \textheight=591.5302pt
-* \oddsidemargin=-0.56833pt
-* \evensidemargin=35.28255pt
-* \topmargin=-2.73714pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-47.23828pt
 * \headheight=12.0pt
 * \headsep=19.8738pt
 * \topskip=11.0pt
@@ -2115,27 +2340,10 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: wrapfig package is loaded.
-Package caption Info: End \AtBeginDocument code.
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-Package biblatex Info: Input encoding 'utf8' specified.
-Package biblatex Info: Data encoding 'utf8' specified.
-(biblatex)             No need to reencode data.
-\openout5 = `tesi_plasmamed-blx.bib'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'tesi_plasmamed.bbl' found.
-(./tesi_plasmamed.bbl)
-Package biblatex Info: Reference section=0 on input line 5.
-Package biblatex Info: Reference segment=0 on input line 5.
- ABD: EveryShipout initializing macros
-\c__siunitx_mathsf_int=\count464
+\AtBeginShipoutBox=\box76
+\c@lstlisting=\count472
+\c__siunitx_mathsf_int=\count473
 LaTeX Font Info:    Try loading font information for U+msa on input line 5.
-
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -2144,283 +2352,1362 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 5.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\c__siunitx_mathtt_int=\count465
+\c__siunitx_mathtt_int=\count474
+<Images/UnipdLogo.png, id=4, 943.525pt x 949.5475pt>
+File: Images/UnipdLogo.png Graphic file (type png)
+<use Images/UnipdLogo.png>
+Package pdftex.def Info: Images/UnipdLogo.png  used on input line 11.
+(pdftex.def)             Requested size: 122.66255pt x 123.4455pt.
+ [1
 
-(./tesi_plasmamed.toc)
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/UnipdLogo.png>] [
+2
+
+
+]
+(./tesi_plasmamed.toc [3
+
+])
 \tf@toc=\write7
 \openout7 = `tesi_plasmamed.toc'.
 
- (./Chapters/electric.tex [1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+ (./Chapters/intro.tex [4]
+Chapter 1.
+[5
 
 ]
-Chapter 1.
-<Images/Electric/scheme.png, id=16, 688.07062pt x 294.34969pt>
+<Images/Intro/bacteria2.png, id=32, 526.96875pt x 441.65pt>
+File: Images/Intro/bacteria2.png Graphic file (type png)
+<use Images/Intro/bacteria2.png>
+Package pdftex.def Info: Images/Intro/bacteria2.png  used on input line 31.
+(pdftex.def)             Requested size: 241.84843pt x 202.69646pt.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 32.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+<Images/Intro/coag_map.png, id=34, 1003.75pt x 803.0pt>
+File: Images/Intro/coag_map.png Graphic file (type png)
+<use Images/Intro/coag_map.png>
+Package pdftex.def Info: Images/Intro/coag_map.png  used on input line 42.
+(pdftex.def)             Requested size: 386.95897pt x 309.56642pt.
+<Images/Intro/source_application.png, id=35, 441.65pt x 589.20125pt>
+File: Images/Intro/source_application.png Graphic file (type png)
+<use Images/Intro/source_application.png>
+Package pdftex.def Info: Images/Intro/source_application.png  used on input lin
+e 53.
+(pdftex.def)             Requested size: 193.47578pt x 258.11655pt.
+<Images/Intro/blood_sample.png, id=36, 387.4475pt x 290.08376pt>
+File: Images/Intro/blood_sample.png Graphic file (type png)
+<use Images/Intro/blood_sample.png>
+Package pdftex.def Info: Images/Intro/blood_sample.png  used on input line 57.
+(pdftex.def)             Requested size: 241.84843pt x 181.07616pt.
+<Images/Intro/coag_histo.png, id=37, 798.985pt x 189.70876pt>
+File: Images/Intro/coag_histo.png Graphic file (type png)
+<use Images/Intro/coag_histo.png>
+Package pdftex.def Info: Images/Intro/coag_histo.png  used on input line 61.
+(pdftex.def)             Requested size: 483.69687pt x 114.84796pt.
+
+Overfull \hbox (7.26108pt too wide) in paragraph at lines 53--62
+ [] 
+ []
+
+Excluding 'comment' comment.
+<Images/Intro/Plasma_classification2.png, id=38, 611.28375pt x 602.25pt>
+File: Images/Intro/Plasma_classification2.png Graphic file (type png)
+<use Images/Intro/Plasma_classification2.png>
+Package pdftex.def Info: Images/Intro/Plasma_classification2.png  used on input
+ line 84.
+(pdftex.def)             Requested size: 241.84843pt x 238.2675pt.
+ [6 <./Images/Intro/bacteria2.png>]
+<Images/Intro/RF.png, id=51, 839.135pt x 725.71124pt>
+File: Images/Intro/RF.png Graphic file (type png)
+<use Images/Intro/RF.png>
+Package pdftex.def Info: Images/Intro/RF.png  used on input line 113.
+(pdftex.def)             Requested size: 193.47578pt x 167.3198pt.
+<Images/Intro/RF_plasma.png, id=52, 226.446pt x 208.1376pt>
+File: Images/Intro/RF_plasma.png Graphic file (type png)
+<use Images/Intro/RF_plasma.png>
+Package pdftex.def Info: Images/Intro/RF_plasma.png  used on input line 117.
+(pdftex.def)             Requested size: 193.47578pt x 177.8388pt.
+ [7 <./Images/Intro/coag_map.png>] [8 <./Images/Intro/source_application.png> <
+./Images/Intro/blood_sample.png> <./Images/Intro/coag_histo.png>]
+<Images/Intro/DBD_es1.png, id=67, 342.5297pt x 163.3603pt>
+File: Images/Intro/DBD_es1.png Graphic file (type png)
+<use Images/Intro/DBD_es1.png>
+Package pdftex.def Info: Images/Intro/DBD_es1.png  used on input line 130.
+(pdftex.def)             Requested size: 232.17242pt x 110.73206pt.
+<Images/Intro/Fig1DBD.png, id=68, 145.7445pt x 141.6492pt>
+File: Images/Intro/Fig1DBD.png Graphic file (type png)
+<use Images/Intro/Fig1DBD.png>
+Package pdftex.def Info: Images/Intro/Fig1DBD.png  used on input line 134.
+(pdftex.def)             Requested size: 193.47578pt x 188.0517pt.
+ [9 <./Images/Intro/Plasma_classification2.png>] [10 <./Images/Intro/RF.png> <.
+/Images/Intro/RF_plasma.png> <./Images/Intro/DBD_es1.png (PNG copy)> <./Images/
+Intro/Fig1DBD.png>]
+<Images/Intro/DBDmed5.png, id=80, 440.64626pt x 333.245pt>
+File: Images/Intro/DBDmed5.png Graphic file (type png)
+<use Images/Intro/DBDmed5.png>
+Package pdftex.def Info: Images/Intro/DBDmed5.png  used on input line 146.
+(pdftex.def)             Requested size: 193.47578pt x 146.31807pt.
+<Images/Intro/DBDmed4.png, id=81, 387.63pt x 297.621pt>
+File: Images/Intro/DBDmed4.png Graphic file (type png)
+<use Images/Intro/DBDmed4.png>
+Package pdftex.def Info: Images/Intro/DBDmed4.png  used on input line 150.
+(pdftex.def)             Requested size: 193.47578pt x 148.55127pt.
+) [11 <./Images/Intro/DBDmed5.png> <./Images/Intro/DBDmed4.png (PNG copy)>]
+(./Chapters/electric.tex [12
+
+
+]
+Chapter 2.
+<Images/Electric/scheme.png, id=90, 688.07062pt x 294.34969pt>
 File: Images/Electric/scheme.png Graphic file (type png)
 <use Images/Electric/scheme.png>
 Package pdftex.def Info: Images/Electric/scheme.png  used on input line 12.
-(pdftex.def)             Requested size: 376.42575pt x 161.03047pt.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 13.
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [3]
-Overfull \hbox (40.74916pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 4 \T1/cmr/m/sl/10.95 CHAPTER 1.  PLASMA SOURCE DESCRIPTION AN
-D ELECTRIC CHARACTERIZATION
- []
-
-[4 <./Images/Electric/scheme.png (PNG copy)>]
-<Images/Electric/Linea_elettrica2.png, id=32, 543.53062pt x 287.57437pt>
+(pdftex.def)             Requested size: 435.32422pt x 186.22726pt.
+[13]
+<Images/Electric/Linea_elettrica2.png, id=96, 543.53062pt x 287.57437pt>
 File: Images/Electric/Linea_elettrica2.png Graphic file (type png)
 <use Images/Electric/Linea_elettrica2.png>
 Package pdftex.def Info: Images/Electric/Linea_elettrica2.png  used on input li
 ne 42.
-(pdftex.def)             Requested size: 376.42575pt x 199.1681pt.
- [5 <./Images/Electric/Linea_elettrica2.png>]
-<Images/Electric/segnaliB2.png, id=38, 525.46312pt x 354.57469pt>
+(pdftex.def)             Requested size: 435.32422pt x 230.33626pt.
+ [14 <./Images/Electric/scheme.png (PNG copy)>]
+<Images/Electric/segnaliB2.png, id=100, 525.46312pt x 354.57469pt>
 File: Images/Electric/segnaliB2.png Graphic file (type png)
 <use Images/Electric/segnaliB2.png>
 Package pdftex.def Info: Images/Electric/segnaliB2.png  used on input line 58.
-(pdftex.def)             Requested size: 334.60422pt x 225.79625pt.
-
-Underfull \vbox (badness 2828) has occurred while \output is active []
-
-
-Overfull \hbox (40.74916pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 6 \T1/cmr/m/sl/10.95 CHAPTER 1.  PLASMA SOURCE DESCRIPTION AN
-D ELECTRIC CHARACTERIZATION
+(pdftex.def)             Requested size: 386.95897pt x 261.12595pt.
+ [15 <./Images/Electric/Linea_elettrica2.png>]
+Overfull \hbox (3.0843pt too wide) in paragraph at lines 68--71
+[]\T1/cmr/m/n/10.95 We mea-sure volt-age sig-nals with a volt-age probe (\T1/cm
+r/m/it/10.95 hv probe\T1/cmr/m/n/10.95 ) built for high volt-age mea-sure-ments
+\T1/cmr/m/it/10.95 Tektronix
  []
 
-[6 <./Images/Electric/segnaliB2.png>] Excluding 'comment' comment.
-<Images/Electric/espicco_pos.png, id=44, 700.6175pt x 472.76625pt>
+Excluding 'comment' comment.
+<Images/Electric/espicco_pos.png, id=105, 700.6175pt x 472.76625pt>
 File: Images/Electric/espicco_pos.png Graphic file (type png)
 <use Images/Electric/espicco_pos.png>
 Package pdftex.def Info: Images/Electric/espicco_pos.png  used on input line 10
 8.
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Images/Electric/piccopos_fit.png, id=45, 820.06375pt x 547.04375pt>
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Electric/piccopos_fit.png, id=106, 820.06375pt x 547.04375pt>
 File: Images/Electric/piccopos_fit.png Graphic file (type png)
 <use Images/Electric/piccopos_fit.png>
 Package pdftex.def Info: Images/Electric/piccopos_fit.png  used on input line 1
 12.
-(pdftex.def)             Requested size: 200.75996pt x 133.92255pt.
- [7]
-<Images/Electric/Vpp_nogas_A2.png, id=52, 700.6175pt x 472.76625pt>
+(pdftex.def)             Requested size: 232.17242pt x 154.87402pt.
+ [16 <./Images/Electric/segnaliB2.png>]
+<Images/Electric/Vpp_nogas_A2.png, id=111, 700.6175pt x 472.76625pt>
 File: Images/Electric/Vpp_nogas_A2.png Graphic file (type png)
 <use Images/Electric/Vpp_nogas_A2.png>
 Package pdftex.def Info: Images/Electric/Vpp_nogas_A2.png  used on input line 1
 26.
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Images/Electric/Vpp_nogas_B2.png, id=53, 700.6175pt x 472.76625pt>
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Electric/Vpp_nogas_B2.png, id=112, 700.6175pt x 472.76625pt>
 File: Images/Electric/Vpp_nogas_B2.png Graphic file (type png)
 <use Images/Electric/Vpp_nogas_B2.png>
 Package pdftex.def Info: Images/Electric/Vpp_nogas_B2.png  used on input line 1
 30.
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Images/Electric/mq_nogas_A2.png, id=54, 600.2425pt x 673.51625pt>
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Electric/mq_nogas_A2.png, id=113, 600.2425pt x 673.51625pt>
 File: Images/Electric/mq_nogas_A2.png Graphic file (type png)
 <use Images/Electric/mq_nogas_A2.png>
 Package pdftex.def Info: Images/Electric/mq_nogas_A2.png  used on input line 13
 9.
-(pdftex.def)             Requested size: 200.75996pt x 225.26193pt.
-<Images/Electric/mq_nogas_B2.png, id=55, 600.2425pt x 673.51625pt>
+(pdftex.def)             Requested size: 232.17242pt x 260.5121pt.
+<Images/Electric/mq_nogas_B2.png, id=114, 600.2425pt x 673.51625pt>
 File: Images/Electric/mq_nogas_B2.png Graphic file (type png)
 <use Images/Electric/mq_nogas_B2.png>
 Package pdftex.def Info: Images/Electric/mq_nogas_B2.png  used on input line 14
 3.
-(pdftex.def)             Requested size: 200.75996pt x 225.26193pt.
-<Images/Electric/espiccopos_corrente.png, id=56, 816.04875pt x 558.085pt>
+(pdftex.def)             Requested size: 232.17242pt x 260.5121pt.
+ [17 <./Images/Electric/espicco_pos.png> <./Images/Electric/piccopos_fit.png> <
+./Images/Electric/Vpp_nogas_A2.png> <./Images/Electric/Vpp_nogas_B2.png>]
+<Images/Electric/espiccopos_corrente.png, id=120, 816.04875pt x 558.085pt>
 File: Images/Electric/espiccopos_corrente.png Graphic file (type png)
 <use Images/Electric/espiccopos_corrente.png>
 Package pdftex.def Info: Images/Electric/espiccopos_corrente.png  used on input
  line 158.
-(pdftex.def)             Requested size: 250.95476pt x 171.62502pt.
-<Images/Electric/Vpp_gas_A2.png, id=57, 700.6175pt x 472.76625pt>
+(pdftex.def)             Requested size: 290.22107pt x 198.47496pt.
+<Images/Electric/Vpp_gas_A2.png, id=121, 700.6175pt x 472.76625pt>
 File: Images/Electric/Vpp_gas_A2.png Graphic file (type png)
 <use Images/Electric/Vpp_gas_A2.png>
 Package pdftex.def Info: Images/Electric/Vpp_gas_A2.png  used on input line 168
 .
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Images/Electric/Vpp_gas_B2.png, id=58, 700.6175pt x 472.76625pt>
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Electric/Vpp_gas_B2.png, id=122, 700.6175pt x 472.76625pt>
 File: Images/Electric/Vpp_gas_B2.png Graphic file (type png)
 <use Images/Electric/Vpp_gas_B2.png>
 Package pdftex.def Info: Images/Electric/Vpp_gas_B2.png  used on input line 172
 .
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-
-Overfull \hbox (40.74916pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 8 \T1/cmr/m/sl/10.95 CHAPTER 1.  PLASMA SOURCE DESCRIPTION AN
-D ELECTRIC CHARACTERIZATION
- []
-
-[8 <./Images/Electric/espicco_pos.png> <./Images/Electric/piccopos_fit.png>]
-[9 <./Images/Electric/Vpp_nogas_A2.png> <./Images/Electric/Vpp_nogas_B2.png> <.
-/Images/Electric/mq_nogas_A2.png> <./Images/Electric/mq_nogas_B2.png>]
-<Images/Electric/I_gas_A2.png, id=70, 700.6175pt x 472.76625pt>
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Electric/I_gas_A2.png, id=123, 700.6175pt x 472.76625pt>
 File: Images/Electric/I_gas_A2.png Graphic file (type png)
 <use Images/Electric/I_gas_A2.png>
 Package pdftex.def Info: Images/Electric/I_gas_A2.png  used on input line 181.
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Images/Electric/I_gas_B2.png, id=71, 758.835pt x 514.92375pt>
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Electric/I_gas_B2.png, id=124, 758.835pt x 514.92375pt>
 File: Images/Electric/I_gas_B2.png Graphic file (type png)
 <use Images/Electric/I_gas_B2.png>
 Package pdftex.def Info: Images/Electric/I_gas_B2.png  used on input line 185.
-(pdftex.def)             Requested size: 200.75996pt x 136.22629pt.
-
-Overfull \hbox (46.1931pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 10 \T1/cmr/m/sl/10.95 CHAPTER 1.  PLASMA SOURCE DESCRIPTION A
-ND ELECTRIC CHARACTERIZATION
- []
-
-[10 <./Images/Electric/espiccopos_corrente.png> <./Images/Electric/Vpp_gas_A2.p
-ng> <./Images/Electric/Vpp_gas_B2.png>]
-<Images/Electric/mq_V_gas_A2.png, id=75, 600.2425pt x 673.51625pt>
+(pdftex.def)             Requested size: 232.17242pt x 157.54257pt.
+ [18 <./Images/Electric/mq_nogas_A2.png> <./Images/Electric/mq_nogas_B2.png>] [
+19 <./Images/Electric/espiccopos_corrente.png> <./Images/Electric/Vpp_gas_A2.pn
+g> <./Images/Electric/Vpp_gas_B2.png> <./Images/Electric/I_gas_A2.png> <./Image
+s/Electric/I_gas_B2.png>]
+<Images/Electric/mq_V_gas_A2.png, id=132, 600.2425pt x 673.51625pt>
 File: Images/Electric/mq_V_gas_A2.png Graphic file (type png)
 <use Images/Electric/mq_V_gas_A2.png>
 Package pdftex.def Info: Images/Electric/mq_V_gas_A2.png  used on input line 20
 2.
-(pdftex.def)             Requested size: 200.75996pt x 225.26193pt.
-<Images/Electric/mq_V_gas_B2.png, id=76, 600.2425pt x 673.51625pt>
+(pdftex.def)             Requested size: 232.17242pt x 260.5121pt.
+<Images/Electric/mq_V_gas_B2.png, id=133, 600.2425pt x 673.51625pt>
 File: Images/Electric/mq_V_gas_B2.png Graphic file (type png)
 <use Images/Electric/mq_V_gas_B2.png>
 Package pdftex.def Info: Images/Electric/mq_V_gas_B2.png  used on input line 20
 6.
-(pdftex.def)             Requested size: 200.75996pt x 225.26193pt.
-<Images/Electric/mq_I_gas_A2.png, id=77, 636.3775pt x 582.175pt>
+(pdftex.def)             Requested size: 232.17242pt x 260.5121pt.
+<Images/Electric/mq_I_gas_A2.png, id=134, 636.3775pt x 582.175pt>
 File: Images/Electric/mq_I_gas_A2.png Graphic file (type png)
 <use Images/Electric/mq_I_gas_A2.png>
 Package pdftex.def Info: Images/Electric/mq_I_gas_A2.png  used on input line 21
 6.
-(pdftex.def)             Requested size: 200.75996pt x 183.65259pt.
-<Images/Electric/mq_I_gas_B2.png, id=78, 641.39626pt x 594.22pt>
+(pdftex.def)             Requested size: 232.17242pt x 212.38995pt.
+<Images/Electric/mq_I_gas_B2.png, id=135, 641.39626pt x 594.22pt>
 File: Images/Electric/mq_I_gas_B2.png Graphic file (type png)
 <use Images/Electric/mq_I_gas_B2.png>
 Package pdftex.def Info: Images/Electric/mq_I_gas_B2.png  used on input line 22
 0.
-(pdftex.def)             Requested size: 200.75996pt x 185.99251pt.
-<Images/Electric/tempi_V2.png, id=79, 700.6175pt x 472.76625pt>
+(pdftex.def)             Requested size: 232.17242pt x 215.08868pt.
+<Images/Electric/tempi_V2.png, id=136, 700.6175pt x 472.76625pt>
 File: Images/Electric/tempi_V2.png Graphic file (type png)
 <use Images/Electric/tempi_V2.png>
 Package pdftex.def Info: Images/Electric/tempi_V2.png  used on input line 234.
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Images/Electric/tempi_I2.png, id=80, 700.6175pt x 472.76625pt>
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Electric/tempi_I2.png, id=137, 700.6175pt x 472.76625pt>
 File: Images/Electric/tempi_I2.png Graphic file (type png)
 <use Images/Electric/tempi_I2.png>
 Package pdftex.def Info: Images/Electric/tempi_I2.png  used on input line 238.
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
 
-Underfull \vbox (badness 5592) has occurred while \output is active []
+Underfull \vbox (badness 2158) has occurred while \output is active []
 
- [11 <./Images/Electric/I_gas_A2.png> <./Images/Electric/I_gas_B2.png>]
-Overfull \hbox (46.1931pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 12 \T1/cmr/m/sl/10.95 CHAPTER 1.  PLASMA SOURCE DESCRIPTION A
-ND ELECTRIC CHARACTERIZATION
- []
-
-[12 <./Images/Electric/mq_V_gas_A2.png> <./Images/Electric/mq_V_gas_B2.png>]
-[13 <./Images/Electric/mq_I_gas_A2.png> <./Images/Electric/mq_I_gas_B2.png> <./
-Images/Electric/tempi_V2.png> <./Images/Electric/tempi_I2.png>]
-<Images/Electric/Ieff_A2.png, id=91, 700.6175pt x 472.76625pt>
+ [20 <./Images/Electric/mq_V_gas_A2.png> <./Images/Electric/mq_V_gas_B2.png>] [
+21 <./Images/Electric/mq_I_gas_A2.png> <./Images/Electric/mq_I_gas_B2.png> <./I
+mages/Electric/tempi_V2.png> <./Images/Electric/tempi_I2.png>]
+<Images/Electric/Ieff_A2.png, id=144, 700.6175pt x 472.76625pt>
 File: Images/Electric/Ieff_A2.png Graphic file (type png)
 <use Images/Electric/Ieff_A2.png>
 Package pdftex.def Info: Images/Electric/Ieff_A2.png  used on input line 258.
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Images/Electric/Ieff_B2.png, id=92, 700.6175pt x 472.76625pt>
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Electric/Ieff_B2.png, id=145, 700.6175pt x 472.76625pt>
 File: Images/Electric/Ieff_B2.png Graphic file (type png)
 <use Images/Electric/Ieff_B2.png>
 Package pdftex.def Info: Images/Electric/Ieff_B2.png  used on input line 262.
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Images/Electric/VFitexp_f8_t5_2.png, id=93, 756.8275pt x 557.08125pt>
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Electric/VFitexp_f8_t5_2.png, id=146, 756.8275pt x 557.08125pt>
 File: Images/Electric/VFitexp_f8_t5_2.png Graphic file (type png)
 <use Images/Electric/VFitexp_f8_t5_2.png>
 Package pdftex.def Info: Images/Electric/VFitexp_f8_t5_2.png  used on input lin
 e 279.
-(pdftex.def)             Requested size: 209.12683pt x 153.93309pt.
+(pdftex.def)             Requested size: 241.84843pt x 178.01463pt.
 
-Overfull \hbox (46.1931pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 14 \T1/cmr/m/sl/10.95 CHAPTER 1.  PLASMA SOURCE DESCRIPTION A
-ND ELECTRIC CHARACTERIZATION
- []
-
-[14 <./Images/Electric/Ieff_A2.png> <./Images/Electric/Ieff_B2.png>]
 Excluding 'comment' comment.
-<Images/Electric/ParfitExp_Vp.png, id=102, 700.6175pt x 472.76625pt>
+<Images/Electric/ParfitExp_Vp.png, id=147, 700.6175pt x 472.76625pt>
 File: Images/Electric/ParfitExp_Vp.png Graphic file (type png)
 <use Images/Electric/ParfitExp_Vp.png>
 Package pdftex.def Info: Images/Electric/ParfitExp_Vp.png  used on input line 3
 02.
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Images/Electric/ParfitExp_T.png, id=103, 700.6175pt x 472.76625pt>
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Electric/ParfitExp_T.png, id=148, 700.6175pt x 472.76625pt>
 File: Images/Electric/ParfitExp_T.png Graphic file (type png)
 <use Images/Electric/ParfitExp_T.png>
 Package pdftex.def Info: Images/Electric/ParfitExp_T.png  used on input line 30
 6.
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Images/Electric/ParfitExp_f.png, id=104, 700.6175pt x 472.76625pt>
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Electric/ParfitExp_f.png, id=149, 700.6175pt x 472.76625pt>
 File: Images/Electric/ParfitExp_f.png Graphic file (type png)
 <use Images/Electric/ParfitExp_f.png>
 Package pdftex.def Info: Images/Electric/ParfitExp_f.png  used on input line 31
 0.
-(pdftex.def)             Requested size: 200.75996pt x 135.46837pt.
-<Images/Electric/VI_B.png, id=105, 700.6175pt x 472.76625pt>
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+ [22 <./Images/Electric/Ieff_A2.png> <./Images/Electric/Ieff_B2.png>] [23 <./Im
+ages/Electric/VFitexp_f8_t5_2.png> <./Images/Electric/ParfitExp_Vp.png> <./Imag
+es/Electric/ParfitExp_T.png> <./Images/Electric/ParfitExp_f.png>]
+<Images/Electric/VI_B.png, id=162, 700.6175pt x 472.76625pt>
 File: Images/Electric/VI_B.png Graphic file (type png)
 <use Images/Electric/VI_B.png>
 Package pdftex.def Info: Images/Electric/VI_B.png  used on input line 320.
-(pdftex.def)             Requested size: 271.86234pt x 183.44751pt.
-<Images/Electric/z_f8.png, id=106, 1073.00874pt x 497.86pt>
+(pdftex.def)             Requested size: 314.40001pt x 212.15852pt.
+<Images/Electric/z_f8.png, id=163, 1073.00874pt x 497.86pt>
 File: Images/Electric/z_f8.png Graphic file (type png)
 <use Images/Electric/z_f8.png>
 Package pdftex.def Info: Images/Electric/z_f8.png  used on input line 327.
-(pdftex.def)             Requested size: 355.51817pt x 164.95522pt.
-
-Overfull \hbox (28.69649pt too wide) in paragraph at lines 332--334
-[]\T1/cmr/m/n/10.95 From the graphs it's pos-si-ble to ex-trap-o-late that plas
-ma re-sis-tance goes from $[] []$
- []
-
+(pdftex.def)             Requested size: 411.14528pt x 190.76128pt.
+ Excluding 'comment' comment. Excluding 'comment' comment.
 Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment.) [15 <./Images/Electric/VFitexp_f8_t5_2.png>]
-Overfull \hbox (46.1931pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 16 \T1/cmr/m/sl/10.95 CHAPTER 1.  PLASMA SOURCE DESCRIPTION A
-ND ELECTRIC CHARACTERIZATION
+Excluding 'comment' comment.) [24 <./Images/Electric/VI_B.png> <./Images/Electr
+ic/z_f8.png>] (./Chapters/shape.tex
+Chapter 3.
+<Images/Shape/plasmapic.png, id=167, 1540.75626pt x 1066.98625pt>
+File: Images/Shape/plasmapic.png Graphic file (type png)
+<use Images/Shape/plasmapic.png>
+Package pdftex.def Info: Images/Shape/plasmapic.png  used on input line 10.
+(pdftex.def)             Requested size: 290.22107pt x 200.97116pt.
+<Images/Shape/frames.png, id=168, 418.56375pt x 258.9675pt>
+File: Images/Shape/frames.png Graphic file (type png)
+<use Images/Shape/frames.png>
+Package pdftex.def Info: Images/Shape/frames.png  used on input line 16.
+(pdftex.def)             Requested size: 386.95897pt x 239.41077pt.
+<Images/Shape/app_pic.png, id=169, 721.2546pt x 318.7107pt>
+File: Images/Shape/app_pic.png Graphic file (type png)
+<use Images/Shape/app_pic.png>
+Package pdftex.def Info: Images/Shape/app_pic.png  used on input line 40.
+(pdftex.def)             Requested size: 386.95897pt x 170.98755pt.
+<Images/Shape/acq_ottica.png, id=170, 339.51843pt x 266.49562pt>
+File: Images/Shape/acq_ottica.png Graphic file (type png)
+<use Images/Shape/acq_ottica.png>
+Package pdftex.def Info: Images/Shape/acq_ottica.png  used on input line 46.
+(pdftex.def)             Requested size: 241.84843pt x 189.8313pt.
+<Images/Shape/MCPsingle-stage.jpg, id=171, 180.675pt x 157.58875pt>
+File: Images/Shape/MCPsingle-stage.jpg Graphic file (type jpg)
+<use Images/Shape/MCPsingle-stage.jpg>
+Package pdftex.def Info: Images/Shape/MCPsingle-stage.jpg  used on input line 5
+6.
+(pdftex.def)             Requested size: 193.47578pt x 168.75534pt.
+[25
+
+
+] [26 <./Images/Shape/plasmapic.png (PNG copy)> <./Images/Shape/frames.png>] [2
+7 <./Images/Shape/app_pic.png> <./Images/Shape/acq_ottica.png>]
+Underfull \vbox (badness 2460) has occurred while \output is active []
+
+ [28 <./Images/Shape/MCPsingle-stage.jpg>]
+<Images/Shape/times.png, id=188, 395.4775pt x 320.19624pt>
+File: Images/Shape/times.png Graphic file (type png)
+<use Images/Shape/times.png>
+Package pdftex.def Info: Images/Shape/times.png  used on input line 94.
+(pdftex.def)             Requested size: 290.22107pt x 234.9774pt.
+<Images/Shape/times_osc_2.png, id=189, 700.6175pt x 490.83376pt>
+File: Images/Shape/times_osc_2.png Graphic file (type png)
+<use Images/Shape/times_osc_2.png>
+Package pdftex.def Info: Images/Shape/times_osc_2.png  used on input line 100.
+(pdftex.def)             Requested size: 290.22107pt x 203.32523pt.
+ [29] [30 <./Images/Shape/times.png> <./Images/Shape/times_osc_2.png>]
+Overfull \hbox (43.12863pt too wide) in paragraph at lines 127--150
+ [][] 
  []
 
-[16 <./Images/Electric/ParfitExp_Vp.png> <./Images/Electric/ParfitExp_T.png> <.
-/Images/Electric/ParfitExp_f.png> <./Images/Electric/VI_B.png>] [17 <./Images/E
-lectric/z_f8.png>]
-Overfull \hbox (46.1931pt too wide) has occurred while \output is active
-\T1/cmr/m/n/10.95 18 \T1/cmr/m/sl/10.95 CHAPTER 1.  PLASMA SOURCE DESCRIPTION A
-ND ELECTRIC CHARACTERIZATION
- []
+Excluding 'comment' comment. [31]
+<Images/Shape/elio_d035_es1.png, id=202, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_es1.png Graphic file (type png)
+<use Images/Shape/elio_d035_es1.png>
+Package pdftex.def Info: Images/Shape/elio_d035_es1.png  used on input line 223
+.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_d035_es2.png, id=203, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_es2.png Graphic file (type png)
+<use Images/Shape/elio_d035_es2.png>
+Package pdftex.def Info: Images/Shape/elio_d035_es2.png  used on input line 227
+.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_d035_es3.png, id=204, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_es3.png Graphic file (type png)
+<use Images/Shape/elio_d035_es3.png>
+Package pdftex.def Info: Images/Shape/elio_d035_es3.png  used on input line 231
+.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_d035_es4.png, id=205, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_es4.png Graphic file (type png)
+<use Images/Shape/elio_d035_es4.png>
+Package pdftex.def Info: Images/Shape/elio_d035_es4.png  used on input line 235
+.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_d035_V.png, id=206, 716.6775pt x 506.89375pt>
+File: Images/Shape/elio_d035_V.png Graphic file (type png)
+<use Images/Shape/elio_d035_V.png>
+Package pdftex.def Info: Images/Shape/elio_d035_V.png  used on input line 250.
+(pdftex.def)             Requested size: 232.17242pt x 164.20483pt.
+<Images/Shape/elio_d035_Im.png, id=207, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_Im.png Graphic file (type png)
+<use Images/Shape/elio_d035_Im.png>
+Package pdftex.def Info: Images/Shape/elio_d035_Im.png  used on input line 254.
 
-[18
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+ [32] [33 <./Images/Shape/elio_d035_es1.png> <./Images/Shape/elio_d035_es2.png>
+ <./Images/Shape/elio_d035_es3.png> <./Images/Shape/elio_d035_es4.png>]
+
+LaTeX Warning: Reference `fig:elio_d035_bary' on page 34 undefined on input lin
+e 262.
+
+<Images/Shape/elio_d035_xb.png, id=215, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_xb.png Graphic file (type png)
+<use Images/Shape/elio_d035_xb.png>
+Package pdftex.def Info: Images/Shape/elio_d035_xb.png  used on input line 270.
+
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_d035_yb.png, id=216, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_yb.png Graphic file (type png)
+<use Images/Shape/elio_d035_yb.png>
+Package pdftex.def Info: Images/Shape/elio_d035_yb.png  used on input line 274.
+
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+
+LaTeX Warning: Reference `fig:elio_d035_diry' on page 34 undefined on input lin
+e 279.
+
+<Images/Shape/elio_d035_incl.png, id=217, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_incl.png Graphic file (type png)
+<use Images/Shape/elio_d035_incl.png>
+Package pdftex.def Info: Images/Shape/elio_d035_incl.png  used on input line 28
+2.
+(pdftex.def)             Requested size: 290.22107pt x 195.84085pt.
+[34 <./Images/Shape/elio_d035_V.png> <./Images/Shape/elio_d035_Im.png> <./Image
+s/Shape/elio_d035_xb.png> <./Images/Shape/elio_d035_yb.png>]
+
+LaTeX Warning: Reference `fig:elio_d035_dim' on page 35 undefined on input line
+ 288.
+
+<Images/Shape/elio_d035_dx.png, id=221, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_dx.png Graphic file (type png)
+<use Images/Shape/elio_d035_dx.png>
+Package pdftex.def Info: Images/Shape/elio_d035_dx.png  used on input line 296.
+
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_d035_dy.png, id=222, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_dy.png Graphic file (type png)
+<use Images/Shape/elio_d035_dy.png>
+Package pdftex.def Info: Images/Shape/elio_d035_dy.png  used on input line 300.
+
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_d035_xb_fitv.png, id=223, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_xb_fitv.png Graphic file (type png)
+<use Images/Shape/elio_d035_xb_fitv.png>
+Package pdftex.def Info: Images/Shape/elio_d035_xb_fitv.png  used on input line
+ 315.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_d035_vx_fitv.png, id=224, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d035_vx_fitv.png Graphic file (type png)
+<use Images/Shape/elio_d035_vx_fitv.png>
+Package pdftex.def Info: Images/Shape/elio_d035_vx_fitv.png  used on input line
+ 319.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+[35 <./Images/Shape/elio_d035_incl.png>] [36 <./Images/Shape/elio_d035_dx.png> 
+<./Images/Shape/elio_d035_dy.png> <./Images/Shape/elio_d035_xb_fitv.png> <./Ima
+ges/Shape/elio_d035_vx_fitv.png>]
+<Images/Shape/elio_d_Im.png, id=231, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d_Im.png Graphic file (type png)
+<use Images/Shape/elio_d_Im.png>
+Package pdftex.def Info: Images/Shape/elio_d_Im.png  used on input line 342.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_d_xb.png, id=232, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d_xb.png Graphic file (type png)
+<use Images/Shape/elio_d_xb.png>
+Package pdftex.def Info: Images/Shape/elio_d_xb.png  used on input line 346.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_d_yb.png, id=233, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d_yb.png Graphic file (type png)
+<use Images/Shape/elio_d_yb.png>
+Package pdftex.def Info: Images/Shape/elio_d_yb.png  used on input line 349.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_d_dx.png, id=234, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d_dx.png Graphic file (type png)
+<use Images/Shape/elio_d_dx.png>
+Package pdftex.def Info: Images/Shape/elio_d_dx.png  used on input line 353.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_d_dy.png, id=235, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d_dy.png Graphic file (type png)
+<use Images/Shape/elio_d_dy.png>
+Package pdftex.def Info: Images/Shape/elio_d_dy.png  used on input line 356.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_d_vx.png, id=236, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_d_vx.png Graphic file (type png)
+<use Images/Shape/elio_d_vx.png>
+Package pdftex.def Info: Images/Shape/elio_d_vx.png  used on input line 360.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+
+
+LaTeX Warning: Float too large for page by 22.41449pt on input line 363.
+
+Excluding 'comment' comment.
+
+LaTeX Warning: Reference `tab:elio_flow' on page 37 undefined on input line 399
+.
+
+Excluding 'comment' comment.
+
+LaTeX Warning: Reference `elio_flow' on page 37 undefined on input line 409.
+
+
+LaTeX Warning: Reference `elio_flow' on page 37 undefined on input line 409.
+
+<Images/Shape/elio_035_Im.png, id=237, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_035_Im.png Graphic file (type png)
+<use Images/Shape/elio_035_Im.png>
+Package pdftex.def Info: Images/Shape/elio_035_Im.png  used on input line 415.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_035_xb.png, id=238, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_035_xb.png Graphic file (type png)
+<use Images/Shape/elio_035_xb.png>
+Package pdftex.def Info: Images/Shape/elio_035_xb.png  used on input line 419.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_035_yb.png, id=239, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_035_yb.png Graphic file (type png)
+<use Images/Shape/elio_035_yb.png>
+Package pdftex.def Info: Images/Shape/elio_035_yb.png  used on input line 423.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_035_dx.png, id=240, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_035_dx.png Graphic file (type png)
+<use Images/Shape/elio_035_dx.png>
+Package pdftex.def Info: Images/Shape/elio_035_dx.png  used on input line 427.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_035_dy.png, id=241, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_035_dy.png Graphic file (type png)
+<use Images/Shape/elio_035_dy.png>
+Package pdftex.def Info: Images/Shape/elio_035_dy.png  used on input line 431.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_035_vx.png, id=242, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_035_vx.png Graphic file (type png)
+<use Images/Shape/elio_035_vx.png>
+Package pdftex.def Info: Images/Shape/elio_035_vx.png  used on input line 435.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/vnoz_flux_zoom.png, id=243, 700.6175pt x 472.76625pt>
+File: Images/Shape/vnoz_flux_zoom.png Graphic file (type png)
+<use Images/Shape/vnoz_flux_zoom.png>
+Package pdftex.def Info: Images/Shape/vnoz_flux_zoom.png  used on input line 43
+9.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+
+LaTeX Warning: Float too large for page by 22.41449pt on input line 442.
+
+[37] [38 <./Images/Shape/elio_d_Im.png> <./Images/Shape/elio_d_xb.png> <./Image
+s/Shape/elio_d_yb.png> <./Images/Shape/elio_d_dx.png> <./Images/Shape/elio_d_dy
+.png> <./Images/Shape/elio_d_vx.png>] Excluding 'comment' comment.
+Excluding 'comment' comment.
+<Images/Shape/elioisol.png, id=251, 445.665pt x 447.6725pt>
+File: Images/Shape/elioisol.png Graphic file (type png)
+<use Images/Shape/elioisol.png>
+Package pdftex.def Info: Images/Shape/elioisol.png  used on input line 530.
+(pdftex.def)             Requested size: 232.17242pt x 233.22139pt.
+<Images/Shape/elioisol_frame2.png, id=252, 274.02374pt x 140.525pt>
+File: Images/Shape/elioisol_frame2.png Graphic file (type png)
+<use Images/Shape/elioisol_frame2.png>
+Package pdftex.def Info: Images/Shape/elioisol_frame2.png  used on input line 5
+34.
+(pdftex.def)             Requested size: 232.17242pt x 119.06512pt.
+ [39] [40 <./Images/Shape/elio_035_Im.png> <./Images/Shape/elio_035_xb.png> <./
+Images/Shape/elio_035_yb.png> <./Images/Shape/elio_035_dx.png> <./Images/Shape/
+elio_035_dy.png> <./Images/Shape/elio_035_vx.png> <./Images/Shape/vnoz_flux_zoo
+m.png>]
+
+LaTeX Warning: Reference `fig:elio_c_vx' on page 41 undefined on input line 542
+.
+
+<Images/Shape/elio_c_xb.png, id=259, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_c_xb.png Graphic file (type png)
+<use Images/Shape/elio_c_xb.png>
+Package pdftex.def Info: Images/Shape/elio_c_xb.png  used on input line 547.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_c_dx.png, id=260, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_c_dx.png Graphic file (type png)
+<use Images/Shape/elio_c_dx.png>
+Package pdftex.def Info: Images/Shape/elio_c_dx.png  used on input line 551.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_c_dy.png, id=261, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_c_dy.png Graphic file (type png)
+<use Images/Shape/elio_c_dy.png>
+Package pdftex.def Info: Images/Shape/elio_c_dy.png  used on input line 562.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/elio_c_ylim.png, id=262, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_c_ylim.png Graphic file (type png)
+<use Images/Shape/elio_c_ylim.png>
+Package pdftex.def Info: Images/Shape/elio_c_ylim.png  used on input line 566.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+[41 <./Images/Shape/elioisol.png (PNG copy)> <./Images/Shape/elioisol_frame2.pn
+g> <./Images/Shape/elio_c_xb.png> <./Images/Shape/elio_c_dx.png>]
+<Images/Shape/elio_met1.png, id=267, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_met1.png Graphic file (type png)
+<use Images/Shape/elio_met1.png>
+Package pdftex.def Info: Images/Shape/elio_met1.png  used on input line 584.
+(pdftex.def)             Requested size: 203.1518pt x 137.08427pt.
+<Images/Shape/elio_met2.png, id=268, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_met2.png Graphic file (type png)
+<use Images/Shape/elio_met2.png>
+Package pdftex.def Info: Images/Shape/elio_met2.png  used on input line 588.
+(pdftex.def)             Requested size: 203.1518pt x 137.08427pt.
+<Images/Shape/elio_met3.png, id=269, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_met3.png Graphic file (type png)
+<use Images/Shape/elio_met3.png>
+Package pdftex.def Info: Images/Shape/elio_met3.png  used on input line 592.
+(pdftex.def)             Requested size: 203.1518pt x 137.08427pt.
+<Images/Shape/elio_a_V.png, id=270, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_a_V.png Graphic file (type png)
+<use Images/Shape/elio_a_V.png>
+Package pdftex.def Info: Images/Shape/elio_a_V.png  used on input line 604.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+<Images/Shape/elio_a_Im.png, id=271, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_a_Im.png Graphic file (type png)
+<use Images/Shape/elio_a_Im.png>
+Package pdftex.def Info: Images/Shape/elio_a_Im.png  used on input line 608.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+<Images/Shape/elio_a_xb.png, id=272, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_a_xb.png Graphic file (type png)
+<use Images/Shape/elio_a_xb.png>
+Package pdftex.def Info: Images/Shape/elio_a_xb.png  used on input line 619.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+<Images/Shape/elio_a_dx.png, id=273, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_a_dx.png Graphic file (type png)
+<use Images/Shape/elio_a_dx.png>
+Package pdftex.def Info: Images/Shape/elio_a_dx.png  used on input line 623.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+<Images/Shape/elio_a_vx.png, id=274, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_a_vx.png Graphic file (type png)
+<use Images/Shape/elio_a_vx.png>
+Package pdftex.def Info: Images/Shape/elio_a_vx.png  used on input line 626.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+ [42 <./Images/Shape/elio_c_dy.png> <./Images/Shape/elio_c_ylim.png>] [43 <./Im
+ages/Shape/elio_met1.png> <./Images/Shape/elio_met2.png> <./Images/Shape/elio_m
+et3.png> <./Images/Shape/elio_a_V.png> <./Images/Shape/elio_a_Im.png>] [44 <./I
+mages/Shape/elio_a_xb.png> <./Images/Shape/elio_a_dx.png> <./Images/Shape/elio_
+a_vx.png>]
+
+LaTeX Warning: Reference `tab:elio_a_times' on page 45 undefined on input line 
+635.
+
+
+LaTeX Warning: Reference `tab:elio_a_times' on page 45 undefined on input line 
+637.
+
+<Images/Shape/elio_a_icurr.png, id=285, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_a_icurr.png Graphic file (type png)
+<use Images/Shape/elio_a_icurr.png>
+Package pdftex.def Info: Images/Shape/elio_a_icurr.png  used on input line 643.
+
+(pdftex.def)             Requested size: 290.22107pt x 195.84085pt.
+
+LaTeX Warning: Reference `tab:elio_a_times' on page 45 undefined on input line 
+662.
+
+<Images/Shape/elio_a_Im_back.png, id=286, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_a_Im_back.png Graphic file (type png)
+<use Images/Shape/elio_a_Im_back.png>
+Package pdftex.def Info: Images/Shape/elio_a_Im_back.png  used on input line 67
+3.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+<Images/Shape/elio_a_xb_back.png, id=287, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_a_xb_back.png Graphic file (type png)
+<use Images/Shape/elio_a_xb_back.png>
+Package pdftex.def Info: Images/Shape/elio_a_xb_back.png  used on input line 67
+7.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+<Images/Shape/elio_a_dx_back.png, id=288, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_a_dx_back.png Graphic file (type png)
+<use Images/Shape/elio_a_dx_back.png>
+Package pdftex.def Info: Images/Shape/elio_a_dx_back.png  used on input line 68
+1.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+<Images/Shape/elio_a_dy_back.png, id=289, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_a_dy_back.png Graphic file (type png)
+<use Images/Shape/elio_a_dy_back.png>
+Package pdftex.def Info: Images/Shape/elio_a_dy_back.png  used on input line 68
+5.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+[45 <./Images/Shape/elio_a_icurr.png>]
+<Images/Shape/elio_b_Im.png, id=293, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_b_Im.png Graphic file (type png)
+<use Images/Shape/elio_b_Im.png>
+Package pdftex.def Info: Images/Shape/elio_b_Im.png  used on input line 702.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+<Images/Shape/elio_b_xb.png, id=294, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_b_xb.png Graphic file (type png)
+<use Images/Shape/elio_b_xb.png>
+Package pdftex.def Info: Images/Shape/elio_b_xb.png  used on input line 706.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+<Images/Shape/elio_b_dx.png, id=295, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_b_dx.png Graphic file (type png)
+<use Images/Shape/elio_b_dx.png>
+Package pdftex.def Info: Images/Shape/elio_b_dx.png  used on input line 710.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+<Images/Shape/elio_b_vx.png, id=296, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_b_vx.png Graphic file (type png)
+<use Images/Shape/elio_b_vx.png>
+Package pdftex.def Info: Images/Shape/elio_b_vx.png  used on input line 714.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+
+
+LaTeX Warning: Reference `tab:elio_b_times' on page 46 undefined on input line 
+720.
+
+[46 <./Images/Shape/elio_a_Im_back.png> <./Images/Shape/elio_a_xb_back.png> <./
+Images/Shape/elio_a_dx_back.png> <./Images/Shape/elio_a_dy_back.png>] [47 <./Im
+ages/Shape/elio_b_Im.png> <./Images/Shape/elio_b_xb.png> <./Images/Shape/elio_b
+_dx.png> <./Images/Shape/elio_b_vx.png>]
+
+LaTeX Warning: Reference `fig:neon_s' on page 48 undefined on input line 750.
+
+<Images/Shape/neon_a_V.png, id=303, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_a_V.png Graphic file (type png)
+<use Images/Shape/neon_a_V.png>
+Package pdftex.def Info: Images/Shape/neon_a_V.png  used on input line 758.
+(pdftex.def)             Requested size: 222.5038pt x 150.14128pt.
+<Images/Shape/neon_d_Im.png, id=304, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_d_Im.png Graphic file (type png)
+<use Images/Shape/neon_d_Im.png>
+Package pdftex.def Info: Images/Shape/neon_d_Im.png  used on input line 762.
+(pdftex.def)             Requested size: 222.5038pt x 150.14128pt.
+<Images/Shape/neon_d_xb.png, id=305, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_d_xb.png Graphic file (type png)
+<use Images/Shape/neon_d_xb.png>
+Package pdftex.def Info: Images/Shape/neon_d_xb.png  used on input line 766.
+(pdftex.def)             Requested size: 222.5038pt x 150.14128pt.
+<Images/Shape/neon_d_vx.png, id=306, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_d_vx.png Graphic file (type png)
+<use Images/Shape/neon_d_vx.png>
+Package pdftex.def Info: Images/Shape/neon_d_vx.png  used on input line 770.
+(pdftex.def)             Requested size: 222.5038pt x 150.14128pt.
+<Images/Shape/neon_d_dx.png, id=307, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_d_dx.png Graphic file (type png)
+<use Images/Shape/neon_d_dx.png>
+Package pdftex.def Info: Images/Shape/neon_d_dx.png  used on input line 774.
+(pdftex.def)             Requested size: 222.5038pt x 150.14128pt.
+<Images/Shape/neon_d_dy.png, id=308, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_d_dy.png Graphic file (type png)
+<use Images/Shape/neon_d_dy.png>
+Package pdftex.def Info: Images/Shape/neon_d_dy.png  used on input line 778.
+(pdftex.def)             Requested size: 222.5038pt x 150.14128pt.
+<Images/Shape/hene_vN.png, id=309, 700.6175pt x 472.76625pt>
+File: Images/Shape/hene_vN.png Graphic file (type png)
+<use Images/Shape/hene_vN.png>
+Package pdftex.def Info: Images/Shape/hene_vN.png  used on input line 803.
+(pdftex.def)             Requested size: 251.52443pt x 169.7196pt.
+[48] [49 <./Images/Shape/neon_a_V.png> <./Images/Shape/neon_d_Im.png> <./Images
+/Shape/neon_d_xb.png> <./Images/Shape/neon_d_vx.png> <./Images/Shape/neon_d_dx.
+png> <./Images/Shape/neon_d_dy.png>]
+<Images/Shape/neon_c_dx.png, id=317, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_c_dx.png Graphic file (type png)
+<use Images/Shape/neon_c_dx.png>
+Package pdftex.def Info: Images/Shape/neon_c_dx.png  used on input line 817.
+(pdftex.def)             Requested size: 222.5038pt x 150.14128pt.
+<Images/Shape/neon_c_xb.png, id=318, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_c_xb.png Graphic file (type png)
+<use Images/Shape/neon_c_xb.png>
+Package pdftex.def Info: Images/Shape/neon_c_xb.png  used on input line 821.
+(pdftex.def)             Requested size: 222.5038pt x 150.14128pt.
+<Images/Shape/neon_c_ylim.png, id=319, 700.6175pt x 476.78125pt>
+File: Images/Shape/neon_c_ylim.png Graphic file (type png)
+<use Images/Shape/neon_c_ylim.png>
+Package pdftex.def Info: Images/Shape/neon_c_ylim.png  used on input line 830.
+(pdftex.def)             Requested size: 222.5038pt x 151.41637pt.
+ [50 <./Images/Shape/hene_vN.png> <./Images/Shape/neon_c_dx.png> <./Images/Shap
+e/neon_c_xb.png>]
+<Images/Shape/neon_a_Im.png, id=324, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_a_Im.png Graphic file (type png)
+<use Images/Shape/neon_a_Im.png>
+Package pdftex.def Info: Images/Shape/neon_a_Im.png  used on input line 845.
+(pdftex.def)             Requested size: 222.5038pt x 150.14128pt.
+<Images/Shape/neon_b_Im.png, id=325, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_b_Im.png Graphic file (type png)
+<use Images/Shape/neon_b_Im.png>
+Package pdftex.def Info: Images/Shape/neon_b_Im.png  used on input line 849.
+(pdftex.def)             Requested size: 222.5038pt x 150.14128pt.
+<Images/Shape/neon_a_xb.png, id=326, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_a_xb.png Graphic file (type png)
+<use Images/Shape/neon_a_xb.png>
+Package pdftex.def Info: Images/Shape/neon_a_xb.png  used on input line 853.
+(pdftex.def)             Requested size: 222.5038pt x 150.14128pt.
+<Images/Shape/neon_b_xb.png, id=327, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_b_xb.png Graphic file (type png)
+<use Images/Shape/neon_b_xb.png>
+Package pdftex.def Info: Images/Shape/neon_b_xb.png  used on input line 857.
+(pdftex.def)             Requested size: 222.5038pt x 150.14128pt.
+<Images/Shape/neon_a_dx.png, id=328, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_a_dx.png Graphic file (type png)
+<use Images/Shape/neon_a_dx.png>
+Package pdftex.def Info: Images/Shape/neon_a_dx.png  used on input line 861.
+(pdftex.def)             Requested size: 222.5038pt x 150.14128pt.
+<Images/Shape/neon_b_dx.png, id=329, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_b_dx.png Graphic file (type png)
+<use Images/Shape/neon_b_dx.png>
+Package pdftex.def Info: Images/Shape/neon_b_dx.png  used on input line 865.
+(pdftex.def)             Requested size: 222.5038pt x 150.14128pt.
+
+
+LaTeX Warning: Reference `tab:neon_ab_ival' on page 51 undefined on input line 
+873.
+
+<Images/Shape/neon_a_i.png, id=330, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_a_i.png Graphic file (type png)
+<use Images/Shape/neon_a_i.png>
+Package pdftex.def Info: Images/Shape/neon_a_i.png  used on input line 879.
+(pdftex.def)             Requested size: 222.5038pt x 150.14128pt.
+<Images/Shape/neon_b_i.png, id=331, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_b_i.png Graphic file (type png)
+<use Images/Shape/neon_b_i.png>
+Package pdftex.def Info: Images/Shape/neon_b_i.png  used on input line 883.
+(pdftex.def)             Requested size: 222.5038pt x 150.14128pt.
+<Images/Shape/neon_a_back_Im.png, id=332, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_a_back_Im.png Graphic file (type png)
+<use Images/Shape/neon_a_back_Im.png>
+Package pdftex.def Info: Images/Shape/neon_a_back_Im.png  used on input line 91
+1.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+<Images/Shape/neon_b_back_Im.png, id=333, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_b_back_Im.png Graphic file (type png)
+<use Images/Shape/neon_b_back_Im.png>
+Package pdftex.def Info: Images/Shape/neon_b_back_Im.png  used on input line 91
+5.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+<Images/Shape/neon_a_back_xb.png, id=334, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_a_back_xb.png Graphic file (type png)
+<use Images/Shape/neon_a_back_xb.png>
+Package pdftex.def Info: Images/Shape/neon_a_back_xb.png  used on input line 91
+9.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+<Images/Shape/neon_b_back_xb.png, id=335, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_b_back_xb.png Graphic file (type png)
+<use Images/Shape/neon_b_back_xb.png>
+Package pdftex.def Info: Images/Shape/neon_b_back_xb.png  used on input line 92
+3.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+<Images/Shape/neon_a_back_dx.png, id=336, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_a_back_dx.png Graphic file (type png)
+<use Images/Shape/neon_a_back_dx.png>
+Package pdftex.def Info: Images/Shape/neon_a_back_dx.png  used on input line 92
+7.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+<Images/Shape/neon_b_back_dx.png, id=337, 700.6175pt x 472.76625pt>
+File: Images/Shape/neon_b_back_dx.png Graphic file (type png)
+<use Images/Shape/neon_b_back_dx.png>
+Package pdftex.def Info: Images/Shape/neon_b_back_dx.png  used on input line 93
+1.
+(pdftex.def)             Requested size: 207.9861pt x 140.34491pt.
+
+LaTeX Warning: Reference `fig:argonex' on page 51 undefined on input line 948.
+
+<Images/Shape/argon_pic.png, id=338, 383.4325pt x 718.685pt>
+File: Images/Shape/argon_pic.png Graphic file (type png)
+<use Images/Shape/argon_pic.png>
+Package pdftex.def Info: Images/Shape/argon_pic.png  used on input line 953.
+(pdftex.def)             Requested size: 145.11053pt x 271.98457pt.
+<Images/Shape/argon_b_120.png, id=339, 328.22626pt x 177.66376pt>
+File: Images/Shape/argon_b_120.png Graphic file (type png)
+<use Images/Shape/argon_b_120.png>
+Package pdftex.def Info: Images/Shape/argon_b_120.png  used on input line 957.
+(pdftex.def)             Requested size: 241.84843pt x 130.91066pt.
+[51 <./Images/Shape/neon_c_ylim.png>] [52 <./Images/Shape/neon_a_Im.png> <./Ima
+ges/Shape/neon_b_Im.png> <./Images/Shape/neon_a_xb.png> <./Images/Shape/neon_b_
+xb.png> <./Images/Shape/neon_a_dx.png> <./Images/Shape/neon_b_dx.png>] [53 <./I
+mages/Shape/neon_a_i.png> <./Images/Shape/neon_b_i.png> <./Images/Shape/neon_a_
+back_Im.png> <./Images/Shape/neon_b_back_Im.png> <./Images/Shape/neon_a_back_xb
+.png> <./Images/Shape/neon_b_back_xb.png> <./Images/Shape/neon_a_back_dx.png> <
+./Images/Shape/neon_b_back_dx.png>]
+<Images/Shape/arcex.png, id=349, 337.26pt x 172.645pt>
+File: Images/Shape/arcex.png Graphic file (type png)
+<use Images/Shape/arcex.png>
+Package pdftex.def Info: Images/Shape/arcex.png  used on input line 967.
+(pdftex.def)             Requested size: 290.22107pt x 148.56926pt.
+<Images/Shape/argon_b_0.png, id=350, 328.22626pt x 176.66pt>
+File: Images/Shape/argon_b_0.png Graphic file (type png)
+<use Images/Shape/argon_b_0.png>
+Package pdftex.def Info: Images/Shape/argon_b_0.png  used on input line 982.
+(pdftex.def)             Requested size: 241.84843pt x 130.17105pt.
+<Images/Shape/argon_b_80.png, id=351, 336.25626pt x 171.64125pt>
+File: Images/Shape/argon_b_80.png Graphic file (type png)
+<use Images/Shape/argon_b_80.png>
+Package pdftex.def Info: Images/Shape/argon_b_80.png  used on input line 986.
+(pdftex.def)             Requested size: 241.84843pt x 123.45064pt.
+<Images/Shape/argon_b_180.png, id=352, 337.26pt x 172.645pt>
+File: Images/Shape/argon_b_180.png Graphic file (type png)
+<use Images/Shape/argon_b_180.png>
+Package pdftex.def Info: Images/Shape/argon_b_180.png  used on input line 990.
+(pdftex.def)             Requested size: 241.84843pt x 123.8064pt.
+<Images/Shape/argon_b_220.png, id=353, 337.26pt x 173.64874pt>
+File: Images/Shape/argon_b_220.png Graphic file (type png)
+<use Images/Shape/argon_b_220.png>
+Package pdftex.def Info: Images/Shape/argon_b_220.png  used on input line 999.
+(pdftex.def)             Requested size: 290.22107pt x 149.43304pt.
+ [54 <./Images/Shape/argon_pic.png> <./Images/Shape/argon_b_120.png (PNG copy)>
+] [55 <./Images/Shape/arcex.png (PNG copy)> <./Images/Shape/argon_b_0.png (PNG 
+copy)> <./Images/Shape/argon_b_80.png (PNG copy)> <./Images/Shape/argon_b_180.p
+ng (PNG copy)>]
+<Images/Shape/argon_b_xbevol.png, id=362, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_b_xbevol.png Graphic file (type png)
+<use Images/Shape/argon_b_xbevol.png>
+Package pdftex.def Info: Images/Shape/argon_b_xbevol.png  used on input line 10
+09.
+(pdftex.def)             Requested size: 290.22107pt x 195.84085pt.
+ [56 <./Images/Shape/argon_b_220.png (PNG copy)> <./Images/Shape/argon_b_xbevol
+.png>]
+<Images/Shape/argon_b_V.png, id=366, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_b_V.png Graphic file (type png)
+<use Images/Shape/argon_b_V.png>
+Package pdftex.def Info: Images/Shape/argon_b_V.png  used on input line 1025.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/argon_b_N.png, id=367, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_b_N.png Graphic file (type png)
+<use Images/Shape/argon_b_N.png>
+Package pdftex.def Info: Images/Shape/argon_b_N.png  used on input line 1029.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/argon_b_Im.png, id=368, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_b_Im.png Graphic file (type png)
+<use Images/Shape/argon_b_Im.png>
+Package pdftex.def Info: Images/Shape/argon_b_Im.png  used on input line 1033.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/argon_b_xb.png, id=369, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_b_xb.png Graphic file (type png)
+<use Images/Shape/argon_b_xb.png>
+Package pdftex.def Info: Images/Shape/argon_b_xb.png  used on input line 1037.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/argon_b_dx.png, id=370, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_b_dx.png Graphic file (type png)
+<use Images/Shape/argon_b_dx.png>
+Package pdftex.def Info: Images/Shape/argon_b_dx.png  used on input line 1041.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/argon_b_dy.png, id=371, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_b_dy.png Graphic file (type png)
+<use Images/Shape/argon_b_dy.png>
+Package pdftex.def Info: Images/Shape/argon_b_dy.png  used on input line 1045.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/argon_af_N.png, id=372, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_af_N.png Graphic file (type png)
+<use Images/Shape/argon_af_N.png>
+Package pdftex.def Info: Images/Shape/argon_af_N.png  used on input line 1065.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/argon_af_Im.png, id=373, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_af_Im.png Graphic file (type png)
+<use Images/Shape/argon_af_Im.png>
+Package pdftex.def Info: Images/Shape/argon_af_Im.png  used on input line 1069.
+
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/argon_af_xb.png, id=374, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_af_xb.png Graphic file (type png)
+<use Images/Shape/argon_af_xb.png>
+Package pdftex.def Info: Images/Shape/argon_af_xb.png  used on input line 1073.
+
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/argon_af_dx.png, id=375, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_af_dx.png Graphic file (type png)
+<use Images/Shape/argon_af_dx.png>
+Package pdftex.def Info: Images/Shape/argon_af_dx.png  used on input line 1077.
+
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/argon_af_dy.png, id=376, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_af_dy.png Graphic file (type png)
+<use Images/Shape/argon_af_dy.png>
+Package pdftex.def Info: Images/Shape/argon_af_dy.png  used on input line 1081.
+
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+
+
+LaTeX Warning: Reference `fig:argon_de' on page 57 undefined on input line 1089
+.
+
+<Images/Shape/argon_de_N.png, id=377, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_de_N.png Graphic file (type png)
+<use Images/Shape/argon_de_N.png>
+Package pdftex.def Info: Images/Shape/argon_de_N.png  used on input line 1099.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/argon_de_Im.png, id=378, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_de_Im.png Graphic file (type png)
+<use Images/Shape/argon_de_Im.png>
+Package pdftex.def Info: Images/Shape/argon_de_Im.png  used on input line 1103.
+
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/argon_de_xb.png, id=379, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_de_xb.png Graphic file (type png)
+<use Images/Shape/argon_de_xb.png>
+Package pdftex.def Info: Images/Shape/argon_de_xb.png  used on input line 1107.
+
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/argon_de_dx.png, id=380, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_de_dx.png Graphic file (type png)
+<use Images/Shape/argon_de_dx.png>
+Package pdftex.def Info: Images/Shape/argon_de_dx.png  used on input line 1111.
+
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/argon_de_dy.png, id=381, 700.6175pt x 472.76625pt>
+File: Images/Shape/argon_de_dy.png Graphic file (type png)
+<use Images/Shape/argon_de_dy.png>
+Package pdftex.def Info: Images/Shape/argon_de_dy.png  used on input line 1115.
+
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+[57] [58 <./Images/Shape/argon_b_V.png> <./Images/Shape/argon_b_N.png> <./Image
+s/Shape/argon_b_Im.png> <./Images/Shape/argon_b_xb.png> <./Images/Shape/argon_b
+_dx.png> <./Images/Shape/argon_b_dy.png>] [59 <./Images/Shape/argon_af_N.png> <
+./Images/Shape/argon_af_Im.png> <./Images/Shape/argon_af_xb.png> <./Images/Shap
+e/argon_af_dx.png> <./Images/Shape/argon_af_dy.png>] [60 <./Images/Shape/argon_
+de_N.png> <./Images/Shape/argon_de_Im.png> <./Images/Shape/argon_de_xb.png> <./
+Images/Shape/argon_de_dx.png> <./Images/Shape/argon_de_dy.png>] [61] [62]
+
+LaTeX Warning: Reference `tab:param' on page 63 undefined on input line 1242.
+
+
+LaTeX Warning: Reference `tab:vels' on page 63 undefined on input line 1242.
+
+[63]
+<Images/Shape/muE_xhe.png, id=404, 700.6175pt x 472.76625pt>
+File: Images/Shape/muE_xhe.png Graphic file (type png)
+<use Images/Shape/muE_xhe.png>
+Package pdftex.def Info: Images/Shape/muE_xhe.png  used on input line 1297.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/muE_xhe_2.png, id=405, 700.6175pt x 472.76625pt>
+File: Images/Shape/muE_xhe_2.png Graphic file (type png)
+<use Images/Shape/muE_xhe_2.png>
+Package pdftex.def Info: Images/Shape/muE_xhe_2.png  used on input line 1301.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+File: Images/Shape/vnoz_flux_zoom.png Graphic file (type png)
+<use Images/Shape/vnoz_flux_zoom.png>
+Package pdftex.def Info: Images/Shape/vnoz_flux_zoom.png  used on input line 13
+11.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/v_E_xhe.png, id=406, 700.6175pt x 472.76625pt>
+File: Images/Shape/v_E_xhe.png Graphic file (type png)
+<use Images/Shape/v_E_xhe.png>
+Package pdftex.def Info: Images/Shape/v_E_xhe.png  used on input line 1315.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+
+
+LaTeX Warning: Reference `fig:muxhe' on page 64 undefined on input line 1321.
+
+<Images/Shape/elio_vx_2lmin.png, id=407, 700.6175pt x 472.76625pt>
+File: Images/Shape/elio_vx_2lmin.png Graphic file (type png)
+<use Images/Shape/elio_vx_2lmin.png>
+Package pdftex.def Info: Images/Shape/elio_vx_2lmin.png  used on input line 132
+5.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Shape/vE_xhe.png, id=408, 700.6175pt x 472.76625pt>
+File: Images/Shape/vE_xhe.png Graphic file (type png)
+<use Images/Shape/vE_xhe.png>
+Package pdftex.def Info: Images/Shape/vE_xhe.png  used on input line 1329.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+[64] [65 <./Images/Shape/muE_xhe.png> <./Images/Shape/muE_xhe_2.png> <./Images/
+Shape/v_E_xhe.png>]) [66 <./Images/Shape/elio_vx_2lmin.png> <./Images/Shape/vE_
+xhe.png>] (./Chapters/spectrometry.tex
+Chapter 4.
+<Images/Spectroscopy/plasmaemission.png, id=418, 238.8925pt x 158.5925pt>
+File: Images/Spectroscopy/plasmaemission.png Graphic file (type png)
+<use Images/Spectroscopy/plasmaemission.png>
+Package pdftex.def Info: Images/Spectroscopy/plasmaemission.png  used on input 
+line 12.
+(pdftex.def)             Requested size: 174.13034pt x 115.59972pt.
+[67
+
+
+ <./Images/Spectroscopy/plasmaemission.png>]
+<Images/Spectroscopy/apparato.jpg, id=424, 1270.7475pt x 538.01pt>
+File: Images/Spectroscopy/apparato.jpg Graphic file (type jpg)
+<use Images/Spectroscopy/apparato.jpg>
+Package pdftex.def Info: Images/Spectroscopy/apparato.jpg  used on input line 4
+0.
+(pdftex.def)             Requested size: 290.22107pt x 122.86949pt.
+ [68 <./Images/Spectroscopy/apparato.jpg>]
+<Images/Spectroscopy/spettrotot_unico_label_def.png, id=428, 690.1785pt x 469.7
+55pt>
+File: Images/Spectroscopy/spettrotot_unico_label_def.png Graphic file (type png
+)
+<use Images/Spectroscopy/spettrotot_unico_label_def.png>
+Package pdftex.def Info: Images/Spectroscopy/spettrotot_unico_label_def.png  us
+ed on input line 64.
+(pdftex.def)             Requested size: 478.86255pt x 325.93044pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Images/Spectroscopy/OH_f5t16v_2.png, id=429, 700.6175pt x 472.76625pt>
+File: Images/Spectroscopy/OH_f5t16v_2.png Graphic file (type png)
+<use Images/Spectroscopy/OH_f5t16v_2.png>
+Package pdftex.def Info: Images/Spectroscopy/OH_f5t16v_2.png  used on input lin
+e 94.
+(pdftex.def)             Requested size: 290.22107pt x 195.84085pt.
+<Images/Spectroscopy/N2v_f5t16_2.png, id=430, 700.6175pt x 472.76625pt>
+File: Images/Spectroscopy/N2v_f5t16_2.png Graphic file (type png)
+<use Images/Spectroscopy/N2v_f5t16_2.png>
+Package pdftex.def Info: Images/Spectroscopy/N2v_f5t16_2.png  used on input lin
+e 133.
+(pdftex.def)             Requested size: 217.66211pt x 146.87343pt.
+<Images/Spectroscopy/N2r_f5t16_2.png, id=431, 700.6175pt x 472.76625pt>
+File: Images/Spectroscopy/N2r_f5t16_2.png Graphic file (type png)
+<use Images/Spectroscopy/N2r_f5t16_2.png>
+Package pdftex.def Info: Images/Spectroscopy/N2r_f5t16_2.png  used on input lin
+e 137.
+(pdftex.def)             Requested size: 217.66211pt x 146.87343pt.
+[69 <./Images/Spectroscopy/spettrotot_unico_label_def.png>] [70 <./Images/Spect
+roscopy/OH_f5t16v_2.png> <./Images/Spectroscopy/N2v_f5t16_2.png> <./Images/Spec
+troscopy/N2r_f5t16_2.png>] [71]
+<Images/Spectroscopy/If_OH.png, id=443, 700.6175pt x 472.76625pt>
+File: Images/Spectroscopy/If_OH.png Graphic file (type png)
+<use Images/Spectroscopy/If_OH.png>
+Package pdftex.def Info: Images/Spectroscopy/If_OH.png  used on input line 225.
+
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Spectroscopy/If_N2r.png, id=444, 700.6175pt x 472.76625pt>
+File: Images/Spectroscopy/If_N2r.png Graphic file (type png)
+<use Images/Spectroscopy/If_N2r.png>
+Package pdftex.def Info: Images/Spectroscopy/If_N2r.png  used on input line 229
+.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Spectroscopy/If_N2v.png, id=445, 700.6175pt x 472.76625pt>
+File: Images/Spectroscopy/If_N2v.png Graphic file (type png)
+<use Images/Spectroscopy/If_N2v.png>
+Package pdftex.def Info: Images/Spectroscopy/If_N2v.png  used on input line 233
+.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Spectroscopy/app2_lines.png, id=446, 1458.95062pt x 929.72343pt>
+File: Images/Spectroscopy/app2_lines.png Graphic file (type png)
+<use Images/Spectroscopy/app2_lines.png>
+Package pdftex.def Info: Images/Spectroscopy/app2_lines.png  used on input line
+ 243.
+(pdftex.def)             Requested size: 338.58632pt x 215.76125pt.
+ [72] [73 <./Images/Spectroscopy/If_OH.png> <./Images/Spectroscopy/If_N2r.png> 
+<./Images/Spectroscopy/If_N2v.png> <./Images/Spectroscopy/app2_lines.png>]
+<Images/Spectroscopy/Itot_pos2.png, id=455, 700.6175pt x 472.76625pt>
+File: Images/Spectroscopy/Itot_pos2.png Graphic file (type png)
+<use Images/Spectroscopy/Itot_pos2.png>
+Package pdftex.def Info: Images/Spectroscopy/Itot_pos2.png  used on input line 
+279.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Spectroscopy/Irel_N2_pos2.png, id=456, 700.6175pt x 472.76625pt>
+File: Images/Spectroscopy/Irel_N2_pos2.png Graphic file (type png)
+<use Images/Spectroscopy/Irel_N2_pos2.png>
+Package pdftex.def Info: Images/Spectroscopy/Irel_N2_pos2.png  used on input li
+ne 287.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Spectroscopy/Irel_gas_pos2.png, id=457, 700.6175pt x 472.76625pt>
+File: Images/Spectroscopy/Irel_gas_pos2.png Graphic file (type png)
+<use Images/Spectroscopy/Irel_gas_pos2.png>
+Package pdftex.def Info: Images/Spectroscopy/Irel_gas_pos2.png  used on input l
+ine 291.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Spectroscopy/Itot_flux2.png, id=458, 700.6175pt x 472.76625pt>
+File: Images/Spectroscopy/Itot_flux2.png Graphic file (type png)
+<use Images/Spectroscopy/Itot_flux2.png>
+Package pdftex.def Info: Images/Spectroscopy/Itot_flux2.png  used on input line
+ 309.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Spectroscopy/Irel_N2_flux2.png, id=459, 700.6175pt x 472.76625pt>
+File: Images/Spectroscopy/Irel_N2_flux2.png Graphic file (type png)
+<use Images/Spectroscopy/Irel_N2_flux2.png>
+Package pdftex.def Info: Images/Spectroscopy/Irel_N2_flux2.png  used on input l
+ine 317.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Spectroscopy/Irel_He_flux2.png, id=460, 700.6175pt x 472.76625pt>
+File: Images/Spectroscopy/Irel_He_flux2.png Graphic file (type png)
+<use Images/Spectroscopy/Irel_He_flux2.png>
+Package pdftex.def Info: Images/Spectroscopy/Irel_He_flux2.png  used on input l
+ine 321.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Spectroscopy/Irel_Ar_flux2.png, id=461, 700.6175pt x 472.76625pt>
+File: Images/Spectroscopy/Irel_Ar_flux2.png Graphic file (type png)
+<use Images/Spectroscopy/Irel_Ar_flux2.png>
+Package pdftex.def Info: Images/Spectroscopy/Irel_Ar_flux2.png  used on input l
+ine 325.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+ [74] [75 <./Images/Spectroscopy/Itot_pos2.png> <./Images/Spectroscopy/Irel_N2_
+pos2.png> <./Images/Spectroscopy/Irel_gas_pos2.png>]
+[76 <./Images/Spectroscopy/Itot_flux2.png> <./Images/Spectroscopy/Irel_N2_flux2
+.png> <./Images/Spectroscopy/Irel_He_flux2.png> <./Images/Spectroscopy/Irel_Ar_
+flux2.png>]
+<Images/Spectroscopy/OHFit_f5t16elio.png, id=471, 705.3552pt x 397.9668pt>
+File: Images/Spectroscopy/OHFit_f5t16elio.png Graphic file (type png)
+<use Images/Spectroscopy/OHFit_f5t16elio.png>
+Package pdftex.def Info: Images/Spectroscopy/OHFit_f5t16elio.png  used on input
+ line 359.
+(pdftex.def)             Requested size: 232.17242pt x 130.98938pt.
+<Images/Spectroscopy/N2rotFit_elio.png, id=472, 477.9456pt x 345.9324pt>
+File: Images/Spectroscopy/N2rotFit_elio.png Graphic file (type png)
+<use Images/Spectroscopy/N2rotFit_elio.png>
+Package pdftex.def Info: Images/Spectroscopy/N2rotFit_elio.png  used on input l
+ine 363.
+(pdftex.def)             Requested size: 232.17242pt x 168.0462pt.
+<Images/Spectroscopy/TrOH2.png, id=473, 715.67375pt x 480.79625pt>
+File: Images/Spectroscopy/TrOH2.png Graphic file (type png)
+<use Images/Spectroscopy/TrOH2.png>
+Package pdftex.def Info: Images/Spectroscopy/TrOH2.png  used on input line 374.
+
+(pdftex.def)             Requested size: 232.17242pt x 155.9708pt.
+<Images/Spectroscopy/TrN2_2.png, id=474, 700.6175pt x 472.76625pt>
+File: Images/Spectroscopy/TrN2_2.png Graphic file (type png)
+<use Images/Spectroscopy/TrN2_2.png>
+Package pdftex.def Info: Images/Spectroscopy/TrN2_2.png  used on input line 378
+.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+ [77 <./Images/Spectroscopy/OHFit_f5t16elio.png> <./Images/Spectroscopy/N2rotFi
+t_elio.png>]
+
+LaTeX Warning: Reference `fig:boltzex' on page 78 undefined on input line 385.
+
+<Images/Spectroscopy/boltzman_f5t16v_2.png, id=479, 700.6175pt x 472.76625pt>
+File: Images/Spectroscopy/boltzman_f5t16v_2.png Graphic file (type png)
+<use Images/Spectroscopy/boltzman_f5t16v_2.png>
+Package pdftex.def Info: Images/Spectroscopy/boltzman_f5t16v_2.png  used on inp
+ut line 399.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Spectroscopy/TvN2_2.png, id=480, 700.6175pt x 472.76625pt>
+File: Images/Spectroscopy/TvN2_2.png Graphic file (type png)
+<use Images/Spectroscopy/TvN2_2.png>
+Package pdftex.def Info: Images/Spectroscopy/TvN2_2.png  used on input line 403
+.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+Excluding 'comment' comment. Excluding 'comment' comment.) [78 <./Images/Spectr
+oscopy/TrOH2.png> <./Images/Spectroscopy/TrN2_2.png>] [79 <./Images/Spectroscop
+y/boltzman_f5t16v_2.png> <./Images/Spectroscopy/TvN2_2.png>]
+(./Chapters/temperature.tex [80
+
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 23.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+Chapter 5.
+
+LaTeX Warning: Reference `fig:microbol' on page 81 undefined on input line 9.
+
+<Images/Temperature/Microbolometer.png, id=492, 1927.2pt x 692.5875pt>
+File: Images/Temperature/Microbolometer.png Graphic file (type png)
+<use Images/Temperature/Microbolometer.png>
+Package pdftex.def Info: Images/Temperature/Microbolometer.png  used on input l
+ine 12.
+(pdftex.def)             Requested size: 193.47578pt x 69.527pt.
+[81 <./Images/Temperature/Microbolometer.png>]
+<Images/Temperature/f5t4d4_esframe_25s_2.png, id=497, 700.6175pt x 472.76625pt>
+
+File: Images/Temperature/f5t4d4_esframe_25s_2.png Graphic file (type png)
+<use Images/Temperature/f5t4d4_esframe_25s_2.png>
+Package pdftex.def Info: Images/Temperature/f5t4d4_esframe_25s_2.png  used on i
+nput line 55.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Temperature/f5t4d4_esprofilo_25s_2.png, id=498, 700.6175pt x 472.76625p
+t>
+File: Images/Temperature/f5t4d4_esprofilo_25s_2.png Graphic file (type png)
+<use Images/Temperature/f5t4d4_esprofilo_25s_2.png>
+Package pdftex.def Info: Images/Temperature/f5t4d4_esprofilo_25s_2.png  used on
+ input line 59.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Temperature/f5t4d4_Tavg_lines.png, id=499, 566.115pt x 389.95688pt>
+File: Images/Temperature/f5t4d4_Tavg_lines.png Graphic file (type png)
+<use Images/Temperature/f5t4d4_Tavg_lines.png>
+Package pdftex.def Info: Images/Temperature/f5t4d4_Tavg_lines.png  used on inpu
+t line 72.
+(pdftex.def)             Requested size: 290.22107pt x 199.91666pt.
+ [82]
+<Images/Temperature/f5t4d4_profilo_tempi_zoom.png, id=503, 462.97969pt x 575.14
+874pt>
+File: Images/Temperature/f5t4d4_profilo_tempi_zoom.png Graphic file (type png)
+<use Images/Temperature/f5t4d4_profilo_tempi_zoom.png>
+Package pdftex.def Info: Images/Temperature/f5t4d4_profilo_tempi_zoom.png  used
+ on input line 79.
+(pdftex.def)             Requested size: 290.22107pt x 360.53775pt.
+<Images/Temperature/f5t4d4_fits.png, id=504, 700.6175pt x 472.76625pt>
+File: Images/Temperature/f5t4d4_fits.png Graphic file (type png)
+<use Images/Temperature/f5t4d4_fits.png>
+Package pdftex.def Info: Images/Temperature/f5t4d4_fits.png  used on input line
+ 96.
+(pdftex.def)             Requested size: 290.22107pt x 195.84085pt.
+ [83 <./Images/Temperature/f5t4d4_esframe_25s_2.png> <./Images/Temperature/f5t4
+d4_esprofilo_25s_2.png> <./Images/Temperature/f5t4d4_Tavg_lines.png>] [84 <./Im
+ages/Temperature/f5t4d4_profilo_tempi_zoom.png>]
+<Images/Temperature/Peff_fr_2.png, id=513, 700.6175pt x 472.76625pt>
+File: Images/Temperature/Peff_fr_2.png Graphic file (type png)
+<use Images/Temperature/Peff_fr_2.png>
+Package pdftex.def Info: Images/Temperature/Peff_fr_2.png  used on input line 1
+23.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Temperature/Ppulse_fr_2.png, id=514, 700.6175pt x 472.76625pt>
+File: Images/Temperature/Ppulse_fr_2.png Graphic file (type png)
+<use Images/Temperature/Ppulse_fr_2.png>
+Package pdftex.def Info: Images/Temperature/Ppulse_fr_2.png  used on input line
+ 126.
+(pdftex.def)             Requested size: 232.17242pt x 156.66258pt.
+<Images/Temperature/Ppulse_Vp_2.png, id=515, 700.6175pt x 472.76625pt>
+File: Images/Temperature/Ppulse_Vp_2.png Graphic file (type png)
+<use Images/Temperature/Ppulse_Vp_2.png>
+Package pdftex.def Info: Images/Temperature/Ppulse_Vp_2.png  used on input line
+ 136.
+(pdftex.def)             Requested size: 290.22107pt x 195.84085pt.
+ [85 <./Images/Temperature/f5t4d4_fits.png>]
+<Images/Temperature/Ppulse_d_2.png, id=520, 700.6175pt x 472.76625pt>
+File: Images/Temperature/Ppulse_d_2.png Graphic file (type png)
+<use Images/Temperature/Ppulse_d_2.png>
+Package pdftex.def Info: Images/Temperature/Ppulse_d_2.png  used on input line 
+145.
+(pdftex.def)             Requested size: 290.22107pt x 195.84085pt.
+) [86 <./Images/Temperature/Peff_fr_2.png> <./Images/Temperature/Ppulse_fr_2.pn
+g> <./Images/Temperature/Ppulse_Vp_2.png>] [87 <./Images/Temperature/Ppulse_d_2
+.png>] [88
+
+
+]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 65.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (20.0652pt too wide) in paragraph at lines 24--24
-\T1/cmtt/m/n/10.95 cern . ch / doc / master / namespaceTMath . html # a65669087
-5991a17d35e8a514f37f35d9$\T1/cmr/m/n/10.95 . 
+Overfull \hbox (6.49783pt too wide) in paragraph at lines 66--66
+\T1/cmr/m/n/10.95 promis-ing anti-cancer treat-ment modal-ity^^Q. In: \T1/cmr/m
+/it/10.95 On-co-tar-get \T1/cmr/m/n/10.95 8.9 (2016). \T1/cmr/m/sc/10.95 doi\T1
+/cmr/m/n/10.95 : $\T1/cmtt/m/n/10.95 10 . 18632 / oncotarget .
  []
 
-[19] [20] (./tesi_plasmamed.aux)
+[89]
+Overfull \hbox (4.54619pt too wide) in paragraph at lines 66--66
+\T1/cmr/m/n/10.95 pressure ar-gon mi-croplasma jets^^Q. In: \T1/cmr/m/it/10.95 
+Plasma Physics and Con-trolled Fu-sion \T1/cmr/m/n/10.95 57.7 (2015), p. 074001
+.
+ []
+
+[90]
+
+! Package inputenc Error: Unicode char   (U+2009)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[91]
+Overfull \hbox (85.19762pt too wide) in paragraph at lines 66--66
+\T1/cmr/m/n/10.95 Atomic, Op-ti-cal, and Plasma Physics 56. Springer-Verlag Ber
+lin Hei-del-berg, 2009. \T1/cmr/m/sc/10.95 isbn\T1/cmr/m/n/10.95 : 978364202232
+6,3642022324. 
+ []
+
+
+Overfull \hbox (16.09686pt too wide) in paragraph at lines 66--66
+\T1/cmr/m/it/10.95 na-tional Jour-nal of Mod-ern Physics C \T1/cmr/m/n/10.95 11
+.05 (2000), pp. 987^^U998. \T1/cmr/m/sc/10.95 doi\T1/cmr/m/n/10.95 : $\T1/cmtt/
+m/n/10.95 10 . 1142 / S0129183100000857$\T1/cmr/m/n/10.95 .
+ []
+
+[92] [93] (./tesi_plasmamed.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                tesi_plasmamed
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'tesi_plasmamed.run.xml'.
 \openout1 = `tesi_plasmamed.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36466 strings out of 492982
- 735184 string characters out of 6134895
- 963655 words of memory out of 5000000
- 39438 multiletter control sequences out of 15000+600000
- 568593 words of font info for 120 fonts, out of 8000000 for 9000
+ 39448 strings out of 492982
+ 795264 string characters out of 6134895
+ 1029974 words of memory out of 5000000
+ 42191 multiletter control sequences out of 15000+600000
+ 577012 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,67p,10447b,1767s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,21n,80p,10447b,2683s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
@@ -2431,26 +3718,31 @@ mmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfsl1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0900.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sftt1095.pfb>
-Output written on tesi_plasmamed.pdf (20 pages, 780986 bytes).
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0800.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfsl1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0900.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on tesi_plasmamed.pdf (93 pages, 8872529 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
+ 669 PDF objects out of 1000 (max. 8388607)
+ 327 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 928 words of extra memory for PDF output out of 10000 (max. 10000000)
 
