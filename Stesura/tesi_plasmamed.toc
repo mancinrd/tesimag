@@ -5,7 +5,7 @@
 \contentsline {paragraph}{Bactericidal effects}{6}
 \contentsline {paragraph}{Blood coagulation}{6}
 \contentsline {section}{\numberline {1.2}Cold Atmospheric Plasma}{6}
-\contentsline {subsection}{\numberline {1.2.1}Plasma generation: RF and DBD}{7}
+\contentsline {subsection}{\numberline {1.2.1}Plasma generation}{7}
 \contentsline {paragraph}{RF source}{9}
 \contentsline {paragraph}{DBD source}{9}
 \contentsline {chapter}{\numberline {2}Plasma source description and electric characterization}{13}
@@ -16,8 +16,8 @@
 \contentsline {subsection}{\numberline {2.3.2}Measurements with gas}{17}
 \contentsline {paragraph}{Time intervals}{20}
 \contentsline {subsection}{\numberline {2.3.3}Effective current}{22}
-\contentsline {subsection}{\numberline {2.3.4}Plasma impedance}{22}
-\contentsline {chapter}{\numberline {3}Shape and dynamics}{25}
+\contentsline {subsection}{\numberline {2.3.4}Plasma impedance estimate}{22}
+\contentsline {chapter}{\numberline {3}Plasma dynamics}{25}
 \contentsline {section}{\numberline {3.1}Experimental setup}{25}
 \contentsline {subsection}{\numberline {3.1.1}Source and optical setup}{28}
 \contentsline {subsection}{\numberline {3.1.2}Source, power lines and electric signals}{28}
@@ -61,8 +61,8 @@
 \contentsline {subsection}{\numberline {3.5.2}Mobility and velocity}{64}
 \contentsline {paragraph}{Bullet in nozzle}{64}
 \contentsline {paragraph}{Bullet in air}{66}
-\contentsline {chapter}{\numberline {4}Spectral Analysis}{67}
-\contentsline {section}{\numberline {4.1}Radiation emission}{67}
+\contentsline {chapter}{\numberline {4}Plasma spectrum}{67}
+\contentsline {section}{\numberline {4.1}Optical Emission Spectroscopy}{67}
 \contentsline {section}{\numberline {4.2}Line recognition}{68}
 \contentsline {subsection}{\numberline {4.2.1}Emission measurements}{68}
 \contentsline {paragraph}{\ce {NO} lines}{69}
@@ -71,12 +71,12 @@
 \contentsline {paragraph}{Atomic lines}{70}
 \contentsline {section}{\numberline {4.3}Relative intensities}{72}
 \contentsline {subsection}{\numberline {4.3.1}Pulse settings}{72}
-\contentsline {subsection}{\numberline {4.3.2}Line of Sight}{72}
+\contentsline {subsection}{\numberline {4.3.2}Position}{72}
 \contentsline {subsection}{\numberline {4.3.3}Gas composition}{74}
 \contentsline {section}{\numberline {4.4}Estimation of plasma temperatures}{74}
 \contentsline {subsection}{\numberline {4.4.1}Rotational temperature for \ce {OH} and for \ce {N2}}{77}
 \contentsline {subsection}{\numberline {4.4.2}Vibrational temperature for \ce {N_2}}{78}
-\contentsline {chapter}{\numberline {5}Temperature profile}{81}
+\contentsline {chapter}{\numberline {5}Plasma power estimate}{81}
 \contentsline {section}{\numberline {5.1}Experimental setup}{81}
 \contentsline {paragraph}{Camera}{81}
 \contentsline {paragraph}{Source}{82}
@@ -87,3 +87,4 @@
 \contentsline {paragraph}{Pulse rate dependency}{85}
 \contentsline {paragraph}{Voltage peak value dependency}{86}
 \contentsline {paragraph}{Distance dependency}{86}
+\contentsline {chapter}{\numberline {6}Conclusions}{89}

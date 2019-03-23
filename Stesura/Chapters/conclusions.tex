@@ -1,6 +1,77 @@
 \chapter{Conclusions}
-
-\section{Making a model}
-
-\section{Future development}
 \label{ch:conclusions}
+In this work a source for Cold Atmospheric Plasma has been developed, charachterized and utilized to study formation and propagation of plasma produced with a DBD reactor.
+The source presents an electrode covered in dielectric placed inside a nozzle where there is neutral gas flowing. The electrode applies an electric field to the neutral gas producing plasma that is expelled in air.
+
+The first phase of this work was to develop the components for a new prototype of the source and assemble them. Source scheme follows the one used to build older prototypes, with some changes to increase source efficiency.
+To create the electric field the source sends a fast voltage pulse to the electrode. The source was calibrated to know the voltage output in function of parameters set in the instrument, with or without helium gas flow that allows plasma production.
+The voltage waveform is a fast positive pulse with a FWHM always lower than $\SI{1}{\micro\second}$. Voltage peak value is linear in a range from \num{4} to \SI{10}{\kilo\volt}, with or without plasma. Pulse repetition rate does not change voltage peak value, it is verified to be the same for rates from \num{5} to \SI{40}{\kilo\hertz}.
+With plasma is possible to measure current intensity flowing in a conductive target in front of the source. Also for current is measured a positive pulse with time width lower than $\SI{1}{\micro\second}$. This DBD source is developed for biomedical uses, a fundamental feature is that current deposited on a target should stay below a limit value usually set greater than $\SI{10}{\milli\ampere}$. Measured peak current intensity is always less than \SI{4}{\milli\ampere}. %With measurements done in this thesis it is not possible to exclude a relation between voltage pulse repetition rates and current measured on target. Current peak intensity shows a particular behavior separately for $\num{5} \le f \le \SI{15}{\kilo\hertz}$ and for $\num{20} \le f \le \SI{40}{\kilo\hertz}$, however the number of points is too low to determine the behaviour.
+ A useful estimate of the effective current intensity sensed by a living target is an average value in a longer time interval. For a time interval of \SI{1}{\milli\second} the effective current is $\le \SI{0.3}{\milli\ampere}$, below any possible limit value for medical application.
+Current peak value results proportional to voltage peak value on the electrode, showing that plasma adds a resistive load between electrode and target. Plasma electrical resistance is estimated between \SI{2.98(11)}{\mega\ohm} and \SI{11.82(219)}{\mega\ohm}, different for different voltage peaks.
+In table \ref{tab:el_sum} there is a summary of the electric parameters here described.
+\begin{table}[h]
+ \centering
+ \begin{tabular}{cc}
+  \toprule
+                    &Range\\
+  \midrule
+  $f$               &\num{5}-\SI{40}{\kilo\hertz}\\
+  $V_{p}$           &\num{4}-\SI{10}{\kilo\volt}\\
+  $I_{p}$           &\num{0}-\SI{4}{\milli\ampere}\\
+  $I_{\text{eff}}$  &\num{0}-\SI{0.3}{\milli\ampere}\\
+  $R_{\text{pl}}$   &\num{3}-\SI{12}{\mega\ohm}\\
+  \bottomrule
+ \end{tabular}
+ \caption{Electric parameters of PCC and produced plasma. $f$ is the voltage pulse repetition rate; $V_{p}$ is the voltage peak applied on the electrode; $I_{p}$ is current peak intensity measured on a conductive target in front of the source; $I_{\text{eff}}$ is the average current intensity in a time interval of \SI{1}{\milli\second}; $R_{\text{pl}}$ is an estimation of plasma resistance.}
+ \label{tab:el_sum}
+\end{table}
+
+
+The main analysis done in this work revolvs around the study of plasma propagation. Plasma produced with helium and neon gas propagates with the shape of \emph{bullets}: localized portions of gas that emit light and move with velocities $\ge \SI{10}{\kilo\meter/\second}$.
+Bullets produced by PCC are observed with a fast acquisition setup that integrates plasma light emission in an interval of \SI{15}{\nano\second}. Resulting frames are analyzed to study position, dimensions and evaluate velocities of the bullets. Measurements are taken with helium and neon, for different experimental setups, changing voltage peak value, gas flow and target place in front of the source.
+
+Bullet behavior is qualitatively the same for helium and neon gas, with a flow of \SI{2}{\liter/\minute}.
+Plasma is observed around the electrode when voltage reaches a value over \SI{5}{\kilo\volt}. After formation, plasma covers all the nozzle area and the bullet moves away from the electrode, towards the end of the nozzle and the air outside. Once it reaches the end of the nozzle the bullet speeds up and exits rapidly from it, propagating in the air outside. If there is not a target or if there is an insulating target, the bullet propagates in air decelerating until it stops or until the impact with the target.
+When an higher voltage pulse is applied on the electrode, bullets travel inside the nozzle with higher velocity and reach higher distances in air. One difference between helium and neon bullets is that the second ones have higher velocities for the same voltage value, but they travel shorter distances in air. Helium plasma bullets, for a voltage peak value between \num{5.5} and \SI{7.5}{\kilo\volt}, reach velocities inside the nozzle from \num{38} to \SI{60}{\kilo\meter/\second}, traveling distances from the end of the nozzle from \num{4} to \SI{23}{\milli\meter}. Neon plasma bullets, for a voltage peak value between \num{4.5} and \SI{6.5}{\kilo\volt}, reach velocities inside the nozzle from \num{35} to \SI{63}{\kilo\meter/\second}, traveling distances from \num{6} to \SI{15}{\milli\meter}.
+
+A model that describes this exact behavior is not known yet. In this work it is excluded that the motion of the bullet is related to propagation of ion waves and it is demonstrated that it is related to electron mobility. A charged particle in an electric field $E$ moves with a drift velocity $v_{d} = \mu E$, where $\mu$ is the particle mobility. The electron mobility, $\mu_e$ varies in function of reactions that happens inside the plasma. Simulation software \emph{Bolsig+} gives an estimation of transport coefficients in a plasma inside an electric field, including $\mu_e$, with settable composition of ionized gas.
+
+The behaviour of electron drift velocity in a gas of helium, neon or a mix of helium and air reflects results found in the experiment. For a gas of helium or neon around $\SI{300}{\kelvin}$, inside an electric field from \num{300} to \SI{700}{\volt/\milli\meter}, at atmospheric pressure, it is found that $\mu_e$ is a near costant value, higher for neon. %compared to Helium. 
+Drift velocities $v_{d} = \mu_e E$ are values $\ge \SI{10}{\kilo\meter/\second}$ and decrease linearly for decreasing electric field. This behaviour is comparable to the one found for bullet velocities inside the nozzle, where the electric field decreases moving away from the electrode and with decreasing voltage.
+Electron mobility $\mu_e$ is also evaluated for a gas of helium mixed with another gas of $70\%$ nitrogen and $30\%$ oxygen. Different gas composition introduces different reactions inside the gas, changing electron mobility. A gradual increase in the fraction of the second gas allows to simulate the contact of helium with air. For every value of the electric field drift velocities show a peak with low fraction of air in Helium, decreasing once the percentage grows over $20\%$. This behaviour resembles the acceleration of bullets when there is contact between gas flow and air outside the nozzle.
+It can be concluded that bullet velocity follows the behaviour of electron drift velocity, proportional to electron mobility. Further simulations or a model for plasma bullets could invesigate this relation to understand how they are related.
+
+
+For helium bullets it is studied the influence of gas flow in bullet behaviour, going from \num{1} to \SI{4}{\liter/\minute}. Minimum velocity inside the nozzle and distance reached in air are inversely proportional to gas flow, i.e. they are lower with higher flow. Inside the nozzle there is always laminar flow, Reynold numbers are $R_n < \num{200}$, distant from the critical value of \num{2000} identified as the transition value to turbulent flow. Lower velocity, and consequently the shorter distances reached, could be related to the different contact point between helium and air. If the flow is higher, the bullet propagates for more distance in a gas of (almost) pure helium, decelerating more before the acceleration due to impact with air.
+
+The presence of an insulating target in front of the source does not influence bullet propagation. After the impact between bullet and target, both helium and neon bullets continue to propagate on the surface of the insulating target. The propagation is observed as a round shaped figure with increasing diameter on the target. Maximum diameter and the velocity of expansion are proportional to voltage value and inversly proportional to distance between source and target. This behaviour is analogous to bullet propagation in air.
+
+A conductive grounded target changes the behaviour of bullet propagation: velocities in air do not decrease before reaching the target. The bullet stops only after the impact with the target, reaching further distances. A conductive grounded target attracts the bullet. 
+With the conductive target it is also possible to compare current measurements with the bullet motion. The most intersting result is that the current pulse starts to rise before the bullet reaches the target. Current pulse's starting time and maximum time are inversly proportional to distance between source and target and are proportional to voltage applied on the electrode. This phenomenon can be explained with the hypotesis that there is a portion of the bullet that does not emit light but carries charge. When an higher voltage is applied on the electrode all the bullet moves with higher velocity and current is measured before.
+
+
+Bullet formation and propagation are not observed if plasma is produced ionizing argon. From the measurements with the fast camera it is possible to see that argon plasma does not form an homogeneous zone of glowing plasma, a bullet, but inside the nozzle there are several filaments. Those filaments start at the electrode and have different lengths in each frame. During the discharge the average value of the position reached by the end of the filaments moves towards the end of the nozzle. Once this value reachs the end of the nozzle it can be seen that plasma is expelled as formations of round shaped glowing gas, short in height and width.
+Those circles have a well defined position and dimensions, allowing to study the motion of the average values of their position and dimensions, as done with position and dimensions of Helium and Neon bullet. The result is that the average value of those formations moves away from nozzle end, with velocities from \num{30} to \SI{60}{\kilo\meter/\second}, depending on the presence of a conductive grounded target or of a grounded ring placed around the nozzle.
+
+
+Reactive species produced inside plasma are thought to be related to the mechanism behind therapeutic effects of plasma biomedical applications. With spectrometric measurements it is possible to observe which of these species are inside the plasma.
+In this study plasma emission is analyzed with two spectrometers in the wavelength range between \num{200} and \SI{800}{\nano\meter}.
+
+Helium plasma emission lines are recognized with an high resolution spectrometer. It is possible to distinguish lines relative to \ce{OH} rotational transitions, \ce{N_2} rotational and vibrational transitions, \ce{N_2^+} vibrational transitions and other lines relative to \ce{O} and \ce{He}.
+The ratio between emission lines in a rotational band is related to the rotational temperature of the relative molecule. Rotational temperature can be considered an estimation of gas temperature. Resulting temperatures for \ce{OH} and \ce{N_2} are $T_{r,\ce{OH}} = \SI{352(38)}{\kelvin}$ and $T_{r,\ce{N_2}} = \SI{321(41)}{\kelvin}$, two values compatible with each other and comparable to room temperature. From \ce{N_2} vibrational transitions is possible to give also an estimation of its vibrational temperature $T_{v,\ce{N_2}} = \SI{3405(154)}{\kelvin}$.
+
+Emission is different for different positions inside the plasma plume. With a mini spectrometer is observed emission intensity at different heights of the column of helium plasma, neon plasma and argon plasma. Emission intensity relative to \ce{N_2} always increases going from the electrode to the air outside, while specific emission intensity for the gas used to start the discharge decreases. It is an expected result as the concentration of the gas used to start the discharge is higher inside the nozzle, while concentration of nitrogen is higher in the air outside.
+
+Emission depends also on gas composition. With the same mini spectrometer is observed the variation in emission introducing a percentage of nitrogen or argon in a flux of Helium. Nitrogen up to the $10\%$ of total gas flux does not increase emission intensity for \ce{N_2} lines. Nitrogen is the principal component of air so it is possible that the percentage inserted in the gas flux is low respect the quantity already present.
+With an increasing percentage of argon there is an increase in the emission intensity relative to argon lines, and a decrease of the one relative to \ce{N_2} and \ce{He} lines.
+
+
+A fundamental requirement for plasma produced by PCC is that it cannot increase temperature target over a certain safe limit. In this work is estimated power deposited by plasma on a target. As explained before, plasma production is a pulsed phenomenon, the power relative to a single pulse can be evaluated considering the time interval of interaction between plasma and target of \SI{1}{\micro\second}.
+Typical values for the effective power deposited on the target are between \num{20} and \SI{50}{\milli\watt}, while the power relative to a single pulse is between \num{2} and \SI{6}{\watt}.
+Power for a single pulse decreases with increasing pulse repetition rate. It is an unexpected result that could imply a different bullet behavior for different pulse repetition rates.
+Power for a single pulse increases rapidly with increasing voltage, while it decreases with increasing distance. It is expected because plasma bullets have more speed when there is an higher peak voltage on the electrode or when the target is placed closer to the source.
+With those power estimations it is possible to evaluate the increase in temperature when plasma produced by PCC will be applied for blood coagulation.
+
+
+A future development for this thesis is the formulation of a model that explains all the observations here presented. A model that describes plasma bullets would help to understand and predict plasma electric behavior, plasma radiation emission and plasma power deposition on a target. Measurements made in this work give description on DBD plasma phenomenology that will be used to test future models.
