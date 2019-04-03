@@ -1,18 +1,15 @@
 \chapter{Plasma spectrum}
 \label{ch:spectrometry}
-One of the fundamental characteristics of Plasma Coagulation Controller for medical applications is what species are produced and deposited during its application. Various studies observed the spectrum of plasma DBD discharge in air at atmosferic pressure and ambient temperature (\cite{DBDair_Trot}, \cite{DBDAirTypicalSpec}), it presents peaks relative to reactive species from water, oxygen, nitrogen and its oxides at visible wavelenght, from $\num{200}$ to $\SI{880}{\nano\meter}$.
+%One of the fundamental characteristics of Plasma Coagulation Controller for medical applications is what species are produced and deposited during its application.
+In various studies the spectrum of plasma DBD discharge in air at atmosferic pressure and ambient temperature has been observed (\cite{DBDair_Trot}, \cite{DBDAirTypicalSpec}). It presents peaks relative to reactive species from water, oxygen, nitrogen and its oxides in a wavelength range from $\num{200}$ to $\SI{880}{\nano\meter}$.
 
-We are intersted in plasma that contains molecules involved in blood coagulation mechanisms, Reactive Oxidant Species (such as hydroxil radical \ce{OH}) and Reactive Nitrogen Species (derived from nitric oxide \ce{NO}) (\cite{6153386}). In this spectroscopy study we give particular attention to them and their precursor, i.e. the presence of transitions relative to hydroxil, oxygen and molecular nitrogen.
+Reactive species that are thought to be involved in blood coagulation mechanisms are Reactive Oxidant Species (such as hydroxil radical \ce{OH}) and Reactive Nitrogen Species (derived from nitric oxide \ce{NO}) \cite{6153386}. This spectroscopy study is focalized on them and their precursor, i.e. on transitions relative to hydroxil, oxygen and molecular nitrogen.
 
 
 \section{Optical Emission Spectroscopy}
-The source produces plasma from a mixture gas of helium (or neon or argon) and air, along free electrons there are ions and species that collides with energetic electrons, and populate excited or metastable states with short lifetime. All reactive species partecipe in different reactions, and also in excitation and de-excitation reactions with conseguent emission of radiation. When an electron goes from state p at higher energy to state k of lower energy, is emitted radiation with central wavelenght $\lambda_0$. Power emitted by this radiation is given by radiant flux $d\phi_{\lambda}$ and selecting a solid angle as in figure, is possible to define radiance $L_{\lambda}$, and intensity $I$, as in equations \ref{eq:emission}. Intensity for a radiation ultimately depends on $n(p)$, population density for state p, and Einstein Coefficient for the transition $A_{pk}$ that is typical for the transition (\cite{book:291477}).
-
-\begin{minipage}{.45\textwidth}
- \includegraphics[width=0.8\textwidth]{Images/Spectroscopy/plasmaemission.png}
-\end{minipage}
-\begin{minipage}{.45\textwidth}
+The source produces plasma from a mixture gas of helium (or neon or argon) and air. Along free electrons, there are ions and species that collides with energetic electrons, and populate excited or metastable states with short lifetime. All reactive species partecipe in different reactions, and also in excitation and de-excitation reactions with conseguent emission of radiation. When an electron goes from state $p$ at higher energy to state $k$ of lower energy, radiation is emitted with central wavelenght $\lambda_0$. Power emitted by this radiation is given by radiant flux $d\phi_{\lambda}$ and selecting a solid angle as in figure \ref{fig:emissionfig}, is possible to define radiance $L_{\lambda}$, and intensity $I$, as in equations \ref{eq:emission}. Intensity for a radiation ultimately depends on $n(p)$, population density for state p, and Einstein Coefficient for the transition $A_{pk}$ that is typical for the transition \cite{book:291477}.
 \begin{equation}
+ \centering
  \begin{split}
  &\lambda_{0} = \frac{hc}{E_p - E_k} \\
  &L_{\lambda} = \frac{d^2\phi_{\lambda}}{dA \cos(\theta) d\Omega} \\
@@ -20,55 +17,62 @@ The source produces plasma from a mixture gas of helium (or neon or argon) and a
  \end{split} 
  \label{eq:emission}
 \end{equation}
-\end{minipage}
+\begin{figure}
+ \centering
+ \includegraphics[width = 0.45\textwidth]{Images/Spectroscopy/plasmaemission.png}
+ \caption{Representation of plasma emission from a section of plasma with area $dA$, under a solid angle $d\Omega$ in a direction $\theta$.}
+ \label{fig:emissionfig}
+\end{figure}
 
-Using air as gas, composed by molecules, reaction that emits radiation in visible wavelenght are vibronic transitions where molecule goes from a vibrational state to another, with a change of vibrational quantum number $\nu$, and/or from a rotational state to another, with change of quantum number $J$ (\cite{book:137793}, \cite{wiki:vibronic}). When there is a vibrational transition, each line corresponds to different numbers $\nu'-\nu''$, these are transitions well spaced in the spectrum, easy to recognize. Rotational transitions gives birth to bands of peaks not space much, hard to resolve whitout an efficient spectrometer.
+Reactions that emit radiation in visible wavelenght in air are vibronic transitions where molecule goes from a vibrational state to another, with a change of vibrational quantum number $\nu$, and/or from a rotational state to another, with change of quantum number $J$ (\cite{book:137793}, \cite{wiki:vibronic}). When there is a vibrational transition, each line corresponds to different numbers $\nu'-\nu''$, these are transitions well spaced in the spectrum, easy to recognize. Rotational transitions gives birth to bands of peaks not markedly spaced, hard to resolve whitout an efficient spectrometer.
 
-There are many reactions involving oxygen and nitrogen (see for example \cite{Kossyi_1992}), in this study we determine only principal transition observable with our spectrometer, to know dominant reactive species present in our plasma plume.
+There are many reactions involving oxygen and nitrogen (see for example \cite{Kossyi_1992}), in this study only principal transition observable with our spectrometer are determined, to know dominant reactive species present in the plasma plume.
 
-The experiments divides in emission line recognition and intensity measurements at different positions and with different gas mixtures.
+In the first section of this study plasma emission lines are recognized and studied for different discharge parameters. In the second section intensities relative to specific elements are observed for different positions along plasma plume and different gas compositions. 
 
 \section{Line recognition}
-We hypotize that plasma emission lines don't depend on which source we use, but on the discharge parameters, as described in chapter \ref{ch:electric}, we utilize prototype \textbf{A} presented before. A metal plate is positioned as target at a distance of $\SI{10}{\milli\meter}$ from plasma exit, as in figure \ref{fig:app1}. To start the dischare we use helium, with flow set to $\SI{2}{\liter/\minute}$.
+Prototypes presented in chapter \ref{ch:electric} produce equivalent discharge conditions.
+Plasma emission line recognition is done with prototype \textbf{A}, because it was the one that could be moved more easily to reach the spectrometer used in this part of the study.
+A metal plate is positioned as target at a distance of $\SI{10}{\milli\meter}$ from plasma exit, as in figure \ref{fig:app1}. Helium with a flow set to $\SI{2}{\liter/\minute}$ is used to start the discharge.
 
-For line recognition we utilize an IsoPlane spectrometer, that separates emissions with different wavelenghts with a grating. The spectrometer has a focal lenght of $\SI{320}{\milli\meter}$ and is equipped with three different gratings: $\num{150}$, $\num{1200}$ and \SI{2400}{gg/\milli\meter}, corresponding to different resolutions. %of $\num{0.26}$, $\num{0.03}$ and $\SI{0.01}{\nano\meter}$.
-As in figure \ref{fig:app1}, light emitted by plasma is collected with a quartz lens %...
-and passes trough an optical fiber %..
-connected to the spectrometer entry, while at the spectrometer exit there is a CCD camera of $2048$ pixels and a count limit of $\num{65000}$.
+The spectrometer is an IsoPlane that separates emissions with different wavelenghts with a grating. The spectrometer has a focal lenght of $\SI{320}{\milli\meter}$ and is equipped with three different gratings: $\num{150}$, $\num{1200}$ and \SI{2400}{gg/\milli\meter}, corresponding to different resolutions. %of $\num{0.26}$, $\num{0.03}$ and $\SI{0.01}{\nano\meter}$.
+Light emitted by plasma is collected through a quartz lens, on the left in  figure \ref{fig:app1},%...
+and travels in an optical fiber %..
+connected to the spectrometer entry. At the spectrometer exit there is a CCD camera of $2048$ pixels and a count limit of $\num{65000}$.
 \begin{figure}
 \centering
 \includegraphics[width=.6\textwidth]{Images/Spectroscopy/apparato.jpg}
-\caption{Setup of the experiment for line recognitizion: we can see the source, the metal target and the optical setup on the left. Plasma emission is collected by the lens and sent to the spectrometer.}
+\caption{Picture of the experimental setup for line recognitizion. It is possible to see the source, the metal target and the optical setup on the left. Plasma emission is collected by the lens and sent to the spectrometer.}
 \label{fig:app1}
 \end{figure}
 
-Once a grating is chosen, we can set the start wavelenght on the acquisition system and from there it takes measures until the end of the CCD, for a specific wavelenght interval for every grating.
+Once a grating is chosen, it is possible to set the starting wavelength on the acquisition system and from there the spectrometer takes measures until the end of the CCD, resulting in a specific wavelength interval for each grating.
 For each measure we select an appropriate acquisition time that allows to observe peaks with a good count number and avoid saturation.
 
 It's important to stress out that, with this measuring method and due to complexity of plasma reactions and composition, it's not possible to extrapolate quantitative considerations between different species concentration. However it's possible to recognize the presence of certain species and make some considerations watching spectra variation with different experimental setup.
 
 
 \subsection{Emission measurements}
-To see what's generally produced in a discharge we take the spectrum for the entire wavelenght's region intersted, from $\num{230}$ to $\SI{800}{\nano\meter}$, with standard discharge paramters: $f \SI{5}{\kilo\hertz}$ and $\Delta t = \SI{15}{\micro\second}$.
-First we do a rapid acquisition with the lowest resolution possible, to see intersting regions and have an idea of required exposition times. After that we do another acquisition with higher resolution for all wavelenghts, measuring several spectra. The entire spectrum is reconstructed attaching different spectra, showed in figure \ref{fig:spectr}, where are labelled principal transitions.
-For every measure wa take also a background spectrum, without plasma, to recognize peaks that are not from the plasma.
+The emissions spectrum is observed in a wavelength range from $\num{230}$ to $\SI{800}{\nano\meter}$, with standard discharge parameters: $f \SI{5}{\kilo\hertz}$ and $V_{p} = \SI{6.0}{\kilo\volt}$.
+The first measurs is a rapid acquisition with the lowest resolution possible, to see intersting regions and have an idea of required exposition times. After that, the spectrometer does another acquisition with higher resolution for all wavelengths, measuring several spectra. The entire spectrum is reconstructed attaching different spectra, showed in figure \ref{fig:spectr}, where are labelled principal transitions.
+For each measure a background spectrum si also taken, without plasma, to recognize peaks that are not relative to plasma emission.
 
-We read data with IDL routines (\cite{GUMLEY200215}) and analyze it with ROOT \emph{TSpectrum.h} library (\cite{ROOT:TSpectrum}).
-In every spectrum we divide each channel by the exposition time of the spectrum, evaluating the count rate at a specific wavelenght.
-We estimate white noise contribution as the average value from a portion of the spectrum that doesn't presents peaks, and subtract it to count rates for each wavelenght.
-In those spectrum we find emission peaks with TSpectrum functions (where is possible to set a treshold in heigth and the general width for lines to be searched) and isolate peaks from background. The exact wavelenght for each transition is found with a gaussian fit in an interval that takes into consideration the asymmetry where it's needed.
+The spectra are read with IDL routines \cite{GUMLEY200215} and analyzed with ROOT \emph{TSpectrum.h} library \cite{ROOT:TSpectrum}.
+In each spectrum each channel is divided by the exposition time of the spectrum, evaluating the count rate at a specific wavelength.
+White noise contribution is estimated as the average value from a portion of the spectrum that does not presents peaks, hence it is subtracted to count rates for each wavelength.
+In the resulting spectra emission peaks are found with TSpectrum functions (where is possible to set a treshold in heigth and the general width for lines to be searched) and isolate peaks from background. The exact wavelength for each transition is found with a gaussian fit in an interval that takes into consideration the asymmetry of the peak where it's needed.
 
-As said before, this study is focused on measure related to ROS and NRS, so in lines for \ce{NO}, \ce{OH} and \ce{N_2}.
+As said before, this study is focused on measure related to ROS and RNS, so in lines for \ce{NO}, \ce{OH} and \ce{N_2}.
 \begin{figure}
 \centering
 \includegraphics[width=0.99\textwidth]{Images/Spectroscopy/spettrotot_unico_label_def.png}
-\caption{Spectrum with an helium flow of $\SI{2}{\liter/\minute}$, pulse parameters of $f = \SI{5}{\kilo\hertz}$ and $\Delta t = \SI{16}{\micro\second}$. The emission is collected at the end of the nozzle, where plasma exits in air.}
+\caption{Spectrum with helium flow of $\SI{2}{\liter/\minute}$, pulse parameters of $f = \SI{5}{\kilo\hertz}$ and $V_p = \SI{6.0}{\kilo\volt}$. The emission is collected at the end of the nozzle, where plasma exits in air.}
 \label{fig:spectr}
 \end{figure}
 
 
 \paragraph{\ce{NO} lines}
-We observe two doublets for the transition $\ce{A^2\Sigma^+} \rightarrow \ce{X^2\Pi}$ with vibrational numbers (0-0) and (0-1) (\cite{Knie:166349}, \cite{VANSPRANG197955}), presented in table \ref{tab:spettroNO}. Intensities for the peaks are normalized with maximum value of $\num{1000}$ for the acquisition, the table shows as the intensities for this transition is very low. Other transition relative to this molecule have even lower relative intensity and are not observed in our study.
+In the spectrum there are two doublets for the transition $\ce{A^2\Sigma^+} \rightarrow \ce{X^2\Pi}$ with vibrational numbers (0-0) and (0-1) (\cite{Knie:166349}, \cite{VANSPRANG197955}), presented in table \ref{tab:spettroNO}. Intensities for the peaks are normalized with maximum value of $\num{1000}$ for the acquisition, the table shows as the intensities for this transition is very low. Other transitions relative to this molecule have even lower relative intensity and are not observed.
 \begin{table}[h]
 \centering
  \begin{tabular}{cc}
@@ -87,12 +91,12 @@ We observe two doublets for the transition $\ce{A^2\Sigma^+} \rightarrow \ce{X^2
 
 
 \paragraph{\ce{OH} lines}
-We find the rotational band for transition (\ce{A^2\Sigma}, $\nu' = 0$ $\rightarrow$ \ce{X^2\Pi}, $\nu'' = 0$), observing $13$ principal lines (\cite{doi:10.1142/S0129183100000857}).
-In figure \ref{fig:OHsp} a zoom on the spectrum, in table \ref{tab:sptrOH} peak values.
+In the spectrum is observed the rotational band for transition (\ce{A^2\Sigma}, $\nu' = 0$ $\rightarrow$ \ce{X^2\Pi}, $\nu'' = 0$), $13$ lines are found \cite{doi:10.1142/S0129183100000857}.
+In figure \ref{fig:OHsp} a portion of the spectrum in intersting wavelength range for \ce{OH}, in table \ref{tab:sptrOH} are presented peak values.
 \begin{figure}
  \centering
  \includegraphics[width=0.6\textwidth]{Images/Spectroscopy/OH_f5t16v_2.png}
- \caption{Zoom on OH peaks}
+ \caption{Emission spectrum of helium discharge with $f = \SI{5}{\kilo\hertz}$ and $V_p = \SI{6.0}{\kilo\volt}$ from \num{306} to \SI{310}{\nano\meter}. It is possible to see the rotational band of \ce{OH}.}
  \label{fig:OHsp}
 \end{figure}
 \begin{table}
@@ -118,14 +122,14 @@ In figure \ref{fig:OHsp} a zoom on the spectrum, in table \ref{tab:sptrOH} peak 
   \num{309.73(1)}  &125\\
   \bottomrule
  \end{tabular}
- \caption{Peaks measured for \ce{OH}.}
+ \caption{Peaks position and intensity measured for \ce{OH} in helium discharge with parameters $f = \SI{5}{\kilo\hertz}$, $V_p = \SI{6.0}{\kilo\volt}$.}
  \label{tab:sptrOH}
 \end{table}
 
 
 \paragraph{\ce{N_2} and \ce{N+_2} lines}
-Measured spectrum presents several lines relative to nitrogen molecules, including the strongest, for diatomic molecule dinitrogen. We observe the Second Positive System for \ce{N2} transition $\ce{C^3\Pi} \rightarrow \ce{B^3\Pi}$ and the First Negative System for \ce{N2+} transition $\ce{B^2\Sigma} \rightarrow \ce{X^2\Sigma}$, in table \ref{tab:sptrN} peak values (\cite{N2lab}, \cite{Britun_2007}). For \ce{N2} is found also a band of multiple rotational lines centered around \SI{336.58(1)}{\nano\meter}.
-Some of the peaks are seen in the second diffraction order, where there is more distance between lines. In figure \ref{fig:N2} we presente two zooms for \ce{N2} lines.
+Measured spectrum presents several lines relative to nitrogen molecules, including the strongest, for diatomic molecule dinitrogen. The Second Positive System for \ce{N2} transition $\ce{C^3\Pi} \rightarrow \ce{B^3\Pi}$ and the First Negative System for \ce{N2+} transition $\ce{B^2\Sigma} \rightarrow \ce{X^2\Sigma}$ are observed. Their positions and peak values are presented in table \ref{tab:sptrN} (\cite{N2lab}, \cite{Britun_2007}). For \ce{N2} also a band of multiple rotational lines centered around \SI{336.58(1)}{\nano\meter} is observed.
+Some of the peaks are seen in the second diffraction order, where there is more distance between lines. In figure \ref{fig:N2} are presented two portions of the spectrum showing \ce{N2} lines.
 \begin{figure}
  \centering
  \subfloat[Transitions with $\Delta \nu = 2$]{
@@ -135,7 +139,7 @@ Some of the peaks are seen in the second diffraction order, where there is more 
  \subfloat[Strongest line (0-0), $2^{\text{nd}}$ diffraction order]{
     \includegraphics[width=0.45\textwidth]{Images/Spectroscopy/N2r_f5t16_2.png}
  }
- \caption{Zoom on \ce{N2} transitions.}
+ \caption{Emission spectrum of helium discharge with $f = \SI{5}{\kilo\hertz}$ and $V_p = \SI{6.0}{\kilo\volt}$ from \num{365} to \SI{382}{\nano\meter} (a) and from \num{670} to \SI{675}{\nano\meter} (b). It is possible to see vibrational and rotational bands for \ce{N_2} transitions.}
  \label{fig:N2}
 \end{figure}
 
@@ -158,13 +162,13 @@ Some of the peaks are seen in the second diffraction order, where there is more 
                             &\num{427.45(2)}  &180  &(0-1)\\
   \bottomrule
  \end{tabular}
- \caption{Peaks measured for \ce{N_2} and \ce{N+_2}.}
+ \caption{Peaks position and intensity measured for \ce{N_2} and \ce{N+_2} in helium discharge with parameters $f = \SI{5}{\kilo\hertz}$, $V_p = \SI{6.0}{\kilo\volt}$.}
  \label{tab:sptrN}
 \end{table}
 
 
 \paragraph{Atomic lines}
-We observe other lines from elements present in the plume (\cite{NIST}):
+Other lines relative to different elements are presented in table \ref{tab:sptrother}, they are \cite{NIST}:
 \begin{itemize}
  \item \textbf{\ce{H_{\alpha}}} line corresponding to transition from quantum number $n=3$ to $n=2$
  \item \textbf{\ce{He}} two of the strongest lines for helium
@@ -184,40 +188,39 @@ We observe other lines from elements present in the plume (\cite{NIST}):
   \ce{O}                    &\num{776.89(1)}  &393\\
   \bottomrule
  \end{tabular}
- \caption{Lines measured for \ce{H}, \ce{He} and \ce{O}.}
+ \caption{Peaks position and intensity measured for \ce{H}, \ce{He} and \ce{O} in helium discharge with parameters $f = \SI{5}{\kilo\hertz}$, $V_p = \SI{6.0}{\kilo\volt}$.}
  \label{tab:sptrother}
 \end{table}
 
 
-\section{Relative intensities}
-To understand the mechanisms of plasma expulsion and deposition, we measure plasma emission intensity varying voltage peak values, line of sight of the spectrometer and gas composition.
-
 \subsection{Pulse settings}
-We measure emission lines with different parameters for the voltage pulse, utilizing the same experimental apparatus as before. As seen in chapter \ref{ch:electric} for different pulse repetition rates we have the same electric behavior, but this parameter could still influence species production rates.
+Plasma emission intensity is measured with different voltage peak values and pulse repetition rates to understand how discharge settings influence reactive species production.
+
+As seen in chapter \ref{ch:electric} for different pulse repetition rates the electric behavior stays constant, however this parameter could still influence species production rate. Pulse repetition rate is related to the energy deposited on the ionized gas, an higher rate implies more pulses in a given time.
 
 %Reactions that produce and recombine reactive species, and consequently density and lifetime of species, are influenced by electric field and duration of the discharge.
-We observe spectra with three different parameter combinations, corresponding to different intensity of the treatment:
+Emission spectrum is observed with three different parameter combinations, corresponding to different intensity of the treatment:
 \begin{itemize}
  \item low: $f = \SI{5}{\kilo\hertz}$ and $\Delta t = \SI{15}{\micro\second}$
  \item medium: $f = \SI{10}{\kilo\hertz}$ and $\Delta t = \SI{10}{\micro\second}$
  \item high : $f = \SI{15}{\kilo\hertz}$ and $\Delta t = \SI{10}{\micro\second}$
 \end{itemize}
 
-For every setting we collect plasma emission along two different line of sight:
+For each setting plasma emission is observed along two different lines of sight:
 \begin{itemize}
  \item position 1: as close as possible to the end of the nozzle, near plasma exit point from the source;
  \item position 2: close to the target, at \SI{10}{\milli\meter} from plasma exit point, where it collides with target.
 \end{itemize}
 
-We evaluate intensities for \ce{OH} and \ce{N2} species, collectively for the lines in a wavelength range specific for the peaks. For \ce{OH} lines is considered all the rotational band between $\num{306}$-\SI{309}{\nano\meter}, lines for \ce{N2} are separated in those between $\num{335}$-\SI{337}{\nano\meter} (rotational band and (0-0) transition) and those between $\num{368}$-\SI{382}{\nano\meter} (vibrational transitions with $\Delta \nu = 2$).
+Intensities for \ce{OH} and \ce{N2} species are evaluated collectively for the lines in a specific wavelength range. For \ce{OH} lines all the rotational band between $\num{306}$-\SI{309}{\nano\meter} is considered. Lines relative to \ce{N2} are separated in those between $\num{335}$-\SI{337}{\nano\meter} (rotational band and (0-0) transition) and those between $\num{368}$-\SI{382}{\nano\meter} (vibrational transitions with $\Delta \nu = 2$).
 
-In figure \ref{fig:irel} we present measurements result for considered lines. .
+In figure \ref{fig:irel} there are measurement results for considered lines.
 
-Intensities for \ce{OH} decreases drastically increasing the distance from the source, in position 2 we find values lower than $0.1\%$ of those from position 1. \ce{OH} lines for both positions have same intensity with low and medium power setup, while is lower with higher frequency, with similar behavior in both positions.
+Intensities for \ce{OH} decreases drastically increasing the distance from the source, in position 2 values are lower than $0.1\%$ of those from position 1. \ce{OH} lines for both positions have same intensity with low and medium power setup, while intensity is lower with higher frequency. For both positions there is a similar behavior.
 
-Also \ce{N2} intensities depend on pulse repetition rate: they decrease with higher pulse rates, for every lines, reaching around $0.6\%$ for $f = \SI{15}{\kilo\hertz}$ in position 1, and lower values for position 2.
+Also \ce{N2} intensities are related to pulse repetition rate: they decrease as the pulse rate increases. Increasing the rate from \num{5} to \SI{15}{\kilo\hertz} intensity values decrease around $60\%$ in position 1, and reach lower values for position 2.
 
-It seems that production of both those reactive species have rates dependant from pulse repetition rates, in particular the intensity of their emission decreases at higher frequencies.
+It seems that production of both those reactive species have rates dependant on pulse repetition rates, in particular the intensity of their emission decreases at higher frequencies.
 \begin{figure}
 \centering
  \subfloat[\ce{OH} intensities in range $\num{306}$-\SI{309}{\nano\meter}]{
@@ -236,20 +239,137 @@ It seems that production of both those reactive species have rates dependant fro
 \end{figure}
 
 
-\subsection{Position}
-We want to analyze plasma emission at different positions with the other source analyzed in this work, prototype \textbf{B} in chapter \ref{ch:electric}, in a similar way to what we did in the previous measurements. The setup is similar to the one described in chapter \ref{ch:shape}: as in figure \ref{fig:app2}, we utilize the glass nozzle and a conductive target at \SI{10}{\milli\meter} from its end.
+\subsection{Estimation of plasma temperatures}
+From diatomic molecule's spectra it's possible to evaluate some parameters that are indicators of plasma's state: rotational temperatures for \ce{OH} and \ce{N2}, $T_{r}$, and vibrational temperature for \ce{N2}, $T_{v}$.
+These parameters are estimation of the temperature at which thermal energy is comparable to the gap energy between rotational or vibrational state transitions, they can be defined as in equations \ref{eq:temperatures} where $\nu$ is the vibrational quantum number and $I$ is the quantizied moment of inertia of the molecule.
+\begin{equation}
+ \centering
+ \begin{split}
+  &T_{r} = \frac{\hslash^2}{2 k_{B} I}\\
+  &T_{v} = \frac{h \nu}{k_{B}}
+ \end{split}
+ \label{eq:temperatures}
+\end{equation}
+
+Rotational temperatures can be considered an estimation of neutral gas kinetic temperature. Vibrational temperature gives an idea of the population of vibrational states, useful to determine chemical reactions inside plasma.
+
+\subsubsection{Rotational temperature for \ce{OH} and for \ce{N2}}
+In rotational bands the intensity of a transition for a specific wavelength is proportional to the number density popolation of upper state (equation \ref{eq:emission}), that, considering a Maxwell-Boltzmann distribution, is proportional to the temperature of the species. In equation \ref{eq:Irot} the proportionality is explicitated, with $D_{0}$ parameter that depends on number of initial molecules, partition function of the rotational state and quantum rotational numbers for upper and lower state, $S$ is the oscillator strenght specific for the molecule and $E_{r}$ depends from a constant defined by the vibrational state and from quantum rotational number for upper state \cite{MOON2003249}.
+\begin{equation}
+ \centering
+ I = \left(\frac{2 \pi}{\lambda}\right)^4 D_0 S \exp\left(-\frac{E_r}{k_B T_r}\right)
+ \label{eq:Irot}
+\end{equation}
+
+As explained before, rotational bands have many lines, not all distinguishable with the spectrometer used in this work. An approach to temperature estimation is to simulate spectra with different temperatures and to minimize differences for measured spectrum (\cite{Izarra_2000}).
+In a predetermined range of temperatures spectra with different temperatures are simulated, where each line is a gaussian peak with its width that takes into consideration broadning due to thermal motion, Doppler effect and measure resolution. For each spectrum the mean square difference is evaluated and the temperature associated with the minimum difference is chosen as the one relative to the spectrum. The error is estimated taking an upper and a lower limit where the mean square difference is larger than $5\%$ of the minimum value. An example of the spectrum is shown in figure \ref{fig:Trfit}, while resulting temperatures are shown in figure \ref{fig:Trval}.
+\begin{figure}
+\centering
+  \subfloat[\ce{OH}]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/OHFit_f5t16elio.png}
+  }
+  \hfill
+  \subfloat[\ce{N_2}]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/N2rotFit_elio.png}
+  }
+ \caption{Example of optimal spectrum simulation for \ce{OH} and \ce{N_2} considered species.}
+ \label{fig:Trfit}
+\end{figure}
+
+
+Estimated temperatures are compatible with each other, for each distance and for each pulse setup. It's then possible to evaluate a mean value for the species, that are $T_{r,\ce{OH}} = \SI{352(38)}{\kelvin}$ and $T_{r,\ce{N2}} = \SI{321(41)}{\kelvin}$, compatible with each other, and that, as said before, can be taken as an indicator of kinetic temperature for neutral species, so as temperature of the fluid. Those temperatures are higher then room temperature, but they are compatible with the definition of cold plasma.
+\begin{figure}
+\centering
+  \subfloat[\ce{OH}]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/TrOH2.png}
+  }
+  \hfill
+  \subfloat[\ce{N2}]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/TrN2_2.png}
+  }
+ \caption{Estimation of rotational temperature of \ce{OH} and \ce{N2} molecules, for different parameters setup and positions.}
+ \label{fig:Trval}
+\end{figure}
+
+\subsubsection{Vibrational temperature for \ce{N_2}}
+Given a set of vibrational transition lines with defined $\Delta \nu = \nu' - \nu''$, their relative intensities are correlated to each other, with a proportionality that involves vibrational temperature \cite{Britun_2007}.
+With peak intensities estimated for a given transition can be made the Boltzmann graph shown in figure \ref{fig:TvN2} (a), for each experimental condition. From the Boltzmann graphs $T_v$ can be evaluated as in formula \ref{eq:Tv}.
+\begin{equation}
+ \begin{split}
+  & log(I(\nu') = S \nu'' + I_0 \\
+  & T_v [K] = \frac{10^4}{3.57 \cdot S - 0.03}
+ \end{split}
+\label{eq:Tv}
+\end{equation}
+
+Results are in figure \ref{fig:TvN2}. For this parameter values are compatible with each other at low and medium power pulse settings with a mean value of $T_v = \SI{3405(154)}{\kelvin}$, while a lower temperature is found for high power pulse settings $T_v = \SI{2781(322)}{\kelvin}$. It seems that whith an higher pulse repetition rate there is lower concentration of excited \ce{N_2}, produced with lower energy.
+\begin{figure}
+\centering
+  \subfloat[Boltzmann graph for discharge with $f = \SI{5}{\kilo\hertz}$, $\Delta t = \SI{16}{\micro\second}$]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/boltzman_f5t16v_2.png}
+  }
+  \hfill
+  \subfloat[vibrational temperature of \ce{N2}]{
+    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/TvN2_2.png}
+  }
+  \caption{(a) Boltzmann graph made from \ce{N_2} vibrational transition intensities for helium discharge with $f = \SI{5}{\kilo\hertz}$ and $V_p = \SI{6.0}{\kilo\volt}$, in position 1; (b) vibrational temperatures of \ce{N2} molecule for different pulse paramters settings and emission measured from position 1 and 2.}
+  \label{fig:TvN2}
+\end{figure}
+
+
+\section{Line intensity analysis}
+The second phase of this study is dedicated to measurements of plasma emission intensiy at different positions along the plasma plume and with different gas composition.
+
+For this study are used a portable mini spectrometer and source prototype \textbf{B}, with an experimental setup similar to the one in chapter \ref{ch:shape}. 
+
+\subsection{Experimental setup}
+In figure \ref{fig:app2} can be seen the source and the lens focalized where plasma forms, mounted on a support with variable height. The source mounts the glass nozzle used in chapter \ref{ch:shape}, allowing to observe emission also inside it. A conductive target is placed at \SI{10}{\milli\meter} from nozzle end.
 \begin{figure}
 \centering
 \includegraphics[width=.7\textwidth]{Images/Spectroscopy/app2_lines.png}
-\caption{Setup of the esperiment for intensity measurements: we can see spectrometer's lens on the left, the source and the metal target.}
+\caption{Picture of the experimental setup for intensity measurements. Spectrometer's lens on the left is focalized on the plasma plume, mounted on a support with variable height.}
 \label{fig:app2}
 \end{figure}
 
-We utilize a mini-spectrometer \emph{Hamamatsu C10082CAH}, with resolution of \SI{1}{\nano\meter}, spectral range from \SI{200}{\nano\meter} to \SI{800}{\nano\meter} and a CCD sensor \emph{S10420-1106} with \num{2048} pixels. We find the efficiency of the spectrometer for different wavelenghts with measurements of emission from a lamp with known emission spectrum.
+It is used a mini spectrometer \emph{Hamamatsu C10082CAH}, with resolution of \SI{1}{\nano\meter}, spectral range from \SI{150}{\nano\meter} to \SI{850}{\nano\meter} and a CCD sensor \emph{S10420-1106} with \num{2048} pixels. The efficiency of the spectrometer for different wavelengths is evaluated with measurements of emission from a lamp with known emission spectrum. With this calibration is possible to convert the number of counts in the number of photons emitted by plasma for each wavelength.
 
-To produce plasma we use three different gasses: helium with a flow of \SI{2}{\liter/\minute}, neon with gas flow \SI{2.5}{\liter/\minute} and argon with flow \SI{2}{\liter/\minute}.
+Helium, neon or argon are used to produce plasma, spectra from those three gasses is shown in figure \ref{fig:specs}. Given the low resolution of this spectrometer, it is not possible to identify all the peaks that are observed. Each spectrum presents the same emission lines and, in addition, lines relative to the element used to start the discharge. It is possible to identify four wavelength ranges relative to four elements:
+\begin{itemize}
+ \item \ce{N_2} lines from \num{320} to \SI{480}{\nano\meter}: one singlet and several doublets relative to the SPS described before in this chapter; 
+ \item one \ce{He} line at \SI{706.6}{\nano\meter}, observed only for helium plasma;
+ \item \ce{Ne} lines from \num{410} to \SI{780}{\nano\meter}, several lines observed only for neon plasma with intensity generally higher than \ce{N_2} lines;
+ \item \ce{Ar} lines from \num{660} to \SI{850}{\nano\meter}, several lines observed only for argon plasma.
+\end{itemize}
+\begin{figure}[h]
+ \centering
+ \subfloat[Spectrum with helium gas.]{
+    \includegraphics[width=0.65\textwidth]{Images/Spectroscopy/B_elio_sp.png}
+  }
+  
+  \subfloat[Spectrum with neon gas.]{
+    \includegraphics[width=0.65\textwidth]{Images/Spectroscopy/B_neon_sp.png}
+  }
+  
+  \subfloat[Spectrum with argon gas.]{
+    \includegraphics[width=0.65\textwidth]{Images/Spectroscopy/B_argon_sp.png}
+  }
+  \caption{Plasma emission spectrum measured at the end of the nozzle, with different gasses used to start the discharge.}
+  \label{fig:specs}
+\end{figure}
 
-The experimental setup allows to measure plasma emission at different heights along the nozzle axis, we evaluate intensity in four different positions:
+
+Emission for different elements is evaluated selecting, for each element, some of the higher peaks in all spectra between those observed:
+\begin{itemize}
+ %\item UVB lines : doublet centered at \SI{293.2}{\nano\meter} and \SI{295.5}{\nano\meter} that could be emitted by \ce{NO} molecules, but we can not be sure due to spectrometer's low resolution;
+ \item \ce{N_2} : three lines centered at \SI{353.6}{\nano\meter} (transition $(1-2)$), \SI{380.5}{\nano\meter} (transition $(0-2)$) and \SI{405.9}{\nano\meter} (transition $(0-3)$);
+ \item \ce{He} : one line at \SI{706.6}{\nano\meter};
+ \item \ce{Ne} : one doublet at \SI{638.3}{\nano\meter} and \SI{640.6}{\nano\meter}, a single line at \SI{703.5}{\nano\meter} and a single line at \SI{725.5}{\nano\meter};
+ \item \ce{Ar} : three different lines at \SI{696.5}{\nano\meter}, \SI{763.5}{\nano\meter} and \SI{811.5}{\nano\meter}.
+\end{itemize}
+
+
+\subsection{Position}
+The experimental setup allows to measure plasma emission at different heights along the nozzle axis, emission intensity evaluated in four different positions:
 \begin{itemize}
  \item \SI{-5}{\milli\meter}, inside the nozzle
  \item \SI{0}{\milli\meter}, at the end of the nozzle
@@ -257,21 +377,11 @@ The experimental setup allows to measure plasma emission at different heights al
  \item \SI{10}{\milli\meter}, right before target position
 \end{itemize}
 
-We consider the total emission for the entire spectral range \num{200}-\SI{800}{\nano\meter} and the relative emission for some selected lines, different for the different gasses:
-\begin{itemize}
- %\item UVB lines : doublet centered at \SI{293.2}{\nano\meter} and \SI{295.5}{\nano\meter} that could be emitted by \ce{NO} molecules, but we can not be sure due to spectrometer's low resolution;
- \item \ce{N_2} : three lines centered at \SI{364.2}{\nano\meter} (transition $(1-0)$), \SI{383.0}{\nano\meter} (transition $(0-0)$) and \SI{403.9}{\nano\meter} (transition $(2-4)$);
- \item \ce{He} : one line at \SI{446.2}{\nano\meter};
- \item \ce{Ne} : one doublet at \SI{628.8}{\nano\meter} and \SI{630.6}{\nano\meter}, one doublet at \SI{639.2}{\nano\meter} and \SI{641.0}{\nano\meter} and a single line at \SI{683.1}{\nano\meter};
- \item \ce{Ar} : three different lines at \SI{722.9}{\nano\meter}, \SI{734.0}{\nano\meter} and \SI{772.6}{\nano\meter}.
-\end{itemize}
-
-
-Results are in figure \ref{fig:Irel_pos}. We normalize total intensities to compare emissivity variation for different positions, while relative intensities are divided for the respective total intensity and multiplied for spectrometer efficiency for considered wavelenght.
-When we use helium to start plasma, emission is lower inside the nozzle, increase at the exit and decreases slightly moving towards the target. For other gasses emission decreases increasing distance from the source.
+Results are in figure \ref{fig:Irel_pos}. Total intensities are normalized to compare emissivity variation for different positions, while relative intensities are divided for the respective total intensity.
+With helium emission is lower inside the nozzle, increase at the exit and decreases slightly moving towards the target. For other gasses emission decreases increasing distance from the source.
 For every gas, emission from \ce{N_2} increases until it reaches a constant value.
 Lines from specific gasses decreases distant from the nozzle, with slope different for different gasses.
-It's intersting to note how neon emission decreases linearly, while \ce{N_2} emission increases and it's an effect that we can see visually: going from the nozzle to the target plasma color goes to red (neon emission) to violet (nitrogen emission).
+It's intersting to note how neon emission decreases linearly, while \ce{N_2} emission increases and it's an effect that is observed visually on the plume: going from the nozzle to the target, plasma colour goes to red (neon emission) to violet (nitrogen emission).
 \begin{figure}
 \centering
   \subfloat[Total emission intensity.]{
@@ -289,19 +399,24 @@ It's intersting to note how neon emission decreases linearly, while \ce{N_2} emi
   \subfloat[\ce{He} lines, \ce{Ne} lines, \ce{Ar} lines.]{
     \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/Irel_gas_pos2.png}
   }
-\caption{Behavior of total intensities (a) and relative intensities for selected portions of the spectrum (b-c-d), changing spectrometer's line of sight, with different starting gas. At \SI{0}{\milli\meter} the lens points at the end of the nozzle, at \SI{10}{\milli\meter} at a metal target. Relative intensities in (d) are for lines corresponding to the element that we use as starting gas. Relative intensities take into consideration spectrometer's efficiency and total emission for every position.}
+\caption{Axial profile of total intensities (a) and relative intensities for selected portions of the spectrum (b-c), with different starting gas. At \SI{0}{\milli\meter} the lens points at the end of the nozzle, at \SI{10}{\milli\meter} at a metal target. Relative intensities in (c) are for lines corresponding to the element that used as starting gas. Relative intensities take into consideration spectrometer's efficiency and total emission for each position.}
  \label{fig:Irel_pos}
 \end{figure}
 
-As we could expect we see that inside the nozzle the emission depends from the gas we use to start the plasma, going outside emission due to nitrogen species becames dominant in the discharge.
+It can be concluded that inside the nozzle the emission depends from the gas used to start the plasma, going outside the emission due to nitrogen species becames dominant in the discharge.
+
 
 \subsection{Gas composition}
-We use helium as starting gas, mixed with argon or nitrogen using specific flowmeters, that allows to add up to \SI{0.2}{\liter/\minute}, with resolution of \SI{0.01}{\liter/\minute}.
-If we set the helium flow to \SI{2}{\liter/\minute}, we can have gas mixtures where argon and nitrogen have a maximum percentage of $\num{10}\%$.
+Relative intensity for selected lines is analyzed for different gas composition. Helium is mixed with argon or nitrogen using specific flowmeters, that allow to add up to \SI{0.2}{\liter/\minute}, with resolution of \SI{0.01}{\liter/\minute}.
+With an helium flow to \SI{2}{\liter/\minute} is possible to have gas mixtures where argon and nitrogen have a maximum percentage of $\num{10}\%$.
 
-We point the spectrometer at the end of the nozzle and collect spectra for three different gas concentrations, finding the intensities in figure \ref{fig:Irel_flow}.
-When we add nitrogen to the gas, total emission intensity lowers, while nitrogen emission doesn't change as expected. We have this result because we are increasing very slightly nitrogen concentration respect to the quantity naturally present in air, it means that at the end of the nozzle we alredy see all possible nitrogen emission due to molecules naturally present in air.
-When we add argon, the total emission increases, while relative emission from elements other than argon decreases slightly, as we expect if we add he argon lines to the total sum. It means that the only variation when we add argon is that we see the emission relative to this element, the emission relative to other elements stays unchanged.
+The spectrometer is pointed at the end of the nozzle and collects spectra for three different gas concentrations, measuring intensities shown in figure \ref{fig:Irel_flow}.
+
+When nitrogen is added to the gas, total emission intensity lowers, while nitrogen emission does not change. It is possible that the increase in nitrogen concentration is too low if compared to the quantity naturally present in air and consequently there is not a significative increase of nitrogen emission at the end of the nozzle.
+In this position the gas is a mix between the gas used to start the discharge and air, where nitrogen is approximately the $70\%$ of air. The percentage of gas in air is a function of the gas flow, for example it is possible to hypotize that at the end of the nozzle the percentage of discharge gas and air is equal. With a gas flow of pure helium, nitrogen would be the $35\%$ of the total gas density. If the helium flow is substituted with $10\%$ of nitrogen and $90\%$ helium, as in the experiment condition, nitrogen would be the $40\%$ of total gas density. If the relative emission of nitrogen is proportional to the fraction of nitrogen in the gas, the increase in the emission would be a value around $5\%$, an increment that could be not resolvable with the apparatus used in this experiment. Further measurements of nitrogen emission could verify this hypothesis and, in that case, they could be used to estimate nitrogen percentage for different positions inside the nozzle. 
+
+
+When argon is added to helium, total emission intensity increases, while relative emission from elements other than argon decreases slightly. It means that the only variation when there is a percentage of argon is that the emission relative to this element adds t othe emission of helium and the emission relative to other elements stays unchanged.
 \begin{figure}
 \centering
   \subfloat[Total emission intensity.]{
@@ -323,87 +438,10 @@ When we add argon, the total emission increases, while relative emission from el
   \subfloat[\ce{Ar} line for argon gas mixture]{
     \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/Irel_Ar_flux2.png}
   }
-\caption{Behavior of total intensities (a) and relative intensities for selected portions of the spectrum (b-c-d-e), changing the composition of the gas. A flow of \SI{0.2}{\liter/\minute} corresponds to the $\num{10}\%$ of the total gas flow. Relative intensities take into consideration spectrometer's efficiency and total emission for every gas mixture.}
+\caption{Behaviour of total intensities (a) and relative intensities for selected portions of the spectrum (b-c-d), changing the composition of the gas. A flow of \SI{0.2}{\liter/\minute} corresponds to the $\num{10}\%$ of the total gas flow. Relative intensities take into consideration spectrometer's efficiency and total emission for each gas mixture.}
  \label{fig:Irel_flow}
 \end{figure}
 
-
-\section{Estimation of plasma temperatures}
-From diatomic molecule's spectra it's possible to evaluate some parameters that are indicators of plasma's state: rotational temperatures for \ce{OH} and \ce{N2}, $T_{r}$, and vibrational temperature for \ce{N2}, $T_{v}$.
-These parameters are estimation of the temperature at which thermal energy is comparable to the gap energy between rotational or vibrational state transitions, they can be defined as in equations \ref{eq:temperatures} where $\nu$ is the vibrational quantum number and $I$ is the quantizied moment of inertia of the molecule.
-\begin{equation}
- \centering
- \begin{split}
-  &T_{r} = \frac{\hslash^2}{2 k_{B} I}\\
-  &T_{v} = \frac{h \nu}{k_{B}}
- \end{split}
- \label{eq:temperatures}
-\end{equation}
-
-Rotational temperatures can be considered an estimation of neutral gas kinetic temperature. Vibrational temperature gives an idea of the population of vibrational states, useful to determine chemical reactions inside plasma.
-
-\subsection{Rotational temperature for \ce{OH} and for \ce{N2}}
-In rotational bands the intensity of a transition for a specific wavelength is proportional to the number density popolation of upper state (equation \ref{eq:emission}), that, considering a Maxwell-Boltzmann distribution, is proportional to the temperature of the species. In equation \ref{eq:Irot} the proportionality is explicitated, with $D_{0}$ parameter that depends on number of initial molecules, partition function of the rotational state and quantum rotational numbers for upper and lower state, $S$ is the oscillator strenght specific for the molecule and $E_{r}$ depends from a constant defined by the vibrational state and from quantum rotational number for upper state (\cite{MOON2003249}).
-\begin{equation}
- \centering
- I = \left(\frac{2 \pi}{\lambda}\right)^4 D_0 S \exp\left(-\frac{E_r}{k_B T_r}\right)
- \label{eq:Irot}
-\end{equation}
-
-As explained before, rotational bands have many lines, not distinguishable with our spectrometer, an approach to temperature estimation is to simulate spectra with different temperatures and to minimize differences for measured spectrum (\cite{Izarra_2000}).
-In a predetermined range of temperatures we simulate different spectra with different temperatures, where each line is a gaussian peak with its width that takes into consideration broadning due to thermal motion, Doppler effect and measure resolution. For every spectrum we estimate the mean square difference and select the temperature associated with the minimum differance, while we estimate the error taking an upper and a lower limit where difference is larger by $5\%$ of the minimum value. An example of the spectra is in figure \ref{fig:Trfit}, while resulting temperatures are in figure \ref{fig:Trval}.
-\begin{figure}
-\centering
-  \subfloat[\ce{OH}]{
-    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/OHFit_f5t16elio.png}
-  }
-  \hfill
-  \subfloat[\ce{N_2}]{
-    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/N2rotFit_elio.png}
-  }
- \caption{Example of optimal spectrum simulation for \ce{OH} and \ce{N_2} considered species.}
- \label{fig:Trfit}
-\end{figure}
-
-
-From estimated temperatures we can see that they are compatible with each other, for every distance and for every pulse setup. It's then possible to evaluate a mean value for the species, that are $T_{r,\ce{OH}} = \SI{352(38)}{\kelvin}$ and $T_{r,\ce{N2}} = \SI{321(41)}{\kelvin}$, compatible with each other, and that, as said before, can be taken as an indicator of kinetic temperature for neutral species, so as temperature of the fluid. Those temperatures are a little higher then room temperature, but they are compatible with the definition of cold plasma.
-\begin{figure}
-\centering
-  \subfloat[\ce{OH}]{
-    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/TrOH2.png}
-  }
-  \hfill
-  \subfloat[\ce{N2}]{
-    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/TrN2_2.png}
-  }
- \caption{Estimation of rotational temperature of \ce{OH} and \ce{N2} molecules, for different parameters setup and positions.}
- \label{fig:Trval}
-\end{figure}
-
-\subsection{Vibrational temperature for \ce{N_2}}
-Given a set of vibrational transition lines with defined $\Delta \nu = \nu' - \nu''$, their relative intensities are correlated to each other, with a proporionality that involves vibrational temperature (\cite{Britun_2007}).
-With peak intensities estimated for a given transition, we can made the Boltzmann graph as in figure \ref{fig:boltzex} and evaluate $T_v$ as in formula \ref{eq:Tv}.
-\begin{equation}
- \begin{split}
-  & log(I(\nu') = S \nu'' + I_0 \\
-  & T_v [K] = \frac{10^4}{3.57 \cdot S - 0.03}
- \end{split}
-\label{eq:Tv}
-\end{equation}
-
-Results are in figure \ref{fig:TvN2}. For this parameter we have values compatible with each other at low and medium power pulse settings with a mean value of $T_v = \SI{3405(154)}{\kelvin}$, while we find a lower temperature for high power pulse settings $T_v = \SI{2781(322)}{\kelvin}$. It seems that whith an higher pulse repetition rate we have lower concentration of excited \ce{N_2}, produced with lower energy.
-\begin{figure}
-\centering
-  \subfloat[Boltzmann graph for discharge with $f = \SI{5}{\kilo\hertz}$, $\Delta t = \SI{16}{\micro\second}$]{
-    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/boltzman_f5t16v_2.png}
-  }
-  \hfill
-  \subfloat[vibrational temperature of \ce{N2}]{
-    \includegraphics[width=0.48\textwidth]{Images/Spectroscopy/TvN2_2.png}
-  }
-  \caption{Example of boltzmann graph for estimation of vibrational temperature (a), for discharge with $f = \SI{5}{\kilo\hertz}$, $\Delta t = \SI{16}{\micro\second}$, lens in position 1 and ibrational temperatures of \ce{N2} molecule (b), for different pulse paramters settings, emission measured from position 1 and 2.}
-  \label{fig:TvN2}
-\end{figure}
 
 \begin{comment}
 La determinazione delle specie reattive prodotte dal plasma a pressione atmosferica può essere effettuata tramite misure spettrometriche della sorgente in funzione su un bersaglio.

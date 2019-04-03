@@ -71,7 +71,6 @@
     \verb{doi}
     \verb 10.1088/1367-2630/11/11/115012
     \endverb
-    \field{isbn}{1367-2630}
     \field{title}{Plasma medicine: An introductory review}
     \field{volume}{11}
     \field{journaltitle}{New Journal of Physics}
@@ -710,9 +709,6 @@
     \strng{fullhash}{EAVCJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb https://doi.org/10.1016/S0065-2539(08)60495-3
-    \endverb
     \field{issn}{0065-2539}
     \field{pages}{99 \bibrangedash  146}
     \field{series}{Advances in Electronics and Electron Physics}
@@ -919,9 +915,6 @@
     \strng{fullhash}{BLBH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb https://doi.org/10.1016/j.tsf.2010.07.044
-    \endverb
     \field{issn}{0040-6090}
     \field{number}{23}
     \field{title}{Cold atmospheric plasma: Sources, processes, and
@@ -1442,9 +1435,6 @@
     \field{pages}{045008}
     \field{title}{Analysis of conductive target influence in plasma jet
   experiments through helium metastable and electric field measurements}
-    \verb{url}
-    \verb https://doi.org/10.1088%2F1361-6595%2Faa5b15
-    \endverb
     \field{volume}{26}
     \field{journaltitle}{Plasma Sources Science and Technology}
     \field{year}{2017}
@@ -1510,14 +1500,7 @@
     \field{number}{C4}
     \field{pages}{C4\bibrangedash 47\bibrangedash C4\bibrangedash 66}
     \field{title}{{Dielectric-Barrier Discharges. Principle and Applications}}
-    \verb{url}
-    \verb https://hal.archives-ouvertes.fr/jpa-00255561
-    \endverb
     \field{volume}{07}
-    \verb{file}
-    \verb https://hal.archives-ouvertes.fr/jpa-00255561/file/ajp-jp4199707C405.
-    \verb pdf
-    \endverb
     \field{journaltitle}{{Journal de Physique IV Colloque}}
     \field{year}{1997}
   \endentry
@@ -1587,9 +1570,6 @@
     \field{issue}{6}
     \field{pages}{876\bibrangedash 922}
     \field{title}{A General Theory of the Plasma of an Arc}
-    \verb{url}
-    \verb https://link.aps.org/doi/10.1103/PhysRev.34.876
-    \endverb
     \field{volume}{34}
     \field{journaltitle}{Phys. Rev.}
     \field{year}{1929}
@@ -1619,9 +1599,6 @@
     \field{labeltitlesource}{title}
     \field{isbn}{9780471005773}
     \field{title}{Principles of Plasma Discharges and Materials Processing}
-    \verb{url}
-    \verb https://books.google.it/books?id=-cloQgAACAAJ
-    \endverb
     \field{year}{1994}
   \endentry
 
@@ -1661,15 +1638,9 @@
     \verb{doi}
     \verb 10.1002/ppap.200731208
     \endverb
-    \verb{eprint}
-    \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/ppap.200731208
-    \endverb
     \field{number}{S1}
     \field{pages}{S465\bibrangedash S469}
     \field{title}{Low Temperature Plasma Treatment of Living Human Cells}
-    \verb{url}
-    \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/ppap.200731208
-    \endverb
     \field{volume}{4}
     \field{journaltitle}{Plasma Processes and Polymers}
     \field{year}{2007}
@@ -1715,9 +1686,6 @@
     \field{number}{5}
     \field{pages}{055207}
     \field{title}{Experimental investigations of plasma bullets}
-    \verb{url}
-    \verb https://doi.org/10.1088%2F0022-3727%2F42%2F5%2F055207
-    \endverb
     \field{volume}{42}
     \field{journaltitle}{Journal of Physics D: Applied Physics}
     \field{year}{2009}
@@ -1851,9 +1819,6 @@
     \field{pages}{034011}
     \field{title}{Self-consistent two-dimensional modeling of cold
   atmospheric-pressure plasma jets/bullets}
-    \verb{url}
-    \verb https://doi.org/10.1088%2F0963-0252%2F21%2F3%2F034011
-    \endverb
     \field{volume}{21}
     \field{journaltitle}{Plasma Sources Science and Technology}
     \field{year}{2012}
@@ -1898,12 +1863,16 @@
   \endentry
 
   \entry{flea}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Flea camera datasheet}
     \verb{url}
     \verb https://www.ptgrey.com/Content/Images/uploaded/Flea.pdf
     \endverb
   \endentry
 
   \entry{pgm}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{How to read a pgm file}
     \verb{url}
     \verb http://netpbm.sourceforge.net/doc/pgm.html
     \endverb
@@ -1945,9 +1914,6 @@
     \field{title}{Formation and dynamics of plasma bullets in a non-thermal
   plasma jet: influence of the high-voltage parameters on the plume
   characteristics}
-    \verb{url}
-    \verb https://doi.org/10.1088%2F0963-0252%2F19%2F6%2F065005
-    \endverb
     \field{volume}{19}
     \field{journaltitle}{Plasma Sources Science and Technology}
     \field{year}{2010}
@@ -2033,9 +1999,6 @@
     \field{pages}{083513}
     \field{title}{Influence of the gas-flow Reynolds number on a plasma column
   in a glass tube}
-    \verb{url}
-    \verb https://doi.org/10.1063/1.4819246
-    \endverb
     \field{volume}{20}
     \field{journaltitle}{Physics of Plasmas}
     \field{year}{2013}
@@ -2456,9 +2419,6 @@
     \field{pages}{207\bibrangedash 220}
     \field{title}{Kinetic scheme of the non-equilibrium discharge in
   nitrogen-oxygen mixtures}
-    \verb{url}
-    \verb https://doi.org/10.1088%2F0963-0252%2F1%2F3%2F011
-    \endverb
     \field{volume}{1}
     \field{journaltitle}{Plasma Sources Science and Technology}
     \field{year}{1992}
@@ -2481,9 +2441,6 @@
     \strng{fullhash}{GLE1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb https://doi.org/10.1016/B978-155860700-2.50003-3
-    \endverb
     \field{isbn}{978-1-55860-700-2}
     \field{title}{Practical IDL Programming}
     \list{location}{1}{%
@@ -2566,17 +2523,11 @@
     \strng{fullhash}{SHVBHHFD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb https://doi.org/10.1016/0009-2614(79)80124-4
-    \endverb
     \field{issn}{0009-2614}
     \field{number}{1}
     \field{pages}{55 \bibrangedash  60}
     \field{title}{Absolute emission cross sections for the calibration of
   optical detection systems in the 120–250 nm range}
-    \verb{url}
-    \verb http://www.sciencedirect.com/science/article/pii/0009261479801244
-    \endverb
     \field{volume}{65}
     \field{journaltitle}{Chemical Physics Letters}
     \field{year}{1979}
@@ -2600,15 +2551,9 @@
     \verb{doi}
     \verb 10.1142/S0129183100000857
     \endverb
-    \verb{eprint}
-    \verb https://doi.org/10.1142/S0129183100000857
-    \endverb
     \field{number}{05}
     \field{pages}{987\bibrangedash 998}
     \field{title}{COMPUTER SIMULATION OF THE UV OH BAND SPECTRUM}
-    \verb{url}
-    \verb https://doi.org/10.1142/S0129183100000857
-    \endverb
     \field{volume}{11}
     \field{journaltitle}{International Journal of Modern Physics C}
     \field{year}{2000}
@@ -2636,16 +2581,10 @@
     \verb{doi}
     \verb 10.1119/1.4722793
     \endverb
-    \verb{eprint}
-    \verb https://doi.org/10.1119/1.4722793
-    \endverb
     \field{number}{8}
     \field{pages}{664\bibrangedash 669}
     \field{title}{Vibrational spectra of N2: An advanced undergraduate
   laboratory in atomic and molecular spectroscopy}
-    \verb{url}
-    \verb https://doi.org/10.1119/1.4722793
-    \endverb
     \field{volume}{80}
     \field{journaltitle}{American Journal of Physics}
     \field{year}{2012}
@@ -2704,9 +2643,6 @@
     \field{pages}{1022\bibrangedash 1029}
     \field{title}{Determination of the vibrational, rotational and electron
   temperatures in N2and Ar{\textendash}N2rf discharge}
-    \verb{url}
-    \verb https://doi.org/10.1088%2F0022-3727%2F40%2F4%2F016
-    \endverb
     \field{volume}{40}
     \field{journaltitle}{Journal of Physics D: Applied Physics}
     \field{year}{2007}
@@ -2739,9 +2675,14 @@
     \strng{namehash}{KA+1}
     \strng{fullhash}{KAYRJa1}
     \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
     \field{howpublished}{{NIST Atomic Spectra Database (ver. 5.6.1), [Online].
   Available: {\tt{https://physics.nist.gov/asd}} [2019, February 10]. National
   Institute of Standards and Technology, Gaithersburg, MD.}}
+    \field{title}{NIST Atomic Spectra Database}
+    \verb{url}
+    \verb https://physics.nist.gov/asd
+    \endverb
     \field{year}{2018}
   \endentry
 
@@ -2766,18 +2707,12 @@
     \strng{fullhash}{MSYCW1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb https://doi.org/10.1016/S0584-8547(02)00259-8
-    \endverb
     \field{issn}{0584-8547}
     \field{note}{INTERSIBGEOCHEM 01}
     \field{number}{2}
     \field{pages}{249 \bibrangedash  257}
     \field{title}{A comparative study of rotational temperatures using diatomic
   OH, O2 and N2+ molecular spectra emitted from atmospheric plasmas}
-    \verb{url}
-    \verb http://www.sciencedirect.com/science/article/pii/S0584854702002598
-    \endverb
     \field{volume}{58}
     \field{journaltitle}{Spectrochimica Acta Part B: Atomic Spectroscopy}
     \field{year}{2003}
@@ -2807,13 +2742,40 @@
     \field{number}{14}
     \field{pages}{1697\bibrangedash 1704}
     \field{title}{UV OH spectrum used as a molecular pyrometer}
-    \verb{url}
-    \verb https://doi.org/10.1088%2F0022-3727%2F33%2F14%2F309
-    \endverb
     \field{volume}{33}
     \field{journaltitle}{Journal of Physics D: Applied Physics}
     \field{year}{2000}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{ShitTemp}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SGC}{%
+         family={Shit},
+         familyi={S\bibinitperiod},
+         given={Gopal\bibnamedelima Chandra},
+         giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bera},
+         familyi={B\bibinitperiod},
+         given={Amal},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SGCBA1}
+    \strng{fullhash}{SGCBA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s40819-015-0120-0
+    \endverb
+    \field{title}{Temperature Response in a Living Tissue with Different
+  Heating Source at the Skin Surface Under Relaxation Time}
+    \field{journaltitle}{International Journal of Applied and Computational
+  Mathematics}
+    \field{month}{12}
+    \field{year}{2015}
   \endentry
 
   \entry{biotissues}{article}{}
@@ -2887,6 +2849,8 @@
   \endentry
 
   \entry{flircamera}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Flir thermal camera datasheet}
     \verb{url}
     \verb https://www.flir.com/globalassets/imported-assets/document/rnd_011_us
     \verb .pdf
@@ -2908,6 +2872,10 @@
     \field{labeltitlesource}{title}
     \field{title}{Investigation of the parameters of a particle beam by
   numerical models and diagnostic calorimetry}
+    \list{institution}{1}{%
+      {Università degli Studi di Padova}%
+    }
+    \field{type}{phdthesis}
     \field{year}{2018}
   \endentry
 \enddatalist

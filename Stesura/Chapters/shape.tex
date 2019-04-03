@@ -1,6 +1,6 @@
 \chapter{Plasma dynamics}
 \label{ch:shape}
-PCC expels a column shaped plasma plume that emits radiation in a visible range, with different colours and intensity for different gas composition, gas flow and intensity of electric field. In figure \ref{fig:pl_picture} there are pictures of plasma plume with different gas used to start the discharge.
+PCC expels a column shaped plasma plume that emits radiation in a visible range, with different colour and intensity for different gas composition, gas flow and intensity of electric field. In figure \ref{fig:pl_picture} there are pictures of plasma plume with different gas used to start the discharge.
 
 Recent studies shows that what is expelled is not a continuos flow, but the plume is formed by compact collections of emitting particles called \emph{bullets}. Those bullets forms in coincidence of voltage pulses and propagates in air with velocities from \num{10} to over \SI{150}{\kilo\meter/\second} (\cite{Mericam_Bourdet_2009}, \cite{doi:10.1002/ppap.200900078}).
 
@@ -26,7 +26,7 @@ Plasma bullets still needs to be studied in depth, at today are known the basic 
 
 The scope of this experiment is to observe plasma bullets produced by our source, their shape and their velocity and how they change with different discharge conditions.
 
-Given their typical velocities and the temperature of the plasma, bullet propagation is tought to be related to a travelling ionization front. This propagation can be studied with simplified simulation of DBD discharges, where it's reproduced the behaviour of plasma bullets (\cite{doi:10.1063/1.4963115}, \cite{Breden_2012}) or the interaction between plasma and a target (\cite{doi:10.1063/1.4923345}). Possible explanation for bullet propagation are analyzed at the end of this chapter, with estimation of electron temperature and mobility that give better insight on the phenomenology.
+Given their typical velocities and the temperature of the plasma, bullet propagation is tought to be related to a travelling ionization front. This propagation can be studied with simplified simulation of DBD discharges, where it's reproduced the behaviour of plasma bullets (\cite{doi:10.1063/1.4963115}, \cite{Breden_2012}) or the interaction between plasma and a target (\cite{doi:10.1063/1.4923345}). Possible explanations for bullet propagation are analyzed at the end of this chapter, with estimates of electron temperature and electron mobility that give better insight on the phenomenology.
 %We present a simple 1D model that can reproduce the propagation of this ionization front.
 
 \section{Experimental setup}
@@ -34,7 +34,7 @@ To visually observe dynamics of plasma formation and propagation with enough res
 
 To guarantee synchrony between plasma discharge and frame acquisition it is necessary to consider instruments and plasma source specific delays and give appropriate triggers.
 
-Experimental setup is shown in photo \ref{fig:fotosetup} and a scheme is presented in \ref{fig:schemashape}. In the scheme there are the voltage signal lines that trigger the discharge and the acquisition, the optical acquisition apparatus pointed at source exit and the measurements acquisition instruments that are a computer and an oscilloscope. 
+Experimental setup is shown in figure \ref{fig:fotosetup} and a scheme is presented in \ref{fig:schemashape}. In the scheme there are the voltage signal lines that trigger the discharge and the acquisition, the optical acquisition apparatus pointed at source exit and the measurements acquisition instruments that are a computer and an oscilloscope. 
 \begin{figure}
  \centering
  \includegraphics[width=0.8\textwidth]{Images/Shape/app_pic.png}
@@ -48,7 +48,6 @@ Experimental setup is shown in photo \ref{fig:fotosetup} and a scheme is present
  \label{fig:schemashape}
 \end{figure}
 
-\subsection{Source and optical setup}
 Optical apparatus is composed by a lens %specific
  coupled with a Micro Channel Plate image intensifier (MCP). An MCP works as in figure \ref{fig:MCP}: for every photon received it emits many photons with little angular deviation.
 \begin{figure}
@@ -58,23 +57,24 @@ Optical apparatus is composed by a lens %specific
  \label{fig:MCP}
 \end{figure}
 
-Those photons are received by an high-speed camera \emph{Point Grey Flea} (\cite{flea}) equipped with a CCD of $\num{1024} \times \num{768}$ square pixels $\SI{4.75}{\micro\meter}$ wide. Every frame is sent to the pc where FLIR software elaborates and saves them in pgm format (\cite{pgm}).
+Those photons are received by an high-speed camera \emph{Point Grey Flea} \cite{flea} equipped with a CCD of $\num{1024} \times \num{768}$ square pixels $\SI{4.75}{\micro\meter}$ wide. Every frame is sent to the pc where FLIR software elaborates and saves them in pgm format \cite{pgm}.
+
 
 \subsection{Source, power lines and electric signals}
-The source utilized is the latest prototype, \textbf{B} in chapter \ref{ch:electric}. It has a voltage pulse peak value between $\num{3}$ and \SI{10}{\kilo\volt}, regulated by the lenght of the trigger signal $\Delta t$ (see chapter \ref{ch:electric}). To synchronyze measures and discharge the trigger signal a generator function gives the trigger signal (generator $2$ in the scheme) instead of the usual controller module of the source.
+The source utilized is the latest prototype, \textbf{B} in chapter \ref{ch:electric}. It has a voltage pulse peak value between $\num{3}$ and \SI{10}{\kilo\volt}, regulated by the lenght of the trigger signal $\Delta t$ (see chapter \ref{ch:electric}). To synchronyze measurements and discharge a generator function gives the trigger signal (generator $2$ in the scheme) instead of the usual controller module of the source.
 
 The source is positioned vertically at a distance of \SI{42.0(1)}{\milli\meter} from optical bench, with the glass nozzle that allows to observe plasma formation inside it (external diameter \SI{8.0(1)}{\milli\meter}, internal diameter \SI{6.0(1)}{\milli\meter}). The distance from the end of the electrode and nozzle exit is \SI{12}{\milli\meter}. At the exit the nozzle shrinks for \SI{3.0(1)}{\milli\meter}, until a diameter of \SI{5.0(1)}{\milli\meter}
 
 Under the source is possible to position targets. Two different targets are used at different heights: a conductive target and an insulating target. The first one is a copper square sheet of dimensions $\SI{10}{\milli\meter} \times \SI{10}{\milli\meter} \times \SI{1}{\milli\meter}$ (used for current measures in chapter \ref{ch:electric}), the second one is a plastic material.
 
-CCD camera is powered by a common voltage supply, while image intensifier MCP is powered by an high voltage supply. A delay generator trigger both instruments, with different delay times (see next section).
+CCD camera is powered by a common voltage supply, while image intensifier MCP is powered by an high voltage supply. A delay generator triggers both instruments, with different delay times (see next section).
 
 The oscilloscope \emph{Yokogawa DL9040}, utilized in chapter \ref{ch:electric}, reads on different channels the trigger signal given to source head, the trigger signal given to MPC, the voltage electrode with high-voltage probe \emph{Tektronix P6015A} and the current intensity when it's used the conductive target. Measurements of current intensity are done by a voltage probe with attenuation $\times \num{10}$ that measures the voltage drop on a resistance of $\SI{1}{\mega\ohm}$ connected to the conductive target.
 
 \subsection{Trigger synchronization}
 Experiment's objective is to observe plasma formation and propagation in synchronization with the measurement of voltage on the electrode, so it's necessary to know precisely discharge and measure times.
 
-The trigger lines is composed with:
+The trigger lines is composed by:
 \begin{itemize}
  \item function generator \emph{Or-x 310}, $1$ in figure, that sends a square pulse with set amplitude and width, with pulse repetition rate $f$;
  \item function generator \emph{Lecroy 9210}, $2$ in figure, that sends a square wave with repetition rate given by the trigger, with constant amplitude and variable width $\Delta t$;
@@ -147,7 +147,7 @@ When argon is the neutral gas used to start the discharge a grounded conductive 
                             &D  &\num{3.5} &Conductor  &\num{20}  &\num{2} &-  &\num{50}\\
   \bottomrule
  \end{tabular}
- \caption{Description of measure setups. In first column there is the gas; second column is the setup name; third column is voltage pulse time width; four and fifth columns are target information, if it's used a target; sixth column is gas flow; seventh column are other informations, e.g. if it's positioned a grounded ring around the nozzle; eight column is the time step between acquisitions.}
+ \caption{Description of measurement setups. In first column there is the gas; second column is the setup name; third column is voltage pulse time width; four and fifth columns are target information, if it's used a target; sixth column is gas flow; seventh column are other informations, e.g. if it's positioned a grounded ring around the nozzle; eight column is the time step between acquisitions.}
  \label{tab:setups}
 \end{table}
 
@@ -201,7 +201,7 @@ With barycenter coordinates it's possible to compute bullet velocity using a fin
 
 
 Frame dimensions are found through a calibration with a known target: at plasma exit is positioned a plate with $4$ holes, diameter of \SI{1.0(1)}{\milli\meter} at the vertices of a square with an edge lenght of \SI{10.0(1)}{\milli\meter}, and illuminated from behind with a torch.
-For the frame of this setup it's possible to extrapolate the pixel distance that corresponds to \SI{10}{\milli\meter} for every square edge, average them, and calculate pixel's width in frames, resulting a value of $d_{pix} = \SI{0.172(2)}{\milli\meter}$.
+From the frame relative to this setup it's possible to extrapolate the pixel distance that corresponds to \SI{10}{\milli\meter} for every square edge, average them, and calculate pixel's width in frames, resulting a value of $d_{pix} = \SI{0.172(2)}{\milli\meter}$.
 
 
 \section{Helium flow}
@@ -211,29 +211,29 @@ It is easy to produce helium plasma, when ionized it emits radiation with princi
 In this work helium plasma is produced with pulse repetition rate $f = \SI{5}{\kilo\hertz}$ and different voltage peak values, as explained in table \ref{tab:setups}.
 Delays are setted to take a single frame during every acquisition, for every measure are acquired $5$ frames.
 
-\subsection{Plasma bullet description}
+\subsection{Bullet description}
 A description of bullet propagation can be given with setup A, for $\Delta t = \SI{3.5}{\micro\second}$, i.e. absence of a target and gas flow of \SI{2}{\liter/\minute}.
 
 It's possible to divide the phenomenon in four phases, as presented in figure \ref{fig:bullet_es}: bullet formation, bullet displacement inside the nozzle, bullet expulsion and bullet propagation outside the nozzle, in air. %It's important to remember that time values goes from the start of the voltage peak, extrapolated from oscilloscope measures.
 When the voltage goes over a definite value, a rapid increase in luminosity is observed around the electrode. From there, in a time of $\sim \SI{50}{\nano\second}$ the plasma modifies it'shape and becames the bullet: a zone with high luminosity confined in space. The bullet then moves in the exit direction and it's expelled always with a well defined front. The round shaped bullet propagation can be seen in air until it reaches a maximum travel distance and then luminosity decreases rapidly. In these measurements conditions plasma forms again in correspondence of the negative tension peak, but it is a rapid process without propagation.
 \begin{figure}
  \centering
- \subfloat[\SI{140.93}{\nano\second}]{
-    \includegraphics[width=0.48\textwidth]{Images/Shape/elio_d035_es1.png}
+ \subfloat[\SI{40}{\nano\second}]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/esframe_eliod035_1.png}
  }
  \hfill
- \subfloat[\SI{240.93}{\nano\second}]{
-    \includegraphics[width=0.48\textwidth]{Images/Shape/elio_d035_es2.png}
+ \subfloat[\SI{220}{\nano\second}]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/esframe_eliod035_2.png}
  }
  
- \subfloat[\SI{400.93}{\nano\second}]{
-    \includegraphics[width=0.48\textwidth]{Images/Shape/elio_d035_es3.png}
+ \subfloat[\SI{280}{\nano\second}]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/esframe_eliod035_3.png}
  }
  \hfill
- \subfloat[\SI{460.93}{\nano\second}]{
-    \includegraphics[width=0.48\textwidth]{Images/Shape/elio_d035_es4.png}
+ \subfloat[\SI{380}{\nano\second}]{
+    \includegraphics[width=0.48\textwidth]{Images/Shape/esframe_eliod035_4.png}
  }
- \caption{Four phases of plasma dynamics: bullet formation (a), bullet displacement inside the nozzle (b), bullet expulsion (c) and bullet propagation outside the nozzle (d). Time intervals are calculated from the start of the voltage peak.}
+ \caption{2D histograms relative to four phases of plasma dynamics: bullet formation (a), bullet displacement inside the nozzle (b), bullet expulsion (c) and bullet propagation outside the nozzle (d). Measurement setup A with voltage peak \SI{6.6}{\kilo\volt}. Time intervals are calculated from the start of the voltage peak.}
  \label{fig:bullet_es}
 \end{figure}
 
@@ -252,7 +252,7 @@ Luminosity is higher during plasma formation around the electrode and it decreas
  \subfloat[Mean intensity of plasma bullet.]{
     \includegraphics[width=0.48\textwidth]{Images/Shape/elio_d035_Im.png}
  }
- \caption{Voltage waveform and intensity of the bullet versus time, measurements setup A with voltage peak of \SI{6.6}{\kilo\volt}. Time zero is the start of the voltage peak, ending time is taken as the time where intensity reaches background value. The dashed line for intensity indicates when the bullet reaches the end of the nozzle.}
+ \caption{Voltage waveform and intensity of the bullet versus time, measurements setup A with voltage peak of \SI{6.6}{\kilo\volt}. Time zero is the start of the voltage peak. The letters on the voltage peak indicate frames shown in figure \ref{fig:bullet_es}. Ending time is taken as the time where intensity reaches background value.}
  \label{fig:elio_d035_I}
 \end{figure}
 
@@ -273,7 +273,7 @@ Coordinate y it's relevant to show bullet direction. From figure it is possible 
     \includegraphics[width=0.48\textwidth]{Images/Shape/elio_d035_yb.png}
  }
  \caption{Barycenter coordinates of the bullet for measurements setup A with voltage peak of \SI{6.6}{\kilo\volt}. Pointed lines indicate the end of the nozzle.}
- \label{fig:elio_d035_I}
+ \label{fig:elio_d035_bary}
 \end{figure}
 
 Baricenter motion in the y direction it's explainable by a tilt in the source, that is not perfectly perpendicular to the optical bench. In figure \ref{fig:elio_d035_diry} there is the countour of the bullet in the y direction in function of the x brycenter coordinate, is possible to see that the figure is inclined. Inside the nozzle y maximum is the value that defines the contour of the nozzle, the angle of inclination is given by a linear fit as in figure and it is \SI{3.39(10)}{\degree}. Outside the nozzle the barycenter direction is inclined at an angle of \SI{3.71(4)}{\degree}. The values are almost compatible with each other, so it seems that tilting the source it is possible to direct the bullet even after its propagation in air.
@@ -281,6 +281,7 @@ Baricenter motion in the y direction it's explainable by a tilt in the source, t
  \centering
  \includegraphics[width=0.6\textwidth]{Images/Shape/elio_d035_incl.png}
  \caption{Countour of the bullet in y direction as a function of barycenter coordinate x, for measurements setup A with voltage peak of \SI{6.6}{\kilo\volt}. For each x value is possible to see y maximum, y minimum and y barycenter of the bullet. There are two linear fits to compare the inclination of the source (first linear fit of y maximum inside the nozzle) with the inclination of bullet propagation direction in air (second linear fit of y barycenter).}
+ \label{fig:elio_d035_diry}
 \end{figure}
 
 
@@ -299,7 +300,7 @@ In y direction there is a constant value of \SI{4.65(20)}{\milli\meter} during p
     \includegraphics[width=0.48\textwidth]{Images/Shape/elio_d035_dy.png}
  }
  \caption{Dimensions of the bullet for measurements setup A with voltage peak of \SI{6.6}{\kilo\volt}. Pointed lines indicate the end of the nozzle.}
- \label{fig:elio_d035_I}
+ \label{fig:elio_d035_dim}
 \end{figure}
 
 
@@ -315,9 +316,9 @@ Velocity for each time can be calculated with a 3 point finite difference formul
  }
  \hfill
  \subfloat[Velocities in x direction.]{
-    \includegraphics[width=0.48\textwidth]{Images/Shape/elio_d035_vx_fitv.png}
+    \includegraphics[width=0.48\textwidth]{Images/Shape/elio_d035_vx.png}
  }
- \caption{Velocity of the bullet in x direction for measurements setup A with voltage peak of \SI{6.6}{\kilo\volt}. In (a) linear fit of barycenter position as function of time inside the nozzle and in air; in (b) velocities evaluated for each time with a three point difference formula, where dashed lines indicate average values inside the nozzle and in air.}
+ \caption{Velocity of the bullet in x direction for measurements setup A with voltage peak of \SI{6.6}{\kilo\volt}. In (a) linear fit of barycenter position as function of time inside the nozzle and in air; in (b) velocities evaluated for each time with a three point difference formula, where lines indicate average values inside the nozzle and in air.}
  \label{fig:elio_d035_vx}
 \end{figure}
 
@@ -358,7 +359,7 @@ As mentioned before, for the lowest voltage value the bullet stops right after i
  \subfloat[x velocity.]{
     \includegraphics[width=0.48\textwidth]{Images/Shape/elio_d_vx.png}
  }
- \caption{Results of the analysis for setup A (helium flow of \SI{2}{\liter/\minute} without target), with different peak voltage values.}
+ \caption{Results of the analysis for setup A with helium (gas flow of \SI{2}{\liter/\minute} without target), with different peak voltage values.}
  \label{fig:elio_d}
 \end{figure}
 
@@ -390,7 +391,7 @@ As mentioned before, for the lowest voltage value the bullet stops right after i
  \num{7.22(36)}  &\num{6.01(30)}    &\num{34.55(5)} &\num{2.07(1)}  &\num{59.80(3)} &\num{149.47(9)}\\
  \bottomrule
  \end{tabular}
- \caption{Result of the analysis for measurements setup A. $V_{p}$ is the voltage peak value, $V_{0}$ is the voltage value at plasma formation time, $x_{\text{dist}}$ and $y_{\text{dist}}$ are the highest distances reached by the bullet from electrode position, $v_{N}$ is the velocity in x direction reached inside the nozzle, $v_{A}$ is the velocity of propagation in air in x direction.}
+ \caption{Result of the analysis for measurements setup A with helium. $V_{p}$ is the voltage peak value, $V_{0}$ is the voltage value at plasma formation time, $x_{\text{dist}}$ and $y_{\text{dist}}$ are the highest distances reached by the bullet from electrode position, $v_{N}$ is the velocity in x direction reached inside the nozzle, $v_{A}$ is the velocity of propagation in air in x direction.}
  \label{tab:elio_d}
 \end{table}
 
@@ -406,7 +407,7 @@ From the barycenter coordinates (figure \ref{fig:elio_flow} (b) - (c)) can be se
 Inside the no Width of the bullet increases with increasing and gas flow (figure \ref{fig:elio_d} (d) - (e)) is an inverse proportionality: For stronger flows we have always littler diameters inside the nozzle, in both directions.
 \end{comment}
 
-The study of bullet's velocity can give more insight to the phenomenology of bullet propagation, it is shown in figure \ref{elio_flow} (e), with higher detail for values inside the nozzle in figure \ref{elio_flow} (f). Bullet's velocity always decreases moving inside the nozzle, until it reaches a certain distance. The deceleration inside the nozzle is more evident with higher flow, expecially when the flow is higher then \SI{3}{\liter/\minute} (as we can see also in \cite{Jarrige_2010}). The distance at which the bullet speeds up is different for different flows as can be seen in table \ref{tab:elio_Re}.
+The study of bullet's velocity can give more insight to the phenomenology of bullet propagation, it is shown in figure \ref{fig:elio_flow} (e), with higher detail for values inside the nozzle in figure \ref{fig:elio_flow} (f). Bullet's velocity always decreases moving inside the nozzle, until it reaches a certain distance. The deceleration inside the nozzle is more evident with higher flow, expecially when the flow is higher then \SI{3}{\liter/\minute} (as we can see also in \cite{Jarrige_2010}). The distance at which the bullet speeds up is different for different flows as can be seen in table \ref{tab:elio_Re}.
 Once the bullet exits from the nozzle, its velocity decreases more rapidly with higher gas flow.
 \begin{figure}
  \centering
@@ -437,7 +438,7 @@ Once the bullet exits from the nozzle, its velocity decreases more rapidly with 
  \subfloat[x velocity inside the nozzle.]{
     \includegraphics[width=0.48\textwidth]{Images/Shape/vnoz_flux_zoom.png}
  }
- \caption{Results of the analysis for setup A, B, C and D: different gas flow, voltage peak value of \SI{5.7}{\kilo\volt}, without target.}
+ \caption{Results of the analysis for setup A, B, C and D in helium: different gas flow, voltage peak value of \SI{5.7}{\kilo\volt}, without target.}
  \label{fig:elio_flow}
 \end{figure}
 
@@ -445,7 +446,7 @@ Once the bullet exits from the nozzle, its velocity decreases more rapidly with 
  \centering
  \begin{tabular}{cccccc}
  \toprule
- Flow [L/min]    &$V_{0}$ [kV]    &$x_{\text{dist}}$ [mm]   &$y_{\text{dist}}$ [mm]   &$v_{N}$ [km/s]   &$v_{A}$ [km/s]\\
+ Q [L/min]    &$V_{0}$ [kV]    &$x_{\text{dist}}$ [mm]   &$y_{\text{dist}}$ [mm]   &$v_{N}$ [km/s]   &$v_{A}$ [km/s]\\
  \midrule
  \num{1}  &\num{5.87(8)}    &\num{30.65(3)} &\num{2.75(1)}  &\num{54.33(10)} &\num{113.97(9)}\\
  \num{2}  &\num{5.71(29)}    &\num{26.08(2)} &\num{1.92(4)}  &\num{46.48(2)} &\num{95.16(6)}\\
@@ -453,8 +454,8 @@ Once the bullet exits from the nozzle, its velocity decreases more rapidly with 
  \num{4}  &\num{5.90(12)}    &\num{22.80(3)} &\num{2.30(1)}  &\num{58.89(14)} &\num{41.94(44)}\\
  \bottomrule
  \end{tabular}
- \caption{Results of the analysis for setup A, B, C and D: different gas flow, voltage peak value of \SI{5.7}{\kilo\volt}, without target. $V_{0}$ is the voltage value at plasma formation time, $x_{\text{dist}}$ and $y_{\text{dist}}$ are the highest distances reached by the bullet from electrode position, $v_{N}$ is the average velocity in x direction inside the nozzle, $v_{A}$ is the average velocity of propagation in air in x direction.}
- \label{tab:elio_d}
+ \caption{Results of the analysis for setup A, B, C and D in helium: different gas flow, voltage peak value of \SI{5.7}{\kilo\volt}, without target. $Q$ is gas flow, $V_{0}$ is the voltage value at plasma formation time, $x_{\text{dist}}$ and $y_{\text{dist}}$ are the highest distances reached by the bullet from electrode position, $v_{N}$ is the average velocity in x direction inside the nozzle, $v_{A}$ is the average velocity of propagation in air in x direction.}
+ \label{tab:elio_flow}
 \end{table}
 
 
@@ -470,17 +471,17 @@ Resulting values are presented in table \ref{tab:elio_Re}, always below critical
   \toprule
   Q [L/min]   &$v_{N,\text{min}}$ [km/s]   &$x_{\text{air}}$ [\si{\milli\meter}]   &Rn\\
   \midrule
-  1    &\num{48.46}    &\num{78.78}     &\num{36.88}\\
-  2    &\num{40.09}    &\num{80.55}     &\num{73.77}\\
-  3    &\num{33.74}    &\num{81.75}     &\num{110.65}\\
-  4    &\num{17.01}    &\num{81.28}     &\num{147.54}\\
+  1    &\num{48.46(10)}    &\num{5.78(2)}     &\num{36.88}\\
+  2    &\num{40.09(12)}    &\num{7.55(2)}     &\num{73.77}\\
+  3    &\num{33.74(12)}    &\num{81.75(4)}     &\num{110.65}\\
+  4    &\num{17.01(16)}    &\num{81.28(4)}     &\num{147.54}\\
   \bottomrule
   \end{tabular}
-  \caption{Bullet propagation parameters inside the nozzle for different neutral gas flow. $v_{N}$ is the lowest velocity reached inside the nozzle; $x_{\text{air}}$ is the position where the bullet increases velocity, tought to be where the bullet meets the air outside the nozzle; Rn is the Reynold number associated to the gas flow.}
+  \caption{Bullet propagation parameters inside the nozzle for different helium gas flow. $Q$ is gas flow, $v_{N}$ is the lowest velocity reached inside the nozzle; $x_{\text{air}}$ is the position where the bullet increases velocity, tought to be where the bullet meets the air outside the nozzle; Rn is the Reynold number associated to the gas flow.}
   \label{tab:elio_Re}
 \end{table}
 
-While the bullet propagates inside the nozzle, at a certain time it meets the air outside, changing the elements that partecipates in ionization reactions from helium to those found in air. The bullet decelerate inside the nozzle and accelerate when it meets air (\cite{Jarrige_2010}).
+While the bullet propagates inside the nozzle, at a certain time it meets the air outside, changing the elements that partecipates in ionization reactions from helium to those found in air. The bullet decelerate inside the nozzle and accelerate when it meets air \cite{Jarrige_2010}.
 The change in bullet velocity when there is an increase in neutral gas velocity could be related to the different transition time and position from helium to air. With an higher flow the bullet travels in a gas of almost only helium for longer time and its velocity decreases more, leading to a different dynamic during propagation in air.
 
 
@@ -532,14 +533,14 @@ The electric field created by the electrode is not expected to change if there i
  \subfloat[Frame showing bullet on target impact.]{
     \includegraphics[width=0.48\textwidth]{Images/Shape/elioisol_frame2.png}
  }
- \caption{Impact of plasma on an insulating target. In (a) picture of the plume, in (b) frame acquisited for setup E, voltage peak \SI{7.2}{\kilo\volt}.}
+ \caption{Impact of plasma on an insulating target with helium gas. In (a) picture of the plume, in (b) frame acquisited for setup E, voltage peak \SI{7.2}{\kilo\volt}.}
  \label{fig:elio_ins}
 \end{figure}
 
 
 Barycenter x coordinate of the bullet and its diameter are presented in figure \ref{fig:elio_c_xb}. While for the lowest tension value the bullet stops before it reaches the target, for the other two sets it clearly stops at the target position. Distance values are comparable with those without target (figure \ref{fig:elio_d}), higher for medium voltage value.
 Bullet width is exactly the same with or without target, it shows differences only when it impacts on the target and shrinks rapidly.
-Displacement velocities inside the nozzle and propagation velocities in air are of the same order of values without target, shown figure \ref{fig:elio_c_vx}. There is higher $v_{A}$ only for medium tension value, where it reaches \SI{118.98(7)}{\kilo\meter/\second}, due to the rapid collision with the target instead of slowing down and stopping.
+%Displacement velocities inside the nozzle and propagation velocities in air are of the same order of values without target, shown figure \ref{fig:elio_c_vx}. There is higher $v_{A}$ only for medium tension value, where it reaches \SI{118.98(7)}{\kilo\meter/\second}, due to the rapid collision with the target instead of slowing down and stopping.
 \begin{figure}
  \centering
  \subfloat[Barycenter position.]{
@@ -549,7 +550,7 @@ Displacement velocities inside the nozzle and propagation velocities in air are 
  \subfloat[Bullet diameter.]{
     \includegraphics[width=0.48\textwidth]{Images/Shape/elio_c_dx.png}
  }
- \caption{Barycenter motion and diameter in x direction for measurements setup E (presence of insulating target) for different voltage peak values.}
+ \caption{Barycenter motion and diameter in x direction for measurements setup E with helium gas (presence of insulating target) for different voltage peak values.}
  \label{fig:elio_c_xb}
 \end{figure}
 
@@ -564,7 +565,7 @@ Once the bullet reaches the target it is possible to see how the glowing region 
  \subfloat[Bullet expansion in time.]{
     \includegraphics[width=0.48\textwidth]{Images/Shape/elio_c_ylim.png}
  }
- \caption{Charge deposition in y direction on an insulating target, for measurements setup E. In (a) there is the absolute value for the diameter for all barycenter positions; in (b) the expansion of y contour after it reaches the target for medium and high voltage peak value. Contour values are calculated as difference with the barycenter y coordinate, linear fits show how much the diameter enlarges in time.}
+ \caption{Plasma propagation in y direction on an insulating target with helium, for measurements setup E. In (a) there is the absolute value for the diameter for all barycenter positions; in (b) the expansion of y contour after it reaches the target for medium and high voltage peak value. Contour values are calculated as difference with the barycenter y coordinate, linear fits show how much the diameter enlarges in time.}
  \label{fig:elio_c_ylim}
 \end{figure}
 
@@ -579,18 +580,18 @@ For measurement setup F a conductive target is positioned at \SI{24}{\milli\mete
 When the bullet impacts on the conductive target can be observed a rapid increase in luminosity on the target and in the space between nozzle and target as shown in figure \ref{fig:elio_met}. In this work it will be referred as ``backstream'' (because it seems to have motion inverse to that of the bullet). Analysis of bullet propagation, impact and evolution on target is treated separately from analysis of backstream, to allow comparision with other measurements setup.
 \begin{figure}
  \centering
- \subfloat[Bullet propagation \SI{371.2}{\nano\second}.]{
-    \includegraphics[width=0.42\textwidth]{Images/Shape/elio_met1.png}
+ \subfloat[Bullet propagation \SI{160}{\nano\second}.]{
+    \includegraphics[width=0.42\textwidth]{Images/Shape/elio_a40_160pic.png}
  }
- \hfill
- \subfloat[Bullet impact \SI{391.2}{\nano\second}.]{
-    \includegraphics[width=0.42\textwidth]{Images/Shape/elio_met2.png}
+ 
+ \subfloat[Bullet impact \SI{200}{\nano\second}.]{
+    \includegraphics[width=0.42\textwidth]{Images/Shape/elio_a40_200pic.png}
  }
- \hfill
- \subfloat[Backstream \SI{411.2}{\nano\second}.]{
-    \includegraphics[width=0.42\textwidth]{Images/Shape/elio_met3.png}
+ 
+ \subfloat[Backstream \SI{260}{\nano\second}.]{
+    \includegraphics[width=0.42\textwidth]{Images/Shape/elio_a40_260pic.png}
  }
- \caption{Example of frames showing impact on a conductive target and consequent backstream, measurements setup F with voltage peak value \SI{7.2}{\kilo\volt}.}
+ \caption{Examples of frames showing impact on a conductive target and consequent backstream, measurements setup F with voltage peak value \SI{7.2}{\kilo\volt}, helium gas.}
  \label{fig:elio_met}
 \end{figure}
 
@@ -606,7 +607,7 @@ Bullet propagation is different if compared to measurements without conductive t
  \subfloat[Bullet luminosity.]{
     \includegraphics[width=0.43\textwidth]{Images/Shape/elio_a_Im.png}
  }
- \caption{Voltage on the elctrode and bullet luminosity for measurements setup F, different peak voltage values. Note the second luminosity peak in correspondence of the negative voltage peak.}
+ \caption{Voltage on the elctrode and bullet luminosity for measurements setup F for helium gas, different peak voltage values. Note the second luminosity peak in correspondence of the negative voltage peak.}
  \label{fig:elio_a_Im}
 \end{figure}
 
@@ -624,7 +625,7 @@ Bullet diameter doesn't shows different behaviour, it stays constant until nozzl
  \subfloat[Velocity.]{
     \includegraphics[width=0.43\textwidth]{Images/Shape/elio_a_vx.png}
  }
- \caption{Bullet barycenter coordinate, diameter and velocity along x direction, for measurement setup F and for different peak voltage values. Can be seen as the bullet reaches the target, it shrinks and stops.}
+ \caption{Bullet barycenter coordinate, diameter and velocity along x direction, for measurement setup F and for different peak voltage values for helium gas. Can be seen as the bullet reaches the target, it shrinks and stops.}
  \label{fig:elio_a_xb}
 \end{figure}
 
@@ -641,7 +642,7 @@ It's also intersting to evaluate the distance of bullet from target when we meas
 \begin{figure}
  \centering
  \includegraphics[width=0.6\textwidth]{Images/Shape/elio_a_icurr.png}
- \caption{Current intensity for measurements setup F, for different voltage peak values.}
+ \caption{Current intensity for measurements setup F with helium, for different voltage peak values. For the measurements set with voltage peak value $V_{p} = \SI{7.2}{\kilo\volt}$ it is possible to see $t_{0,i}$, i.e. the starting time of the current pulse, and $t_{p,i}$, i.e. the time relative to maximum current.}
  \label{fig:elio_a_icurr}
 \end{figure}
 \begin{table}
@@ -655,8 +656,8 @@ It's also intersting to evaluate the distance of bullet from target when we meas
   \num{7.2(4)}  &\num{41.50(62)}    &\num{350.3(150)}   &\num{410.3(150)}   &\num{450.3(150)}   &\num{15.18(2)}\\
   \bottomrule
  \end{tabular}
- \caption{Results of the analysis of current measurements for setup F. $V_{p}$ is the voltage peak for the pulse, $i_{p}$ is the current peak value, $t_{0,i}$ is the starting time for the current pulse, $t_{p,i}$ is the maximum current time, $t_{\text{imp}}$ is the time impact of bullet on target, $x_{\text{target}} - x(t_{0,i})$ is the distance between bullet position when we start to measure current and target position.}
- \label{fig:elio_a_times}
+ \caption{Results of the analysis of current measurements for setup F with helium. $V_{p}$ is the voltage peak for the pulse, $i_{p}$ is the current peak value, $t_{0,i}$ is the starting time for the current pulse, $t_{p,i}$ is the time relative to maximum current, $t_{\text{imp}}$ is the time impact of bullet on target, $x_{\text{target}} - x(t_{0,i})$ is the distance between bullet position when we start to measure current and target position.}
+ \label{tab:elio_a_times}
 \end{table}
 
 Those results could be explained by the presence of ionized particles that does not produce reactions with emission at visible wavelengths. Current would be measured even without seeing the impact of plasma on the target if the bullet has a diameter higher then the one measurable with the camera. This invisible portion of the bullet would have the same behavior of the bullet for different voltage values, i.e. it would increase its velocity with higher voltage. As can be seen from table \ref{tab:elio_a_times} the current peak starts indeed before with higher voltage.
@@ -683,7 +684,7 @@ The phenomenon can be explained as a very rapid charge stream from the target to
  \subfloat[Diameter along y.]{
     \includegraphics[width=0.43\textwidth]{Images/Shape/elio_a_dy_back.png}
  }
- \caption{Backstream analysis for measurements setup F. It's possible to see the decreasing luminosity while the barycenter stays around the nozzle exit and diameter stays constant.}
+ \caption{Backstream analysis for measurements setup F with helium. It's possible to see the decreasing luminosity while the barycenter stays around the nozzle exit and diameter stays constant.}
  \label{fig:elio_a_back}
 \end{figure}
 
@@ -697,6 +698,14 @@ In figure \ref{fig:elio_b_dyn} are presented the results of the analysis. For al
 For higher voltage peak values, it is not possible to see the bullet, as it reaches the target in a sort of large plume right after nozzle exit. The other two sets shows the same behaviour described before, with even higher velocities: for medium voltage velocity inside the nozzle velocity is \SI{59.30(5)}{\kilo\meter/\second}, while maximum velocity in air is \SI{174.44(8)}{\kilo\meter/\second}.
 \begin{figure}
  \centering
+ \subfloat[Voltage measure.]{
+    \includegraphics[width=0.43\textwidth]{Images/Shape/elio_b_V.png}
+ }
+ \hfill
+ \subfloat[Current measure]{
+    \includegraphics[width=0.43\textwidth]{Images/Shape/elio_b_i.png}
+ }
+ 
  \subfloat[Mean luminosity.]{
     \includegraphics[width=0.43\textwidth]{Images/Shape/elio_b_Im.png}
  }
@@ -710,9 +719,9 @@ For higher voltage peak values, it is not possible to see the bullet, as it reac
  }
  \hfill
  \subfloat[Diameter along y.]{
-    \includegraphics[width=0.43\textwidth]{Images/Shape/elio_b_vx.png}
+    \includegraphics[width=0.43\textwidth]{Images/Shape/elio_b_dy.png}
  }
- \caption{Analysis of measurement setup G: conductive target positioned close to the nozzle.}
+ \caption{Analysis of measurement setup G with helium: conductive target positioned close to the nozzle, at \SI{22}{\milli\meter} from the electrode.}
  \label{fig:elio_b_dyn}
 \end{figure}
 
@@ -728,8 +737,8 @@ As done with previous setup, for low and medium voltage it's possible to analyze
   \num{6.6(4)}  &\num{77.41(387)}    &\num{311.2(150)}   &\num{411.2(150)}   &\num{391.2(150)}   &\num{13.61(4)}\\
   \bottomrule
  \end{tabular}
- \caption{Values extrapolated from current measurements and bullet barycenter motion for setup G. $V_{p}$ is the voltage peak for the pulse, $i_{p}$ is the current peak value, $t_{0,i}$ is the starting time for the current value, $t_{p,i}$ is the time of current peak value, $t_{\text{imp}}$ is the time of the impact of bullet on target, $x_{\text{target}} - x(t_{0,i})$ is the distance between bullet position when current peak starts and target position.}
- \label{fig:elio_a_times}
+ \caption{Values extrapolated from current measurements and bullet barycenter motion for setup G with helium. $V_{p}$ is the voltage peak for the pulse, $i_{p}$ is the current peak value, $t_{0,i}$ is the starting time for the current value, $t_{p,i}$ is the time of current peak value, $t_{\text{imp}}$ is the time of the impact of bullet on target, $x_{\text{target}} - x(t_{0,i})$ is the distance between bullet position when current peak starts and target position.}
+ \label{tab:elio_b_times}
 \end{table}
 
 Again current flows in target before the impact of the bullet, when it is distant from the target (parameter $x_{\text{target}} - x(t_{0,i})$ in table). Comparing these values with results for setup F, is possible to see that for the same voltage peak value, the current peak starts faster and reaches an higher peak value. Hypotizing that charge motion is correlated to bullet motion an earlier impact point means that the bullet will lose less charge during the propagation in air and that there will be higher current intensity flowing on target.
@@ -741,13 +750,13 @@ Neon it's an element with standard atomic weight of $\num{20.180}$, 1st ionizati
 
 The working pulse repetition rate is set to $f = \SI{1}{\kilo\hertz}$ and three opening times equivalent to low, medium and high voltage in helium. Different measurement setup are presented in table \ref{tab:setups}.
 
-\subsection{Free bullet}
+\subsection{Bullet description}
 First measurements are done to see plasma dynamics whitout a target, changing between low, medium and high tension peak value. Results are shown in figure \ref{fig:neon_d} and table \ref{tab:neon_d}.
 First thing to notice is that plasma is produced not specifically at electrode's end where the electric field should be higher, as in helium, but a little before, with lower luminosity. Luminosity evolution from there is similar to that of helium bullet, but there is a residual luminosity tail that lasts longer.
 Barycenter motion and diameter evolution present the same evolution of helium bullets inside the nozzle. Outside the nozzle there are two main differences:
 \begin{itemize}
  \item neon bullets come out of the nozzle more difficultly and lose velocity more rapidly, covering shortest distances. Propagation velocity in air rises exiting the nozzle (until \SI{160.32(7)}{\kilo\meter/\second} with high voltage), but goes down abruptily and the bullet slows down rapidly.
- \item neon bullet's x diameter rises increasing voltage. As can be seen from figure \ref{fig:neon_s}, diameter evolution is the same as in helium bullet, but there are higher diameter values with higher voltage.
+ \item neon bullet's x diameter rises increasing voltage. As can be seen from figure \ref{fig:neon_d} (e)-(f), diameter evolution is the same as in helium bullet, but there are higher diameter values with higher voltage.
 \end{itemize}
 
 Those differences can be explained by the different reactions that have place in neon plasma. If those reactions need less energetic electrons, we would have more of them that partecipates, increasing the diameter of the bullet.
@@ -813,7 +822,7 @@ A peculiarity with neon is that there is a second, very low, peak in luminosity 
 \begin{figure}
  \centering
  \subfloat[Mean luminosity.]{
-    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_c_dx.png}
+    \includegraphics[width=0.46\textwidth]{Images/Shape/neon_c_Im.png}
  }
  \hfill
  \subfloat[Barycenter position.]{
@@ -872,7 +881,7 @@ For a close target there is a change in luminosity in correspondence of the nega
 %Neon current measures are done in the same way of different from helium measurements.
 In figure \ref{fig:neon_ab_icurr} ad in table \ref{tab:neon_ab_ival} there are results for the analysis of current measurements, similar to those done with helium. A current peak is measured only for high voltage with distant target and for medium and high voltage with close target. Starting time of current peak is again precedent to the impact time of the bullet with the target. Interaction distances presented in table are similar to the ones found for helium.
 The absence of the current peak for medium voltage with distant target could mean that the target is not reached by the charge carrier, even if we see luminosity on the target. With higher voltage the bullet and the charge carrier are more rapid, reach the target and we measure current.
-\begin{figure}
+\begin{figure}[h]
  \centering
  \subfloat[$\Delta x_{\text{targ}} = \SI{30}{\milli\meter}$.]{
     \includegraphics[width=0.46\textwidth]{Images/Shape/neon_a_i.png}
@@ -884,7 +893,6 @@ The absence of the current peak for medium voltage with distant target could mea
  \caption{Current intensity measured for neon in setups C and D, with different voltage peak values.}
  \label{fig:neon_ab_icurr}
 \end{figure}
-
 \begin{table}
  \centering
  \begin{tabular}{ccccccc}
@@ -898,10 +906,10 @@ The absence of the current peak for medium voltage with distant target could mea
   \bottomrule
  \end{tabular}
  \caption{Values extrapolated from current measure and bullet barycenter motion for neon in setups C and D. $\Delta x_{\text{targ}}$ is the distance between electrode and target, $V_{p}$ is the voltage peak for the pulse, $i_{p}$ is the current peak value, $t_{0,i}$ is the starting time for the current value, $t_{p,i}$ is the time of the peak value, $t_{\text{imp}}$ is the time of the impact of bullet on target, $x_{\text{target}} - x(t_{0,i})$ is the distance between bullet position when current peak starts and target position.}
- \label{fig:neon_ab_ival}
+ \label{tab:neon_ab_ival}
 \end{table}
 
-
+\begin{comment}
 \paragraph{Backstream}
 Backstream phenomenon in neon is easily observable, where the bullet reaches the target there is high luminosity around nozzle exit. It presents itself as zone of glowing gas with large width and near constant height, with a barycenter motion that shift direction towards the electrode or towards the target. The changes of barycenter coordinates in time is so low that is not possible to infer it's dynamics. Once the pulse voltage lowers, also the backstream fade away.
 \begin{figure}
@@ -941,11 +949,12 @@ Backstream phenomenon in neon is easily observable, where the bullet reaches the
  \label{fig:neon_ab_tot_back}
 \end{figure}
 
+\end{comment}
 
 \section{Argon flow}
-The third noble gas used it's Argon, it is the harder one to produce plasma with at atmosferic pressure.
+The third noble gas used it's Argon, it is the one that usually requires higher voltage to be ionized at atmosferic pressure.
 Argon has a standard atomic weight of $\num{39.948}$, 1st ionization energy of \SI{15.760}{\electronvolt} and 2nd ionization energy of \SI{27.629}{\electronvolt}.
-The peculiarity of this gas is its tendency to form filaments of plasma, instead of a large column as seen with helium or neon. Figure \ref{fig:argonex} shows an example where there is a grounded ring made of copper positioned around the outer nozzle, that allows to produce plasma with lower voltage and repetition rate. The chosen pulse repetition rate and an opening time for the voltage pulse are chosen to observe plasma formation with and whitout this ring, to see differences between the setups.
+The peculiarity of this gas is its tendency to form filaments of plasma, instead of a large column as seen with helium or neon. Figure \ref{fig:argonex} shows an example where there is a grounded ring made of copper positioned around the outer nozzle, that allows to produce plasma with lower voltage and repetition rate. The pulse repetition rate and the voltage peak value are chosen to observe plasma formation with and whitout this ring, to see differences between the setups.
 \begin{figure}
  \centering
  \subfloat[Picture of argon plasma.]{
@@ -956,25 +965,24 @@ The peculiarity of this gas is its tendency to form filaments of plasma, instead
     \includegraphics[width=0.5\textwidth]{Images/Shape/argon_b_120.png}
  }
  \caption{Example of argon discharge in measurement setup A.}
- \label{fig:elio_ins}
+ \label{fig:argonex}
 \end{figure}
 
 
-
-Along the production of filaments, argon shows also the tendency to transite from a glow to an arc discharge when a target is positioned near it, as in figure \ref{fig:arcex}. As described in chapter \ref{ch:electric}, when there is a plasma arc there is also large current intensity circulating in plasma and in the target, a condition that has to be avoided for blood coagulation with cold plasma. Target position in measurement setups C and D is chosen to allow plasma impact without arc transition.
+Along the production of filaments, argon shows also the tendency to transite from a glow to an arc discharge when a target is positioned near it, as in figure \ref{fig:arcex}. As described in chapter \ref{ch:electric}, when there is a plasma arc there is also large current intensity circulating in plasma and in the target, a condition that has to be avoided in non thermal blood coagulation. Target position in measurement setups C and D is chosen to allow plasma impact without arc transition.
 \begin{figure}
  \centering
  \includegraphics[width=0.6\textwidth]{Images/Shape/arcex.png}
- \caption{Example of arc discharge with argon and a target positioned \SI{22}{\milli\meter} from the electrode, after \SI{500}{\nano\second} from discharge start. The arc covers all the gap between electrode on the left and conductive target on the right.}
+ \caption{Frame of arc discharge with argon and a target positioned \SI{22}{\milli\meter} from the electrode, after \SI{500}{\nano\second} from discharge start. The arc covers all the gap between electrode on the left and conductive target on the right.}
  \label{fig:arcex}
 \end{figure}
 
-\subsection{Dynamic example}
-An example of the dynamic can be seen with measurement setup A: argon flow of \SI{2}{\liter/\min}, presence of the grounded ring outside the nozzle and absence of target.
+\subsection{Dynamics example}
+An example of argon plasma propagation can be seen with measurement setup A: argon flow of \SI{2}{\liter/\min}, presence of the grounded ring outside the nozzle and absence of target.
 Formation, expulsion and propagation of argon plasma is phenomenologically different if compared to helium or neon plasma, but can always be separated two phases: inside the nozzle and outside it.
 
 \paragraph{Plasma formation}
-Inside the nozzle plasma formas as filaments that start on the electrode and reach nozzle's walls, with different lenghts for each frame. There isn't a uniform propagation of those filaments toward the exit, however after a time of \SI{180}{\nano\second}, every filament covers all the distance between electrode and nozzle exit (\SI{10}{\milli\meter}), as in figure \ref{fig:arnoz_prop}. Hypotizing the definition of a propagating front composed by the filament's ends it would have a velocity of, at least, $v_{N} = \SI{55.56}{\kilo\meter/\second}$. 
+Inside the nozzle plasma forms as filaments that start on the electrode and reach nozzle's walls, with different lenghts for each frame. There isn't a uniform propagation of those filaments toward the exit, however after a time of \SI{180}{\nano\second}, every filament covers all the distance between electrode and nozzle exit (\SI{10}{\milli\meter}), as in figure \ref{fig:arnoz_prop}. Under the hypothesis of a propagating front composed by the filament's ends, it would have a velocity of, at least, $v_{N} = \SI{55.56}{\kilo\meter/\second}$. 
 \begin{figure}
  \centering
  \subfloat[t = \SI{0}{\nano\second}]{
@@ -1011,13 +1019,11 @@ Given a frame at a specific time, from those parameters are made histograms and 
  \label{fig:argon_xb_evol}
 \end{figure}
 
-
 Given those distributions for every parameter, it's possible to evaluate the mean value for luminosity, barycenter coordinates and diameters at any given time, reconstructing an analysis similar to that presented for other gasses. Results are presented in figure \ref{fig:argon_b}, where the points are the mean value of the distribution and the error is associated with distribution widths.
 
 The number of plasma formations follows voltage waveform: there are more plasma formations right after the voltage positive peak value and right after the voltage negative peak value. Also average luminosity shows this behavior: there is emission with more intensity right after the positive and the negative voltage peaks, with higher errors during the negative peak, showing that values are more spread around the average value.
 Barycenter motion in the x direction shows that the distribution propagates during the time interval where voltage is positive and stops when it becames zero, at a certain distance from the end of the nozzle. It's relevant to point out that the propagation is observed only outside the nozzle, so position values starts around \SI{85}{\milli\meter}, that is the end of the nozzle. During the propagation phase it's possible to estimate a velocity for the mean value of those formations with a fit as shown in figure, resulting in $v_A = \SI{30.16(356)}{\kilo\meter/\second}$.
 Diameters values are presented to show dimensions of plasma formations. Diameter along x and y direction varies in a range between \num{0.3} and \SI{1.3}{\milli\meter}, with a stretch in the x direction where voltage's absolute value is higher, and a stable value in the y direction around \SI{0.7(2)}{\milli\meter}. 
-
 \begin{figure}
  \centering
  \subfloat[Voltage waveform.]{
@@ -1091,7 +1097,6 @@ For those setup the number of formations, their luminosity and the diameters are
 The most relevant difference between those measurements and the ones in setups A and B it's that now with the grounded ring the mean position of formations travels with a velocity lower then the velocity in absence of it. For setup C the velocity is $v_A = \SI{30.49(410)}{\kilo\meter/\second}$, while for setup D, without the ring, it is $v_A = \SI{61.24(284)}{\kilo\meter/\second}$.
 
 An explanation could be that plasma is attracted by a conductor at ground potential, when there isn't the grounded ring the target is the conductor at ground potential more close to the electrode, so plasma is attracted by it.
-
 \begin{figure}
  \centering
  \subfloat[Number of formations.]{
@@ -1114,19 +1119,18 @@ An explanation could be that plasma is attracted by a conductor at ground potent
     \includegraphics[width=0.48\textwidth]{Images/Shape/argon_de_dy.png}
  }
  \caption{Analysis of argon plasma formations, when there is a target in front of nozzle exit, with grounded ring (setup C) and without it (setup D).}
- \label{fig:argon_af}
+ \label{fig:argon_de}
 \end{figure}
 
 
-
 \section{Hints on bullet propagation model}
-Formation and propagation of bullets in cold plasma discharges is a phenomenon that still has to be explained, there isn't a specific model that describes it in its entirety.
-From measurements shown before it is possible to make some hypotesis and correlate what we see to plasma parameters such as electron temperature and transport coefficients.
+Formation and propagation of bullets in cold plasma discharges is a phenomenon that still has to be explained, there isn't a specific model that entirely describes it.
+From measurements shown before it is possible to make some hypotesis and correlate what we observed in terms of plasma parameters such as electron temperature and transport coefficients.
 
 \paragraph{Bolsig+ and electron temperature}
-There are a few softwares that can estimate electron temperature and its transport coefficients. In this work is utilized \emph{Bolsig+}, a Boltzman equation solver that permits to evaluate plasma parameters with different gas temperature and composition (\cite{Hagelaar_2005}).
+There are a few softwares that can estimate electron temperature and its transport coefficients. In this work is utilized \emph{Bolsig+}, a Boltzman equation solver that allows to evaluate plasma parameters with different gas temperature and composition \cite{Hagelaar_2005}.
 
-Electron motion in a plasma inside an electric field $E$ is described with the electron distribution function in the six-dimensional phase space $f$, estimated resolving the Boltzmann equation \ref{eq:BE}, where $C[f]$ represents the change rate of $f$ due to collisions.
+Electron motion in a plasma inside an electric field $E$ is described by the electron energy distribution function in the six-dimensional phase space $f$. It can be found resolving the Boltzmann equation \ref{eq:BE}, where $v$ is the particle velocity, $\nabla_{v}$ is the gradient in the three velocity coordinates and $C[f]$ represents the change rate of $f$ due to collisions.
 \begin{equation}
 \frac{\partial f}{\partial t} + v \cdot \nabla f - \frac{e}{m} E \cdot \nabla_{v} f = C[f]
  \label{eq:BE}
@@ -1144,9 +1148,9 @@ The first two moments of \ref{eq:BE} are, respectively, the continuity equation 
 
 If an high intensity electric fields is applied to the gas, the drift term in electron motion controls plasma dynamics and electron velocity is proportional to its mobility.
 
-\emph{Bolsig+} allows to insert reactions that have place inside the plasma, gas temperature and gas composition. Once those input values are inserted it uses approximations on the dependance of $f$ from energy, time and space, to solve the equations shown before and simulate electron temperature and transport coefficients. Those parameters are found in function of the reduced electric field $E/N$, where $N$ is the neutral numarical density of the plasma, that is the one of an ideal gas at atmospheric pressure $N = \SI{2.687e25}{\meter^{-3}}$.
+\emph{Bolsig+} allows to insert reactions that occour inside the plasma, gas temperature and gas composition. Once those input values are inserted it uses approximations on the dependance of $f$ from energy, time and space, to solve the equations shown before and simulate electron temperature and transport coefficients. Those parameters are found as a function of the reduced electric field $E/N$, where $N$ is the neutral numarical density of the plasma, that is the one of an ideal gas at atmospheric pressure $N = \SI{2.687e25}{\meter^{-3}}$.
 
-Thys analysis includes four different gasses, to simulate the ones used and the principal components of air: helium, neon, nitrogen and oxygen. A selection of considered reactions is presented in table \ref{tab:B+reactions}, they are taken from the archive in \emph{LxCat} (\cite{LxCat}).
+Thys analysis includes four different gases, to simulate the ones used and the main components of air: helium, neon, nitrogen and oxygen. A selection of considered reactions is presented in table \ref{tab:B+reactions}, they are taken from the archive in \emph{LxCat} \cite{LxCat}.
 \begin{table}
  \centering
  \begin{tabular}{cccc}
@@ -1191,10 +1195,10 @@ Thys analysis includes four different gasses, to simulate the ones used and the 
 The hypotesis under this study is that bullets visbile radiation is emitted by recombination of ions and electrons inside the gas, giving birth to molecules and atoms in excited states that goes rapidly to lower energy levels emitting photons.
 A model for bullet propagation would have to elaborate a description of the conditions under which ions and excited species are created, how they propagates in space and how the behavior changes in different experimental setup, in agreement with the experimental results shown in this chapter.
 
-For ionization propagation can be considered two possible different mechanisms: propagation of a ionization wave or electron motion.
+For ionization propagation two possible different mechanisms can be considered: propagation of a ionization wave or electron motion.
 
 \paragraph{Ion waves}
-In absence of magnetic fields, neglecting reactions contribute to motion, it is possible to describe ions dynamics as in equations \ref{eq:iondyn} (\cite{book:567903}), where $M$ is the ion mass, $n_{i}$ its density, $\gamma_{i}$ is the adiabatic consant of ion species and $T_{i}$ is the ion temperature.
+In absence of magnetic fields, neglecting reactions contributing to motion, it is possible to describe ions dynamics as in equations \ref{eq:iondyn} \cite{book:567903}, where $M$ is the ion mass, $n_{i}$ its density, $\gamma_{i}$ is the adiabatic consant of ion species and $T_{i}$ is the ion temperature.
 \begin{equation}
 \begin{split}
  &\frac{\partial n_i}{\partial t} + \nabla \cdot (n_i v_i) = 0\\
@@ -1239,7 +1243,7 @@ There are two possible electron velocities values: electron thermal velocity, th
 
 \paragraph{Result comparison}
 To give an electric field value as input in \emph{Bolsig+} is possible to consider an electric field uniform in space with a conductive target positioned at \SI{32}{\milli\meter}. In those conditions \emph{Bolsig+} can estimate electron temperature and electron mobility, from them is possible to evaluate ionization wave velocity, thermal velocity and drift velocity, to be compared with bullet velocity in the nozzle.
-In table \ref{tab:param} are presented resulting parameters for helium and neon (compatible with those found \cite{book10.1007/978-3-642-61247-3}, \cite{Dickinson_1999}, \cite{Skullerud_1990}), in table \ref{tab:vels} evaluated velocities. 
+In table \ref{tab:par} are presented resulting parameters for helium and neon (compatible with those found \cite{book10.1007/978-3-642-61247-3}, \cite{Dickinson_1999}, \cite{Skullerud_1990}), in table \ref{tab:vels} evaluated velocities. 
 \begin{table}
   \centering
   \begin{tabular}{ccccc}
@@ -1275,7 +1279,7 @@ In table \ref{tab:param} are presented resulting parameters for helium and neon 
   \bottomrule
   \end{tabular}
  \caption{Plasma velocities for different voltage peak values, evalueted with parameters in \ref{tab:par}. $v_{N}$ is the experimental bullet velocity measured inside the nozzle; $v_{s}$ is the ion wave velocity; $v_{\text{th}}$ is the electron average thermal velocity; $v_{d}$ is the electron drift velocity.}
- \label{tab:vel}
+ \label{tab:vels}
  \end{table}
  
  
@@ -1283,7 +1287,7 @@ All estimated velocities are lower then the actual measured velocities, but they
 Measured velocities are higher for neon bullets compared to helium bullets for the same voltage value, as shown in figure \ref{fig:hene_d_vn}. This behavior is respected only by drift velocities, because neon has always higher mobility then helium, while other velocities decrease with increasing ion mass.
 It is possible to compare if the increase in velocity due to increase in voltage value is comparable with the increase of drift velocity. More specifically, the ratio of neon mobility over helium mobility has to be comparable with the ratio of the slopes in figure \ref{fig:hene_d_vn} for helium and neon. From the experiment ratio of the slopes is $m_{\ce{Ne}}/m_{\ce{He}} = \num{1.60}$, while ratio of mobility values is $\mu_{\ce{Ne}}/\mu_{\ce{He}} = \num{1.75}$. The values are compatible so it is possible to assume that the increase in neon bullet velocities is correlated with the increase of its mobility.
 
-It is not possible to know the have an exact measure of the electric field with our experiment, however, with the assumption that velocities inside the nozzle are drift velocities, is possible to have an estimation of the electric field needed to reach those velocities. Electric field intensities would range from \num{300} to \SI{700}{\kilo\volt/\meter}, plausible values with the voltage values and distances in the experiment.
+It is not possible to have an exact measure of the electric field with the experimental setup used in this work, however, with the assumption that velocities inside the nozzle are drift velocities, is possible to have an estimation of the electric field needed to reach those velocities. Electric field intensities would range from \num{300} to \SI{700}{\kilo\volt/\meter}, plausible values with the voltage values and distances measured in the experiment.
 
 \subsection{Mobility and velocity}
 With the assumption that bullet velocity is proportional to electron mobility, it is possible to describe bullet propagation qualitatively, inside the nozzle and in air.
@@ -1310,7 +1314,7 @@ When the bullet propagates inside the nozzle the gas is approximately only compo
     \includegraphics[width=0.48\textwidth]{Images/Shape/vnoz_flux_zoom.png}
  }
  \hfill
- \subfloat[Drift velocity in function of electric field.]{
+ \subfloat[Drift velocity as a function of electric field.]{
     \includegraphics[width=0.48\textwidth]{Images/Shape/v_E_xhe.png}
  }
  \caption{Comparison of bullet and drift velocity inside the nozzle.}
@@ -1328,10 +1332,16 @@ When the bullet meets the air outside gas composition changes rapidly and conseq
     \includegraphics[width=0.48\textwidth]{Images/Shape/vE_xhe.png}
  }
  \caption{Comparison of bullet and drift velocity outside the nozzle.}
- \label{fig:muE}
+ \label{fig:muxhe}
 \end{figure}
 
 
-%inserire analisi mfp
 
-Ultimately, there are several hints that suggests that bullet propagation velocity is correlated to electron mobility.
+%inserire analisi mfp
+Ultimately, the following conclusions can be made for a free electron inside a plasma in an electric field :
+\begin{itemize}
+ \item if the electric field is decreasing in time and gas composition does not change, electron's velocity decreases;
+ \item electron velocities will be higher for plasma made ionizing neon if compared to a plasma made ionizing helium;
+ \item if an increasing percentage of nitrogen and oxygen is added to a pure gas of helium, the electron velocity increases for small fractions of this gas and decreases for higher fractions.
+\end{itemize}
+All those observations can also be made for bullets observed in helium and neon with described measurements. Bullet propagation velocities follow the behaviour of electron drift velocities in a plasma inside an electric field. This analysis shows that electron mobility could be a fundamental parameter to understand the phenomenon of bullet production and their dynamics.
